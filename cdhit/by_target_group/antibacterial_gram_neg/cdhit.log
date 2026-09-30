@@ -1,0 +1,222 @@
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Aug 20 2021, 08:39:56
+Command: cd-hit -i
+         cdhit/by_target_group/antibacterial_gram_neg/input_ge10aa.fasta
+         -o
+         cdhit/by_target_group/antibacterial_gram_neg/cdhit_ge10aa.fasta
+         -c 0.9 -n 5 -d 0 -M 0 -T 0
+
+Started: Wed Sep 30 04:53:23 2026
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total number of CPUs in the system is 4
+Actual number of CPUs to be used: 4
+
+total seq: 12209
+longest and shortest : 190 and 11
+Total letters: 260085
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 1M
+Buffer          : 4 X 10M = 42M
+Table           : 2 X 65M = 131M
+Miscellaneous   : 0M
+Total           : 175M
+
+Table limit with the given memory limit:
+Max number of representatives: 1500000
+Max number of word counting entries: 22910625
+
+
+# comparing sequences from          0  to       2034
+..---------- new table with     1358 representatives
+
+# comparing sequences from       2034  to       3729
+.....................
+100.0%
+----------    541 remaining sequences to the next cycle
+---------- new table with      655 representatives
+
+# comparing sequences from       3188  to       4691
+..................
+----------    593 remaining sequences to the next cycle
+---------- new table with      462 representatives
+
+# comparing sequences from       4098  to       5449
+.................
+----------    528 remaining sequences to the next cycle
+---------- new table with      442 representatives
+
+# comparing sequences from       4921  to       6135
+...................
+----------    686 remaining sequences to the next cycle
+---------- new table with      340 representatives
+
+# comparing sequences from       5449  to       6575
+..................
+----------    257 remaining sequences to the next cycle
+---------- new table with      435 representatives
+
+# comparing sequences from       6318  to       7299
+..............
+----------    337 remaining sequences to the next cycle
+---------- new table with      372 representatives
+
+# comparing sequences from       6962  to       7836
+...................
+----------    469 remaining sequences to the next cycle
+---------- new table with      234 representatives
+
+# comparing sequences from       7367  to       8174
+................
+----------    467 remaining sequences to the next cycle
+---------- new table with      164 representatives
+
+# comparing sequences from       7707  to       8457
+...........
+----------     99 remaining sequences to the next cycle
+---------- new table with      354 representatives
+
+# comparing sequences from       8358  to       8999
+..............
+----------    371 remaining sequences to the next cycle
+---------- new table with      168 representatives
+
+# comparing sequences from       8628  to       9224
+..............
+----------    240 remaining sequences to the next cycle
+---------- new table with      190 representatives
+
+# comparing sequences from       8984  to       9521
+...............
+93.2%
+93.8%
+93.9%
+94.0%
+94.2%
+94.3%
+94.4%
+94.6%
+94.7%
+94.8%
+95.0%
+95.1%
+95.2%
+95.3%
+95.4%
+95.6%
+95.7%
+95.9%
+96.0%
+96.1%
+96.2%
+96.3%
+96.5%
+96.6%
+96.8%
+96.9%
+97.0%
+97.2%
+97.3%
+97.4%
+97.5%
+97.6%
+97.8%
+97.9%
+98.0%
+98.1%
+98.2%
+98.3%
+98.5%
+98.6%
+98.7%
+98.9%
+99.0%
+99.1%
+99.3%
+99.4%
+99.5%
+99.7%
+99.8%
+99.9%---------- new table with      252 representatives
+
+# comparing sequences from       9521  to       9969
+................
+----------    123 remaining sequences to the next cycle
+---------- new table with      195 representatives
+
+# comparing sequences from       9846  to      10239
+..................
+..........    10000  finished       5717  clusters
+
+----------    103 remaining sequences to the next cycle
+---------- new table with      191 representatives
+
+# comparing sequences from      10136  to      10481
+...............
+95.8%
+96.8%
+96.9%
+97.0%
+97.2%
+97.3%
+97.4%
+97.5%
+97.6%
+97.8%
+97.9%
+98.0%
+98.1%
+98.2%
+98.4%
+98.5%
+98.6%
+98.7%
+98.9%
+99.0%
+99.1%
+99.2%
+99.4%
+99.5%
+99.6%
+99.7%
+99.9%
+100.0%---------- new table with      209 representatives
+
+# comparing sequences from      10481  to      10769
+...............
+----------    124 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from      10645  to      10905
+................
+----------     94 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from      10811  to      11044
+............
+----------     68 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from      10976  to      11181
+...............
+98.1%---------- new table with      102 representatives
+
+# comparing sequences from      11181  to      11352
+..............
+----------      4 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from      11348  to      12209
+................---------- new table with      557 representatives
+
+    12209  finished       7080  clusters
+
+Approximated maximum memory consumption: 176M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.94

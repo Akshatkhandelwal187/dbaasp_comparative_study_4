@@ -1,0 +1,12 @@
+KINGDOM,Natural_%,Synthetic_%,Natural_n,Synthetic_n
+Animalia,65.3,0.0,1826,2.0
+Bacteria,17.2,0.0,482,3.0
+Plantae,9.7,0.0,270,0.0
+Fungi,6.1,0.0,172,2.0
+Unclassified,1.0,99.9,28,9085.0
+"Bacteria, Fungi",0.4,0.0,11,0.0
+Archaea,0.1,0.0,3,0.0
+Protista,0.1,0.0,2,0.0
+"Animalia, Bacteria",0.0,0.0,1,0.0
+"Bacteria, Virus",0.0,0.0,1,0.0
+"Archaea, Bacteria, Fungi",0.0,0.0,1,0.0

@@ -1,0 +1,4 @@
+ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TARGET OBJECT,tokenised_TARGET GROUP,tokenised_TARGET OBJECT,ORIGIN,Length_of_Sequence,Length_Class,KINGDOM,DOMAIN
+12244,Monomer,"VLL-28, CAMP-like peptide",,VLLVTLTRLHQRGVIYRKWRHFSGRKYR,,Ribosomal,Gram+    Gram-    Fungus    Biofilm,Lipid Bilayer    DNA / RNA,"['Gram+', 'Gram-', 'Fungus', 'Biofilm']","['Lipid Bilayer', 'DNA / RNA']",Natural,28,Medium (25–50 aa),Archaea,Archaea
+21684,Monomer,Halocin S8,,SDCNINSNTAADVILCFNQVGSCALCSPTLVGGPVP,,Ribosomal,Archaea,Lipid Bilayer,['Archaea'],['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Archaea,Archaea
+22068,Monomer,Lanthipeptide Archalan α,,GCGFTCSPFSTF,,Ribosomal,Gram+    Gram-    Archaea,Lipid Bilayer,"['Gram+', 'Gram-', 'Archaea']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Archaea,Archaea

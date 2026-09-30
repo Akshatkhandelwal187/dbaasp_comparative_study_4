@@ -56,8 +56,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 5375,Monomer,Plantaricin ZJ5,,KTKQQFLIKAQTQLFKVFGYTL,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 5394,Monomer,Antimicrobial protein AN5-2,,FCKSLPLPLSVK,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 5449,Monomer,Gageostatin A,3-OH-11-Me-C13,ELLVDLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-5450,Monomer,Gageostatin B,"3-OH-9,11-Me-C13",ELLVDLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-5451,Monomer,Gageostatin C,"7,9-Me-(E)2-C11",ELLVDLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 5507,Monomer,Gageotetrin A,3-OH-11-Me-C13,EL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 5511,Monomer,Gageotetrin B,3-OH-11-Me-C13,XLLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 5514,Monomer,Gageotetrin C,"3-OH-8,10-Me-C12",ELLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -71,7 +69,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 5742,Monomer,Champacyclin,,aIlfIIKx,,Nonribosomal,Gram+    Gram-,Unknown,"['Gram+', 'Gram-']",[],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 5743,Monomer,"Laterosporulin, Putative bacteriocin",,ACQCPDAISGWTHTDYQCHGLENKMYRHVYAICMNGTQVYCRTEWGSSC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,49,Medium (25–50 aa),Bacteria,Bacteria
 5779,Monomer,PE1,3-OH-C7,XIXfLXvLT,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-5780,Monomer,PE2,3-OH-C6,XIXfLXvLT,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 5810,Monomer,Leucocyclicin Q,,LVNQLGISKSLANTILGAIAVGNLASWLLALVPGPGWATKAALATAETIVKHEGKAAAIAW,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,61,Long (50–100 aa),Bacteria,Bacteria
 5811,Monomer,Lactocyclicin Q,,LIDHLGAPRWAVDTILGAIAVGNLASWVLALVPGPGWAVKAGLATAAAIVKHQGKAAAAAW,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,61,Long (50–100 aa),Bacteria,Bacteria
 5839,Monomer,Bacteriocin L-1077,,TNYGNGVGVPDAIMAGIIKLIFIFNIRQGYNFGKKAT,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,37,Medium (25–50 aa),Bacteria,Bacteria
@@ -100,19 +97,13 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 6739,Monomer,"Cyclo(D-Pro-L-Leu), Diketopiperazine (pL)",,pL,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 6740,Monomer,"Cyclo(Pro-Met), S.sp. DKP-MP",,PM,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 6741,Monomer,"Cyclo(D-Pro-L-Phe), Diketopiperazine (pF)",,pF,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-6742,Monomer,"Cyclo(Pro-Phe), Diketopiperazine (PF)",,PF,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
 6743,Monomer,"Cyclo(Pro-Tyr), Diketopiperazine (PY)",,PY,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell    Biofilm,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell', 'Biofilm']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
-6744,Monomer,"Cyclo(L-Pro-D-Tyr), Diketopiperazine (Py)",,Py,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 6780,Monomer,Hytramycin V,,XxLvXx,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 6781,Monomer,Hytramycin I,,XxLxXx,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 6782,Monomer,Ohmyungsamycin A,,XVTXVXVXXVXV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 6783,Monomer,Ohmyungsamycin B,(CH3)2,VVTXVXVXXVXV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 6793,Monomer,"Cyclo(Pro-Trp), Diketopiperazine (PW)",,PW,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 6794,Monomer,"Cyclo(Leu-Val), Diketopiperazine (LV)",,LV,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-6795,Monomer,"Cyclo(D-Pro-D-Met), Diketopiperazine (pm)",,pm,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-6796,Monomer,"Cyclo(D-Pro-D-Phe), Diketopiperazine (pf)",,pf,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-7039,Monomer,"Cyclo(D-Pro-L-Met), Diketopiperazine (pM)",,pM,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-7040,Monomer,"Cyclo(D-Pro-D-Tyr), Diketopiperazine (py)",,py,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 7128,Monomer,"Cyclo(D-Tyr-L-Leu), Diketopiperazine (yL)",,yL,,Nonribosomal,Fungus,Membrane Protein    Quorum Sensing,['Fungus'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 7131,Monomer,"Cyclo(Trp-Pro), Diketopiperazine (WP)",,WP,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 7132,Monomer,"Cyclo(Trp-Tyr), Diketopiperazine (WY)",,WY,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -190,7 +181,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 10942,Monomer,Sungsanpin,,GFGSKPIDSFGLSWL,,Ribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,15,Short (10–24 aa),Bacteria,Bacteria
 11147,Monomer,Desotamide A,,NGWLLI,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 11148,Monomer,Desotamide C,,XGNIlL,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-11149,Monomer,Desotamide D,,XGNIlL,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 11189,Monomer,"WAP-8294A2, Lotilibcin 1",3-OH-7-Me-C8,SxSGxLxEnwxX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 11190,Monomer,"WAP-8294A2, Lotilibcin 2",3-OH-7-Me-C8,SnSGxLxEnwxX,,Nonribosomal,Gram+    Gram-    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Fungus']",['Cytoplasmic Protein'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 11206,Monomer,Humimycin A,3-OH-C14,YSyFtVV,,Nonribosomal,Gram+    Gram-,Membrane Protein,"['Gram+', 'Gram-']",['Membrane Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -205,12 +195,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 12153,Monomer,Pentaminomycin B,,LvWXl,,Nonribosomal,Gram+    Gram-    Cancer,Unknown,"['Gram+', 'Gram-', 'Cancer']",[],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 12410,Monomer,Pelgipeptin A,3-OH-4-Me-C5,XVXfLXvLS,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 12411,Monomer,Pelgipeptin B,3-OH-4-Me-C5,XIXfLXvLS,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-12412,Monomer,Pelgipeptin C,3-OH-4-Me-C6,XVXfLXvLS,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-12413,Monomer,Pelgipeptin D,3-OH-4-Me-C6,XIXfLXvLS,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-12414,Monomer,Pelgipeptin E,3-OH-C6,XVXfLXvLS,,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-12421,Monomer,Act-Gramicidin A-MEA,ACT,VGAlAvVvWlWlWlW,MEA,Nonribosomal,Gram+    Gram-    Parasite,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite']",['Lipid Bilayer'],Natural,15,Short (10–24 aa),Bacteria,Bacteria
-12422,Monomer,MPA-Gramicidin A,MPA,VGAlAvVvWlWlWlW,ETA,Nonribosomal,Gram-,Lipid Bilayer,['Gram-'],['Lipid Bilayer'],Natural,15,Short (10–24 aa),Bacteria,Bacteria
-12423,Monomer,Act-Gramicidin A,ACT,VGAlAvVvWlWlWlW,ETA,Synthetic,Gram+    Gram-    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Synthetic,15,Short (10–24 aa),Bacteria,Bacteria
 12667,Monomer,Citrocin,,GGVGKIIEYFIGGGVGRYG,,Ribosomal,Gram-,Cytoplasmic Protein    Lipid Bilayer,['Gram-'],"['Cytoplasmic Protein', 'Lipid Bilayer']",Natural,19,Short (10–24 aa),Bacteria,Bacteria
 12951,Monomer,"Phenol soluble modulin alpha, PSMa",,MADVIAKIVEIVKGLIDQFTQK,,Ribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 13046,Monomer,"Lantibiotic paenibacillin, M152-P4",ACT,AXIIKXXIKVSKAVCKTLTCICTGSCXNCK,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,30,Medium (25–50 aa),Bacteria,Bacteria
@@ -219,7 +203,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 13433,Monomer,,,PEPE,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 13434,Monomer,Cyclo(Gly-GABA),,GX,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 13435,Monomer,Cyclo (trans-4-OH-Pro-Ala),,AX,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-13436,Monomer,Cyclo (cis-4-OH-Pro-Ala),,Ax,,Nonribosomal,Gram+    Gram-    Fungus,Immunomodulation,"['Gram+', 'Gram-', 'Fungus']",['Immunomodulation'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 13438,Monomer,Cyclo(Gly-Pro) ,,GP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 13439,Monomer,,,LPLP,,Nonribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 13440,Monomer,,,FPFP,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -240,11 +223,7 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 14834,Monomer,Bacteriocin Pantocin wh-1,,VMWCYVFGYGFNCAVW,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,16,Short (10–24 aa),Bacteria,Bacteria
 14839,Monomer,Lantibiotic Paenicidin B,,VLSIVACSSGCGSGKTAASCVATCGNKCFTNVGSLC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Bacteria,Bacteria
 14861,Monomer,"Ilamycin B1, Rufomycin B1, Rufomycin I",,AXLXXXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-14862,Monomer,Ilamycin B2,,AXLXXXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 14863,Monomer,Ilamycin C,,AXLXXLX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-14864,Monomer,Ilamycin D,,AXLXXXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-14865,Monomer,Ilamycin E,,AXLXXLX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-14866,Monomer,Ilamycin F,,AXLXXXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 14870,Monomer,"Cyclomarin A, CymA",,XXAXVXX,,Nonribosomal,Gram+    Gram-,Cytoplasmic Protein,"['Gram+', 'Gram-']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 14990,Monomer,Nisin-P,,VXSKXLCTPGCKTGILMXCAIKTATCGCHFG,,Ribosomal,Gram+    Gram-,Lipid Bilayer    Lipid II,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,31,Medium (25–50 aa),Bacteria,Bacteria
 15011,Monomer,,,LELE,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -253,11 +232,9 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 15014,Monomer,Provipeptide A,,PLpF,,Nonribosomal,Gram-    Fungus,Membrane Protein,"['Gram-', 'Fungus']",['Membrane Protein'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 15015,Monomer,Provipeptide B,,PIPF,,Nonribosomal,Gram-    Fungus,Membrane Protein,"['Gram-', 'Fungus']",['Membrane Protein'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 15016,Monomer,Cyclo(D-Val-D-Leu),,vl,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-15017,Monomer,"Cyclo(Pro-Leu), S.sp. DKP-PL, Gancidin W",,PL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 15018,Monomer,Sviceucin,,CVWGGDCTDFLGCGTAWICV,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,20,Short (10–24 aa),Bacteria,Bacteria
 15099,Monomer,,,LPIP,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 15143,Monomer,Sex pheromone cCF10,,LVTLVFV,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-15275,Monomer,Surfactin,3-OH-13-Me-C14,ELlVDlL,,Nonribosomal,Gram+    Virus    Cancer    Fungus    Mammalian Cell    Mollicute,Virus entry,"['Gram+', 'Virus', 'Cancer', 'Fungus', 'Mammalian Cell', 'Mollicute']",['Virus entry'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 15570,Monomer,L-PLNC8-alpha,,DLTTKLWSSWGYYLGKKARWNLKHPYVQF,,Ribosomal,Gram+    Mammalian Cell,,"['Gram+', 'Mammalian Cell']",[],Natural,29,Medium (25–50 aa),Bacteria,Bacteria
 15571,Monomer,L-PLNC8-beta,,SVPTSVYTLGIKILWSAYKHRKTIEKSFNKGFYH,,Ribosomal,Gram+    Virus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,34,Medium (25–50 aa),Bacteria,Bacteria
 15857,Monomer,Bacteriocin Cerecyclin,,VVSKLGWTGINIGTANALIGALMTGSDIWTAISVAGLAFGGGIGTAISTIGRKAIMEMVEKVGKKKAAQW,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,70,Long (50–100 aa),Bacteria,Bacteria
@@ -270,9 +247,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 18447,Monomer,Bogorol E,OIle,XXxIVVkVlKyL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 18448,Monomer,Tauramamide,7-Me-C8,ySlWR,EtOH,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 18456,Monomer,Arenamide A,3-OH-4-Me-C10,GVLAF,,Nonribosomal,Gram+    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18457,Monomer,Arenamide B,3-OH-4-Me-C8,GVLAF,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18458,Monomer,Ohmyungsamycin A,,XVTXVXVXXVXV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18459,Monomer,Ohmyungsamycin B,(CH3)2,VVTXVXVXXVXV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 18460,Monomer,Apratoxin A,(E)2-C4-Thz-Dtena,XXXP,,Nonribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 18461,Monomer,Tasiamide,OIle,LXIGxP,CH3OH,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 18471,Monomer,Halolitoralin A,,ALALAI,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -284,74 +258,42 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 18477,Monomer,Iturin-like lipopeptide,3-OH-C14,DDHSAGT,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 18478,Monomer,Bogorol-like lipopeptide,3-OH-C20,XYXIVVKVLDVE,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 18479,Monomer,Aurilide B,D-OIle,VXXVX,"(E)2,8-2,6,8-Me-5,7-OH-C11",Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18480,Monomer,Aurilide C,D-OVal,VXXVX,"(E)2,8-2,6,8-Me-5,7-OH-C11",Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 18481,Monomer,Belamide A,(CH3)2,VXX,Bn-Ome-PY,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,3,Ultrashort (2–9 aa),Bacteria,Bacteria
-18482,Monomer,Dragonamide C,MeO-Oya-2-ene,XXXX,AMD,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18483,Monomer,Dragonamide D,Keto-Oya,XXXX,AMD,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 18484,Monomer,Itralamide A,"4,4-Cl-3-Me-C4",XXaXxA,,Nonribosomal,Mammalian Cell,,['Mammalian Cell'],[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 18485,Monomer,Itralamide B,"4,4-Cl-3-Me-C4",XXvXxV,,Nonribosomal,Mammalian Cell,,['Mammalian Cell'],[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-18487,Monomer,Microcolin B,"2,4-Me-C8",XXXP,2-MedhPy,Nonribosomal,Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18488,Monomer,Microcolin A,"2,4-Me-C8",XXXX,2-MedhPy,Nonribosomal,Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 18489,Monomer,Desacetylmicrocolin B,"2,4-Me-C8",XTXP,2-MedhPy,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 18509,Monomer,Bisebromoamide,PIV,AXXClX,Opp,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 18514,Monomer,Gageopeptide A,3-OH-11-Me-C13,LELL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18515,Monomer,Gageopeptide B,3-OH-12-Me-C14,XLLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18517,Monomer,Gageopeptide D,"3-OH-9,11-Me-C13",LELL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 18518,Monomer,Kurahyne,MeOya,XXXXP,Opp,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 18535,Monomer,Globomycin,2-Me-3-OH-C9,XXSXG,,Nonribosomal,Gram+    Gram-    Cancer    Mollicute,Membrane Protein    Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mollicute']","['Membrane Protein', 'Lipid Bilayer']",Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 18536,Monomer,Fengycin,3-OH-C16,ExYxEaPQyI,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18537,Monomer,Iturin A,,XNynQPnS,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 18539,Monomer,Mycosubtilin,,XNynQPsN,,Nonribosomal,Gram+    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18544,Monomer,Mycosubtilin (anteiso-C17),,XNynQPsN,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 18554,Monomer,"Cyclo(D-Pro-D-Val), Diketopiperazine (pv)",,pv,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18555,Monomer,"Cyclo(D-Pro-D-Ile), Diketopiperazine (pi)",,pi,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18556,Monomer,"Cyclo(D-Pro-D-Leu), Diketopiperazine (pl)",,pl,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18557,Monomer,Cyclo (trans-4-OH-Pro-Phe),,xf,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing    Immunomodulation,['Gram-'],"['Membrane Protein', 'Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18582,Monomer,ESPR domain-containing protein,,MNKIFRVIFSKILGRLIVT,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
 18596,Monomer,Friulimicin B,12-Me-(Z)3-C13,NXxXDGDGxVP,,Nonribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 18667,Monomer,Macolacin,6-Me-C8,XTsXXlIXXL,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18698,Monomer,Polymyxin B2,6-Me-C7,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18699,Monomer,Polymyxin B3,C8,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18700,Monomer,Polymyxin B4,C7,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18701,Monomer,Polymyxin B5,C9,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18702,Monomer,"polymyxin Ile-B1, Polymyxin II",6-Me-C8,XTXXXfIXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18703,Monomer,"Polymyxin E2, Colistin b",6-Me-C7,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18705,Monomer,Polymyxin E3,C8,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18706,Monomer,Polymyxin E4,C7,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18708,Monomer,Polymyxin E7,7-Me-C8,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18711,Monomer,"Polymyxin E1-Ile, Colistin III",6-Me-C8,XTXXXlIXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18712,Monomer,Polymyxin E1-Nva,6-Me-C8,XTXXXlXXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18713,Monomer,Polymyxin E1-Val,6-Me-C8,XTXXXlVXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18714,Monomer,Polymyxin E2-Ile,6-Me-C7,XTXXXlIXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18715,Monomer,Polymyxin E2-Nva,6-Me-C7,XTXXXlXXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18716,Monomer,Polymyxin E2-Val,6-Me-C7,XTXXXlVXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18717,Monomer,Polymyxin A1,6-Me-C8,XTxXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18718,Monomer,Polymyxin A2,6-Me-C7,XTxXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18719,Monomer,Polymyxin M1,6-Me-C8,XTXXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18720,Monomer,Polymyxin M2,6-Me-C7,XTXXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18721,Monomer,Polymyxin D1,6-Me-C8,XTsXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18722,Monomer,Polymyxin D2,6-Me-C7,XTsXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18723,Monomer,Polymyxin S1,6-Me-C8,XTsXXfTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18724,Monomer,Polymyxin S2,6-Me-C7,XTsXXfTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18725,Monomer,Polymyxin T1,6-Me-C8,XTXXXfLXXL,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18726,Monomer,Polymyxin T2,6-Me-C7,XTXXXfLXXL,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 18861,Monomer,"Cyclo(Trp-Trp), Diketopiperazine (WW)",,WW,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18873,Monomer,"Cyclo(Ser-Pro), Diketopiperazine (SP)",,SP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 18879,Monomer,"Cyclo(L-Pro-D-Arg), Diketopiperazine (Pr)",,Pr,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18882,Monomer,"Cyclo(D-Pro-L-Tyr), Diketopiperazine (pY)",,pY,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria",
 18886,Monomer,"Cyclo(D-Leu-D-Arg), Diketopiperazine (lr)",,lr,,Nonribosomal,Gram+    Gram-    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18887,Monomer,"Cyclo(Trp-Arg), Diketopiperazine (WR)",,WR,,Nonribosomal,Gram+    Gram-    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18888,Monomer,"Cyclo(D-Trp-D-Arg), Diketopiperazine (wr)",,wr,,Nonribosomal,Gram+    Gram-    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18890,Monomer,"Cyclo (trans-4-OH-Pro-Leu), Cordysinin A",,LX,,Nonribosomal,Cancer    Fungus,Quorum Sensing    Immunomodulation,"['Cancer', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 18891,Monomer,Cyclo(L-Phe-L-Hyp),,FX,,Nonribosomal,Gram+    Cancer    Biofilm,Quorum Sensing    Immunomodulation,"['Gram+', 'Cancer', 'Biofilm']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18892,Monomer,Cyclo(Pro-Val),,PV,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria",
-18894,Monomer,Cyclo(L-Pro-D-Leu),,Pl,,Nonribosomal,Gram-    Cancer,Membrane Protein    Quorum Sensing,"['Gram-', 'Cancer']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18895,Monomer,Cyclo (cis-4-OH-Pro-Leu),,XL,,Nonribosomal,Cancer,Quorum Sensing    Immunomodulation,['Cancer'],"['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18896,Monomer,Cyclo(Pro-Pro),,PP,,Nonribosomal,Cancer,Quorum Sensing,['Cancer'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 18897,Monomer,Saccharopolytide A,,LXFX,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 18961,Monomer,Cyclo(Trp-Ser),,WS,,Nonribosomal,Gram-    Cancer    Mammalian Cell,Quorum Sensing,"['Gram-', 'Cancer', 'Mammalian Cell']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18979,Monomer,Cyclo(L-Pro-D-Ile),,Pi,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18983,Monomer,Cyclo(Pro-Ile),,PI,,Nonribosomal,Gram+    Gram-    Cancer    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
 18994,Monomer,Brevibacillin 2V,OIle,XLXVVVKVVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 18995,Monomer,Brevibacillin I,OIle,XLXIIVKIVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 18996,Monomer,Brevibacillin,OIle,XLXIIVKVVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
@@ -362,23 +304,12 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 19028,Monomer,Paenibacterin,C15,KVTXSVKSIPVKI,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 19031,Monomer,"Haloduracin A, Mersacidin",,CAWYNISCRLGNKGAYCTLTVECMPSCN,,Ribosomal,,Lipid II,[],[],Natural,28,Medium (25–50 aa),Bacteria,Bacteria
 19066,Monomer,Syringopeptin SP508 A,3-OH-C12,XPVLAALVAAVAAXXSAXAXXY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19067,Monomer,Syringopeptin SP508 B,3-OH-C14,XPVLAALVAAVAAXXSAXAXXY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 19068,Monomer,Syringopeptin SP22 A,3-OH-C10,XpvVaavvXavAaXxsaXAXxY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19069,Monomer,Syringopeptin SP22 B,3-OH-C12,XpvVaavvXavAaXxsaXAXxY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 19078,Monomer,Cyclo (Pro-trans-4-OH-Pro),,XP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-19087,Monomer,Cyclo(D-Pro-L-Val),,pV,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19088,Monomer,Cyclo(D-Pro-L-Ile),,pI,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19089,Monomer,Cyclo(L-Pro-D-Val),,Pv,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 19090,Monomer,Cyclo(D-Leu-D-His),,lh,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19091,Monomer,Brevilaterin A,OIle,XVXVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19092,Monomer,Brevilaterin B,OIle,XMXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19093,Monomer,Brevilaterin C,OIle,XVXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 19094,Monomer,Brevilaterin D,OIle,XVXIVIKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19095,Monomer,Brevilaterin E,OIle,XLXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 19099,Monomer,Brevilaterin V1,,XXVXVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19100,Monomer,Brevilaterin V2,OVal,XVXVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 19101,Monomer,Brevilaterin V4,OIle,XVKVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19102,Monomer,Brevilaterin V5,OVal,XVXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 19104,Monomer,Duramycin C,,CANSCXYGPLTWSCXGNTK,,Ribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Membrane Protein'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
 19105,Monomer,Lantibiotic Duramycin B,,CRQSCXFGPLTFVCXGNTK,,Ribosomal,Gram+    Gram-    Mammalian Cell,Membrane Protein,"['Gram+', 'Gram-', 'Mammalian Cell']",['Membrane Protein'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
 19106,Monomer,Actagardine,,SSGWVCTLTIECGTVICAC,,Ribosomal,Gram+    Gram-    Fungus,Lipid II,"['Gram+', 'Gram-', 'Fungus']",[],Natural,19,Short (10–24 aa),Bacteria,Bacteria
@@ -392,20 +323,17 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 19151,Monomer,Moomysin,,SYHWGDYHDWHHGWYGWWDD,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,20,Short (10–24 aa),Bacteria,Bacteria
 19152,Monomer,Lagmysin,,LAGQGSPDLLGGHSLL,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,16,Short (10–24 aa),Bacteria,Bacteria
 19162,Monomer,"Streptomonomicin, STM",,SLGSSPYNDILGYPALIVIYP,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
-19175,Monomer,Siamycin I,,CLGVGSCNDFAGCGYAIVCFW,,Ribosomal,Gram+    Gram-    Virus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
 19176,Monomer,Siamycin II,,CLGIGSCNDFAGCGYAIVCFW,,Ribosomal,Gram+    Gram-    Virus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
 19177,Monomer,Specialicin,,CLGVGSCVDFAGCGYAVVCFw,,Ribosomal,Gram+    Gram-    Virus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
 19178,Monomer,"Aborycin, Siamycin III",,CLGIGSCNDFAGCGYAVVCFW,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
 19179,Monomer,Arcumycin,,CLPSGDCPDFLGCGRAIWCI,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,20,Short (10–24 aa),Bacteria,Bacteria
 19208,Monomer,Burkholdine-1097,,XsxnGNSX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-19209,Monomer,Burkholdine-1229,,XsxnGNSX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 19210,Monomer,Burkholdine-1215,,XsxxGNSX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 19211,Monomer,Burkholdine-1119,,XsxxGNSN,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 19212,Monomer,Burkholdine-1213,,XsxnGNSN,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 19213,Monomer,Bacteriocin BaCf3,,GNHDCCMGQLPKCMLGPGQGAATCQGK,,Ribosomal,Gram+    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,27,Medium (25–50 aa),Bacteria,Bacteria
 19216,Monomer,Actifensin,,GFGCNLITSNPYQCSNHCKSVGYRGGYCKLRTVCTCY,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,37,Medium (25–50 aa),Bacteria,Bacteria
 19219,Monomer,Feglymycin,,xxVxXxXxVxXFD,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Cytoplasmic Protein    Virus replication    Virus entry    gp120,"['Gram+', 'Gram-', 'Virus', 'Fungus']","['Cytoplasmic Protein', 'Virus replication', 'Virus entry', 'gp120']",Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19515,Monomer,Bacteriocin TP,,ASVVNKLTGGVAGLLK,AMD,Ribosomal,Gram+    Gram-    Mammalian Cell,,"['Gram+', 'Gram-', 'Mammalian Cell']",[],Natural,16,Short (10–24 aa),Bacteria,Bacteria
 19546,Monomer,Massetolide A,3-OH-C10,LexiLsLsI,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 19547,Monomer,Viscosin,3-OH-C10,LexvLsLsI,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 19717,Monomer,Pumilacidin,3-OH-14-Me-C15,ELlLDlI,,Nonribosomal,Gram-    Virus    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Virus', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -416,170 +344,7 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 19809,Monomer,Relacidine B,4-Me-C6,SYWXXGXWTIGSA,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 19822,Monomer,Tolaasin D,3-OH-C8,XpSLvslvVqLvXxLXxK,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Bacteria,Bacteria
 19823,Monomer,Tolaasin E,3-OH-C8,XpSLvslvVqLvXxLGxK,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Bacteria,Bacteria
-19824,Monomer,White Line Inducing Principle [WLIP],3-OH-C10,LexvlsLsI,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 19893,Monomer,Stephensiolide U,(E)5-C12,TsSiI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-19894,Monomer,Stephensiolide K,C12,TsSiI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-19964,Monomer,"Lantibiotic NAI-107, Microbisporicin",,VXSXXLCTPGCTSXGGGSNCSFCC,,Ribosomal,Gram+    Gram-,Membrane Protein,"['Gram+', 'Gram-']",['Membrane Protein'],Natural,24,Short (10–24 aa),Bacteria,Bacteria
-19989,Monomer,"Triculamin, Alboverticillin",,SKKSKPGDGIRGKGVRG,,Ribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Cytoplasmic Protein    Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']","['Cytoplasmic Protein', 'Lipid Bilayer']",Natural,17,Short (10–24 aa),Bacteria,Bacteria
-20074,Monomer,Nocardiotide A,,AWIWLV,,Ribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20238,Monomer,Samoamide A,,LVFPIFPP,,Ribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18368,Monomer,Gramicidin D,FOR,VGAlAvVvWlWlWlWG,ETA,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,16,Short (10–24 aa),Bacteria,Bacteria
-18443,Monomer,Bogorol A,OIle,XLxIVVkVlKyL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18444,Monomer,Bogorol B,OIle,XVxVVVkVlKyL,VALol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18445,Monomer,Bogorol C,OIle,XVXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18446,Monomer,Bogorol D,OIle,XMXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18447,Monomer,Bogorol E,OIle,XXxIVVkVlKyL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18448,Monomer,Tauramamide,7-Me-C8,ySlWR,EtOH,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18456,Monomer,Arenamide A,3-OH-4-Me-C10,GVLAF,,Nonribosomal,Gram+    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18457,Monomer,Arenamide B,3-OH-4-Me-C8,GVLAF,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18458,Monomer,Ohmyungsamycin A,,XVTXVXVXXVXV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18459,Monomer,Ohmyungsamycin B,(CH3)2,VVTXVXVXXVXV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18460,Monomer,Apratoxin A,(E)2-C4-Thz-Dtena,XXXP,,Nonribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18461,Monomer,Tasiamide,OIle,LXIGxP,CH3OH,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-18471,Monomer,Halolitoralin A,,ALALAI,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-18472,Monomer,Halolitoralin C,,ILIV,,Nonribosomal,Fungus,Unknown,['Fungus'],[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18473,Monomer,Mojavensin A,,XNynQPnN,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18474,Monomer,"Cyclo(Leu-Leu), Gordonia Dipeptide",,LL,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18475,Monomer,Iturin D,,XNynQPnS,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18476,Monomer,Iturin V,3-OH-C13,DYDVPDS,,Nonribosomal,Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-18477,Monomer,Iturin-like lipopeptide,3-OH-C14,DDHSAGT,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-18478,Monomer,Bogorol-like lipopeptide,3-OH-C20,XYXIVVKVLDVE,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18479,Monomer,Aurilide B,D-OIle,VXXVX,"(E)2,8-2,6,8-Me-5,7-OH-C11",Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18480,Monomer,Aurilide C,D-OVal,VXXVX,"(E)2,8-2,6,8-Me-5,7-OH-C11",Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18481,Monomer,Belamide A,(CH3)2,VXX,Bn-Ome-PY,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,3,Ultrashort (2–9 aa),Bacteria,Bacteria
-18482,Monomer,Dragonamide C,MeO-Oya-2-ene,XXXX,AMD,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18483,Monomer,Dragonamide D,Keto-Oya,XXXX,AMD,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18484,Monomer,Itralamide A,"4,4-Cl-3-Me-C4",XXaXxA,,Nonribosomal,Mammalian Cell,,['Mammalian Cell'],[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-18485,Monomer,Itralamide B,"4,4-Cl-3-Me-C4",XXvXxV,,Nonribosomal,Mammalian Cell,,['Mammalian Cell'],[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-18487,Monomer,Microcolin B,"2,4-Me-C8",XXXP,2-MedhPy,Nonribosomal,Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18488,Monomer,Microcolin A,"2,4-Me-C8",XXXX,2-MedhPy,Nonribosomal,Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18489,Monomer,Desacetylmicrocolin B,"2,4-Me-C8",XTXP,2-MedhPy,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18509,Monomer,Bisebromoamide,PIV,AXXClX,Opp,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-18514,Monomer,Gageopeptide A,3-OH-11-Me-C13,LELL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18515,Monomer,Gageopeptide B,3-OH-12-Me-C14,XLLL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18517,Monomer,Gageopeptide D,"3-OH-9,11-Me-C13",LELL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18518,Monomer,Kurahyne,MeOya,XXXXP,Opp,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18535,Monomer,Globomycin,2-Me-3-OH-C9,XXSXG,,Nonribosomal,Gram+    Gram-    Cancer    Mollicute,Membrane Protein    Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mollicute']","['Membrane Protein', 'Lipid Bilayer']",Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-18536,Monomer,Fengycin,3-OH-C16,ExYxEaPQyI,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18537,Monomer,Iturin A,,XNynQPnS,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18539,Monomer,Mycosubtilin,,XNynQPsN,,Nonribosomal,Gram+    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18544,Monomer,Mycosubtilin (anteiso-C17),,XNynQPsN,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-18554,Monomer,"Cyclo(D-Pro-D-Val), Diketopiperazine (pv)",,pv,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18555,Monomer,"Cyclo(D-Pro-D-Ile), Diketopiperazine (pi)",,pi,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18556,Monomer,"Cyclo(D-Pro-D-Leu), Diketopiperazine (pl)",,pl,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18557,Monomer,Cyclo (trans-4-OH-Pro-Phe),,xf,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing    Immunomodulation,['Gram-'],"['Membrane Protein', 'Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18582,Monomer,ESPR domain-containing protein,,MNKIFRVIFSKILGRLIVT,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
-18596,Monomer,Friulimicin B,12-Me-(Z)3-C13,NXxXDGDGxVP,,Nonribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-18667,Monomer,Macolacin,6-Me-C8,XTsXXlIXXL,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18698,Monomer,Polymyxin B2,6-Me-C7,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18699,Monomer,Polymyxin B3,C8,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18700,Monomer,Polymyxin B4,C7,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18701,Monomer,Polymyxin B5,C9,XTXXXfLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18702,Monomer,"polymyxin Ile-B1, Polymyxin II",6-Me-C8,XTXXXfIXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18703,Monomer,"Polymyxin E2, Colistin b",6-Me-C7,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18705,Monomer,Polymyxin E3,C8,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18706,Monomer,Polymyxin E4,C7,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18708,Monomer,Polymyxin E7,7-Me-C8,XTXXXlLXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18711,Monomer,"Polymyxin E1-Ile, Colistin III",6-Me-C8,XTXXXlIXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18712,Monomer,Polymyxin E1-Nva,6-Me-C8,XTXXXlXXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18713,Monomer,Polymyxin E1-Val,6-Me-C8,XTXXXlVXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18714,Monomer,Polymyxin E2-Ile,6-Me-C7,XTXXXlIXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18715,Monomer,Polymyxin E2-Nva,6-Me-C7,XTXXXlXXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18716,Monomer,Polymyxin E2-Val,6-Me-C7,XTXXXlVXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18717,Monomer,Polymyxin A1,6-Me-C8,XTxXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18718,Monomer,Polymyxin A2,6-Me-C7,XTxXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18719,Monomer,Polymyxin M1,6-Me-C8,XTXXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18720,Monomer,Polymyxin M2,6-Me-C7,XTXXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18721,Monomer,Polymyxin D1,6-Me-C8,XTsXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18722,Monomer,Polymyxin D2,6-Me-C7,XTsXXlTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18723,Monomer,Polymyxin S1,6-Me-C8,XTsXXfTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18724,Monomer,Polymyxin S2,6-Me-C7,XTsXXfTXXT,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18725,Monomer,Polymyxin T1,6-Me-C8,XTXXXfLXXL,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18726,Monomer,Polymyxin T2,6-Me-C7,XTXXXfLXXL,,Nonribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-18861,Monomer,"Cyclo(Trp-Trp), Diketopiperazine (WW)",,WW,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18873,Monomer,"Cyclo(Ser-Pro), Diketopiperazine (SP)",,SP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-18879,Monomer,"Cyclo(L-Pro-D-Arg), Diketopiperazine (Pr)",,Pr,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18882,Monomer,"Cyclo(D-Pro-L-Tyr), Diketopiperazine (pY)",,pY,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria",
-18886,Monomer,"Cyclo(D-Leu-D-Arg), Diketopiperazine (lr)",,lr,,Nonribosomal,Gram+    Gram-    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18887,Monomer,"Cyclo(Trp-Arg), Diketopiperazine (WR)",,WR,,Nonribosomal,Gram+    Gram-    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18888,Monomer,"Cyclo(D-Trp-D-Arg), Diketopiperazine (wr)",,wr,,Nonribosomal,Gram+    Gram-    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18890,Monomer,"Cyclo (trans-4-OH-Pro-Leu), Cordysinin A",,LX,,Nonribosomal,Cancer    Fungus,Quorum Sensing    Immunomodulation,"['Cancer', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-18891,Monomer,Cyclo(L-Phe-L-Hyp),,FX,,Nonribosomal,Gram+    Cancer    Biofilm,Quorum Sensing    Immunomodulation,"['Gram+', 'Cancer', 'Biofilm']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18892,Monomer,Cyclo(Pro-Val),,PV,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria",
-18894,Monomer,Cyclo(L-Pro-D-Leu),,Pl,,Nonribosomal,Gram-    Cancer,Membrane Protein    Quorum Sensing,"['Gram-', 'Cancer']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18895,Monomer,Cyclo (cis-4-OH-Pro-Leu),,XL,,Nonribosomal,Cancer,Quorum Sensing    Immunomodulation,['Cancer'],"['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18896,Monomer,Cyclo(Pro-Pro),,PP,,Nonribosomal,Cancer,Quorum Sensing,['Cancer'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18897,Monomer,Saccharopolytide A,,LXFX,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-18961,Monomer,Cyclo(Trp-Ser),,WS,,Nonribosomal,Gram-    Cancer    Mammalian Cell,Quorum Sensing,"['Gram-', 'Cancer', 'Mammalian Cell']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18979,Monomer,Cyclo(L-Pro-D-Ile),,Pi,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-18983,Monomer,Cyclo(Pro-Ile),,PI,,Nonribosomal,Gram+    Gram-    Cancer    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
-18994,Monomer,Brevibacillin 2V,OIle,XLXVVVKVVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18995,Monomer,Brevibacillin I,OIle,XLXIIVKIVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18996,Monomer,Brevibacillin,OIle,XLXIIVKVVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-18997,Monomer,Brevibacillin V,OIle,XLXIVVKVVKYL,VALol,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19007,Monomer,"Actinomycesin AMSIN, Defensin-like Bacteriocin",,GFGCPWNAYECDRHCVSKGYTGGNCRGKIRQTCHCY,,Ribosomal,Gram+    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Bacteria,Bacteria
-19019,Monomer,Bacteriocin Doderlin,,NEPTHLLKAFSKAGFQ,,Ribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,16,Short (10–24 aa),Bacteria,Bacteria
-19027,Monomer,Fengycin B2,3-OH-C18,ExytEVPQYV,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-19028,Monomer,Paenibacterin,C15,KVTXSVKSIPVKI,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19031,Monomer,"Haloduracin A, Mersacidin",,CAWYNISCRLGNKGAYCTLTVECMPSCN,,Ribosomal,,Lipid II,[],[],Natural,28,Medium (25–50 aa),Bacteria,Bacteria
-19066,Monomer,Syringopeptin SP508 A,3-OH-C12,XPVLAALVAAVAAXXSAXAXXY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19067,Monomer,Syringopeptin SP508 B,3-OH-C14,XPVLAALVAAVAAXXSAXAXXY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19068,Monomer,Syringopeptin SP22 A,3-OH-C10,XpvVaavvXavAaXxsaXAXxY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19069,Monomer,Syringopeptin SP22 B,3-OH-C12,XpvVaavvXavAaXxsaXAXxY,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19078,Monomer,Cyclo (Pro-trans-4-OH-Pro),,XP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-19087,Monomer,Cyclo(D-Pro-L-Val),,pV,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19088,Monomer,Cyclo(D-Pro-L-Ile),,pI,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19089,Monomer,Cyclo(L-Pro-D-Val),,Pv,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19090,Monomer,Cyclo(D-Leu-D-His),,lh,,Nonribosomal,Gram-,Membrane Protein    Quorum Sensing,['Gram-'],"['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-19091,Monomer,Brevilaterin A,OIle,XVXVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19092,Monomer,Brevilaterin B,OIle,XMXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19093,Monomer,Brevilaterin C,OIle,XVXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19094,Monomer,Brevilaterin D,OIle,XVXIVIKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19095,Monomer,Brevilaterin E,OIle,XLXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19099,Monomer,Brevilaterin V1,,XXVXVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19100,Monomer,Brevilaterin V2,OVal,XVXVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19101,Monomer,Brevilaterin V4,OIle,XVKVVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19102,Monomer,Brevilaterin V5,OVal,XVXIVVKVLKYL,VALol,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-19104,Monomer,Duramycin C,,CANSCXYGPLTWSCXGNTK,,Ribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Membrane Protein,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Membrane Protein'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
-19105,Monomer,Lantibiotic Duramycin B,,CRQSCXFGPLTFVCXGNTK,,Ribosomal,Gram+    Gram-    Mammalian Cell,Membrane Protein,"['Gram+', 'Gram-', 'Mammalian Cell']",['Membrane Protein'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
-19106,Monomer,Actagardine,,SSGWVCTLTIECGTVICAC,,Ribosomal,Gram+    Gram-    Fungus,Lipid II,"['Gram+', 'Gram-', 'Fungus']",[],Natural,19,Short (10–24 aa),Bacteria,Bacteria
-19107,Monomer,Planosporicin,,IXSVXWCTPGCTSEGGGSGCSHCCPG,,Ribosomal,Gram+    Gram-    Fungus,Lipid II,"['Gram+', 'Gram-', 'Fungus']",[],Natural,26,Medium (25–50 aa),Bacteria,Bacteria
-19108,Monomer,Sublichenin,,WKSESLCTPGCVTGVLQXCFLQTITCNCKIXK,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,32,Medium (25–50 aa),Bacteria,Bacteria
-19109,Monomer,Entianin,,WKSESVCTPGCVTGLLQXCFLQTITCNCKIXK,,Ribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,32,Medium (25–50 aa),Bacteria,Bacteria
-19147,Monomer,Anantin B1,,GFIGWGNDIFGHYSGGF,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,17,Short (10–24 aa),Bacteria,Bacteria
-19148,Monomer,Anantin B2,,GFIGWGNDIFGHYSGG,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,16,Short (10–24 aa),Bacteria,Bacteria
-19149,Monomer,Citrulassin A,,LLGLAGNDXLVLSKN,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,15,Short (10–24 aa),Bacteria,Bacteria
-19150,Monomer,LP2006,,GRPNWGFENDWSCVRVC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,17,Short (10–24 aa),Bacteria,Bacteria
-19151,Monomer,Moomysin,,SYHWGDYHDWHHGWYGWWDD,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,20,Short (10–24 aa),Bacteria,Bacteria
-19152,Monomer,Lagmysin,,LAGQGSPDLLGGHSLL,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,16,Short (10–24 aa),Bacteria,Bacteria
-19162,Monomer,"Streptomonomicin, STM",,SLGSSPYNDILGYPALIVIYP,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
-19175,Monomer,Siamycin I,,CLGVGSCNDFAGCGYAIVCFW,,Ribosomal,Gram+    Gram-    Virus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
-19176,Monomer,Siamycin II,,CLGIGSCNDFAGCGYAIVCFW,,Ribosomal,Gram+    Gram-    Virus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
-19177,Monomer,Specialicin,,CLGVGSCVDFAGCGYAVVCFw,,Ribosomal,Gram+    Gram-    Virus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
-19178,Monomer,"Aborycin, Siamycin III",,CLGIGSCNDFAGCGYAVVCFW,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,21,Short (10–24 aa),Bacteria,Bacteria
-19179,Monomer,Arcumycin,,CLPSGDCPDFLGCGRAIWCI,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,20,Short (10–24 aa),Bacteria,Bacteria
-19208,Monomer,Burkholdine-1097,,XsxnGNSX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-19209,Monomer,Burkholdine-1229,,XsxnGNSX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-19210,Monomer,Burkholdine-1215,,XsxxGNSX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-19211,Monomer,Burkholdine-1119,,XsxxGNSN,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-19212,Monomer,Burkholdine-1213,,XsxnGNSN,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-19213,Monomer,Bacteriocin BaCf3,,GNHDCCMGQLPKCMLGPGQGAATCQGK,,Ribosomal,Gram+    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,27,Medium (25–50 aa),Bacteria,Bacteria
-19216,Monomer,Actifensin,,GFGCNLITSNPYQCSNHCKSVGYRGGYCKLRTVCTCY,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,37,Medium (25–50 aa),Bacteria,Bacteria
-19219,Monomer,Feglymycin,,xxVxXxXxVxXFD,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Cytoplasmic Protein    Virus replication    Virus entry    gp120,"['Gram+', 'Gram-', 'Virus', 'Fungus']","['Cytoplasmic Protein', 'Virus replication', 'Virus entry', 'gp120']",Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19515,Monomer,Bacteriocin TP,,ASVVNKLTGGVAGLLK,AMD,Ribosomal,Gram+    Gram-    Mammalian Cell,,"['Gram+', 'Gram-', 'Mammalian Cell']",[],Natural,16,Short (10–24 aa),Bacteria,Bacteria
-19546,Monomer,Massetolide A,3-OH-C10,LexiLsLsI,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-19547,Monomer,Viscosin,3-OH-C10,LexvLsLsI,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-19717,Monomer,Pumilacidin,3-OH-14-Me-C15,ELlLDlI,,Nonribosomal,Gram-    Virus    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Virus', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-19720,Monomer,Pseudodesmin B,3-OH-C10,LqxvlsLsV,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-19750,Monomer,"Haloduracin B, Cytolysin",,TXWPCAXVGVSVALCPTTKCTXQC,,Ribosomal,,Lipid Bilayer,[],['Lipid Bilayer'],Natural,24,Short (10–24 aa),Bacteria,Bacteria
-19798,Monomer,Lantibiotic Mutacin 1140 ,,FKSWXLCTPGCARXGSFNSYCC,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
-19808,Monomer,Relacidine A,4-Me-C6,SYWXXGXWTIGSG,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19809,Monomer,Relacidine B,4-Me-C6,SYWXXGXWTIGSA,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-19822,Monomer,Tolaasin D,3-OH-C8,XpSLvslvVqLvXxLXxK,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Bacteria,Bacteria
-19823,Monomer,Tolaasin E,3-OH-C8,XpSLvslvVqLvXxLGxK,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Bacteria,Bacteria
-19824,Monomer,White Line Inducing Principle [WLIP],3-OH-C10,LexvlsLsI,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-19893,Monomer,Stephensiolide U,(E)5-C12,TsSiI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-19894,Monomer,Stephensiolide K,C12,TsSiI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 19964,Monomer,"Lantibiotic NAI-107, Microbisporicin",,VXSXXLCTPGCTSXGGGSNCSFCC,,Ribosomal,Gram+    Gram-,Membrane Protein,"['Gram+', 'Gram-']",['Membrane Protein'],Natural,24,Short (10–24 aa),Bacteria,Bacteria
 19989,Monomer,"Triculamin, Alboverticillin",,SKKSKPGDGIRGKGVRG,,Ribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Cytoplasmic Protein    Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']","['Cytoplasmic Protein', 'Lipid Bilayer']",Natural,17,Short (10–24 aa),Bacteria,Bacteria
 20074,Monomer,Nocardiotide A,,AWIWLV,,Ribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -593,7 +358,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 20466,Monomer,Penicillin G,Pac,Cv,,Nonribosomal,Gram+    Gram-    Cancer,Membrane Protein,"['Gram+', 'Gram-', 'Cancer']",['Membrane Protein'],Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 20467,Monomer,Cephalosporin C,,xCX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,3,Ultrashort (2–9 aa),"Bacteria, Fungi",
 20468,Monomer,"Penicillin N, Cephalosporin N, Adicillin",,xCv,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,3,Ultrashort (2–9 aa),"Bacteria, Fungi",
-20480,Multimer,Nocardicin A,,XSX    X,,Nonribosomal,Gram+    Gram-,Membrane Protein,"['Gram+', 'Gram-']",['Membrane Protein'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 20512,Monomer,Gallidermin,,IASKFLCTPGCAKXGSFNSYCC,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 20513,Monomer,Epidermin,,IASKFICTPGCAKXGSFNSYCC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 20514,Monomer,Ubonodin,,GGDGSIAEYFNRPMHIHDWQIMDSGYYG,,Ribosomal,Gram-,Cytoplasmic Protein,['Gram-'],['Cytoplasmic Protein'],Natural,28,Medium (25–50 aa),Bacteria,Bacteria
@@ -602,20 +366,12 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 20523,Monomer,Cloacaenodin,,GHSVDRIPEYFGPPGLPGPVLFYS,,Ribosomal,Gram-,Cytoplasmic Protein,['Gram-'],['Cytoplasmic Protein'],Natural,24,Short (10–24 aa),Bacteria,Bacteria
 20590,Monomer,Lasso peptide Felipeptin A1,,GSRGWGFEPGVRCLIWCD,,Ribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Bacteria,Bacteria
 20591,Monomer,Lasso peptide Felipeptin A2,,GGGGRGYEYNKQCLIFC,,Ribosomal,Gram+    Gram-    Cancer,,"['Gram+', 'Gram-', 'Cancer']",[],Natural,17,Short (10–24 aa),Bacteria,Bacteria
-20635,Multimer,Actinomycin Z3,,XvXXX    TvXXX,,Nonribosomal,Gram+    Cancer,Lipid Bilayer    DNA / RNA,"['Gram+', 'Cancer']","['Lipid Bilayer', 'DNA / RNA']",Natural,14,Short (10–24 aa),Bacteria,Bacteria
-20638,Multimer,Actinomycin Z1,,XvXXX    TvXXX,,Nonribosomal,Gram+    Cancer,Lipid Bilayer    DNA / RNA,"['Gram+', 'Cancer']","['Lipid Bilayer', 'DNA / RNA']",Natural,14,Short (10–24 aa),Bacteria,Bacteria
-20639,Multimer,Actinomycin Z5,,TvXXX    XvXXX,,Nonribosomal,Gram+    Cancer,Lipid Bilayer    DNA / RNA,"['Gram+', 'Cancer']","['Lipid Bilayer', 'DNA / RNA']",Natural,14,Short (10–24 aa),Bacteria,Bacteria
-20795,Multimer,Capreomycin,,XSXXX    X,,Nonribosomal,Gram+,Lipid Bilayer    DNA / RNA,['Gram+'],"['Lipid Bilayer', 'DNA / RNA']",Natural,10,Short (10–24 aa),Bacteria,Bacteria
 20817,Monomer,MDN-0066,3-OH-C10,LexllsLI,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 20828,Monomer,PAX 1,3-OH-C14,GKKKKKK,,Nonribosomal,Gram+    Gram-    Insect    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Insect', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 20829,Monomer,PAX 2,3-OH-C14,GRKKKKK,,Nonribosomal,Gram+    Gram-    Insect    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Insect', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-20830,Monomer,PAX 3,3-OH-C15,GKKKKKK,,Nonribosomal,Gram+    Gram-    Insect    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Insect', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-20831,Monomer,PAX 4,3-OH-C15,GRKKKKK,,Nonribosomal,Gram+    Gram-    Insect    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Insect', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 20832,Monomer,Ulleungmycin A,,xXvxXX,,Nonribosomal,Gram+    Gram-,Unknown,"['Gram+', 'Gram-']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 20833,Monomer,Ulleungmycin B,,xXvlXX,,Nonribosomal,Gram+    Gram-,Unknown,"['Gram+', 'Gram-']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 20845,Monomer,Lantibiotic Brevicillin,,SDSVVSDIICTTFCSVTWCQSNCC,,Ribosomal,Gram+    Gram-    Virus    Cancer    Fungus    Mammalian Cell,Lipid Bilayer    Virus replication    Virus entry,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus', 'Mammalian Cell']","['Lipid Bilayer', 'Virus replication', 'Virus entry']",Natural,24,Short (10–24 aa),Bacteria,Bacteria
-20847,Multimer,Thiocoraline A,3-OH-QUA    3-OH-QUA,cGXX    cGXX,,Nonribosomal,Cancer,DNA / RNA,['Cancer'],['DNA / RNA'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-20849,Multimer,"Echinomycin, Quinomycin A",QUI    QUI,sAXX    sAXX,,Nonribosomal,Cancer,DNA / RNA,['Cancer'],['DNA / RNA'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 20851,Monomer,Arthropeptide A,,XLPY,,Nonribosomal,Fungus,Unknown,['Fungus'],[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 20852,Monomer,Androsamide,,IXXT,,Nonribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 20857,Monomer,Telomycin A,,DSTXAGXXXXX,,Nonribosomal,Gram+    Mammalian Cell,Mitochondrial membrane,"['Gram+', 'Mammalian Cell']",['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
@@ -625,22 +381,13 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 20861,Monomer,Telomycin E,,DSTXAGPWXXP,,Nonribosomal,Gram+,Mitochondrial membrane,['Gram+'],['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 20862,Monomer,Telomycin F,,DSTXAGPXXLP,,Nonribosomal,Gram+,Mitochondrial membrane,['Gram+'],['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 20863,Monomer,Telomycin G,,DSTXAGPWXLP,,Nonribosomal,Gram+,Mitochondrial membrane,['Gram+'],['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-20864,Monomer,Di-5-hydroxytryptophan Telomycin,,DSTXAGXXXXX,,Nonribosomal,Gram+,,['Gram+'],[],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-20865,Monomer,Di-5-methyltryptophan Telomycin,,DSTXAGXXXXX,,Nonribosomal,Gram+,Mitochondrial membrane,['Gram+'],['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-20880,Monomer,Linear Telomycin F,,DSTXAGPXXLP,,Nonribosomal,Gram+,,['Gram+'],[],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-20881,Monomer,Linear Telomycin C,,DSTXAGPXXXP,,Nonribosomal,Gram+,,['Gram+'],[],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-20882,Monomer,Telomycin (2-11),,DSTXAGPXXLP,,Nonribosomal,Gram+,,['Gram+'],[],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-20886,Monomer,Ambobactin,,DSTXAGXXxXX,,Nonribosomal,Gram+    Gram-,Mitochondrial membrane,"['Gram+', 'Gram-']",['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 20891,Monomer,Malacidin A,"8-Me-(2E,4Z)-C9",DXvKXDGxVX,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid II,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",[],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-20892,Monomer,Malacidin B,"8-Me-(2E,4Z)-C10",DXvKXDGxVX,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid II,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",[],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 20896,Monomer,Octapeptin C4,3-OH-C10,xXXfLXXL,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 20906,Monomer,Sevadicin,,faW,,Nonribosomal,Gram+,Unknown,['Gram+'],[],Natural,3,Ultrashort (2–9 aa),Bacteria,Bacteria
 20908,Monomer,"Daptomycin, Cubicin, Cidecin",C10,WnDTGXDaDGsXX,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer    Lipid II,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 20909,Monomer,Laspartomycin C,13-Me-(E)2-C14,DXXGDGDGTXP,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 20911,Monomer,Taromycin A,"(E)2,4-C8",XnDTGXDaDGaXX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-20912,Monomer,Taromycin B,"6-Me-(E)2,4-C8",XnDTGXDaDGaXX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 20919,Monomer,Cadaside A,"8-Me-(2E,4Z)-C10",XGeYTiDXPGeXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein    Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']","['Cytoplasmic Protein', 'Lipid Bilayer']",Natural,13,Short (10–24 aa),Bacteria,Bacteria
-20920,Monomer,Cadaside B,"8-Me-(2E,4Z)-C9",XGeYTiDXPGeXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein    Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']","['Cytoplasmic Protein', 'Lipid Bilayer']",Natural,13,Short (10–24 aa),Bacteria,Bacteria
 20921,Monomer,A-54145B,C10,WeXTXADkXGnXI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 20922,Monomer,,,PFXXxX,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 20924,Monomer,"Viscosinamide A, Pseudodesmin A",3-OH-C10,LqxvlsLsI,,Nonribosomal,Gram+    Fungus,Lipid Bilayer,"['Gram+', 'Fungus']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -648,27 +395,11 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 20926,Monomer,Rhodopeptin C3,,GXVx,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 20968,Monomer,Streptocidin A,,VXLfPLyNQW,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 20969,Monomer,Streptocidin B,,VXLfPLwNQW,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-20970,Monomer,Streptocidin C,,VXLfPLwNQw,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 20971,Monomer,Streptocidin D,,VXLfPLwNQF,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 20974,Monomer,Ogipeptin A,C10,XXXLRXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-20975,Monomer,Ogipeptin B,(E)5-C12,XXXLRXX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-20976,Monomer,Ogipeptin C,C12,XXXLRXX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-20977,Monomer,Ogipeptin D,(Z)7-C14,XXXLRXX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 20988,Monomer,Arylomycin A2,10-Me-C11,xaGXAY,,Nonribosomal,Gram+    Gram-,Membrane Protein,"['Gram+', 'Gram-']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20991,Monomer,Arylomycin C16,C16,xaGXAY,,Nonribosomal,Gram-,Membrane Protein,['Gram-'],['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20992,Monomer,Arylomycin A1,9-Me-C10,xaGXAY,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20993,Monomer,Arylomycin A3,C12,xaGXAY,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20994,Monomer,Arylomycin A4,10-Me-C12,xaGXAY,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20995,Monomer,Arylomycin A5,12-Me-C13,xaGXAY,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 20996,Monomer,Arylomycin B1,9-Me-C10,xaGXAX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20997,Monomer,Arylomycin B2,10-Me-C11,xaGXAX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20998,Monomer,Arylomycin B3,C12,xaGXAX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-20999,Monomer,Arylomycin B4,10-Me-C12,xaGXAX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-21000,Monomer,Arylomycin B6,12-Me-C13,xaGXAX,,Synthetic,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Synthetic,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-21001,Monomer,Arylomycin B7,12-Me-C14,xaGXAX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 21013,Monomer,Bacillomycin D(iso-C15),,NynPEsTx,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-21014,Monomer,Bacillomycin D(iso-C16),,NynPEsTx,,Nonribosomal,Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-21015,Monomer,Bacillomycin D(anteiso-C17),,NynPEsTx,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 21035,Monomer,Pentapeptide PAST18,,TLSAC,,Ribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 21048,Monomer,,,PpYY,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 21120,Monomer,Micrococcin P1,,XCTXCVCTCXCCX,HPA,Ribosomal,Gram+    Gram-    Virus    Cancer,Cytoplasmic Protein    Virus entry    gpE,"['Gram+', 'Gram-', 'Virus', 'Cancer']","['Cytoplasmic Protein', 'Virus entry', 'gpE']",Natural,13,Short (10–24 aa),Bacteria,Bacteria
@@ -688,7 +419,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 21143,Monomer,Iturin-like peptide Mixirin A,,XNyNQSNp,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 21147,Monomer,Thuricin alpha,,GNAACVIGCIGSCVISEGIGSLVGTAFTLG,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,30,Medium (25–50 aa),Bacteria,Bacteria
 21148,Monomer,Thuricin beta,,GWVACVGACGTVCLASGGVGTEFAAASYFL,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,30,Medium (25–50 aa),Bacteria,Bacteria
-21149,Multi-Peptide,Sactipeptide Thuricin CD,,GNAACVIGCIGSCVISEGIGSLVGTAFTLG    GWVACVGACGTVCLASGGVGTEFAAASYFL,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,64,Long (50–100 aa),Bacteria,Bacteria
 21169,Monomer,Bacteriocin Geobacillin 6,,MATFLRIVAQLSSKAAKWALDNKDKVLKWIRDGMAIDWIIDKINDIVG,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,48,Medium (25–50 aa),Bacteria,Bacteria
 21183,Monomer,Lactocin 705 alpha,,GMSGYIQGIPDFLKGYLHGISAANKHKKGRLGY,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,33,Medium (25–50 aa),Bacteria,Bacteria
 21184,Monomer,Lactocin 705 beta,,GFWGGLGYIAGRVGAAYGHAQASANNHHSPING,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,33,Medium (25–50 aa),Bacteria,Bacteria
@@ -716,43 +446,20 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 21274,Monomer,Cerecidin A7,,TXPLCVGVIIGIXASIKICK,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,20,Short (10–24 aa),Bacteria,Bacteria
 21276,Monomer,Lantibiotic Nisin-Z,,IXSIXLCTPGCKTGALMGCNMKTATCNCSIHVXK,,Ribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,34,Medium (25–50 aa),Bacteria,Bacteria
 21326,Monomer,Aspartocin D,10-Me-(Z)3-C11,DXXXDGDGXVP,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-21327,Monomer,Aspartocin E,9-Me-(Z)3-C10,DXXXDGDGXVP,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-21328,Monomer,Amphomycin,10-Me-(Z)3-C12,DXxXDGDGxVP,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-21329,Monomer,Tsushimycin,12-Me-(Z)3-C13,DXxXDGDGxVP,,Nonribosomal,Parasite    Mammalian Cell,Membrane Protein,"['Parasite', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 21360,Monomer,Anikasin,3-OH-C10,LDxlLsLsLId,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 21361,Monomer,Medipeptin A,3-OH-C10,XPAAAVVXTVIXGAAVXTAXSI,,Nonribosomal,Gram+    Gram-,Lipid Bilayer    Lipid II,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
 21362,Monomer,"Tensin, Milkisin C",3-OH-C10,ldxllsLqLIE,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 21363,Monomer,Circulocin alpha,,XTfIXD,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-21364,Monomer,Circulocin beta,,XTfIXD,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 21365,Monomer,Circulocin gamma,,XTlIxna,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 21366,Monomer,Tripropeptin C,3-OH-13-Me-C14,xpPRXSXx,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer    Lipid II,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-21367,Monomer,Tripropeptin A,3-OH-11-Me-C12,xpPRXSXx,,Nonribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-21368,Monomer,Tripropeptin B,3-OH-12-Me-C13,xpPRXSXx,,Nonribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-21369,Monomer,Tripropeptin D,3-OH-14-Me-C15,xpPRXSXx,,Nonribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-21370,Monomer,Tripropeptin Z,3-OH-10-Me-C11,xpPRXSXx,,Nonribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 21393,Monomer,Cormycin A,"3,4-OH-C16",SxNxHXXXX,,Nonribosomal,Gram+    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21405,Monomer,Pseudomycin A,"3,4-OH-C14",SxDKXXXXX,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21406,Monomer,Syringomycin E,3-OH-C12,SSXXRFXxX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21407,Monomer,Syringotoxin B,3-OH-C14,SXGXXTXXX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21408,Monomer,Syringostatin A,3-OH-C14,SXXXXTXXX,,Nonribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21414,Monomer,Bacilotetrin A,3-OH-11-Me-C13,LLLE,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-21415,Monomer,Bacilotetrin B,"3-OH-9,11-Me-C13",LLLE,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-21416,Monomer,Bacilotetrin C,3-OH-C14,ELlL,,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 21417,Monomer,Isopedopeptin A,3-OH-9-Me-C10,XLXXTXfXD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21418,Monomer,Isopedopeptin B,3-OH-C10,XLXXTXfXD,,Synthetic,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Synthetic,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21419,Monomer,Isopedopeptin D,3-OH-C10,XLXXTXfVD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21420,Monomer,Isopedopeptin E,3-OH-9-Me-C10,XLXXTXfVD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21421,Monomer,Isopedopeptin F,3-OH-11-Me-C12,XLXXTXfXD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21422,Monomer,Isopedopeptin G,3-OH-11-Me-(Z)7-C12,XLXXTXfVD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21423,Monomer,Isopedopeptin H,3-OH-11-Me-(Z)5-C12,XLXXTXfVD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21424,Monomer,Isopedopeptin C,3-OH-(Z)5-C12,XLXXTXfXD,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21434,Multimer,Pitipeptolide A,Dhoya    OIle,VX    PIG,,Nonribosomal,Gram+    Cancer,Unknown,"['Gram+', 'Cancer']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21436,Multimer,Pitipeptolide B,Dhoea    OIle,VX    PIG,,Nonribosomal,Gram+    Cancer,Unknown,"['Gram+', 'Cancer']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21438,Multimer,Pitipeptolide C,Dhoaa    OIle,VX    PIG,,Nonribosomal,Gram+    Cancer,Unknown,"['Gram+', 'Cancer']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21440,Multimer,Pitipeptolide D,Dhoya    OIle,VF    PIG,,Nonribosomal,Gram+    Cancer,Unknown,"['Gram+', 'Cancer']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21442,Multimer,Pitipeptolide E,Dhoya    OVal,VX    PIG,,Nonribosomal,Gram+    Cancer,Unknown,"['Gram+', 'Cancer']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21444,Multimer,Pitipeptolide F,Dhoya    OIle,VX    PVG,,Nonribosomal,Gram+    Cancer,Unknown,"['Gram+', 'Cancer']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-21451,Multimer,Hantupeptin A,Hmoya    OPhe,VX    PX,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 21475,Monomer,"Streptomyces highly conserved AMP, SHC-AMP",,MGSVIKKRRKRMAKKKHRKLLKRTRVQRRNKK,,Ribosomal,Gram-    Fungus,Lipid Bilayer,"['Gram-', 'Fungus']",['Lipid Bilayer'],Natural,32,Medium (25–50 aa),Bacteria,Bacteria
 21495,Monomer,Arthroamide,3-OH-5-Ph-(E)4-C5,VaVV,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 21506,Monomer,Putisolvin I,C6,LELIQSVISLVS,,Nonribosomal,Biofilm,Lipid Bilayer,['Biofilm'],['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
@@ -763,25 +470,17 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 21522,Monomer,Achromonodin-1,,GGGGPTPEYFLMPIDPAWLQANLPNTGKYN,,Ribosomal,Gram+    Gram-,Cytoplasmic Protein    Lipid Bilayer,"['Gram+', 'Gram-']","['Cytoplasmic Protein', 'Lipid Bilayer']",Natural,30,Medium (25–50 aa),Bacteria,Bacteria
 21559,Monomer,WBP-29479A1,3-OH-7-Me-C8,VrSGxLrEvwX,,Nonribosomal,Gram+    Gram-    Mammalian Cell,Membrane Protein,"['Gram+', 'Gram-', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
 21588,Monomer,Gageopeptin A,"3-OH-12,14-Me-C16",EVLADLL,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-21589,Monomer,Gageopeptin B,3-OH-14-Me-C16,EVLADLL,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 21601,Monomer,Tolybyssidin A,,XVXTVVPRlTIIF,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 21602,Monomer,Tolybyssidin B,,XRYMVTITVVVFV,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 21607,Monomer,Minutissamide A,,XVXNXNATXP,,Nonribosomal,Cancer    Fungus,Lipid Bilayer,"['Cancer', 'Fungus']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-21608,Monomer,Puwainaphycin F,,XVXNXNAtXP,,Nonribosomal,Cancer    Fungus,Lipid Bilayer,"['Cancer', 'Fungus']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 21610,Monomer,Kolossin A,FOR,lAlVyLvxVlVxLvV,,Nonribosomal,Gram+    Gram-    Parasite    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Parasite', 'Mammalian Cell']",[],Natural,15,Short (10–24 aa),Bacteria,Bacteria
 21625,Monomer,Kailuin E,3-OH-C14,lSTlI,,Nonribosomal,Cancer    Protista,Unknown,"['Cancer', 'Protista']",[],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 21626,Monomer,Serratiomycin,3-OH-C10,LSXfi,,Nonribosomal,Gram+    Gram-,Unknown,"['Gram+', 'Gram-']",[],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 21630,Monomer,Pargamicin A,,XfXxXx,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-21633,Monomer,Pargamicin D,,XfXxXx,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 21634,Monomer,Vancomycin,,xxNxxXX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein    Lipid II,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 21635,Monomer,Natalenamide A,,EFV,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,3,Ultrashort (2–9 aa),Bacteria,Bacteria
 21636,Monomer,Natalenamide B,,EFL,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,3,Ultrashort (2–9 aa),Bacteria,Bacteria
 21637,Monomer,Natalenamide C,,EFF,,Nonribosomal,Cancer,,['Cancer'],[],Natural,3,Ultrashort (2–9 aa),Bacteria,Bacteria
-21679,Monomer,Homoserine lactone,C7,X,,Nonribosomal,Gram+,Quorum Sensing,['Gram+'],['Quorum Sensing'],Natural,1,Out of range (<2 aa),Bacteria,Bacteria
-21680,Monomer,Homoserine lactone,3-O-C8,X,,Nonribosomal,Gram+    Mammalian Cell,Quorum Sensing,"['Gram+', 'Mammalian Cell']",['Quorum Sensing'],Natural,1,Out of range (<2 aa),"Archaea, Bacteria",
-21681,Monomer,Homoserine lactone,3-O-C12,X,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Quorum Sensing    Mitochondrial membrane    Immunomodulation,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']","['Quorum Sensing', 'Mitochondrial membrane', 'Immunomodulation']",Natural,1,Out of range (<2 aa),Bacteria,Bacteria
-21682,Monomer,Homoserine lactone,3-O-C14,X,,Nonribosomal,Gram+    Cancer    Mammalian Cell,Quorum Sensing    Mitochondrial membrane    Immunomodulation,"['Gram+', 'Cancer', 'Mammalian Cell']","['Quorum Sensing', 'Mitochondrial membrane', 'Immunomodulation']",Natural,1,Out of range (<2 aa),Bacteria,Bacteria
-21683,Monomer,Homoserine lactone,3-O-C10,X,,Nonribosomal,Cancer    Mammalian Cell,Quorum Sensing,"['Cancer', 'Mammalian Cell']",['Quorum Sensing'],Natural,1,Out of range (<2 aa),"Archaea, Bacteria",
 21762,Monomer,Labyrinthopeptin A2,,SDWSLWECCSTGSLFACC,,Ribosomal,Virus    Cancer    Mammalian Cell,Lipid Bilayer    Virus entry,"['Virus', 'Cancer', 'Mammalian Cell']","['Lipid Bilayer', 'Virus entry']",Natural,18,Short (10–24 aa),Bacteria,Bacteria
 21763,Monomer,Labyrinthopeptin A1,,SNASVWECCSTGSWVPFXCC,,Ribosomal,Virus    Cancer    Mammalian Cell,Lipid Bilayer    Virus replication    Virus entry    gp120,"['Virus', 'Cancer', 'Mammalian Cell']","['Lipid Bilayer', 'Virus replication', 'Virus entry', 'gp120']",Natural,20,Short (10–24 aa),Bacteria,Bacteria
 21773,Monomer,Lantibiotic Duramycin,,CKQSCXFGPFTFVCXGNTK,,Ribosomal,Gram+    Gram-    Virus,Membrane Protein,"['Gram+', 'Gram-', 'Virus']",['Membrane Protein'],Natural,19,Short (10–24 aa),Bacteria,Bacteria
@@ -790,9 +489,7 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 21776,Monomer,Plantaricin ASM1,,KPAWCWYTLAMCGAGYDXGTCDYMYSHCFGVKHSSGGGGSYHX,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,43,Medium (25–50 aa),Bacteria,Bacteria
 21777,Monomer,Lantibiotic Rombocin A,,IXSIXLCTAGCITGVIMXCMSNGCK,,Ribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,25,Medium (25–50 aa),Bacteria,Bacteria
 21780,Monomer,Turnercyclamycin A,C14,XSVxXTGXxXAxE,,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
-21781,Monomer,Turnercyclamycin B,(Z)9-C16,XSVxXTGXxXAxE,,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 21782,Monomer,Lantibiotic Flavucin,,IXSKXLCTPGCITGWMMCNXVTKGCXFXIGK,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,31,Medium (25–50 aa),Bacteria,Bacteria
-21783,Monomer,Lantibiotic Agalacticin,,VXSKXLCTPGCKTGILMXCAIKTATCGCHFG,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,31,Medium (25–50 aa),Bacteria,Bacteria
 21786,Monomer,Lanthipeptide Daspyromycin A,,IXSIXLCTPGCTSAGGGSNCSFCC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,24,Short (10–24 aa),Bacteria,Bacteria
 21787,Monomer,Landornamide A,,GCWxAGSXGCGFvTXT,,Ribosomal,Virus    Cancer,Virus replication,"['Virus', 'Cancer']",['Virus replication'],Natural,16,Short (10–24 aa),Bacteria,Bacteria
 21825,Monomer,Linaridin Salinipeptin A,(CH3)2,AXpaXpXaaqFViqGSXiCLVC,,Ribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,22,Short (10–24 aa),Bacteria,Bacteria
@@ -806,14 +503,11 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 21902,Monomer,Lantibiotic Lan-P49.2,,IXSKXLCTPGCVTGVLMGCNNKTATCNCXVHVG,,Ribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,33,Medium (25–50 aa),Bacteria,Bacteria
 21907,Monomer,Lexapeptide ,(CH3)2,FXPXIPWAIRAXIITARXSQQCAAALGaLXAKTIEKKC,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,38,Medium (25–50 aa),Bacteria,Bacteria
 21908,Monomer,Dehydrolexapeptide,(CH3)2,FXPXIPWAIRAXIITARXSQQCAAALGXLXAKTIEKKC,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,38,Medium (25–50 aa),Bacteria,Bacteria
-21909,Monomer,Desmethyllexapeptide,,FXPXIPWAIRAXIITARXSQQCAAALGaLXAKTIEKKC,,Ribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,38,Medium (25–50 aa),Bacteria,Bacteria
 21973,Monomer,Microvionin,,XASLGSQSC,,Ribosomal,Gram+    Gram-,Lipid II,"['Gram+', 'Gram-']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
 21974,Monomer,Goadvionin B2,"N(3Me)-5,7,9,11,13,29-OH-(Z)20-30-Me-C31",ASXISQNC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 21975,Monomer,Thioholgamide A,Pyr,XXAXXATVAFXC,,Ribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-21976,Monomer,Thioholgamide B,Pyr,XXAXXATVAFXC,,Ribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 21977,Monomer,Thioalbamide,2-OH-C3,XIGXXVTIAVXC,,Ribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 21978,Monomer,Thioviridamide,2-OH-2-Me-4-O-C5,XXAXXASIALXC,,Ribosomal,Cancer    Mammalian Cell,Mitochondrial membrane,"['Cancer', 'Mammalian Cell']",['Mitochondrial membrane'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-21979,Monomer,JBIR-140,2-OH-C3,XXAXXASIALXC,,Ribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22000,Monomer,"Cacaoidin, HY-P5740",(CH3)2,SXAPCxIXAaVaAaIaATASWGC,,Ribosomal,Gram+,Lipid II,['Gram+'],[],Natural,23,Short (10–24 aa),Bacteria,Bacteria
 22001,Monomer,Cesin A,,IXSWXLCTAGCITGRIMGCNK,,Ribosomal,Gram+    Mammalian Cell,Lipid II,"['Gram+', 'Mammalian Cell']",[],Natural,21,Short (10–24 aa),Bacteria,Bacteria
 22028,Monomer,Lagunamide A,D-OIle,AxXXX,"(E)2-2,6-Me-5,7-OH-C10",Nonribosomal,Parasite    Cancer,Unknown,"['Parasite', 'Cancer']",[],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
@@ -822,65 +516,36 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 22085,Monomer,Bacipeptin,,HFDNLNKIQXNI,,Nonribosomal,Gram+    Gram-,Membrane Protein    Lipid Bilayer,"['Gram+', 'Gram-']","['Membrane Protein', 'Lipid Bilayer']",Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22148,Monomer,Lanthipeptide Marinsedin,OBU,FSSSFPDQNTSMICCVLK,,Ribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Bacteria,Bacteria
 22152,Monomer,"Etamycin, Viridogrisein",3-OH-Pic,TlxXXAX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22153,Monomer,Fijimycin A,3-OH-Pic,TlxXXAx,,Nonribosomal,Gram+,Cytoplasmic Protein,['Gram+'],['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22154,Monomer,Fijimycin B,3-OH-Pic,TlxXXAX,,Nonribosomal,Gram+,Cytoplasmic Protein,['Gram+'],['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22155,Monomer,Fijimycin C,3-OH-Pic,TlxXXSX,,Nonribosomal,Gram+,Cytoplasmic Protein,['Gram+'],['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22157,Monomer,,,PFXXxX,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-22158,Monomer,,,PFxXxX,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 22169,Monomer,Peptidolipin B,3-OH-C26,TVApxVX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22170,Monomer,Peptidolipin E,(Z)19-3-OH-C28,TVApxVX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22193,Monomer,Rufomycin NBZ1,,XXAXLXX,,Nonribosomal,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22194,Monomer,Rufomycin NBZ3,,XXAXLXX,,Nonribosomal,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22195,Monomer,Rufomycin NBZ4,,XYAXLXX,,Nonribosomal,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22196,Monomer,Rufomycin NBZ5,,XXAXLXX,,Nonribosomal,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22197,Monomer,Rufomycin NBZ6,,LXAXLXX,,Synthetic,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Synthetic,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22199,Monomer,Rufomycin NBZ7,,XXAXLXX,,Nonribosomal,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22200,Monomer,Rufomycin NBZ8,,XXAXLXX,,Nonribosomal,Gram+    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22221,Monomer,Bromodarobactin A,,XNWSKSF,,Ribosomal,Gram-,Membrane Protein    Cytoplasmic Protein,['Gram-'],"['Membrane Protein', 'Cytoplasmic Protein']",Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22222,Monomer,Dehydrobromodarobactin A,,XNWSXSF,,Ribosomal,Gram-,Membrane Protein    Cytoplasmic Protein,['Gram-'],"['Membrane Protein', 'Cytoplasmic Protein']",Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
-22370,Multimer,Coibamide A,OVal    (CH3)2,XXXXXAXXX    V,,Nonribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,14,Short (10–24 aa),Bacteria,Bacteria
 22402,Monomer,Bingchamide A,,IFFXL,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
-22403,Monomer,Bingchamide B,,IFFXL,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,5,Ultrashort (2–9 aa),Bacteria,Bacteria
 22486,Monomer,Nocaviogua A,,XASVSSDGC,,Ribosomal,Gram+    Gram-    Cancer    Fungus,Lipid II,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,9,Ultrashort (2–9 aa),Bacteria,Bacteria
-22489,Multimer,Nocaviogua B,,XASV    SSNGC,,Ribosomal,Gram+    Gram-    Cancer    Fungus,Lipid II,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 22613,Monomer,Lantibiotic Pseudocin 19,,GNGVVTTISHECNMNSWQFLFXCCG,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,25,Medium (25–50 aa),Bacteria,Bacteria
 22745,Monomer,Bogorol K,OIle,XVxIIVkVVKyL,VALol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22746,Monomer,Bogorol L,OIle,XVkIIVkVVKyL,VALol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22747,Monomer,Succilin K,OIle,XVXIIVkVVKyL,VALol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22788,Monomer,NNS5-6 AMP,,VKGDGGPGTVYTM,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Bacteria,Bacteria
 22806,Monomer,M10709,,XXAXVXV,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 22813,Monomer,Trilenodin,,GLWTGKYTDVFGGRALIKIIIQT,,Ribosomal,Gram+    Gram-,Lipid Bilayer    Lipid II,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,23,Short (10–24 aa),Bacteria,Bacteria
 22825,Monomer,Glidonin 1,,mnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22826,Monomer,Glidonin 2,,xnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22827,Monomer,Glidonin 4,FOR,mnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22828,Monomer,Glidonin 6,C10,mnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22829,Monomer,Glidonin 7,C12,mnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22830,Monomer,Glidonin 8,C12,xnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22831,Monomer,Glidonin 9,C12,lnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22832,Monomer,Glidonin 10,C14,mnPVfPWvAaSA,PUT,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
-22833,Monomer,Glidonin 10a,C14,mnPVfPWvAaSA,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 22838,Monomer,Holrhizin A,C8,VFEIAI,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 22983,Monomer,Lactomodulin,,MNKLNEVELSKISGGIGPLVIPVAAILGFLATDAWNHADELVAGVKQGWERS,,Ribosomal,Gram+    Gram-    Cancer,Lipid Bilayer    Immunomodulation,"['Gram+', 'Gram-', 'Cancer']","['Lipid Bilayer', 'Immunomodulation']",Natural,52,Long (50–100 aa),Bacteria,Bacteria
 23081,Monomer,Delta-Hemolysin,,MTKDIVETVGGLVKWILDTVKKFA,,Ribosomal,Gram+    Cancer    Mammalian Cell,,"['Gram+', 'Cancer', 'Mammalian Cell']",[],Natural,24,Short (10–24 aa),Bacteria,Bacteria
 23142,Monomer,Massatide A,(CH3)2,TXVPCxVAaFATGYFaC,,Ribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid II,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,17,Short (10–24 aa),Bacteria,Bacteria
-23143,Monomer,Massatide B,(CH3)2,TXVPCXVAaFATGYFaC,,Ribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid II,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,17,Short (10–24 aa),Bacteria,Bacteria
 23144,Monomer,Sistertide A1,(CH3)2,TXYICAaVAIaRTSSVKCaAAAaAIaGATYEWTC,,Ribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,34,Medium (25–50 aa),Bacteria,Bacteria
 23145,Monomer,Kebanetides A1,(CH3)2,TXPVCAAaVASXXWCAAaAaAVaGATYELTC,,Ribosomal,Gram+    Gram-,Lipid II,"['Gram+', 'Gram-']",[],Natural,31,Medium (25–50 aa),Bacteria,Bacteria
 23146,Monomer,Kebanetides A2,(CH3)2,TXPACIAaAXAaFVAaQFaAKTVAGGC,,Ribosomal,Gram+,Lipid II,['Gram+'],[],Natural,27,Medium (25–50 aa),Bacteria,Bacteria
 23180,Monomer,Bovicin HJ50/Thermophilin 1277/Macedovicin,,ADRGWIKTLTKDCPNVISSICAGTIITACKNCA,,Ribosomal,Gram+,Lipid Bilayer    Lipid II,['Gram+'],['Lipid Bilayer'],Natural,33,Medium (25–50 aa),Bacteria,Bacteria
 23278,Monomer,Bacillomycin like AF3,,NPYNQTSX,,Nonribosomal,Cancer    Fungus    Mammalian Cell    Biofilm,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell', 'Biofilm']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-23279,Monomer,Bacillomycin like AF4,,NPYNQTSX,,Nonribosomal,Cancer    Fungus    Mammalian Cell    Biofilm,Lipid Bilayer    DNA / RNA,"['Cancer', 'Fungus', 'Mammalian Cell', 'Biofilm']","['Lipid Bilayer', 'DNA / RNA']",Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-23280,Monomer,Bacillomycin like AF5,,NPYNQTSX,,Nonribosomal,Cancer    Fungus    Mammalian Cell    Biofilm,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell', 'Biofilm']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-23304,Monomer,Rhodopeptin C1,,GXVX,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 23305,Monomer,Rhodopeptin C2,,GXIx,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-23306,Monomer,Rhodopeptin C4,,GXVx,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
-23307,Monomer,Bacillomycin D(iso-C17),,NynPEsTx,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 23311,Monomer,Iturin F1,,xNynQXnS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-23312,Monomer,Iturin F2,,xNynQXnS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-23313,Monomer,Iturin A9,,xNynQPnS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
-23314,Monomer,Iturin A8,,xNynQPnS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 23315,Monomer,Majusculamide C,OIle,GXGXXXAX,,Nonribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,8,Ultrashort (2–9 aa),"Animalia, Bacteria",
-23316,Monomer,Majusculamide D,"2,4-Me-C8",XXXX,2-MedhPy,Nonribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 23319,Monomer,Minutissamide E,,XVXTTQaXXP,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 23320,Monomer,Minutissamide K,,XVXTTQGXXP,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 23321,Monomer,Minutissamide L,,XVXTVQGXXP,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
@@ -903,24 +568,15 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 24163,Monomer,"Romidepsin, Istodax, FR901228",3-OH-7-S-(E)4-C7,vcXV,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 24244,Monomer,"ADEP 1, Antibiotic A 54556A","(E)2,4,6-C8",FSPXAX,,Nonribosomal,Gram+    Gram-,Cytoplasmic Protein,"['Gram+', 'Gram-']",['Cytoplasmic Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 24245,Monomer,ADEP 2,CHP,XSPXAX,,Nonribosomal,Gram+    Cancer    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-24247,Monomer,ADEP 4,(E)2-C7,XSPXAX,,Nonribosomal,Gram+    Cancer    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 24264,Monomer,"ADEP 2, Antibiotic A 54556B","(E)2,4,6-C8",FSPXAP,,Nonribosomal,Gram+    Gram-,Cytoplasmic Protein,"['Gram+', 'Gram-']",['Cytoplasmic Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
-24266,Monomer,Enopeptin B,"(E)2,4,6,8,10-HOCP",FSPXAP,,Nonribosomal,Gram+,Cytoplasmic Protein,['Gram+'],['Cytoplasmic Protein'],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria
 24856,Monomer,Bacteriocin PFS-3,,STYLFEGL,,Ribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Bacteria,Bacteria
 25221,Monomer,Cinnamosyn,2-Me-CIN,XFlVAxGPXL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 25222,Monomer,Cilagicin,C14,sTxDGndGYVXF,,Nonribosomal,Gram+    Gram-    Mammalian Cell,Lipid II,"['Gram+', 'Gram-', 'Mammalian Cell']",[],Natural,12,Short (10–24 aa),Bacteria,Bacteria
 25254,Monomer,Cinnapeptin,2-Me-CIN,xfLykXSYxX,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-25272,Monomer,Cyclo(D-Phe-L-Hyp),,fX,,Nonribosomal,Gram+    Biofilm,Quorum Sensing    Immunomodulation,"['Gram+', 'Biofilm']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-25283,Monomer,Cyclo(2-OH-D-Pro-L-Leu),,xL,,Nonribosomal,Gram+    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
-25284,Monomer,"Cyclo(2-OOH-D-Pro-L-Leu), Actinozine A",,xL,,Nonribosomal,Gram+    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Bacteria,Bacteria
 25285,Monomer,Atratumycin,2-Me-CIN,TSWnXPvGly,,Nonribosomal,Gram+    Gram-    Cancer,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer']",['Cytoplasmic Protein'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
-25286,Monomer,Atratumycin B,"2-(E)1,3-C5-CIN",TSWnXPvGly,,Nonribosomal,Gram+,Cytoplasmic Protein,['Gram+'],['Cytoplasmic Protein'],Natural,10,Short (10–24 aa),Bacteria,Bacteria
 25401,Monomer,Cereusitin B,,FXLA,,Nonribosomal,Gram+    Gram-    Fungus    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Biofilm']",['Quorum Sensing'],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 25402,Monomer,Cereusitin A,,FXLX,,Nonribosomal,Gram+    Fungus,,"['Gram+', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Bacteria,Bacteria
 25430,Monomer,Lanthipeptide Nostolysamide A,,XGKSCPLDTQFTACFLRSGCWGSKC,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,25,Medium (25–50 aa),Bacteria,Bacteria
-25658,Multimer,Homiamide A,OVal    2-OH-C3    OVal,V    V    V,,Nonribosomal,Gram+    Gram-,Quorum Sensing,"['Gram+', 'Gram-']",['Quorum Sensing'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-25663,Multimer,Homiamide B,OVal    2-OH-C3    OVal,V    V    V,2-OH-C3,Nonribosomal,Gram+    Gram-,Quorum Sensing,"['Gram+', 'Gram-']",['Quorum Sensing'],Natural,11,Short (10–24 aa),Bacteria,Bacteria
-25664,Multimer,Homiamide C,OVal    2-OH-C3    OVal    2-OH-C3,V    V    V    V,,Nonribosomal,Gram+    Gram-,Quorum Sensing,"['Gram+', 'Gram-']",['Quorum Sensing'],Natural,16,Short (10–24 aa),Bacteria,Bacteria
 25703,Monomer,Marformycin A,FOR,VTxxXLX,,Nonribosomal,Gram+    Gram-    Mammalian Cell,Cytoplasmic Protein    Mitochondrial membrane,"['Gram+', 'Gram-', 'Mammalian Cell']","['Cytoplasmic Protein', 'Mitochondrial membrane']",Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 25704,Monomer,Marformycin D,FOR,XTxxXLX,,Ribosomal,Gram+    Gram-    Mammalian Cell,Cytoplasmic Protein    Mitochondrial membrane,"['Gram+', 'Gram-', 'Mammalian Cell']","['Cytoplasmic Protein', 'Mitochondrial membrane']",Natural,7,Ultrashort (2–9 aa),Bacteria,Bacteria
 25706,Monomer,Soliseptide A,,XxXxTv,,Nonribosomal,Gram+    Virus    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Virus', 'Fungus', 'Mammalian Cell']",[],Natural,6,Ultrashort (2–9 aa),Bacteria,Bacteria

@@ -214,7 +214,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 9718,Monomer,TK-AMP-D1.1/R46C,,RDCESDSHKFHGACFSDTNCANVCQTEGFAGKCVGVQRHCHCTKDC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,46,Medium (25–50 aa),Plantae,Eukarya
 9719,Monomer,Antimicrobial Seed Protein/AC34H  ,,ACIKNGGRCVASGGPPYCCSNYCLQIAGQSYGVCKKH,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,37,Medium (25–50 aa),Plantae,Eukarya
 9726,Monomer,Gamma-2 Purothionin/K47C  ,,KVCRQRSAGFKGPCVSDKNCAQVCLQEGWGGGNCDGPFRRCKCIRQC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,47,Medium (25–50 aa),Plantae,Eukarya
-9728,Monomer,Ac-JC-Pep-7,ACT,KVFLGLK,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Plantae,Eukarya
 10066,Monomer,"NCR247, MtN27 family",,RNGCIVDPRCPYQQCRRPLYCRRR,,Ribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,24,Short (10–24 aa),Plantae,Eukarya
 10067,Monomer,"Nodule-specific cysteine-rich peptide 335, NCR335",,RLNTTFRPLNFKMLRFWGQNRNIMKHRGQKVHFSLILSDCKTNKDCPKLRRANVRCRKSYCVPI,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,64,Long (50–100 aa),Plantae,Eukarya
 10528,Monomer,Cycloviolacin O3,,GIPCGESCVWIPCLTSAIGCSCKSKVCYRN,,Ribosomal,Gram+    Gram-    Cancer    Fungus    Nematode,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Nematode']",['Lipid Bilayer'],Natural,30,Medium (25–50 aa),Plantae,Eukarya
@@ -250,9 +249,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 12197,Monomer,Cycloviolin B,,GTACGESCYVLPCFTVGCTCTSSQCFKN,,Ribosomal,Virus    Mammalian Cell,Lipid Bilayer,"['Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,28,Medium (25–50 aa),Plantae,Eukarya
 12198,Monomer,Cycloviolin C,,GIPCGESCVFIPCLTTVAGCSCKNKVCYRN,,Ribosomal,Virus    Mammalian Cell,Lipid Bilayer,"['Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,30,Medium (25–50 aa),Plantae,Eukarya
 12199,Monomer,Cycloviolin D,,GFPCGESCVFIPCISAAIGCSCKNKVCYRN,,Ribosomal,Virus    Mammalian Cell,Lipid Bilayer,"['Virus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,30,Medium (25–50 aa),Plantae,Eukarya
-12255,Monomer,"Antimicrobial peptide 1, Cn-AMP1",,SVAGRAQGM,AMD,Ribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,9,Ultrashort (2–9 aa),Plantae,Eukarya
-12259,Monomer,"Antimicrobial peptide 2, Cn-AMP2",,TESYFVFSVGM,AMD,Ribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,11,Short (10–24 aa),Plantae,Eukarya
-12263,Monomer,"Antimicrobial peptide 3, Cn-AMP3",,YCSYTMEA,AMD,Ribosomal,Gram-    Mammalian Cell,Lipid Bilayer,"['Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Plantae,Eukarya
 12392,Monomer,"Antimicrobial peptide 1b, WAMP-1b",,AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGAGSCQSQCRGCR,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,45,Medium (25–50 aa),Plantae,Eukarya
 12393,Monomer,WAMP-2,,AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGKGSCQSQCRGCR,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,45,Medium (25–50 aa),Plantae,Eukarya
 12394,Monomer,WAMP-3.1,,AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGEGSCQSQCRGCR,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,45,Medium (25–50 aa),Plantae,Eukarya
@@ -270,28 +266,6 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 14007,Monomer,OefDef1.1,,KPCTKLSKGWRGLCAPHKCSSYCIHHEGAYHGACLKNRHSKHYGCYCYYRHCY,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,53,Long (50–100 aa),Plantae,Eukarya
 15662,Monomer,Alstotide S1,,CRPYGYRCDGVINQCCDPYHCTPPLIGICL,,Ribosomal,Virus    Mammalian Cell,Virus replication,"['Virus', 'Mammalian Cell']",['Virus replication'],Natural,30,Medium (25–50 aa),Plantae,Eukarya
 15802,Monomer,Griffithsin,,SLTHRKFGGSGGSPFSGLSSIAVRSGSYLDAIIIDGVHHGGSGGNLSPTFTFGSGEYISNMTIRSGDYIDNISFETNMGRRFGPYGGSGGSANTLSNVKVIQINGSAGDYLDSLDIYYEQY,,Ribosomal,Virus    Cancer    Mammalian Cell,Virus replication    Virus entry    gp120    Sgp,"['Virus', 'Cancer', 'Mammalian Cell']","['Virus replication', 'Virus entry', 'gp120', 'Sgp']",Natural,121,Antimicrobial Protein (>100 aa),Plantae,Eukarya
-18305,Monomer,Pagoamide A,(CH3)2,VCGCSTSafvF,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,11,Short (10–24 aa),Plantae,Eukarya
-19004,Monomer,TaARL6IP4,,MGFCCGCSDVKVLPKNNSLASSPSPSAKDSSDGAKKKQPQAVKKEGKEKKRSNLDRAAMASPRLPFHSRPGLM,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,73,Long (50–100 aa),Plantae,Eukarya
-19111,Monomer,Cc-AFP1,,RVCFRPVATYLGVCGVSGACRDHCVKLGSCVYKGPG,,Ribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Plantae,Eukarya
-19217,Monomer,Snakin-Z,,CARLNCVPKGTSGNTETCPCYASLHSCRKYG,,Ribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,31,Medium (25–50 aa),Plantae,Eukarya
-19276,Monomer,Avenatide aV1,,ACSSSSPCPGNQCCSKWGYCGLGGDYCGSGCQSGPCTGA,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,39,Medium (25–50 aa),Plantae,Eukarya
-19377,Monomer,Mt NCR183,,ITISNSSFGRIVYWNCKTDKDCKQHRGFNFRCRSGNCIPIRR,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,42,Medium (25–50 aa),Plantae,Eukarya
-19378,Monomer,Mt NCR358,,IYFRKPPPCITDKDCPQMKINNVRCRKGFCIQIHKFTP,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,38,Medium (25–50 aa),Plantae,Eukarya
-19379,Monomer,Mt NCR700,,FYSHVPNPCITDKDCIRRAGMNIRCRKGYCVNLILR,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Plantae,Eukarya
-19380,Monomer,Mt NCR377,,DSFNPLIRQYCVTDKDCPKFKKYNIRCRKGFCVQVNGG,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,38,Medium (25–50 aa),Plantae,Eukarya
-19381,Monomer,Mt NCR055,,IRIHCKDDFDCIENRLQVGCRLQREKPRCVNLVCRCLRR,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,39,Medium (25–50 aa),Plantae,Eukarya
-19382,Monomer,Mt NCR520,,FIDCETVADCPTHWAYIYVCEKNKCRYHFKSGRVRPDHQKNRHNRV,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,46,Medium (25–50 aa),Plantae,Eukarya
-19383,Monomer,Mt NCR384,,AYYECSNDSACQATTKCVLPRVPRCIKYKCLCGNSNGSGNRWSTRPNRIQKGSTESNYF,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,59,Long (50–100 aa),Plantae,Eukarya
-19384,Monomer,Mt NCR073,,EKLDIRCATVDDCPKVTKPVVMMCTGKFCHYFFVRKQIL,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,39,Medium (25–50 aa),Plantae,Eukarya
-19385,Monomer,Mt NCR299,,SECISDTDCNVLYPMYINRRLRCIQGICHTTTARRR,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Plantae,Eukarya
-19386,Monomer,Mt NCR336,,YLCVTDSHCPPHMCPPGMEPRCVRRMCKCLPIGWRKYFVP,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,40,Medium (25–50 aa),Plantae,Eukarya
-19387,Monomer,Mt NCR645,,KCYQDSDCPKDMCSFLFKPKCIFTRYFPIYLGGICGCDRKTCP,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,43,Medium (25–50 aa),Plantae,Eukarya
-19388,Monomer,Mt NCR147,,AYIECEVDDDCPKPMKNSHPDTYYKCVKHRCQWAWK,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Plantae,Eukarya
-20046,Monomer,Galaxamide,,XLLXL,,Nonribosomal,Cancer    Mammalian Cell,Mitochondrial membrane,"['Cancer', 'Mammalian Cell']",['Mitochondrial membrane'],Natural,5,Ultrashort (2–9 aa),Plantae,Eukarya
-20091,Monomer,Psammosilenin B,,GFVPFTIP,,Ribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,8,Ultrashort (2–9 aa),Plantae,Eukarya
-20235,Monomer,Dianthin C,,GPFYVI,,Ribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Plantae,Eukarya
-20236,Monomer,Dianthin D,,GSLPPIF,,Ribosomal,Cancer,,['Cancer'],[],Natural,7,Ultrashort (2–9 aa),Plantae,Eukarya
-20237,Monomer,Dianthin E,,GPISFV,,Ribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Plantae,Eukarya
 18305,Monomer,Pagoamide A,(CH3)2,VCGCSTSafvF,,Nonribosomal,Gram+    Gram-    Fungus,Unknown,"['Gram+', 'Gram-', 'Fungus']",[],Natural,11,Short (10–24 aa),Plantae,Eukarya
 19004,Monomer,TaARL6IP4,,MGFCCGCSDVKVLPKNNSLASSPSPSAKDSSDGAKKKQPQAVKKEGKEKKRSNLDRAAMASPRLPFHSRPGLM,,Ribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,73,Long (50–100 aa),Plantae,Eukarya
 19111,Monomer,Cc-AFP1,,RVCFRPVATYLGVCGVSGACRDHCVKLGSCVYKGPG,,Ribosomal,Fungus    Mammalian Cell,Lipid Bilayer,"['Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,36,Medium (25–50 aa),Plantae,Eukarya

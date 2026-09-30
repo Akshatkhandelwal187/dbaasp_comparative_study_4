@@ -1,0 +1,112 @@
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Aug 20 2021, 08:39:56
+Command: cd-hit -i
+         cdhit/by_length_class/Medium_2550_aa/input_ge10aa.fasta
+         -o
+         cdhit/by_length_class/Medium_2550_aa/cdhit_ge10aa.fasta
+         -c 0.9 -n 5 -d 0 -M 0 -T 0
+
+Started: Wed Sep 30 04:53:21 2026
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total number of CPUs in the system is 4
+Actual number of CPUs to be used: 4
+
+total seq: 3789
+longest and shortest : 50 and 25
+Total letters: 124807
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 4 X 10M = 42M
+Table           : 2 X 65M = 130M
+Miscellaneous   : 0M
+Total           : 173M
+
+Table limit with the given memory limit:
+Max number of representatives: 1500000
+Max number of word counting entries: 24946875
+
+
+# comparing sequences from          0  to        631
+---------- new table with      406 representatives
+
+# comparing sequences from        631  to       1157
+...................
+----------    189 remaining sequences to the next cycle
+---------- new table with      199 representatives
+
+# comparing sequences from        968  to       1438
+....................
+----------    242 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from       1196  to       1628
+..................
+----------    278 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from       1350  to       1756
+...................
+----------    251 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from       1505  to       1885
+.................
+----------    231 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from       1654  to       2009
+.................
+----------    109 remaining sequences to the next cycle
+---------- new table with      154 representatives
+
+# comparing sequences from       1900  to       2214
+...............
+----------    121 remaining sequences to the next cycle
+---------- new table with      122 representatives
+
+# comparing sequences from       2093  to       2375
+..................
+100.0%
+----------     36 remaining sequences to the next cycle
+---------- new table with      162 representatives
+
+# comparing sequences from       2339  to       2580
+.................
+----------     62 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from       2518  to       2729
+...............
+----------     51 remaining sequences to the next cycle
+---------- new table with      100 representatives
+
+# comparing sequences from       2678  to       2863
+..............
+96.0%
+98.0%
+98.3%
+98.4%
+98.6%
+98.7%
+99.0%
+99.3%
+99.5%
+99.7%
+99.8%
+99.9%---------- new table with      103 representatives
+
+# comparing sequences from       2863  to       3789
+...................---------- new table with      497 representatives
+
+     3789  finished       2243  clusters
+
+Approximated maximum memory consumption: 173M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.62

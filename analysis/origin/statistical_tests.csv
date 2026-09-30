@@ -1,0 +1,7 @@
+test,p_value
+Length: Natural vs Synthetic (Mann-Whitney U),3.456043300958874e-184
+Length class mix: Natural vs Synthetic (chi-square),7.916448394794529e-283
+N-terminus modified: Natural vs Synthetic (chi-square),0.1235439004874392
+C-terminus modified: Natural vs Synthetic (chi-square),3.288300152447119e-129
+Contains D-amino acid: Natural vs Synthetic (chi-square),0.14439472500013403
+Contains X: Natural vs Synthetic (chi-square),0.13785779639397994
