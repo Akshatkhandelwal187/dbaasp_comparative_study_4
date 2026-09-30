@@ -1,0 +1,7 @@
+Length_Class,N-terminus modified %,C-terminus modified %,D-amino acid %,contains X %
+Ultrashort (2–9 aa),20.1,46.9,23.3,28.5
+Short (10–24 aa),6.6,48.8,6.1,11.8
+Medium (25–50 aa),4.9,18.5,1.4,5.6
+Long (50–100 aa),3.6,7.6,0.0,4.0
+Antimicrobial Protein (>100 aa),10.5,10.5,0.0,21.1
+Out of range (<2 aa),20.0,66.7,0.0,0.0

@@ -8,43 +8,28 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 5119,Monomer,Micasin,,GFGCPFNENECHAHCLSIGRKFGFCAGPLRATCTCGKQ,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,38,Medium (25–50 aa),Fungi,Eukarya
 5172,Monomer,Eurocin,,GFGCPGDAYQCSEHCRALGGGRTGGYCAGPWYLGHPTCTCSF,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,42,Medium (25–50 aa),Fungi,Eukarya
 6578,Monomer,Verrucamide A,,XSVXGVXVXVXGIX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-6579,Monomer,Verrucamide B,,XSVXGVXVXVXGIX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 6580,Monomer,Verrucamide C,,XSVXGVXVXVXGVX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-6582,Monomer,Verrucamide D,,XSVXGVXVXVXGVX,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 6595,Monomer,Antimicrobial peptide AcAMP,,ATYDGKCYKKDNICKYKAQSGKTAICKCYVKVCPRDGAKCEFDSYKGKCYC,,Ribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,51,Long (50–100 aa),Fungi,Eukarya
 6646,Monomer,AnAFP,,LSKYGGECSVEHNTCTYLKGGKDHIVSCPSAANLRCKTERHHCEYDEHHKTVDCQTPV,,Ribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,58,Long (50–100 aa),Fungi,Eukarya
 6741,Monomer,"Cyclo(D-Pro-L-Phe), Diketopiperazine (pF)",,pF,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-6742,Monomer,"Cyclo(Pro-Phe), Diketopiperazine (PF)",,PF,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
 6743,Monomer,"Cyclo(Pro-Tyr), Diketopiperazine (PY)",,PY,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell    Biofilm,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell', 'Biofilm']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
-6796,Monomer,"Cyclo(D-Pro-D-Phe), Diketopiperazine (pf)",,pf,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 6915,Monomer,Phomafungin,3-OH-4-Me-C16,AXEGSnXX,,Nonribosomal,Cancer    Fungus,Lipid Bilayer,"['Cancer', 'Fungus']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
 6917,Monomer,Phaeofungin,"3,4-OH-4-Me-C16",SadAssX,,Nonribosomal,Gram+    Fungus,Lipid Bilayer,"['Gram+', 'Fungus']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 7131,Monomer,"Cyclo(Trp-Pro), Diketopiperazine (WP)",,WP,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 7237,Monomer,Cyclic tetrapeptide 1,,pYPY,,Nonribosomal,Fungus,Unknown,['Fungus'],[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 7238,Monomer,Cyclic tetrapeptide 2,,GFPY,,Nonribosomal,Cancer    Fungus,Unknown,"['Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),"Bacteria, Fungi",
-7453,Monomer,Plectasin,ACT,GFGCNGPWDEDDMQCHNHCKSIKGYKGGYCAKGGFVCKCY,AMD,Synthetic,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Synthetic,40,Medium (25–50 aa),Fungi,Eukarya
 8005,Monomer,Cephaibol A,ACT,FXXXXGLXXXQXXXP,PHEol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,15,Short (10–24 aa),Fungi,Eukarya
-8006,Monomer,Cephaibol B,ACT,FXXXXGLXXXQXXXP,PHEol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,15,Short (10–24 aa),Fungi,Eukarya
-8007,Monomer,Cephaibol E,ACT,FXXXXGLXXXQXXXP,PHEol,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,15,Short (10–24 aa),Fungi,Eukarya
 8008,Monomer,Heptaibin,ACT,FXXXVGLXXXQXXX,PHEol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-8009,Monomer,Emerimicin IV,ACT,FXXXVGLXXXQXXX,PHEol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 8010,Monomer,Pseudokonins KL III,ACT,XNIIXPLLXP,AMD,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,10,Short (10–24 aa),Fungi,Eukarya
-8011,Monomer,Harzianin HK VI,ACT,XNIIXPLLXP,LEUol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,10,Short (10–24 aa),Fungi,Eukarya
 8012,Monomer,Harzianin HC IX,ACT,XNLXPAIXPXLXP,LEUol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,13,Short (10–24 aa),Fungi,Eukarya
 8013,Monomer,Trichorzianin TA VII,ACT,XAAXXQXXXSLXPVXIQQ,PHEol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,18,Short (10–24 aa),Fungi,Eukarya
 8014,Monomer,Trichorzin PA VI,ACT,XSAXXQXVXGLXPLXXQ,PHEol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
 8015,Monomer,Saturnisporin SA IV,ACT,XAXAXXQXLXGXXPVXXQQ,PHEol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,19,Short (10–24 aa),Fungi,Eukarya
 8023,Monomer,Alamethicin F50,ACT,XPXAXAQXVXGLXPVXXQQ,PHEol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,19,Short (10–24 aa),Fungi,Eukarya
-8024,Monomer,Trichorzin PA II,ACT,XSAXXQXVXGLXPLXXQ,TRPol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
-8025,Monomer,Trichorzin PA IV,ACT,XSAXXQXVXGLXPLXXQ,TRPol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
-8026,Monomer,Trichorzin PA V,ACT,XSAXXQXVXGLXPLXXQ,TRPol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
-8027,Monomer,Trichorzin PA VIII,ACT,XSAXXQXVXGLXPLXXQ,PHEol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
-8028,Monomer,Trichorzin PA IX,ACT,XSAXXQXVXGLXPLXXQ,PHEol,Nonribosomal,Mollicute,Lipid Bilayer,['Mollicute'],['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
 8037,Monomer,Alamethicin F-30,ACT,XPXAXAQXVXGLXPVXXEQ,PHEol,Nonribosomal,Gram+    Gram-    Mollicute,Lipid Bilayer,"['Gram+', 'Gram-', 'Mollicute']",['Lipid Bilayer'],Natural,19,Short (10–24 aa),Fungi,Eukarya
 8073,Monomer,,,LXlX,,Nonribosomal,Fungus,Unknown,['Fungus'],[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 8129,Monomer,Copsin,,XNCPTRRGLCVTSGLTACRNHCRSCHRGDVGCVRCSNAQCTGFLGTTCTCINPCPRC,,Ribosomal,Gram+    Gram-,Lipid Bilayer    Lipid II,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,57,Long (50–100 aa),Fungi,Eukarya
 10057,Monomer,Trichoderin A,2-Me-C10,PXXXIVXX,AMAE,Nonribosomal,Gram+,Mitochondrial membrane,['Gram+'],['Mitochondrial membrane'],Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
-10058,Monomer,Trichoderin A1,2-Me-C10,PXXXIVXX,AMAE,Nonribosomal,Gram+,Mitochondrial membrane,['Gram+'],['Mitochondrial membrane'],Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
 10761,Monomer,Trichopeptide A,BZA,XaXI,,Nonribosomal,Gram+    Fungus,Lipid Bilayer,"['Gram+', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 10762,Monomer,Trichopeptides B,BZA,XaX,,Nonribosomal,Gram+    Fungus,Lipid Bilayer,"['Gram+', 'Fungus']",['Lipid Bilayer'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 11225,Monomer,Cordyheptapeptide A linear,Boc,LIXFXPx,CH3OH,Synthetic,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Synthetic,7,Ultrashort (2–9 aa),Fungi,Eukarya
@@ -75,15 +60,11 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 18406,Monomer,Apicidin A,,XWIx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18407,Monomer,HC-toxin,,XpAa,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18408,Monomer,Apicidin C,,XXVx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18409,Monomer,Apicidin D1,,XXIx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18410,Monomer,Apicidin B,,XXIp,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18434,Monomer,Apicidin F,,XXFx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18449,Monomer,Sclerotide B,,XsfATX,,Nonribosomal,Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 18450,Monomer,Alternaramide,OVal,fPfP,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18451,Monomer,Sclerotiotide A,"(E)2,4,6-C8",XVX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18452,Monomer,Sclerotiotide B,SA,XXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18453,Monomer,Sclerotiotide F,Oxo-SA,XXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18454,Monomer,Sclerotiotide I,"6,7-OH-(E)2,4-C8",XXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 18455,Monomer,JBIR-15,"(E)2,4,6-C8",XXA,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 18466,Monomer,Similanamide,,XxXAlV,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 18467,Monomer,Asperterrestide A,,Xaix,,Nonribosomal,Virus    Cancer,Virus replication,"['Virus', 'Cancer']",['Virus replication'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
@@ -91,32 +72,21 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 18470,Monomer,Zygosporamide, OLeu,FlLF,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18492,Monomer,1962A, OLeu,GVYGl,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18496,Monomer,Microsporin A,,XAFx,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18497,Monomer,Microsporin B,,XAFx,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 18498,Monomer,Cotteslosin A,,PVVXY,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18499,Monomer,Versicotide A,,XXXAX,,Nonribosomal,Cancer,,['Cancer'],[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18527,Monomer,Clavatustide A,D-OPhe,XXX,,Nonribosomal,Cancer    Mammalian Cell,Cytoplasmic Protein,"['Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18528,Monomer,Clavatustide B,D-OPhe,XXX,,Nonribosomal,Cancer    Mammalian Cell,Cytoplasmic Protein,"['Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 18530,Monomer,Penilumamide B,"1,3-Me-LUM",MX,,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18531,Monomer,Penilumamide A,"1,3-Me-LUM",XX,,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18532,Monomer,Penilumamide C,"1,3-Me-LUM",XX,,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18533,Monomer,Penilumamide D,"1,3-Me-LUM",AX,AMD,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 18534,Monomer,Asperpeptide A,,AAPXY,,Nonribosomal,Gram+    Gram-    Virus    Cancer,Unknown,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18558,Monomer,Chrysogeamide A,3-OH-4-Me-C8,GVlAV,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18559,Monomer,Chrysogeamide B,3-OH-4-Me-C10,GVlAV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18560,Monomer,Nodupetide,3-OH-4-Me-C6,GVlAV,,Nonribosomal,Gram+    Gram-    Virus    Insect    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Insect', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18561,Monomer,Scopularide A,3-OH-4-Me-C10,GVlAF,,Nonribosomal,Gram+    Gram-    Virus    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18562,Monomer,Scopularide B,3-OH-4-Me-C8,GVlAF,,Nonribosomal,Gram+    Gram-    Virus    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18563,Monomer,Oryzamide A,3-OH-4-Me-C10,GVlAL,,Nonribosomal,Gram+    Gram-    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18564,Monomer,Oryzamide B,3-OH-4-Me-C10,GVlAY,,Nonribosomal,Gram+    Gram-    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18565,Monomer,Oryzamide C,3-OH-4-Me-C10,GVlAM,,Nonribosomal,Gram+    Gram-    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18566,Monomer,Emericellamide A,"3-OH-2,4-Me-C10",GVLAA,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18567,Monomer,Emericellamide B,"3-OH-2,4,6-Me-C12",GVLAA,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18568,Monomer,Isaridin G, OLeu,PYXXX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18569,Monomer,Desmethylisaridin C1, OLeu,PFXLX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18570,Monomer,Desmethylisaridin G, OLeu,PYXLX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18571,Monomer,Isaridin A, OLeu,PFXXX,,Nonribosomal,Gram+    Gram-    Parasite    Mammalian Cell,,"['Gram+', 'Gram-', 'Parasite', 'Mammalian Cell']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18572,Monomer,Isaridin B, OLeu,XFXXX,,Nonribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18573,Monomer,Isaridin E, OLeu,PFXXX,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 18594,Monomer,Scytalidamide A,,XFXFLPX,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 18595,Monomer,Scytalidamide B,,XFXFLXX,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 18738,Monomer,Psychrophilin E,ACT,wPX,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
@@ -132,119 +102,21 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 19000,Monomer,Xylapeptide A,,LXXVa,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 19074,Monomer,Cyclo(L-Ala-D-Pro),,Ap,,Nonribosomal,Fungus,Quorum Sensing,['Fungus'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19075,Monomer,Cyclo (Ser-trans-4-OH-Pro),,SX,,Nonribosomal,Fungus,Quorum Sensing    Immunomodulation,['Fungus'],"['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19077,Monomer,Cyclo(L-Phe-D-Hyp),,Fx,,Nonribosomal,Gram+    Cancer    Fungus    Mammalian Cell    Biofilm,Quorum Sensing    Immunomodulation,"['Gram+', 'Cancer', 'Fungus', 'Mammalian Cell', 'Biofilm']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19078,Monomer,Cyclo (Pro-trans-4-OH-Pro),,XP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 19079,Monomer,Cyclo(Ala-Gly),,AG,,Nonribosomal,Fungus,Quorum Sensing,['Fungus'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19080,Monomer,Cyclo (Pro-trans-4-OH-Pro),,Px,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19081,Monomer,Cyclo(L-Pro-D-Glu),,Pe,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19082,Monomer,Cyclo(D-Pro-D-Glu),,pe,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19083,Monomer,Cyclo(L-Pro-D-allo-Thr),,Px,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19084,Monomer,Cyclo(Pro-Asp),,PD,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19085,Monomer,Cyclo(D-Pro-Gly),,pG,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19086,Monomer,Cyclo(L-Pro-D-Ala),,Pa,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19167,Monomer,Colisporifungin,C12,QTXwSf,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 19168,Monomer,Cavinafungin A,(Z)9-C18,TXVXA,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19169,Monomer,Cavinafungin B,(Z)9-C18,TXVXA,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 19170,Monomer,Fellutamide C,3-OH-C14,NX,VALal,Nonribosomal,Gram+    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19171,Monomer,Fellutamide D,3-OH-C14,NX,LEUal,Nonribosomal,Gram+    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19172,Monomer,Fellutamide B,3-OH-C12,NQ,LEUal,Nonribosomal,Cancer    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19174,Monomer,Fellutamide F,3-OH-C12,NQ,hLeu-hy,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 19548,Monomer,Hirsutatin A, OLeu,FXTS,OVal,Nonribosomal,Gram+    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 19549,Monomer,Hirsutatin B, OLeu,XXTS,OVal,Nonribosomal,Gram+    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 19735,Monomer,Cordycommunin,5-OH-C14,XAAQYV,,Nonribosomal,Gram+    Parasite    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 19772,Monomer,Stephensiolide C,C10,TsSvV,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19930,Monomer,Stephensiolide F,(E)5-C12,TsSvI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19931,Monomer,Stephensiolide I,C12,TsSvI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19932,Monomer,Stephensiolide G,C12,TsSvV,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 20053,Monomer,Sansalvamide A, OLeu,VLFL,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-20095,Monomer,Stereocalpin A,"5-OH-2,4-Me-3-oxo-C8",FX,,Nonribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18405,Monomer,Apicidin,,XXIx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18406,Monomer,Apicidin A,,XWIx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18407,Monomer,HC-toxin,,XpAa,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18408,Monomer,Apicidin C,,XXVx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18409,Monomer,Apicidin D1,,XXIx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18410,Monomer,Apicidin B,,XXIp,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18434,Monomer,Apicidin F,,XXFx,,Nonribosomal,Parasite,Cytoplasmic Protein,['Parasite'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18449,Monomer,Sclerotide B,,XsfATX,,Nonribosomal,Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-18450,Monomer,Alternaramide,OVal,fPfP,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18451,Monomer,Sclerotiotide A,"(E)2,4,6-C8",XVX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18452,Monomer,Sclerotiotide B,SA,XXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18453,Monomer,Sclerotiotide F,Oxo-SA,XXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18454,Monomer,Sclerotiotide I,"6,7-OH-(E)2,4-C8",XXX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18455,Monomer,JBIR-15,"(E)2,4,6-C8",XXA,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18466,Monomer,Similanamide,,XxXAlV,,Nonribosomal,Gram+    Gram-    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-18467,Monomer,Asperterrestide A,,Xaix,,Nonribosomal,Virus    Cancer,Virus replication,"['Virus', 'Cancer']",['Virus replication'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18468,Monomer,IB-01212 chain,(CH3)2,LSXX,,Synthetic,,,[],[],Synthetic,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18470,Monomer,Zygosporamide, OLeu,FlLF,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18492,Monomer,1962A, OLeu,GVYGl,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18496,Monomer,Microsporin A,,XAFx,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18497,Monomer,Microsporin B,,XAFx,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-18498,Monomer,Cotteslosin A,,PVVXY,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18499,Monomer,Versicotide A,,XXXAX,,Nonribosomal,Cancer,,['Cancer'],[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18527,Monomer,Clavatustide A,D-OPhe,XXX,,Nonribosomal,Cancer    Mammalian Cell,Cytoplasmic Protein,"['Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18528,Monomer,Clavatustide B,D-OPhe,XXX,,Nonribosomal,Cancer    Mammalian Cell,Cytoplasmic Protein,"['Cancer', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18530,Monomer,Penilumamide B,"1,3-Me-LUM",MX,,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18531,Monomer,Penilumamide A,"1,3-Me-LUM",XX,,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18532,Monomer,Penilumamide C,"1,3-Me-LUM",XX,,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18533,Monomer,Penilumamide D,"1,3-Me-LUM",AX,AMD,Nonribosomal,Gram+    Gram-    Virus    Cancer,,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18534,Monomer,Asperpeptide A,,AAPXY,,Nonribosomal,Gram+    Gram-    Virus    Cancer,Unknown,"['Gram+', 'Gram-', 'Virus', 'Cancer']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18558,Monomer,Chrysogeamide A,3-OH-4-Me-C8,GVlAV,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18559,Monomer,Chrysogeamide B,3-OH-4-Me-C10,GVlAV,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18560,Monomer,Nodupetide,3-OH-4-Me-C6,GVlAV,,Nonribosomal,Gram+    Gram-    Virus    Insect    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Insect', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18561,Monomer,Scopularide A,3-OH-4-Me-C10,GVlAF,,Nonribosomal,Gram+    Gram-    Virus    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18562,Monomer,Scopularide B,3-OH-4-Me-C8,GVlAF,,Nonribosomal,Gram+    Gram-    Virus    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18563,Monomer,Oryzamide A,3-OH-4-Me-C10,GVlAL,,Nonribosomal,Gram+    Gram-    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18564,Monomer,Oryzamide B,3-OH-4-Me-C10,GVlAY,,Nonribosomal,Gram+    Gram-    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18565,Monomer,Oryzamide C,3-OH-4-Me-C10,GVlAM,,Nonribosomal,Gram+    Gram-    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Gram-', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18566,Monomer,Emericellamide A,"3-OH-2,4-Me-C10",GVLAA,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18567,Monomer,Emericellamide B,"3-OH-2,4,6-Me-C12",GVLAA,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18568,Monomer,Isaridin G, OLeu,PYXXX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18569,Monomer,Desmethylisaridin C1, OLeu,PFXLX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18570,Monomer,Desmethylisaridin G, OLeu,PYXLX,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18571,Monomer,Isaridin A, OLeu,PFXXX,,Nonribosomal,Gram+    Gram-    Parasite    Mammalian Cell,,"['Gram+', 'Gram-', 'Parasite', 'Mammalian Cell']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18572,Monomer,Isaridin B, OLeu,XFXXX,,Nonribosomal,Gram+    Gram-,,"['Gram+', 'Gram-']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18573,Monomer,Isaridin E, OLeu,PFXXX,,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-18594,Monomer,Scytalidamide A,,XFXFLPX,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
-18595,Monomer,Scytalidamide B,,XFXFLXX,,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
-18738,Monomer,Psychrophilin E,ACT,wPX,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18873,Monomer,"Cyclo(Ser-Pro), Diketopiperazine (SP)",,SP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-18890,Monomer,"Cyclo (trans-4-OH-Pro-Leu), Cordysinin A",,LX,,Nonribosomal,Cancer    Fungus,Quorum Sensing    Immunomodulation,"['Cancer', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-18899,Monomer,Cyclo(Phe-ethyl-Glu),,FX,,Nonribosomal,Gram+    Gram-,Quorum Sensing,"['Gram+', 'Gram-']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18900,Monomer,"Cyclo(Phe-Val), Diketopiperazine (FV)",,FV,,Nonribosomal,Gram+    Gram-    Parasite,Quorum Sensing,"['Gram+', 'Gram-', 'Parasite']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18958,Monomer,Cyclo(Pro-Ala),,PA,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18978,Monomer,Cyclo(Phe-Gly),,FG,,Nonribosomal,Parasite    Fungus,Quorum Sensing,"['Parasite', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-18982,Monomer,"Cyclo(Trp-Pro-Phe), Epicotripeptin",,WPF,,Nonribosomal,Gram+    Gram-    Fungus    Biofilm,Membrane Protein    Quorum Sensing,"['Gram+', 'Gram-', 'Fungus', 'Biofilm']","['Membrane Protein', 'Quorum Sensing']",Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-18983,Monomer,Cyclo(Pro-Ile),,PI,,Nonribosomal,Gram+    Gram-    Cancer    Biofilm,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Biofilm']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),"Archaea, Bacteria, Fungi",
-18999,Monomer,Xylapeptide B,,LPXVa,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus,Unknown,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19000,Monomer,Xylapeptide A,,LXXVa,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19074,Monomer,Cyclo(L-Ala-D-Pro),,Ap,,Nonribosomal,Fungus,Quorum Sensing,['Fungus'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19075,Monomer,Cyclo (Ser-trans-4-OH-Pro),,SX,,Nonribosomal,Fungus,Quorum Sensing    Immunomodulation,['Fungus'],"['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19077,Monomer,Cyclo(L-Phe-D-Hyp),,Fx,,Nonribosomal,Gram+    Cancer    Fungus    Mammalian Cell    Biofilm,Quorum Sensing    Immunomodulation,"['Gram+', 'Cancer', 'Fungus', 'Mammalian Cell', 'Biofilm']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19078,Monomer,Cyclo (Pro-trans-4-OH-Pro),,XP,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
-19079,Monomer,Cyclo(Ala-Gly),,AG,,Nonribosomal,Fungus,Quorum Sensing,['Fungus'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19080,Monomer,Cyclo (Pro-trans-4-OH-Pro),,Px,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing    Immunomodulation,"['Gram+', 'Gram-', 'Fungus']","['Quorum Sensing', 'Immunomodulation']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19081,Monomer,Cyclo(L-Pro-D-Glu),,Pe,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19082,Monomer,Cyclo(D-Pro-D-Glu),,pe,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19083,Monomer,Cyclo(L-Pro-D-allo-Thr),,Px,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19084,Monomer,Cyclo(Pro-Asp),,PD,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19085,Monomer,Cyclo(D-Pro-Gly),,pG,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19086,Monomer,Cyclo(L-Pro-D-Ala),,Pa,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19167,Monomer,Colisporifungin,C12,QTXwSf,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-19168,Monomer,Cavinafungin A,(Z)9-C18,TXVXA,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19169,Monomer,Cavinafungin B,(Z)9-C18,TXVXA,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19170,Monomer,Fellutamide C,3-OH-C14,NX,VALal,Nonribosomal,Gram+    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19171,Monomer,Fellutamide D,3-OH-C14,NX,LEUal,Nonribosomal,Gram+    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19172,Monomer,Fellutamide B,3-OH-C12,NQ,LEUal,Nonribosomal,Cancer    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19174,Monomer,Fellutamide F,3-OH-C12,NQ,hLeu-hy,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-19548,Monomer,Hirsutatin A, OLeu,FXTS,OVal,Nonribosomal,Gram+    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-19549,Monomer,Hirsutatin B, OLeu,XXTS,OVal,Nonribosomal,Gram+    Parasite    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Mammalian Cell']",['Lipid Bilayer'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-19735,Monomer,Cordycommunin,5-OH-C14,XAAQYV,,Nonribosomal,Gram+    Parasite    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-19772,Monomer,Stephensiolide C,C10,TsSvV,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19930,Monomer,Stephensiolide F,(E)5-C12,TsSvI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19931,Monomer,Stephensiolide I,C12,TsSvI,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-19932,Monomer,Stephensiolide G,C12,TsSvV,,Nonribosomal,Gram+,Lipid Bilayer,['Gram+'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-20053,Monomer,Sansalvamide A, OLeu,VLFL,,Nonribosomal,Cancer,Cytoplasmic Protein,['Cancer'],['Cytoplasmic Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-20095,Monomer,Stereocalpin A,"5-OH-2,4-Me-3-oxo-C8",FX,,Nonribosomal,Cancer,Membrane Protein,['Cancer'],['Membrane Protein'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 20466,Monomer,Penicillin G,Pac,Cv,,Nonribosomal,Gram+    Gram-    Cancer,Membrane Protein,"['Gram+', 'Gram-', 'Cancer']",['Membrane Protein'],Natural,2,Ultrashort (2–9 aa),"Bacteria, Fungi",
 20467,Monomer,Cephalosporin C,,xCX,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,3,Ultrashort (2–9 aa),"Bacteria, Fungi",
 20468,Monomer,"Penicillin N, Cephalosporin N, Adicillin",,xCv,,Nonribosomal,Gram+    Gram-    Fungus,Membrane Protein,"['Gram+', 'Gram-', 'Fungus']",['Membrane Protein'],Natural,3,Ultrashort (2–9 aa),"Bacteria, Fungi",
@@ -266,92 +138,52 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 21158,Monomer,Penitropeptide,,GFPPWL,,Nonribosomal,Gram+    Gram-    Cancer,,"['Gram+', 'Gram-', 'Cancer']",[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21159,Monomer,Talarolide A,,xaxXAxX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 21160,Monomer,Simplicilliumtide J,5-OH-C14,xaPQyX,,Nonribosomal,Virus    Fungus,Lipid Bilayer,"['Virus', 'Fungus']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-21167,Monomer,Gliotoxin,,XX,,Nonribosomal,Gram+    Gram-    Virus    Cancer    Mammalian Cell,Membrane Protein    Lipid Bilayer    Virus replication    Mitochondrial membrane,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Mammalian Cell']","['Membrane Protein', 'Lipid Bilayer', 'Virus replication', 'Mitochondrial membrane']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-21168,Monomer,Reduced Gliotoxin,,XX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Membrane Protein    Lipid Bilayer    Mitochondrial membrane,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']","['Membrane Protein', 'Lipid Bilayer', 'Mitochondrial membrane']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21258,Monomer,Chrysospermin B,ACT,FXSXXLQGXXAAXPXXXQ,TRPol,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Fungi,Eukarya
-21259,Monomer,Chrysospermin D,ACT,FXSXXLQGXXAAXPXXXQ,TRPol,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Fungi,Eukarya
 21260,Monomer,Peptavirin A,ACT,FXAXXLQGXXAAXPXXXQ,TRPol,Nonribosomal,Gram+    Gram-    Virus    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Virus', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Fungi,Eukarya
-21261,Monomer,Peptavirin B,ACT,FXSXXLQGXXAAXPXXXQ,PHEol,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,18,Short (10–24 aa),Fungi,Eukarya
 21262,Monomer,Ampullosporin F,ACT,WAXXLXQXXXXLXQ,LEUol,Nonribosomal,Cancer    Fungus,Lipid Bilayer,"['Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 21263,Monomer,Ampullosporin G,ACT,WAXXLXXXXXQLXQ,LEUol,Nonribosomal,Cancer    Fungus,Lipid Bilayer,"['Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 21264,Monomer,Ampullosporin A,ACT,WAXXLXQXXXQLXQ,LEUol,Nonribosomal,Cancer    Fungus,Lipid Bilayer,"['Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 21265,Monomer,Emericellipsin A,2-Me-C10,XXAXIXX,HEPDA,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 21286,Monomer,Westertide A,,XxVI,,Nonribosomal,Cancer    Fungus,Membrane Protein,"['Cancer', 'Fungus']",['Membrane Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 21287,Monomer,Westertide B,,XxTI,,Nonribosomal,Cancer    Fungus,Membrane Protein,"['Cancer', 'Fungus']",['Membrane Protein'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-21373,Multimer,Beauvericin,D-OVal    D-OVal    D-OVal,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer,Mitochondrial membrane,"['Gram+', 'Parasite', 'Cancer']",['Mitochondrial membrane'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21374,Multimer,Enniatin B,D-OVal    D-OVal    D-OVal,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Membrane Protein,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21375,Multimer,"Enniatin B4, Enniatin D",D-OVal    D-OVal    D-OVal,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Membrane Protein,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21376,Multimer,Enniatin H,D-OVal    D-OVal    D-OaIle,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Membrane Protein,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21377,Multimer,Enniatin G,D-OVal    D-OVal    D-OVal,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Membrane Protein,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21378,Multimer,Enniatin C,D-OVal    D-OVal    D-OVal,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Membrane Protein,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21379,Multimer,Enniatin I,D-OVal    D-OaIle    D-OaIle,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Membrane Protein,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Membrane Protein'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21402,Multimer,Hirsutellide A,D-OPhe    D-OPhe,XX    XX,,Nonribosomal,Gram+    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
-21426,Multimer,MK1688,D-OaIle    D-OaIle    D-OaIle,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Parasite', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21430,Multimer,Beauvericin A,D-OIle    D-OVal    OVal,X    X    X,,Nonribosomal,Gram+    Parasite    Cancer,Lipid Bilayer,"['Gram+', 'Parasite', 'Cancer']",['Lipid Bilayer'],Natural,11,Short (10–24 aa),Fungi,Eukarya
 21496,Monomer,Turnagainolide A,3-OH-5-Ph-(E)4-C5,VaIV,,Nonribosomal,Gram+    Gram-    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Fungus']",['Quorum Sensing'],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-21546,Monomer,Mactanamide,,XX,,Nonribosomal,Cancer    Fungus,Quorum Sensing,"['Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-21547,Monomer,14-hydroxy-cyclopeptine,,XX,,Nonribosomal,Cancer,Quorum Sensing,['Cancer'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21582,Monomer,Asterripeptide A,CIN,PfI,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 21590,Monomer,RHM1,ACT,qIXIXXXX,,Nonribosomal,Gram+    Cancer,Lipid Bilayer,"['Gram+', 'Cancer']",['Lipid Bilayer'],Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
 21591,Monomer,Trichorzin HA-7,ACT,XGAXXQVVXGLXPLXXQ,LEUol,Nonribosomal,Parasite    Cancer,Lipid Bilayer,"['Parasite', 'Cancer']",['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
 21592,Monomer,Harzianin HC III,ACT,XNLXPSVXPxLXP,LEUol,Nonribosomal,Parasite    Cancer,Lipid Bilayer,"['Parasite', 'Cancer']",['Lipid Bilayer'],Natural,13,Short (10–24 aa),Fungi,Eukarya
 21593,Monomer,Trikoningin KB-I,C8,XGVXGGVXGI,LEUol,Nonribosomal,Parasite    Cancer,Lipid Bilayer,"['Parasite', 'Cancer']",['Lipid Bilayer'],Natural,10,Short (10–24 aa),Fungi,Eukarya
 21594,Monomer,Acremolide A,"2,6-Me-3,5,11-OH-C12",fP,,Nonribosomal,Gram+    Cancer    Fungus,,"['Gram+', 'Cancer', 'Fungus']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-21595,Monomer,Acremolide B,"2,6-Me-3,5-OH-11-O-C12",fP,,Nonribosomal,Gram+    Cancer    Fungus,,"['Gram+', 'Cancer', 'Fungus']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21596,Monomer,Acremolide C,"2,6-Me-3,5,11-OH-C12",iP,,Nonribosomal,Gram+    Cancer    Fungus,,"['Gram+', 'Cancer', 'Fungus']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21597,Monomer,Acremolide D,"2,6-Me-3,5,11-OH-C12",vP,,Nonribosomal,Gram+    Cancer    Fungus,,"['Gram+', 'Cancer', 'Fungus']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21603,Monomer,Talaropeptide A,,XXVTXPXXXXL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,11,Short (10–24 aa),Fungi,Eukarya
 21604,Monomer,Talaropeptide B,,XXVTVXPXXXXL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,12,Short (10–24 aa),Fungi,Eukarya
-21605,Monomer,Talaropeptide C,ACT,XXVTXPXXXXL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,11,Short (10–24 aa),Fungi,Eukarya
-21606,Monomer,Talaropeptide D,ACT,XXVTVXPXXXXL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,12,Short (10–24 aa),Fungi,Eukarya
 21631,Monomer,Pargamicin B,,XfXxXx,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-21632,Monomer,Pargamicin C,,XfXxXx,,Nonribosomal,Gram+    Gram-,Lipid Bilayer,"['Gram+', 'Gram-']",['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-21664,Monomer,Simplicilliumtide B,,XxVX,,Nonribosomal,Gram+    Gram-    Cancer,,"['Gram+', 'Gram-', 'Cancer']",[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 21665,Monomer,Simplicilliumtide C,ACT,XxL,,Nonribosomal,Gram+    Gram-    Cancer,,"['Gram+', 'Gram-', 'Cancer']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21666,Monomer,Simplicilliumtide D,ACT,XxL,,Nonribosomal,Gram+    Gram-    Cancer,,"['Gram+', 'Gram-', 'Cancer']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21667,Monomer,Simplicilliumtide E,ACT,XxL,CH3OH,Nonribosomal,Gram+    Gram-    Cancer,Unknown,"['Gram+', 'Gram-', 'Cancer']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21670,Monomer,Simplicilliumtide H,ACT,Xx,,Nonribosomal,Gram+    Gram-    Cancer,Unknown,"['Gram+', 'Gram-', 'Cancer']",[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
-21675,Monomer,Isaridin I, OLeu,PFXXX,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-21676,Monomer,Isaridin J, OLeu,PYXXX,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-21677,Monomer,Isaridin L, OLeu,PFXXX,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-21678,Monomer,Isaridin M, OLeu,PFXXX,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 21685,Monomer,,,AXYPL,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 21686,Monomer,,,AXYPV,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 21687,Monomer,,ACT,TvPYXA,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21692,Monomer,ASP2397,,NLfXXX,,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21693,Monomer,AS2524371,,NLlXXX,,Nonribosomal,Fungus,,['Fungus'],[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21694,Monomer,Aspergillicin A,ACT,TxPPXV,,Nonribosomal,Cancer    Fungus,,"['Cancer', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-21695,Monomer,Aspergillicin C,ACT,TxPPXV,,Nonribosomal,Cancer    Fungus,,"['Cancer', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21696,Monomer,Aspergillicin H,ACT,TvPPXV,,Nonribosomal,Cancer    Fungus,,"['Cancer', 'Fungus']",[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21709,Monomer,Destruxin A,OGly(allyl),PIXXX,,Nonribosomal,Cancer,Cytoplasmic Protein    Mitochondrial membrane    Immunomodulation,['Cancer'],"['Cytoplasmic Protein', 'Mitochondrial membrane', 'Immunomodulation']",Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-21710,Monomer,Destruxin B, OLeu,PIXXX,,Nonribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
-21711,Monomer,Destruxin E,"2-OH-4,5-epoxy-C5",PIXXX,,Nonribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 21712,Monomer,PM181110,"3,9-OH-C12",CC,,Nonribosomal,Cancer,Unknown,['Cancer'],[],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21740,Monomer,Xylomyrocin,D-XA,LXVXGISLX,,Nonribosomal,Gram+    Gram-    Parasite    Fungus,,"['Gram+', 'Gram-', 'Parasite', 'Fungus']",[],Natural,9,Ultrashort (2–9 aa),Fungi,Eukarya
 21741,Monomer,"Basifungin, Aureobasidin A",D-OIle,XFXPiXLX,,Nonribosomal,Parasite    Fungus    Mammalian Cell    Protista    Biofilm,Cytoplasmic Protein    Lipid Bilayer    Mitochondrial membrane,"['Parasite', 'Fungus', 'Mammalian Cell', 'Protista', 'Biofilm']","['Cytoplasmic Protein', 'Lipid Bilayer', 'Mitochondrial membrane']",Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
 21746,Monomer,Persephacin,D-OIle,XXXPXXLX,,Nonribosomal,Fungus,Cytoplasmic Protein,['Fungus'],['Cytoplasmic Protein'],Natural,8,Ultrashort (2–9 aa),Fungi,Eukarya
-21749,Monomer,Ophiotine,C10,qTXwSf,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell    Nematode,,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell', 'Nematode']",[],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 21750,Monomer,Arthrichitin,"3-OH-2,4-Me-C12",exS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell    Nematode,,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell', 'Nematode']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21751,Monomer,Arthrichitin C,"3-OH-2,4-Me-C12",xxS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell    Nematode,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell', 'Nematode']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 21761,Monomer,Cyclo(Leu-Tyr),,LY,,Nonribosomal,Biofilm,Quorum Sensing,['Biofilm'],['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 21765,Monomer,Phaeosphamide A,OIle,FPGxXIXVX,,Nonribosomal,Cancer,Mitochondrial membrane,['Cancer'],['Mitochondrial membrane'],Natural,9,Ultrashort (2–9 aa),Fungi,Eukarya
-21767,Monomer,Sclerotiotide L,"6-Ome-7-OH-(E)2,4-C8",XXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21768,Monomer,Sclerotiotide M,"5-COOH-(E)2,4-C6",XXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21769,Monomer,Sclerotiotide N,"6-Ome-6-O-(E)2,4-C6",XXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
-21770,Monomer,Sclerotiotide O,"6,7-Ome-(E)2,4-C8",XXX,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 21771,Monomer,Halovir A,C14,XXLVQ,LEUol,Nonribosomal,Virus    Mammalian Cell,Lipid Bilayer    Virus replication,"['Virus', 'Mammalian Cell']","['Lipid Bilayer', 'Virus replication']",Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 21772,Monomer,Talarolide A,,AxXxaxX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
-22015,Monomer,"Penicillatide B, cyclo(Pro–2-OH–Phe)",,px,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 22016,Monomer,Exumolide B, OLeu,PLFFP,,Nonribosomal,Protista,Unknown,['Protista'],[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 22017,Monomer,Exumolide A, OLeu,PXFFP,,Nonribosomal,Protista,Unknown,['Protista'],[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 22088,Monomer,Acremotin A,ACT,WXQXITXLXPQXXXPF,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,16,Short (10–24 aa),Fungi,Eukarya
 22089,Monomer,Acremotin B,ACT,WXQXITXLXPQXXXXF,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,16,Short (10–24 aa),Fungi,Eukarya
 22090,Monomer,Acremotin C,ACT,WXQXITXLXPQXXXXFG,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
-22091,Monomer,Acremotin D,ACT,WXQXITXLXPQXXXXFG,,Nonribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,17,Short (10–24 aa),Fungi,Eukarya
 22132,Monomer,Chilenopeptin A,ACT,XSWXPLXXQXXQXL,PHEol,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 22133,Monomer,Chilenopeptin B,ACT,XSFXPLXXQXXQXL,PHEol,Nonribosomal,Fungus,Lipid Bilayer,['Fungus'],['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 22134,Monomer,Tylopeptin A,ACT,WVXxAQAXSXALXQ,LEUol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-22135,Monomer,Tylopeptin B,ACT,WVXXAQAXSXALXQ,LEUol,Nonribosomal,Gram+    Gram-    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 22136,Monomer,Unguisin A,,avFvawX,,Nonribosomal,Gram+    Gram-    Fungus,,"['Gram+', 'Gram-', 'Fungus']",[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22137,Monomer,Asperversiamide A,,swSavFv,,Nonribosomal,Gram+,Unknown,['Gram+'],[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22138,Monomer,Asperversiamide B,,swAavFv,,Nonribosomal,Gram+,Unknown,['Gram+'],[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
@@ -359,15 +191,12 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 22142,Monomer,Asperheptatide A,,swSGvFv,,Nonribosomal,Gram+,Unknown,['Gram+'],[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22143,Monomer,Asperheptatide B,,awAavFv,,Nonribosomal,Gram+,Unknown,['Gram+'],[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22149,Monomer,Arthropeptide B,,LFAY,,Nonribosomal,Fungus,Unknown,['Fungus'],[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-22150,Monomer,Asperopiperazine A,ACT,FX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 22151,Monomer,Asperopiperazine B,,xf,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Quorum Sensing,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 22172,Monomer,Caletasin,,LPVYX,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 22173,Monomer,Acremonpeptide A,,XXXSLF,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Virus Reverse Transcriptase,"['Gram+', 'Gram-', 'Virus', 'Fungus']",['Virus Reverse Transcriptase'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 22174,Monomer,Acremonpeptide B,,XXXALF,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Virus Reverse Transcriptase,"['Gram+', 'Gram-', 'Virus', 'Fungus']",['Virus Reverse Transcriptase'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 22175,Monomer,Acremonpeptide C,,XXXFLF,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Virus Reverse Transcriptase,"['Gram+', 'Gram-', 'Virus', 'Fungus']",['Virus Reverse Transcriptase'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
 22176,Monomer,Acremonpeptide D,,XXXWLF,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Virus Reverse Transcriptase,"['Gram+', 'Gram-', 'Virus', 'Fungus']",['Virus Reverse Transcriptase'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-22177,Monomer,Al(III) - Acremonpeptide D,,XXXWLF,,Nonribosomal,Gram+    Gram-    Virus    Fungus,Virus Reverse Transcriptase,"['Gram+', 'Gram-', 'Virus', 'Fungus']",['Virus Reverse Transcriptase'],Natural,6,Ultrashort (2–9 aa),Fungi,Eukarya
-22198,Monomer,Cyclo(2-Hyp-Phe),,xF,,Nonribosomal,Gram+    Cancer,Quorum Sensing,"['Gram+', 'Cancer']",['Quorum Sensing'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 22243,Monomer,NFAP,,LEYKGECFTKDNTCKYKIDGKTYLAKCPSAANTKCEKDGNKCTYDSYNRKVKCDFRH,,Ribosomal,Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,57,Long (50–100 aa),Fungi,Eukarya
 22254,Monomer,Mortiamide A,,fFvvvLv,,Nonribosomal,Gram+    Gram-    Parasite    Cancer    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Parasite', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22255,Monomer,Mortiamide B,,fFvvvFv,,Nonribosomal,Gram+    Gram-    Parasite    Cancer    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Parasite', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
@@ -377,18 +206,13 @@ ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TA
 22259,Monomer,Auyuittuqamide B,,XVXGVSVXGL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,10,Short (10–24 aa),Fungi,Eukarya
 22260,Monomer,Auyuittuqamide C,,XIXGISVXGL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,10,Short (10–24 aa),Fungi,Eukarya
 22261,Monomer,Auyuittuqamide D,,XIXGISIXGL,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Unknown,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",[],Natural,10,Short (10–24 aa),Fungi,Eukarya
-22369,Multimer,Waspergillamide A,pNBA,XX    G,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22404,Monomer,Endolide A,,XLXV,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 22405,Monomer,Endolide B,,XXXV,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
 22805,Monomer,Metamarin,,XXVXVXV,,Nonribosomal,Gram+    Gram-    Fungus    Mammalian Cell,Cytoplasmic Protein,"['Gram+', 'Gram-', 'Fungus', 'Mammalian Cell']",['Cytoplasmic Protein'],Natural,7,Ultrashort (2–9 aa),Fungi,Eukarya
 22839,Monomer,Pentadecaibin 1,ACT,XGALXQXVXAXXXQ,PHEol,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 22840,Monomer,Pentadecaibin 2,ACT,XGALXQXLXAXXXQ,PHEol,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-22841,Monomer,Pentadecaibin 3,ACT,XGALXQxVXAXXXQ,PHEol,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-22842,Monomer,Pentadecaibin 4,ACT,XGALXQxLXAXXXQ,PHEol,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
-22843,Monomer,Pentadecaibin 5,ACT,XGALxQxVXAXXXQ,PHEol,Nonribosomal,Gram+    Gram-    Cancer    Fungus,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",['Lipid Bilayer'],Natural,14,Short (10–24 aa),Fungi,Eukarya
 23179,Monomer,Aspergillipeptide E,,yWv,,Nonribosomal,Virus    Mammalian Cell,Unknown,"['Virus', 'Mammalian Cell']",[],Natural,3,Ultrashort (2–9 aa),Fungi,Eukarya
 23201,Monomer,Hirsutide,,XFXV,,Nonribosomal,Gram+    Gram-    Cancer    Fungus,,"['Gram+', 'Gram-', 'Cancer', 'Fungus']",[],Natural,4,Ultrashort (2–9 aa),Fungi,Eukarya
-24351,Monomer,Fellutamide,3-OH-C12,NQ,LEUol,Nonribosomal,Cancer,Lipid Bilayer,['Cancer'],['Lipid Bilayer'],Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 25059,Monomer,Sanxiapeptin,,XXtXS,,Nonribosomal,Gram+    Gram-    Cancer    Fungus    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Fungus', 'Mammalian Cell']",['Lipid Bilayer'],Natural,5,Ultrashort (2–9 aa),Fungi,Eukarya
 25273,Monomer,Cyclo(L-Hyp-L-Tyr),,XY,,Nonribosomal,Gram-    Cancer    Mammalian Cell    Biofilm,Membrane Protein    Quorum Sensing,"['Gram-', 'Cancer', 'Mammalian Cell', 'Biofilm']","['Membrane Protein', 'Quorum Sensing']",Natural,2,Ultrashort (2–9 aa),Fungi,Eukarya
 25574,Monomer,Defensin Licosin ,,SSCQLGGLWSGGGDALCSAHCIKQGNKHGGHCNKKKVCVCN,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer    Immunomodulation,"['Gram+', 'Gram-', 'Mammalian Cell']","['Lipid Bilayer', 'Immunomodulation']",Natural,41,Medium (25–50 aa),Fungi,Eukarya

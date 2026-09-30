@@ -1,0 +1,7 @@
+Length_Class,Natural_%,Synthetic_%,Natural_n,Synthetic_n
+Ultrashort (2–9 aa),16.9,25.3,473.0,2301
+Short (10–24 aa),36.7,59.5,1027.0,5406
+Medium (25–50 aa),39.6,14.4,1107.0,1307
+Long (50–100 aa),6.2,0.7,173.0,60
+Antimicrobial Protein (>100 aa),0.6,0.0,17.0,3
+Out of range (<2 aa),0.0,0.2,0.0,15

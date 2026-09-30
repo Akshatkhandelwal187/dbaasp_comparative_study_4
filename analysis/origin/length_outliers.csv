@@ -1,0 +1,459 @@
+group,ID,NAME,Length_of_Sequence,fence_low,fence_high
+Natural,11074,Histone H5,190,-18.5,65.5
+Natural,11343,"Alpha-synuclein, Alpha-Syn",140,-18.5,65.5
+Natural,6552,"Eosinophil cationic protein, RNase 3",133,-18.5,65.5
+Natural,3112,Acanthoscurrin-1,132,-18.5,65.5
+Natural,6786,"Ribonuclease 7, RNase 7",128,-18.5,65.5
+Natural,576,Histone H2A,127,-18.5,65.5
+Natural,9114,"Ribonuclease 6, RNase 6",127,-18.5,65.5
+Natural,15802,Griffithsin,121,-18.5,65.5
+Natural,1847,"Puroindoline-B, PINB",119,-18.5,65.5
+Natural,1846,"Puroindoline-A, PINA",118,-18.5,65.5
+Natural,2146,Basic phospholipase A2 BFPA,118,-18.5,65.5
+Natural,6229,"Cystatin, Egg-white cystatin",116,-18.5,65.5
+Natural,4346,"C-C motif chemokine 28, mCCL28",114,-18.5,65.5
+Natural,689,EP2C protein,112,-18.5,65.5
+Natural,4344,"C-C motif chemokine 28, CCL28",108,-18.5,65.5
+Natural,5625,Myticusin-alpha,104,-18.5,65.5
+Natural,8766,Scygonadin,102,-18.5,65.5
+Natural,5788,"Anti-lipopolysaccharide factor isoform 5, PtALF5",100,-18.5,65.5
+Natural,5789,"Anti-lipopolysaccharide factor isoform 4, PtALF4",100,-18.5,65.5
+Natural,6767,Sp-ALF4,100,-18.5,65.5
+Natural,8765,"Scygonadin 2, SCY2",100,-18.5,65.5
+Natural,5804,Human Beta-2-microglobulin,99,-18.5,65.5
+Natural,5783,Nabaecin-3,98,-18.5,65.5
+Natural,5836,Prolixin antimicrobial peptide,98,-18.5,65.5
+Natural,5889,"Anti-lipopolysaccharide factor isoform 3, ALFpm3, Penmon ALF-B1",98,-18.5,65.5
+Natural,7014,"Anti-lipopolysaccharide factor, Litsty ALF-D1",98,-18.5,65.5
+Natural,5786,"Anti-lipopolysaccharide factor isoform 7, PtALF7",97,-18.5,65.5
+Natural,5790,"Anti-lipopolysaccharide factor, PtALF3",97,-18.5,65.5
+Natural,5775,Sp-ALF1,95,-18.5,65.5
+Natural,5776,Sp-ALF2,95,-18.5,65.5
+Natural,5787,"Anti-lipopolysaccharide factor isoform 6, PtALF6",94,-18.5,65.5
+Natural,1798,Hymenoptaecin,93,-18.5,65.5
+Natural,1968,Antimicrobial protein Ace-AMP1,93,-18.5,65.5
+Natural,11984,"SpCrus6, Crustin 6",93,-18.5,65.5
+Natural,19118,Phormicin A,93,-18.5,65.5
+Natural,19120,Phormicin B,91,-18.5,65.5
+Natural,967,"Antimicrobial peptide microplusin, Microplusin",90,-18.5,65.5
+Natural,2006,Non-specific lipid-transfer protein Cw18,90,-18.5,65.5
+Natural,2008,Non-specific lipid-transfer protein 4.1,90,-18.5,65.5
+Natural,5259,Cy-AMP3,90,-18.5,65.5
+Natural,5876,"Non-histone chromosomal protein HMG-17, HMGN2",89,-18.5,65.5
+Natural,6025,Crustin antimicrobial peptide CrusSp,89,-18.5,65.5
+Natural,5337,"C-C motif chemokine 27, CCL27",88,-18.5,65.5
+Natural,24405,PpRCys1,85,-18.5,65.5
+Natural,4323,GJ19999 SK84,84,-18.5,65.5
+Natural,6332,"Thrombocidin-2, TC-2",83,-18.5,65.5
+Natural,4848,"Chicken AvBD11, Gallinacin-11",82,-18.5,65.5
+Natural,6083,Ls-Stylicin 1,82,-18.5,65.5
+Natural,5792,Mytimacin-AF,80,-18.5,65.5
+Natural,16195,SpCrus4,80,-18.5,65.5
+Natural,2248,Big defensin,79,-18.5,65.5
+Natural,1894,Antimicrobial peptide NK-lysin,78,-18.5,65.5
+Natural,1104,"Pore-forming peptide ameobapore A, EH-APP",77,-18.5,65.5
+Natural,4340,"C-X-C motif chemokine 6, GCP-2/CXCL6",77,-18.5,65.5
+Natural,5336,"C-X-C motif chemokine 14, CXCL14",77,-18.5,65.5
+Natural,8190,"Lucimycin, LSer-AFP",77,-18.5,65.5
+Natural,8505,"Interleukin-8, CXCL8",77,-18.5,65.5
+Natural,2016,Antimicrobial peptide 1 MiAMP1,76,-18.5,65.5
+Natural,2106,"Chromogranin A (CGA), Vasostatin-1",76,-18.5,65.5
+Natural,5539,"Hge-scorpine, HgeScplp1",76,-18.5,65.5
+Natural,12409,Smp76,76,-18.5,65.5
+Natural,1848,"Scorpine, Panscorpine",75,-18.5,65.5
+Natural,11808,"Ha Coleoptericin 1, Col1",75,-18.5,65.5
+Natural,11811,"Ha Coleoptericin 6, Col6",75,-18.5,65.5
+Natural,13732,"Mytimacin-4, Macin",75,-18.5,65.5
+Natural,24406,Glycine-rich protein AfRgly1,75,-18.5,65.5
+Natural,2439,Omega-ctenitoxin-Cs1a / CsTx-1,74,-18.5,65.5
+Natural,2867,Coleoptericin,74,-18.5,65.5
+Natural,3859,Granulysin,74,-18.5,65.5
+Natural,5781,cgUbiquitin,74,-18.5,65.5
+Natural,16194,SpCrus3,74,-18.5,65.5
+Natural,2242,Tachycitin,73,-18.5,65.5
+Natural,19004,TaARL6IP4,73,-18.5,65.5
+Natural,1910,Rhinocerosin,72,-18.5,65.5
+Natural,5726,"Potassium channel toxin MeuTXK-beta-1, MeuTXKbeta1",72,-18.5,65.5
+Natural,1319,"ASABF, ASABF-alpha",71,-18.5,65.5
+Natural,6597,"Sugarcane defensin 5, Sd5",71,-18.5,65.5
+Natural,3471,"C-C motif chemokine 20, CCL20/MIP-3alpha",70,-18.5,65.5
+Natural,3906,"Platelet factor 4, HPF4",70,-18.5,65.5
+Natural,6694,Enterocin AS-48,70,-18.5,65.5
+Natural,15857,Bacteriocin Cerecyclin,70,-18.5,65.5
+Natural,2007,"Cytoinsectotoxin-1a, M-zodatoxin-Lt8a",69,-18.5,65.5
+Natural,2147,Oncorhyncin II,69,-18.5,65.5
+Natural,8195,Enterocin O16,68,-18.5,65.5
+Natural,1852,ABF-2,67,-18.5,65.5
+Natural,2819,Vicilin-like Antimicrobial peptide 2c-3 / MiAMP2c-3,67,-18.5,65.5
+Natural,5809,Cod Cathelicidin,67,-18.5,65.5
+Natural,1721,Snakin-2,66,-18.5,65.5
+Natural,1822,Oncorhyncin III,66,-18.5,65.5
+Natural,5791,"Anti-lipopolysaccharide factor Isoform 2, PtALF1",66,-18.5,65.5
+Natural,11323,"Venom sodium channel toxin-6, MTalpha-4",66,-18.5,65.5
+Natural,11325,"Neurotoxin MeuNaTx-6, MTbeta-1",66,-18.5,65.5
+Natural,11327,"Sodium channel toxin 17, MTbeta-4",66,-18.5,65.5
+Natural,23238,Lycotoxin-Pa2a,66,-18.5,65.5
+Synthetic,8445,Filaggrin-2 (2244-2391),148,-7.5,36.5
+Synthetic,7444,Designed recombinant peptide CP,114,-7.5,36.5
+Synthetic,6801,RNase 7 (1-107),107,-7.5,36.5
+Synthetic,6787,RNase 7 (30-128),99,-7.5,36.5
+Synthetic,11341,"Alpha-synuclein (1-95), Alpha-Syn (1-95)",95,-7.5,36.5
+Synthetic,14030,HBD3-GGGGM-HBD2,91,-7.5,36.5
+Synthetic,4295,Saposin-like protein SPP-1,89,-7.5,36.5
+Synthetic,6334,"Recombinant Pro-Omhep1, Recombinant Hepcidin",87,-7.5,36.5
+Synthetic,12666,rChemokine CK11,86,-7.5,36.5
+Synthetic,11340,"Alpha-synuclein (61-140), Alpha-Syn (61-140)",80,-7.5,36.5
+Synthetic,13405,,80,-7.5,36.5
+Synthetic,22821,GG-NK-lysin A (47-123),79,-7.5,36.5
+Synthetic,4296,Saposin-like protein SPP-12,78,-7.5,36.5
+Synthetic,8442,Filaggrin-2 (2172-2246),75,-7.5,36.5
+Synthetic,4870,Recombinant EC-hepcidin3,73,-7.5,36.5
+Synthetic,6695,Enterocin AS-48 [G13K],70,-7.5,36.5
+Synthetic,6321,Thrombocidin-1 Reduced,68,-7.5,36.5
+Synthetic,15311,SARS-CoV-S (1134-1193),68,-7.5,36.5
+Synthetic,20020,Glycine-rich protein A3-like (131-197),67,-7.5,36.5
+Synthetic,2650,Bovine hemoglobin alpha chain (33-98),66,-7.5,36.5
+Synthetic,6396,,66,-7.5,36.5
+Synthetic,15281,SARS-Cov-S (899-958),66,-7.5,36.5
+Synthetic,5785,"Nabaecin-3 (34-98), CtNU",65,-7.5,36.5
+Synthetic,18644,Hill-Dip6,65,-7.5,36.5
+Synthetic,13382,,63,-7.5,36.5
+Synthetic,13391,,63,-7.5,36.5
+Synthetic,20611,Penaeidin-3 [T8A],63,-7.5,36.5
+Synthetic,6402,,62,-7.5,36.5
+Synthetic,10892,Oxysterlin 4,62,-7.5,36.5
+Synthetic,14239,Recombinant Pg-AMP1,62,-7.5,36.5
+Synthetic,15623,EtDip,62,-7.5,36.5
+Synthetic,12997,rHispidalin,61,-7.5,36.5
+Synthetic,15389,"apoE (131-162)+(244+272), hEP",61,-7.5,36.5
+Synthetic,19110,Di-MCh-AMP1,61,-7.5,36.5
+Synthetic,12689,"Copsin paralogue CPP2, CC1G_13813 (129-186)-VC",60,-7.5,36.5
+Synthetic,6505,"Smapspin-G, SMAP-29 + 4GS + Spinigerin",59,-7.5,36.5
+Synthetic,10790,Vgf-1,59,-7.5,36.5
+Synthetic,11937,"Antifungal protein Afp [G29P,S30W,A31F,A32W,K34INS], dAfpB9",59,-7.5,36.5
+Synthetic,15427,T21N36,59,-7.5,36.5
+Synthetic,21779,LL-37+GS+Ranalexin,59,-7.5,36.5
+Synthetic,8172,Kappa-casein (35-91),57,-7.5,36.5
+Synthetic,16055,Theromacin (34-90),57,-7.5,36.5
+Synthetic,15165,229E-HCoV-HR1P,56,-7.5,36.5
+Synthetic,15169,HCoV-NL63-HR1P,56,-7.5,36.5
+Synthetic,9781,"Scorpions-Ticks Defensins Ancestor, STiDA",55,-7.5,36.5
+Synthetic,10890,Oxysterlin 2,55,-7.5,36.5
+Synthetic,11555,FgAFP,55,-7.5,36.5
+Synthetic,12491,PAF [T8Y][S10K],55,-7.5,36.5
+Synthetic,15258,"PEDV-S HR2P, PCov-S HR2P",55,-7.5,36.5
+Synthetic,18643,Stomoxyn-like peptide Hill-Stom1,55,-7.5,36.5
+Synthetic,21463,nAMP-LP-298,55,-7.5,36.5
+Synthetic,11557,fCBD-LL37,54,-7.5,36.5
+Synthetic,14010,"OefDef1.1 [L35A, K36A, N37A], OefDef1.1_V3",53,-7.5,36.5
+Synthetic,14011,"OefDef1.1 [R38A, H39A, S40A], OefDef1.1_V4",53,-7.5,36.5
+Synthetic,14012,"OefDef1.1 [K41A, H42A, Y43A, G44A], OefDef1.1_V5",53,-7.5,36.5
+Synthetic,6394,,52,-7.5,36.5
+Synthetic,7932,"BP236, (BP134-AGPA)2-(KDWEHL)3-KDEL",52,-7.5,36.5
+Synthetic,18642,Cecropin-like peptide Hill-Cec13,52,-7.5,36.5
+Synthetic,5156,MUC7 D1,51,-7.5,36.5
+Synthetic,5728,MeuTXKbeta1 (22-72),51,-7.5,36.5
+Synthetic,7872,Royalisin reduced,51,-7.5,36.5
+Synthetic,12622,"rPa-Defensin, rPaDef",51,-7.5,36.5
+Synthetic,25140,Recombinant Defensin rK4CBP6,51,-7.5,36.5
+Synthetic,4341,"GCP-2/CXCL6 (1-50), GPV-50",50,-7.5,36.5
+Synthetic,6530,SMAP-29 + Pep-1-K,50,-7.5,36.5
+Synthetic,15166,229E-HCoV-HR2P,50,-7.5,36.5
+Synthetic,15170,HCoV-NL63-HR2P,50,-7.5,36.5
+Synthetic,15462,FCoV Sgp (1338-1387),50,-7.5,36.5
+Synthetic,19404,PsNCR349,50,-7.5,36.5
+Synthetic,20538,So_ce_56_913,50,-7.5,36.5
+Synthetic,23933,"Alpha-S2-casein (164-222), KNR50",50,-7.5,36.5
+Synthetic,6440,Hemoglobin subunit beta (77-125),49,-7.5,36.5
+Synthetic,14008,"OefDef1.1 (1-31)-MtDef4 (32-41)-OefDef1.1 (46-53), OefDef1.1_V1",49,-7.5,36.5
+Synthetic,18641,Cecropin-like peptide Hill-Cec12,49,-7.5,36.5
+Synthetic,21526,,49,-7.5,36.5
+Synthetic,21527,,49,-7.5,36.5
+Synthetic,21528,,49,-7.5,36.5
+Synthetic,21529,,49,-7.5,36.5
+Synthetic,21532,,49,-7.5,36.5
+Synthetic,21533,,49,-7.5,36.5
+Synthetic,21534,,49,-7.5,36.5
+Synthetic,21536,,49,-7.5,36.5
+Synthetic,1267,LBU4,48,-7.5,36.5
+Synthetic,1271,WLBU4,48,-7.5,36.5
+Synthetic,6401,,48,-7.5,36.5
+Synthetic,7639,"Ribonuclease pancreatic (1-48)[C26,40S]",48,-7.5,36.5
+Synthetic,7945,"BP217, BP134-Melittin(10-19)-AGPA-Melittin(10-19)rev-BP134rev-KDEL",48,-7.5,36.5
+Synthetic,9209,Recombinant Diapausin-1,48,-7.5,36.5
+Synthetic,9796,Tc Defensin 2,48,-7.5,36.5
+Synthetic,9797,Tc Defensin 3,48,-7.5,36.5
+Synthetic,13401,,48,-7.5,36.5
+Synthetic,21535,,48,-7.5,36.5
+Synthetic,24018,Collagenin-3,48,-7.5,36.5
+Synthetic,596,Thionin [D32R],47,-7.5,36.5
+Synthetic,1536,Sln2-2,47,-7.5,36.5
+Synthetic,5865,"Argopecten purpuratus AMP (1-47), Ap",47,-7.5,36.5
+Synthetic,5974,"Recombinant Divercin V41, DvnRV41",47,-7.5,36.5
+Synthetic,7642,"Ribonuclease 4 (1-47)[C25,39S]",47,-7.5,36.5
+Synthetic,7643,"Angiogenin (1-47)[C26,39S], Ribonuclease A A1 (1-47)[C26,39S]",47,-7.5,36.5
+Synthetic,10685,NaD1 (1-7)-NaD2 (8-13)-NaD1 (14-47),47,-7.5,36.5
+Synthetic,10686,NaD2 (1-7) - NaD1 (8-47),47,-7.5,36.5
+Synthetic,10687,NaD1 (1-24)-NaD2 (25-29)-NaD1 (30-47),47,-7.5,36.5
+Synthetic,10688,NaD1 (1-29)-NaD2 (30-33)-NaD1 (34-47),47,-7.5,36.5
+Synthetic,10689,NaD1 (1-34)-NaD2 (35-40)-NaD1 (41-47),47,-7.5,36.5
+Synthetic,10690,NaD1 (1-41)-NaD2 (42-47),47,-7.5,36.5
+Synthetic,12617,Defensin NoD173 [Q22K],47,-7.5,36.5
+Synthetic,18293,Beta defensin QS-BD,47,-7.5,36.5
+Synthetic,21530,,47,-7.5,36.5
+Synthetic,22202,"Defensin MtDef4 [F10A,K11A]",47,-7.5,36.5
+Synthetic,22211,"Defensin MtDef4 [A15L,S16R,D17R]",47,-7.5,36.5
+Synthetic,24040,Immunosin-1,47,-7.5,36.5
+Synthetic,25800,HT-47,47,-7.5,36.5
+Synthetic,1531,Sln1-3,46,-7.5,36.5
+Synthetic,5262,"Recombinant Cy-AMP1, rCy-AMP1",46,-7.5,36.5
+Synthetic,6428,Hemoglobin subunit alpha (1-46),46,-7.5,36.5
+Synthetic,9213,"MsDef1 [DDF35,36,37GFRR]",46,-7.5,36.5
+Synthetic,11406,A-LL-37 (2-31)-Histatin-5  (4-15)-LEY,46,-7.5,36.5
+Synthetic,12329,"Chromogranin A (31-76)[D15H], CGA-N46",46,-7.5,36.5
+Synthetic,15210,"SARS-CoV (902-947)[K2N,I4S,N9Q,A11E,Q16N,S18V,S23N,A25S,V32D,A37N,A39S,V44Q,Q46E]",46,-7.5,36.5
+Synthetic,15314,SARS-CoV-S (935-980),46,-7.5,36.5
+Synthetic,15426,T21N23,46,-7.5,36.5
+Synthetic,24020,Collagenin-5,46,-7.5,36.5
+Synthetic,24023,Neuronin-1,46,-7.5,36.5
+Synthetic,24037,Toothin-1,46,-7.5,36.5
+Synthetic,24042,Immunosin-3,46,-7.5,36.5
+Synthetic,53,"Beta-defensin 14 / mBD-14 [C11,18,23,33,41A]",45,-7.5,36.5
+Synthetic,977,"Beta-defensin 103 [C11,18,23,33,40,41ABU], hBD3 [C11,18,23,33,40,41ABU]",45,-7.5,36.5
+Synthetic,4938,"hBD3 [C11,18,23,33,40,41W]",45,-7.5,36.5
+Synthetic,4939,"hBD3 [C11,18,23,33,40,41F]",45,-7.5,36.5
+Synthetic,4940,"hBD3 [C11,18,23,33,40,41Y]",45,-7.5,36.5
+Synthetic,4941,"hBD3 [C11,18,23,33,40,41A]",45,-7.5,36.5
+Synthetic,4942,"hBD3 [C11,18,23,33,40,41S]",45,-7.5,36.5
+Synthetic,6082,"hBD3 [C11A,C18Y,C23V,C33V,C40K,C41V], Def-A",45,-7.5,36.5
+Synthetic,6389,,45,-7.5,36.5
+Synthetic,6543,"Eosinophil cationic protein (1-45) [C23,37S], RNase 3 (1-45) [C23,37S]",45,-7.5,36.5
+Synthetic,7543,"EP, Bacteriocin E50-52(2-7) + Pediocin PA-1(6-44)",45,-7.5,36.5
+Synthetic,7640,"Non-secretory ribonuclease (1-45)[C23,37S]",45,-7.5,36.5
+Synthetic,7644,"Ribonuclease K6 (1-45)[C23,37S]",45,-7.5,36.5
+Synthetic,7645,"Ribonuclease 8 (1-45)[C23,37S]",45,-7.5,36.5
+Synthetic,7935,"BP216, (BP134-AGPA)2-BP134-KDEL",45,-7.5,36.5
+Synthetic,11158,"AvBD-12 [C5,12,17,27,34,35A][D3H,D8V,E21L,E29I]",45,-7.5,36.5
+Synthetic,11159,"AvBD-12 [C5,12,17,27,34,35S][D3R,D8K,E21K,E29R]",45,-7.5,36.5
+Synthetic,11161,"AvBD-12 [C5,34Abu]",45,-7.5,36.5
+Synthetic,11164,"AvBD-12 [D3H,D8Q,E21Y,E29S], AvBD-12/6",45,-7.5,36.5
+Synthetic,13410,,45,-7.5,36.5
+Synthetic,14152,"RNase 3 (1-45) [C23,37S; R1,7,22,28,34,36,38,45K]",45,-7.5,36.5
+Synthetic,14153,"Ribonuclease 7 (1-45) [C23,37S; K1,3,12, 28,32,35,38,R]",45,-7.5,36.5
+Synthetic,18491,"hBD3(1-23)-hBD4(20-28)-hBD3(33-45), H4",45,-7.5,36.5
+Synthetic,18637,Cecropin-like peptide Hill-Cec8,45,-7.5,36.5
+Synthetic,18640,Cecropin-like peptide Hill-Cec11,45,-7.5,36.5
+Synthetic,19141,,45,-7.5,36.5
+Synthetic,19426,HSV gH493–537,45,-7.5,36.5
+Synthetic,21464,nAMP-LP-617,45,-7.5,36.5
+Synthetic,24022,Collagenin-7,45,-7.5,36.5
+Synthetic,1327,Bacteriocin Sakacin [N24C][44C],44,-7.5,36.5
+Synthetic,2076,Heliomicin analog ETD151,44,-7.5,36.5
+Synthetic,4127,"Lebocin-related peptide 2, LP2",44,-7.5,36.5
+Synthetic,4596,"Defensin heliomicin [D1A,K2A,L3A,I4A]",44,-7.5,36.5
+Synthetic,4598,"Defensin heliomicin [K23L,R24L]",44,-7.5,36.5
+Synthetic,4610,"Defensin heliomicin [D1A,K2A,L3A,I4A,N19A,G20A,K23L,R24L,E43R]",44,-7.5,36.5
+Synthetic,5357,"Defensin-BvL (3-46), 'Intermediate' defensin-like peptide, Int-DLP",44,-7.5,36.5
+Synthetic,5878,"Recombinant Vr defensin 1, rVrD1",44,-7.5,36.5
+Synthetic,6040,Lingual antimicrobial peptide (21-64),44,-7.5,36.5
+Synthetic,8150,Tc Defensin 1 (21-65),44,-7.5,36.5
+Synthetic,9702,AvBD7 (4-47),44,-7.5,36.5
+Synthetic,12586,"Bacteriocin Pediocin PA-1 [C9,14,24,44A]",44,-7.5,36.5
+Synthetic,16169,AmAMP1 PT07R,44,-7.5,36.5
+Synthetic,18323,Beta-defensin LcBD2,44,-7.5,36.5
+Synthetic,18635,Cecropin-like peptide Hill-Cec5,44,-7.5,36.5
+Synthetic,21531,,44,-7.5,36.5
+Synthetic,22034,"S. salamandra Defensin, SS-I",44,-7.5,36.5
+Synthetic,24047,Immunosin-8,44,-7.5,36.5
+Synthetic,719,Reduced Tenecin 1,43,-7.5,36.5
+Synthetic,5615,(K)20 Magainin-2,43,-7.5,36.5
+Synthetic,7451,Bacteriocin mundticin,43,-7.5,36.5
+Synthetic,9756,"Hemocyanin (604-646), FCHc-C1",43,-7.5,36.5
+Synthetic,10671,"Coprisin [C3,34A]",43,-7.5,36.5
+Synthetic,14004,L3W,43,-7.5,36.5
+Synthetic,14276,"External core antigen (175-217), Bat HBcARD",43,-7.5,36.5
+Synthetic,18592,"Defensin (47-90), LOUDEF 1",43,-7.5,36.5
+Synthetic,24029,Eyesin-1,43,-7.5,36.5
+Synthetic,24034,Eyesin-6,43,-7.5,36.5
+Synthetic,24052,Immunosin-13,43,-7.5,36.5
+Synthetic,25423,Oscillospirin,43,-7.5,36.5
+Synthetic,4182,"PP113, Pteromalus puparum 113",42,-7.5,36.5
+Synthetic,4322,Reduced Crotamine,42,-7.5,36.5
+Synthetic,4326,HMGN2 (49-90),42,-7.5,36.5
+Synthetic,5145,Alzheimer disease amyloid beta-peptide 42,42,-7.5,36.5
+Synthetic,5149,Alzheimer disease amyloid beta-peptide 42 reverse,42,-7.5,36.5
+Synthetic,5180,Recombinant Gallinacin 6,42,-7.5,36.5
+Synthetic,6506,X- C41,42,-7.5,36.5
+Synthetic,9604,Hemoglobin subunit alpha-A (2-43),42,-7.5,36.5
+Synthetic,9605,Hemoglobin subunit alpha-D (1-42),42,-7.5,36.5
+Synthetic,11733,cLFchimera,42,-7.5,36.5
+Synthetic,14052,Defensin-like peptide Scedosporisin-1,42,-7.5,36.5
+Synthetic,14277,"Capsid protein (147-188), Woodchuck HBcARD",42,-7.5,36.5
+Synthetic,15167,MERS-CoV-HR1P,42,-7.5,36.5
+Synthetic,15171,HCoV-OC43-HR1P,42,-7.5,36.5
+Synthetic,15624,EtDef1,42,-7.5,36.5
+Synthetic,15659,SARS-CoV-2 HR1P,42,-7.5,36.5
+Synthetic,18609,"Crotamine [C4.11.18,30,36,37S]",42,-7.5,36.5
+Synthetic,19789,"HPIV3-F (449-484)[E459V,Q479G]-GSGSG-C(Chol)",42,-7.5,36.5
+Synthetic,19792,"C(Chol)-GSGSG-HPIV3-F (449-484)[E459V,Q479G]",42,-7.5,36.5
+Synthetic,21462,nAMP-LP-249,42,-7.5,36.5
+Synthetic,21471,Pvul-Cecropin,42,-7.5,36.5
+Synthetic,24028,Neuronin-6,42,-7.5,36.5
+Synthetic,24290,L-amino-acid oxidase (113-154),42,-7.5,36.5
+Synthetic,3168,"Beta-defensin 8 [V33R][V39R], AvBD8ps+",41,-7.5,36.5
+Synthetic,6080,"Aedes Cecropin-A (1-26)+ Cecropin-A1/A2 (27-40), hAMP",41,-7.5,36.5
+Synthetic,6398,,41,-7.5,36.5
+Synthetic,8504,CXCL14 (14-54),41,-7.5,36.5
+Synthetic,11857,D LS-stomoxyn,41,-7.5,36.5
+Synthetic,15158,EK1C4,41,-7.5,36.5
+Synthetic,15396,"apoE (135–155) + (250–269), hEP-6",41,-7.5,36.5
+Synthetic,15606,EtCec1,41,-7.5,36.5
+Synthetic,15740,LP-75,41,-7.5,36.5
+Synthetic,19506,HSV gH(542–582 ),41,-7.5,36.5
+Synthetic,20825,MorA,41,-7.5,36.5
+Synthetic,24035,Eyesin-7,41,-7.5,36.5
+Synthetic,24055,Zipperin-1,41,-7.5,36.5
+Synthetic,24621,AMP-12,41,-7.5,36.5
+Synthetic,25575,Defensin Licosin [K23A},41,-7.5,36.5
+Synthetic,1433,LLK-eCATH-3,40,-7.5,36.5
+Synthetic,3115,D Plectasin,40,-7.5,36.5
+Synthetic,3541,E- Bacteriocin Lactococcin-G subunit alpha,40,-7.5,36.5
+Synthetic,3641,"Bacteriocin Lactococcin-G subunit alpha""""",40,-7.5,36.5
+Synthetic,5856,"Beta-defensin 127 (19-58), hBD-27",40,-7.5,36.5
+Synthetic,5950,"Liver-expressed antimicrobial peptide 2 Linear, LEAP-2 Linear",40,-7.5,36.5
+Synthetic,6422,Hemoglobin subunit alpha (67-106),40,-7.5,36.5
+Synthetic,8870,Plectasin-derived peptide MP1106,40,-7.5,36.5
+Synthetic,12115,"Plectasin [D9S,M13L,Q14R,N17R,K26R], AP138",40,-7.5,36.5
+Synthetic,13933,Cecropin A-like 4 [H16N],40,-7.5,36.5
+Synthetic,15351,SARS-S (892-931),40,-7.5,36.5
+Synthetic,15608,EtCec2,40,-7.5,36.5
+Synthetic,15622,EtCec3-NH2,40,-7.5,36.5
+Synthetic,15625,EtDef4,40,-7.5,36.5
+Synthetic,18294,Beta defensin PaBD,40,-7.5,36.5
+Synthetic,18317,Bp NK-lysin SP-B domain core region,40,-7.5,36.5
+Synthetic,18630,Hill-Def4,40,-7.5,36.5
+Synthetic,21537,,40,-7.5,36.5
+Synthetic,21538,,40,-7.5,36.5
+Synthetic,22070,Abhisin,40,-7.5,36.5
+Synthetic,24016,Collagenin-1,40,-7.5,36.5
+Synthetic,24045,Immunosin-6,40,-7.5,36.5
+Synthetic,25414,Bogicin-1,40,-7.5,36.5
+Synthetic,2032,rCRAMP,39,-7.5,36.5
+Synthetic,3632,"Bacteriocin Lactococcin-G subunit alpha [V17I,G18L,A20G,M21L,S31D]",39,-7.5,36.5
+Synthetic,3638,"Bacteriocin Lactococcin-G subunit alpha""""",39,-7.5,36.5
+Synthetic,4181,"PP102, Pteromalus puparum 102",39,-7.5,36.5
+Synthetic,4310,Palustrin-2ISb + YHK,39,-7.5,36.5
+Synthetic,4571,Px Cecropin 1 recombinant,39,-7.5,36.5
+Synthetic,5011,"FALL-39 [L30F,N32K]",39,-7.5,36.5
+Synthetic,6058,,39,-7.5,36.5
+Synthetic,9761,"Cecropin-D-like peptide [I7K;A10K;A21,22,24R]",39,-7.5,36.5
+Synthetic,10398,"Cecropin-D-like peptide [E6,8R;Q12K]",39,-7.5,36.5
+Synthetic,10858,HBD-4-1d,39,-7.5,36.5
+Synthetic,10860,HBD-4-3d,39,-7.5,36.5
+Synthetic,10862,HBD-4-1d [S],39,-7.5,36.5
+Synthetic,10889,Oxysterlin 1,39,-7.5,36.5
+Synthetic,10891,Oxysterlin 3,39,-7.5,36.5
+Synthetic,12528,Melittin (12-26)[A4L]-AGP-Thanatin,39,-7.5,36.5
+Synthetic,13050,"Potassium channel toxin MeuTXKalpha3 [F29K, P30F, Del31G, N32G, Y33I]",39,-7.5,36.5
+Synthetic,15313,MHV-S (1216-1254),39,-7.5,36.5
+Synthetic,15907,PcnAMP (1-39),39,-7.5,36.5
+Synthetic,16020,Armyworm Cecropin-1,39,-7.5,36.5
+Synthetic,18315,Barbel steed NK-lysin (53-91),39,-7.5,36.5
+Synthetic,18511,RDM-AvBD2/Gallinacin-2,39,-7.5,36.5
+Synthetic,20822,CecB,39,-7.5,36.5
+Synthetic,21279,LYSC-AVA39,39,-7.5,36.5
+Synthetic,24026,Neuronin-4,39,-7.5,36.5
+Synthetic,24051,Immunosin-12,39,-7.5,36.5
+Synthetic,24337,LL-1,39,-7.5,36.5
+Synthetic,24622,AMP-17,39,-7.5,36.5
+Synthetic,5108,Cathelicidin-AM,38,-7.5,36.5
+Synthetic,6061,gp160 (621-658),38,-7.5,36.5
+Synthetic,6062,,38,-7.5,36.5
+Synthetic,6064,,38,-7.5,36.5
+Synthetic,6066,,38,-7.5,36.5
+Synthetic,6107,,38,-7.5,36.5
+Synthetic,6204,Template Beta-defensin,38,-7.5,36.5
+Synthetic,9812,Micasin [E8A],38,-7.5,36.5
+Synthetic,9968,P-Apolipoprotein B (914-950),38,-7.5,36.5
+Synthetic,10521,"Sphistin, S. paramamosain Histone H2A (1-38)",38,-7.5,36.5
+Synthetic,10932,"Glycine-rich protein (101-138), LsGRP1 (101-138)",38,-7.5,36.5
+Synthetic,11721,"TC38, CsTFPI-2 (191-228)",38,-7.5,36.5
+Synthetic,15374,T21N17 [E13Glu-OAll],38,-7.5,36.5
+Synthetic,15620,C34-Chol,38,-7.5,36.5
+Synthetic,15762,PACA38 [S2s],38,-7.5,36.5
+Synthetic,15770,"PACA38 [H1Iaa,S2s,Q16A,M17A,Y22A,K38k]",38,-7.5,36.5
+Synthetic,15771,"PACA38 [Q16Aib,G28Aib,M17A,R34K,K38k]",38,-7.5,36.5
+Synthetic,15915,"M-Cecropin-B [M12V], HB12, SB-37",38,-7.5,36.5
+Synthetic,16164,Blapersin/Bp Defensin [W2F],38,-7.5,36.5
+Synthetic,19015,"Heteroscorpine-1 (1-38), CeHS-1",38,-7.5,36.5
+Synthetic,19134,,38,-7.5,36.5
+Synthetic,19155,,38,-7.5,36.5
+Synthetic,20536,Coral_AMP411,38,-7.5,36.5
+Synthetic,21910,Lexapeptide [S28A],38,-7.5,36.5
+Synthetic,22912,"American oyster defensin AOD [C15,35S]",38,-7.5,36.5
+Synthetic,22913,"American oyster defensin AOD [C4,25S]",38,-7.5,36.5
+Synthetic,22914,"American oyster defensin AOD [C11,33S]",38,-7.5,36.5
+Synthetic,24017,Collagenin-2,38,-7.5,36.5
+Synthetic,2257,Cecropin A [V28W],37,-7.5,36.5
+Synthetic,4386,"Esculentin-2CHa [D20K,D27K]",37,-7.5,36.5
+Synthetic,4387,"Esculentin-2CHa [C31S, C37S]",37,-7.5,36.5
+Synthetic,4736,"Hematopoietic antimicrobial peptide-37 [W2F,L29V], HFIAP-1",37,-7.5,36.5
+Synthetic,5855,"Beta-defensin 128 (1-37), hBD-28",37,-7.5,36.5
+Synthetic,6228,"Cecropin AD, Cecropin-A (1-12)+Cecropin-D (12-37)",37,-7.5,36.5
+Synthetic,6459,,37,-7.5,36.5
+Synthetic,6574,,37,-7.5,36.5
+Synthetic,6576,,37,-7.5,36.5
+Synthetic,7018,Arasin 1-Acm,37,-7.5,36.5
+Synthetic,7544,"PE, Pediocin PA-1(1-7) + Bacteriocin E50-52(10-39)",37,-7.5,36.5
+Synthetic,8376,Alpha-S1-casein (1-37),37,-7.5,36.5
+Synthetic,9344,"Hepatitis B Virus Core Protein (147-183), Human HBc147-183",37,-7.5,36.5
+Synthetic,9361,"Hepatitis B Virus Core Protein (147-183)[R165,166,173,174A], HBc147-183 [R165,166,173,174A]",37,-7.5,36.5
+Synthetic,9794,"CAP18-MP(FV)-HsNC, CAP7-HsNC",37,-7.5,36.5
+Synthetic,9795,"CAP18-MP(FV)-TtNC, CAP7-TtNC",37,-7.5,36.5
+Synthetic,10181,ABP-dHC-Cecropin A [P24K],37,-7.5,36.5
+Synthetic,10718,Myticalin D5,37,-7.5,36.5
+Synthetic,10719,"Hl Defensin-1, HlDFS1",37,-7.5,36.5
+Synthetic,10831,Amylin-BP,37,-7.5,36.5
+Synthetic,11776,CAP18 [L6P],37,-7.5,36.5
+Synthetic,12232,"Cecropin-A [E9H][D17K][T33A], PEW300",37,-7.5,36.5
+Synthetic,13332,DC1,37,-7.5,36.5
+Synthetic,13335,D5C1,37,-7.5,36.5
+Synthetic,14020,PMAP-37 [R13I],37,-7.5,36.5
+Synthetic,14156,Papiliocin [W2A],37,-7.5,36.5
+Synthetic,14718,"Gaegurin-4, Esculentin 2 EM-lin",37,-7.5,36.5
+Synthetic,15184,,37,-7.5,36.5
+Synthetic,15185,,37,-7.5,36.5
+Synthetic,15186,,37,-7.5,36.5
+Synthetic,15187,,37,-7.5,36.5
+Synthetic,15188,,37,-7.5,36.5
+Synthetic,15189,,37,-7.5,36.5
+Synthetic,15190,,37,-7.5,36.5
+Synthetic,15191,,37,-7.5,36.5
+Synthetic,15192,,37,-7.5,36.5
+Synthetic,15193,,37,-7.5,36.5
+Synthetic,15194,,37,-7.5,36.5
+Synthetic,15195,,37,-7.5,36.5
+Synthetic,15355,SARS-S (1163-1199),37,-7.5,36.5
+Synthetic,15455,CP24-IBP,37,-7.5,36.5
+Synthetic,15456,IBP-CP24,37,-7.5,36.5
+Synthetic,15851,MT-Sifuvirtide,37,-7.5,36.5
+Synthetic,15993,"SAH-gp41 A,B",37,-7.5,36.5
+Synthetic,16051,Spgly-AMP,37,-7.5,36.5
+Synthetic,18590,"Cecropin A (5-41), DAN1",37,-7.5,36.5
+Synthetic,18591,"Cecropin A (5-41), DAN2",37,-7.5,36.5
+Synthetic,18984,Esculentin-2 HYba1,37,-7.5,36.5
+Synthetic,19017,"Heteroscorpine-1 (1-38)[E5,6Del;D13Del;N19K;G27,P28Ins], CeHS-1 GPK",37,-7.5,36.5
+Synthetic,19374,EcAMP1 [W20A],37,-7.5,36.5
+Synthetic,19416,CaNCR62,37,-7.5,36.5
+Synthetic,20616,Botryllin,37,-7.5,36.5
+Synthetic,20821,CecA,37,-7.5,36.5
+Synthetic,21470,Peyn-Cecropin,37,-7.5,36.5
+Synthetic,22963,Defensin BmKDfsin4 [F2A],37,-7.5,36.5
+Synthetic,22971,"Defensin BmKDfsin4 [F2,6,28A;P5A;L29A]",37,-7.5,36.5
+Synthetic,22972,"Defensin BmKDfsin4 [R19,20,21,37S]",37,-7.5,36.5
+Synthetic,22977,"Defensin BmKDfsin4 [K13,30S;R32S]",37,-7.5,36.5
+Synthetic,23710,"Bactenecin-5 (2-38), BSN-37",37,-7.5,36.5
+Synthetic,24043,Immunosin-4,37,-7.5,36.5
+Synthetic,24898,RPS29,37,-7.5,36.5
+Synthetic,25426,Reyranin-1,37,-7.5,36.5
+Synthetic,25700,"LIG, LI-GSG-LI",37,-7.5,36.5

@@ -1,0 +1,2 @@
+ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TARGET OBJECT,tokenised_TARGET GROUP,tokenised_TARGET OBJECT,ORIGIN,Length_of_Sequence,Length_Class,KINGDOM,DOMAIN
+5372,Monomer,Membrane protein PepG1 Long,,MVALLKSLERRRLMITISTMLQFGLFLIALIGLVIKLIELSNKK,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,44,Medium (25–50 aa),"Bacteria, Virus",

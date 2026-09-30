@@ -1,0 +1,41 @@
+test_name,effect,pvalue,test_result
+A,-0.1498392678601783,0.0,Depleted
+C,0.5234049297657919,0.0,Enriched
+D,-0.7338419282762759,0.0,Depleted
+E,-0.7187560111951982,0.0,Depleted
+F,0.35700004013405157,0.0,Enriched
+G,-0.09035328558689479,0.0,Depleted
+H,-0.10438178687619591,0.0,Depleted
+I,0.09035796421493637,0.0,Enriched
+K,1.7180102176104244,0.0,Enriched
+L,0.21240976657631272,0.0,Enriched
+M,-0.6031667060416073,0.0,Depleted
+N,-0.45070318914176744,0.0,Depleted
+P,-0.26435809034163615,0.0,Depleted
+Q,-0.46506865554245114,0.0,Depleted
+R,1.1050482615725157,0.0,Enriched
+S,-0.4573284884477313,0.0,Depleted
+T,-0.5386302239419422,0.0,Depleted
+V,-0.18361852859574448,0.0,Depleted
+W,3.7604285459236015,0.0,Enriched
+Y,-0.33682946346020703,0.0,Depleted
+Aromatic,0.5742316381631557,0.0,Enriched
+Charged,0.3212376102100131,0.0,Enriched
+Positively charged,1.4249637931682522,0.0,Enriched
+Negatively charged,-0.7254720663731451,0.0,Depleted
+Polar (Zimmerman),0.04303287381486802,0.0,Enriched
+Hydrophobic (Eisenberg),0.024626839804209582,0.0,Enriched
+Hydrophobic (Kyte-Doolittle),-0.002605113871985812,0.4314,Not significant
+Hydrophobic (Fauchere-Pliska),-0.08616122009943639,0.0,Depleted
+Exposed (Janin),-0.022390987912072616,0.0,Depleted
+Flexible (Vihinen),0.20124848068487033,0.0,Enriched
+High interface propencity (Jones-Thornton),-0.08178641379863723,0.0,Depleted
+High solvation potenential (Jones-Thornton),0.07201308876004422,0.0,Enriched
+Frequent in alpha helices (Nagano),0.13762292220440586,0.0,Enriched
+Frequent in beta sheets (Nagano),0.24052117537857434,0.0,Enriched
+Frequent in coils (Nagano),0.2831584906795692,0.0,Enriched
+High linker propensity (George-Heringa),0.15546056567775737,0.0,Enriched
+Disorder promoting (Dunker),0.016578354703444622,0.0,Enriched
+Order promoting (Dunker),-0.18121063639076807,0.0,Depleted
+Bulky (Zimmerman),-0.08285768599838245,0.0,Depleted
+Large (Dawson),0.11244719629494913,0.0,Enriched

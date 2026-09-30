@@ -1,0 +1,43 @@
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Aug 20 2021, 08:39:56
+Command: cd-hit -i
+         cdhit/by_target_object/APJ_receptor/input_ge10aa.fasta
+         -o
+         cdhit/by_target_object/APJ_receptor/cdhit_ge10aa.fasta
+         -c 0.9 -n 5 -d 0 -M 0 -T 0
+
+Started: Wed Sep 30 04:53:28 2026
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total number of CPUs in the system is 4
+Actual number of CPUs to be used: 4
+
+total seq: 4
+longest and shortest : 36 and 12
+Total letters: 78
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 4 X 10M = 41M
+Table           : 2 X 65M = 130M
+Miscellaneous   : 0M
+Total           : 172M
+
+Table limit with the given memory limit:
+Max number of representatives: 1500000
+Max number of word counting entries: 21944250
+
+
+# comparing sequences from          0  to          4
+---------- new table with        1 representatives
+
+        4  finished          1  clusters
+
+Approximated maximum memory consumption: 172M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.19
