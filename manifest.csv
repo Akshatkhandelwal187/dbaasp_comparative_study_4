@@ -1,0 +1,55 @@
+dimension,value,n_rows,file
+by_domain,Archaea,3,/content/subsets/by_domain/Archaea.csv
+by_domain,Bacteria,897,/content/subsets/by_domain/Bacteria.csv
+by_domain,Eukarya,3456,/content/subsets/by_domain/Eukarya.csv
+by_origin,Natural,4493,/content/subsets/by_origin/Natural.csv
+by_origin,Synthetic,21049,/content/subsets/by_origin/Synthetic.csv
+by_length_class,Antimicrobial Protein (>100 aa),30,/content/subsets/by_length_class/Antimicrobial_Protein_100_aa.csv
+by_length_class,Long (50–100 aa),504,/content/subsets/by_length_class/Long_50100_aa.csv
+by_length_class,Medium (25–50 aa),4583,/content/subsets/by_length_class/Medium_2550_aa.csv
+by_length_class,Out of range (<2 aa),156,/content/subsets/by_length_class/Out_of_range_2_aa.csv
+by_length_class,Short (10–24 aa),15282,/content/subsets/by_length_class/Short_1024_aa.csv
+by_length_class,Ultrashort (2–9 aa),4987,/content/subsets/by_length_class/Ultrashort_29_aa.csv
+by_kingdom,Animalia,2710,/content/subsets/by_kingdom/Animalia.csv
+by_kingdom,Archaea,13,/content/subsets/by_kingdom/Archaea.csv
+by_kingdom,Bacteria,925,/content/subsets/by_kingdom/Bacteria.csv
+by_kingdom,Fungi,393,/content/subsets/by_kingdom/Fungi.csv
+by_kingdom,Protista,2,/content/subsets/by_kingdom/Protista.csv
+by_kingdom,Virus,2,/content/subsets/by_kingdom/Virus.csv
+by_kingdom,Plantae,371,/content/subsets/by_kingdom/Plantae.csv
+by_kingdom,Unresolved,21158,/content/subsets/by_kingdom/Unresolved.csv
+by_target_group,antibacterial_gram_pos,19626,/content/subsets/by_target_group/antibacterial_gram_pos.csv
+by_target_group,antibacterial_gram_neg,20193,/content/subsets/by_target_group/antibacterial_gram_neg.csv
+by_target_group,antifungal,6982,/content/subsets/by_target_group/antifungal.csv
+by_target_group,antiviral,1637,/content/subsets/by_target_group/antiviral.csv
+by_target_group,anticancer,4495,/content/subsets/by_target_group/anticancer.csv
+by_target_group,antibiofilm,793,/content/subsets/by_target_group/antibiofilm.csv
+by_target_group,antiparasitic,475,/content/subsets/by_target_group/antiparasitic.csv
+by_target_group,insecticidal,118,/content/subsets/by_target_group/insecticidal.csv
+by_target_group,antiprotozoal,46,/content/subsets/by_target_group/antiprotozoal.csv
+by_target_group,antimollicute,52,/content/subsets/by_target_group/antimollicute.csv
+by_target_group,nematicidal,62,/content/subsets/by_target_group/nematicidal.csv
+by_target_group,mammalian_cytotoxic,14154,/content/subsets/by_target_group/mammalian_cytotoxic.csv
+by_target_object,Lipid Bilayer,20814,/content/subsets/by_target_object/Lipid_Bilayer.csv
+by_target_object,Virus entry,914,/content/subsets/by_target_object/Virus_entry.csv
+by_target_object,Cytoplasmic Protein,676,/content/subsets/by_target_object/Cytoplasmic_Protein.csv
+by_target_object,Virus Integrase,171,/content/subsets/by_target_object/Virus_Integrase.csv
+by_target_object,DNA / RNA,371,/content/subsets/by_target_object/DNA_-_RNA.csv
+by_target_object,Virus replication,322,/content/subsets/by_target_object/Virus_replication.csv
+by_target_object,Virus Protease,91,/content/subsets/by_target_object/Virus_Protease.csv
+by_target_object,Virus Reverse Transcriptase,45,/content/subsets/by_target_object/Virus_Reverse_Transcriptase.csv
+by_target_object,gp41,110,/content/subsets/by_target_object/gp41.csv
+by_target_object,Membrane Protein,446,/content/subsets/by_target_object/Membrane_Protein.csv
+by_target_object,Immunomodulation,104,/content/subsets/by_target_object/Immunomodulation.csv
+by_target_object,EgpDV,9,/content/subsets/by_target_object/EgpDV.csv
+by_target_object,gp120,16,/content/subsets/by_target_object/gp120.csv
+by_target_object,VIF,3,/content/subsets/by_target_object/VIF.csv
+by_target_object,APJ receptor,4,/content/subsets/by_target_object/APJ_receptor.csv
+by_target_object,Sgp,28,/content/subsets/by_target_object/Sgp.csv
+by_target_object,Ribosome,318,/content/subsets/by_target_object/Ribosome.csv
+by_target_object,gpE,7,/content/subsets/by_target_object/gpE.csv
+by_target_object,Quorum Sensing,262,/content/subsets/by_target_object/Quorum_Sensing.csv
+by_target_object,Lysosomal membrane,41,/content/subsets/by_target_object/Lysosomal_membrane.csv
+by_target_object,Mitochondrial membrane,109,/content/subsets/by_target_object/Mitochondrial_membrane.csv
+by_target_object,gpHA,14,/content/subsets/by_target_object/gpHA.csv
+by_target_object,gD,4,/content/subsets/by_target_object/gD.csv

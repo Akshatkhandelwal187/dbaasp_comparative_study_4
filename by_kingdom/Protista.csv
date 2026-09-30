@@ -1,0 +1,3 @@
+ID,COMPLEXITY,NAME,N TERMINUS,SEQUENCE,C TERMINUS,SYNTHESIS TYPE,TARGET GROUP,TARGET OBJECT,tokenised_TARGET GROUP,tokenised_TARGET OBJECT,ORIGIN,Length_of_Sequence,Length_Class,KINGDOM,DOMAIN
+1104,Monomer,"Pore-forming peptide ameobapore A, EH-APP",,GEILCNLCTGLINTLENLLTTKGADKVKDYISSLCNKASGFIATLCTKVLDFGIDKLIQLIEDKVDANAICAKIHAC,,Ribosomal,Gram+    Gram-    Cancer    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Cancer', 'Mammalian Cell']",['Lipid Bilayer'],Natural,77,Long (50–100 aa),Protista,Eukarya
+5684,Monomer,Acanthaporin,,AMGKCSVLKKVACAAAIAGAVAACGGIDLPCVLAALKAAEGCASCFCEDHCHGVCKDLHLC,,Ribosomal,Gram+    Gram-    Mammalian Cell,Lipid Bilayer,"['Gram+', 'Gram-', 'Mammalian Cell']",['Lipid Bilayer'],Natural,61,Long (50–100 aa),Protista,Eukarya
