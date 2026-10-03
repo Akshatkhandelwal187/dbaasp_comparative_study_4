@@ -1,0 +1,15 @@
+check,result
+CD-HIT removed peptides,6735
+lowest identity to the kept representative (%),90.2
+every representative is in the final FASTA,True
+no representative is shorter than the peptide it covers,True
+re-clustering the final >= 10 aa set removes,0
+"what-if, Natural clustered on its own: kept (of 3,572) / median length",2881 / 23
+"what-if, Synthetic clustered on its own: kept (of 15,134) / median length",9665 / 14
+"what-if, separate clustering: total (still contains Natural/Synthetic near-duplicates)",12546
+combined clustering (deliverable): Natural / Synthetic / total; median length Natural / Synthetic,2791 / 9013 / 11804; 23 / 13
+CD-HIT removals: Synthetic peptide covered by a Natural one,1701
+CD-HIT removals: Natural peptide covered by a Synthetic one,132
+"what-if, 5-9 aa peptides clustered too: additionally removed",492
+   of which Natural / Synthetic,14 / 478
+peptides of 5-9 aa / 2-4 aa / 1 aa in the final FASTA,2255 / 466 / 15

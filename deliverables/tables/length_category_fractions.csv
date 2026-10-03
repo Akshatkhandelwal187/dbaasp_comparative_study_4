@@ -1,0 +1,7 @@
+length_category,Entire_n,Entire_fraction,Natural_n,Natural_fraction,Synthetic_n,Synthetic_fraction
+<2 aa (out of range),15,0.0013,0,0.0,15,0.0017
+Ultrashort (2-9 aa),2721,0.2305,473,0.1695,2248,0.2494
+Short (10-24 aa),6648,0.5632,1057,0.3787,5591,0.6203
+Medium (25-50 aa),2184,0.185,1074,0.3848,1110,0.1232
+Long (51-100 aa),217,0.0184,170,0.0609,47,0.0052
+>100 aa,19,0.0016,17,0.0061,2,0.0002
