@@ -1,0 +1,8 @@
+step,what is removed,lost_Natural,lost_Synthetic,lost_Total,remaining_Natural,remaining_Synthetic,remaining_Total
+0,raw rows (DBAASP export),,,,4493,21049,25542
+1,exact duplicate row,406,1594,2000,4087,19455,23542
+2,multi-chain entry,97,538,635,3990,18917,22907
+3,sequence of only X,27,321,348,3963,18596,22559
+4,duplicate sequence (same origin),391,3462,3853,3572,15134,18706
+5,identical sequence in Natural and Synthetic,0,167,167,3572,14967,18539
+6,CD-HIT >= 90 % identity,781,5954,6735,2791,9013,11804
