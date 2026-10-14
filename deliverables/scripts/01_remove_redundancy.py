@@ -1,24 +1,24 @@
-"""Deliverable step 1 - one non-redundant AMP dataset (Natural + Synthetic) with an exact loss count.
+"""Deliverable step 1 - one AMP dataset (Natural + Synthetic) after CD-HIT, 90 % identity, with an exact loss count.
 
 Starts from the untouched raw data (raw_data/dbaasp_datasets_corrected.zip, by_origin/*.csv) and nothing in the
 repository outside deliverables/ is modified.
 
   1. cleaning, same four rules as scripts/01_clean_datasets.py (per origin)
   2. identical sequence in Natural AND Synthetic -> keep the Natural entry
-  3. CD-HIT, >= 90 % identity, on the combined set, so the final FASTA is non-redundant as a whole
+  3. CD-HIT, >= 90 % identity, on the combined set, so the cut-off applies across Natural and Synthetic together
        cd-hit -c 0.9 -n 5 -d 0 -l 9      (peptides < 10 aa skip CD-HIT, as in scripts/02_run_cdhit.py)
      NOTE -l 9: cd-hit's default (-l 10) silently throws away every sequence of 10 aa or fewer.
      scripts/02_run_cdhit.py sent the 10-aa peptides to cd-hit with the default, so they were dropped and
      counted as "redundant". Here the number of sequences cd-hit actually read is checked against the number sent.
 
 Writes (all under deliverables/):
-  fasta/amp_nonredundant.fasta          >DBAASP_<ID>  one-line upper-case sequence, Natural + Synthetic
-  fasta/amp_natural_nonredundant.fasta  the Natural records of that file
-  fasta/amp_synthetic_nonredundant.fasta  the Synthetic records of that file
-  tables/peptide_metadata.csv           ID -> origin, length, length class, sequence
-  tables/removed_records.csv            every record lost, why, and which kept entry covers it
-  tables/redundancy_removal_summary.csv the step-by-step counts (Natural / Synthetic / Total)
-  cdhit/                                cd-hit input, output, cluster file and log
+  fasta/amp_cdhit90.fasta                >DBAASP_<ID>  one-line upper-case sequence, Natural + Synthetic
+  fasta/amp_natural_cdhit90.fasta        the Natural records of that file
+  fasta/amp_synthetic_cdhit90.fasta      the Synthetic records of that file
+  tables/peptide_metadata.csv            ID -> origin, length, length class, sequence
+  tables/removed_records.csv             every record lost, why, and which kept entry covers it
+  tables/redundancy_removal_summary.csv  the step-by-step counts (Natural / Synthetic / Total)
+  cdhit/                                 cd-hit input, output, cluster file and log
 """
 import io
 import re
@@ -157,9 +157,9 @@ def write_fasta(table, path):
             f.write(f">{h}\n{s}\n")
 
 
-write_fasta(final, DELIV / "fasta" / "amp_nonredundant.fasta")
+write_fasta(final, DELIV / "fasta" / "amp_cdhit90.fasta")
 for origin in ORIGINS:                      # the same records, split by origin (same order, same headers)
-    write_fasta(final[final["ORIGIN"] == origin], DELIV / "fasta" / f"amp_{origin.lower()}_nonredundant.fasta")
+    write_fasta(final[final["ORIGIN"] == origin], DELIV / "fasta" / f"amp_{origin.lower()}_cdhit90.fasta")
 
 meta = pd.DataFrame({"ID": final["HEADER"], "ORIGIN": final["ORIGIN"], "LENGTH": final["KEY"].str.len(),
                      "LENGTH_CLASS": final["KEY"].str.len().map(length_class), "SEQUENCE": final["KEY"]})
@@ -182,9 +182,9 @@ summary.to_csv(DELIV / "tables" / "redundancy_removal_summary.csv", index=False)
 
 # the final counts have to agree with what was written
 assert left == meta["ORIGIN"].value_counts().reindex(ORIGINS).to_dict()
-assert sum(left.values()) == len(final) == sum(1 for l in open(DELIV / "fasta" / "amp_nonredundant.fasta") if l[0] == ">")
+assert sum(left.values()) == len(final) == sum(1 for l in open(DELIV / "fasta" / "amp_cdhit90.fasta") if l[0] == ">")
 assert len(rem) + len(final) == sum(counts[o]["raw rows"] for o in ORIGINS)
-split = {o: [l.strip() for l in open(DELIV / "fasta" / f"amp_{o.lower()}_nonredundant.fasta") if l[0] == ">"]
+split = {o: [l.strip() for l in open(DELIV / "fasta" / f"amp_{o.lower()}_cdhit90.fasta") if l[0] == ">"]
          for o in ORIGINS}
 assert {o: len(h) for o, h in split.items()} == left                      # 2,791 Natural / 9,013 Synthetic
 assert sorted(split["Natural"] + split["Synthetic"]) == sorted(">" + final["HEADER"])  # together = the combined FASTA

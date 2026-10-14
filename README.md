@@ -9,7 +9,7 @@ two of the groupings with very simple statistics and an amino-acid enrichment an
 Everything uses columns that already exist in the data. No new parameters were calculated.
 All scripts are short, numbered, and can be read from top to bottom.
 
-**Deliverables:** [`deliverables/`](deliverables/README.md) holds the single non-redundant FASTA (Natural + Synthetic),
+**Deliverables:** [`deliverables/`](deliverables/README.md) holds the single FASTA after CD-HIT at 90 % identity (Natural + Synthetic),
 the exact number of sequences lost to CD-HIT, and the length histogram and category bar chart.
 Note: that folder re-runs CD-HIT with `-l 9`. The default `-l 10` used in step 02 below silently drops all 10-aa peptides,
 so the CD-HIT counts in section 4 are slightly overstated (details in `deliverables/README.md`, section 4).
@@ -35,7 +35,7 @@ nonredundant_csv/<grouping>/<subgroup>.csv   the same non-redundant set as a tab
 fasta_files/by_length_class/<6 subgroups>/<subgroup>.fasta
                                          non-redundant FASTA files, input for Composition Profiler
                                          (fasta_files/by_origin/ was removed: the Natural and Synthetic FASTA files are now
-                                          deliverables/fasta/amp_{natural,synthetic}_nonredundant.fasta)
+                                          deliverables/fasta/amp_{natural,synthetic}_cdhit90.fasta)
 
 analysis/origin/                         Natural vs Synthetic: tables (csv) + plots (png)
 analysis/length_class/                   length class comparison: tables (csv) + plots (png)

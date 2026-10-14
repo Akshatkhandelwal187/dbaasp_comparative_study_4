@@ -1,7 +1,7 @@
-"""Deliverable step 2 - length figures for the non-redundant AMP dataset (run 01_remove_redundancy.py first).
+"""Deliverable step 2 - length figures for the AMP dataset after CD-HIT, 90 % identity (run 01_remove_redundancy.py first).
 
 Reads  deliverables/tables/peptide_metadata.csv
-Writes deliverables/figures/length_histogram_overlap.png         3 overlapping histograms, each as % of its own group
+Writes deliverables/figures/length_histogram_overlap.png         3 overlapping histograms + smooth lines, each as % of its group
        deliverables/figures/length_histogram_overlap_counts.png  same, as peptide counts
        deliverables/figures/length_category_fraction_bar.png     share of Natural / Synthetic peptides per length category
        deliverables/tables/length_summary.csv                    numbers behind the histograms
@@ -17,12 +17,14 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from matplotlib.legend_handler import HandlerTuple
 from matplotlib.lines import Line2D
 from matplotlib.patches import PathPatch, Patch
 from matplotlib.path import Path as MplPath
 
 DELIV = Path(__file__).resolve().parent.parent
 HIST_MAX = 100                      # histogram x-axis ends here; longer peptides are counted in the footnote
+SMOOTH_BW = 3.0                     # width (aa) of the Gaussian kernel behind the smooth lines
 DPI = 200
 
 SURFACE, INK, INK2, MUTED, GRID, AXIS = "#fcfcfb", "#0b0b0b", "#52514e", "#898781", "#e1e0d9", "#c3c2b7"
@@ -77,21 +79,32 @@ assert all(check[c] == n for c, n in zip(CLASS_NAMES, frac["Entire_n"]) if n > 0
 
 
 # ------------------------------------------------------------------ overlapping histogram
+def smooth_curve(lengths, x, bandwidth=SMOOTH_BW):
+    """Gaussian kernel density of the lengths on the grid x, as % of the group per 1-aa bin (the histogram's unit).
+    Mirrored at 0.5 aa, so no density leaks below the shortest possible peptide (1 aa)."""
+    values, n = np.unique(lengths, return_counts=True)
+    kernel = lambda centre: np.exp(-0.5 * ((x[:, None] - centre[None, :]) / bandwidth) ** 2)
+    density = (kernel(values) + kernel(1 - values)) @ n / (n.sum() * bandwidth * np.sqrt(2 * np.pi))
+    return 100 * density
+
+
 def histogram(filename, as_percent):
     fig, ax = plt.subplots(figsize=(9, 5.2))
-    fig.subplots_adjust(left=0.085, right=0.97, top=0.82, bottom=0.15)
+    fig.subplots_adjust(left=0.085, right=0.97, top=0.82, bottom=0.19)
     bins = np.arange(0.5, HIST_MAX + 1.5, 1)                    # one bin per amino-acid length
+    x = np.linspace(0.5, HIST_MAX, 400)
     handles = []
-    for z, (name, color) in enumerate([("Natural", NATURAL), ("Synthetic", SYNTHETIC), ("Entire dataset", INK2)], start=1):
+    for z, (name, color) in enumerate([("Entire dataset", INK2), ("Natural", NATURAL), ("Synthetic", SYNTHETIC)], start=1):
         L = groups[name]
         w = np.full(len(L), 100 / len(L)) if as_percent else None
-        if name != "Entire dataset":                                       # filled, translucent, with a 2 px outline
-            ax.hist(L, bins=bins, weights=w, histtype="stepfilled", color=color, alpha=0.40, linewidth=0, zorder=z)
-            ax.hist(L, bins=bins, weights=w, histtype="step", color=color, linewidth=1.5, zorder=z)
-            swatch = Patch(facecolor=color, alpha=0.55, edgecolor=color, linewidth=1.5)
-        else:                                                              # outline only, drawn on top
-            ax.hist(L, bins=bins, weights=w, histtype="step", color=color, linewidth=1.5, zorder=z + 1)
-            swatch = Line2D([], [], color=color, linewidth=1.5)
+        curve = smooth_curve(L, x) * (1 if as_percent else len(L) / 100)
+        if name == "Entire dataset":                                       # hairline bars (no fill) + the smooth line
+            ax.hist(L, bins=bins, weights=w, histtype="step", color=MUTED, linewidth=0.8, zorder=z)
+            swatch = Line2D([], [], color=color, linewidth=2)
+        else:                                                              # translucent bars + the smooth line
+            ax.hist(L, bins=bins, weights=w, histtype="stepfilled", color=color, alpha=0.35, linewidth=0, zorder=z)
+            swatch = (Patch(facecolor=color, alpha=0.45), Line2D([], [], color=color, linewidth=2))
+        ax.plot(x, curve, color=color, linewidth=2, solid_capstyle="round", zorder=z + 3)
         handles.append((swatch, f"{name}  (n = {len(L):,}; median {L.median():g} aa)"))
     ax.set_xlim(0, HIST_MAX)
     ax.set_xticks(range(0, HIST_MAX + 1, 10))
@@ -100,13 +113,15 @@ def histogram(filename, as_percent):
                   labelpad=8)
     ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
     style_axes(ax)
-    ax.legend(*zip(*handles[::-1]), loc="upper right", frameon=False, fontsize=9.5, labelcolor=INK2, handlelength=1.6)
+    ax.legend(*zip(*handles[::-1]), loc="upper right", frameon=False, fontsize=9.5, labelcolor=INK2, handlelength=1.8,
+              handler_map={tuple: HandlerTuple(ndivide=None)})
     n_long = {k: int((v > HIST_MAX).sum()) for k, v in groups.items()}
-    fig.text(0.07, 0.035, f"Not shown: {n_long['Entire dataset']} peptides longer than {HIST_MAX} aa "
+    fig.text(0.07, 0.03, f"Smooth lines: Gaussian kernel density, bandwidth {SMOOTH_BW:g} aa (all peptides).\n"
+             f"Not shown: {n_long['Entire dataset']} peptides longer than {HIST_MAX} aa "
              f"(Natural {n_long['Natural']}, Synthetic {n_long['Synthetic']}; longest {groups['Entire dataset'].max()} aa).",
-             fontsize=8.5, color=MUTED, ha="left", va="bottom")
+             fontsize=8.5, color=MUTED, ha="left", va="bottom", linespacing=1.5)
     heading(fig, "Peptide length distribution: entire dataset vs Natural vs Synthetic",
-            "Non-redundant DBAASP peptides (CD-HIT, 90 % identity). " +
+            "DBAASP peptides after CD-HIT (90 % identity). " +
             ("Each histogram is scaled to 100 % of its own group." if as_percent else "Counts of peptides; the entire dataset is Natural + Synthetic."))
     fig.savefig(DELIV / "figures" / filename)
     plt.close(fig)
@@ -163,7 +178,7 @@ def bar_chart(filename):
               [f"Natural  (n = {n_nat:,})", f"Synthetic  (n = {n_syn:,})"], loc="upper right", frameon=False,
               fontsize=9.5, labelcolor=INK2, handletextpad=0.3)
     heading(fig, "Natural vs Synthetic peptides across length categories",
-            "Share of each group's non-redundant peptides (CD-HIT, 90 % identity) in each category; each group sums to 100 %.")
+            "Share of each group's peptides after CD-HIT (90 % identity) in each category; each group sums to 100 %.")
     fig.savefig(DELIV / "figures" / filename)
     plt.close(fig)
 

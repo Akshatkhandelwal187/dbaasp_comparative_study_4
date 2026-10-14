@@ -1,15 +1,15 @@
-# Deliverables: non-redundant DBAASP peptides (Natural + Synthetic)
+# Deliverables: DBAASP peptides after CD-HIT, 90 % identity (Natural + Synthetic)
 
-One non-redundant FASTA of all Natural and Synthetic peptides, the exact count of sequences lost on the way, and the
-length figures. Everything here is rebuilt from `../raw_data/dbaasp_datasets_corrected.zip` by the three scripts in
+One FASTA of all Natural and Synthetic peptides after CD-HIT at 90 % identity, the exact count of sequences lost on the
+way, and the length figures. Everything here is rebuilt from `../raw_data/dbaasp_datasets_corrected.zip` by the three scripts in
 `scripts/`. Nothing outside this folder is read or changed except that zip.
 
 ```
 deliverables/
-  fasta/amp_nonredundant.fasta            11,804 peptides (Natural + Synthetic), ">DBAASP_<ID>" + one-line upper-case sequence
-  fasta/amp_natural_nonredundant.fasta    the 2,791 Natural peptides of that file
-  fasta/amp_synthetic_nonredundant.fasta  the 9,013 Synthetic peptides of that file
-  figures/length_histogram_overlap.png         overlapping histograms: entire / Natural / Synthetic (each as % of its group)
+  fasta/amp_cdhit90.fasta                 11,804 peptides (Natural + Synthetic), ">DBAASP_<ID>" + one-line upper-case sequence
+  fasta/amp_natural_cdhit90.fasta         the 2,791 Natural peptides of that file
+  fasta/amp_synthetic_cdhit90.fasta       the 9,013 Synthetic peptides of that file
+  figures/length_histogram_overlap.png         overlapping histograms + smooth lines: entire / Natural / Synthetic (each as % of its group)
   figures/length_histogram_overlap_counts.png  the same with peptide counts
   figures/length_category_fraction_bar.png     share of Natural and Synthetic peptides per length category
   tables/redundancy_removal_summary.csv   step-by-step counts, Natural / Synthetic / Total
@@ -75,7 +75,7 @@ peptides. Synthetic peptides sit mostly in the Short class. The Synthetic histog
 cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T 1
 ```
 * `-c 0.9 -n 5`: 90 % identity, word size 5, as in the rest of the repository. cd-hit keeps the longest peptide of each cluster.
-* **Natural and Synthetic are clustered together**, so the single FASTA is non-redundant as a whole. When the same sequence
+* **Natural and Synthetic are clustered together**, so the 90 % cut-off applies across both groups, not within each one. When the same sequence
   is in both groups, the Natural entry is kept.
 * **Peptides shorter than 10 aa are not sent to CD-HIT**, the existing rule of `scripts/02_run_cdhit.py`.
 * **`-l 9` matters.** cd-hit's default `-l 10` silently discards every sequence of 10 aa or fewer. The script checks that
@@ -110,6 +110,9 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
 7. **The histogram axis stops at 100 aa**; the 19 longer peptides (17 Natural, 2 Synthetic, longest 190 aa) are named in the
    figure footnote and are in the tables. The overlapping histograms are scaled to 100 % of their own group, because Natural
    (2,791) is much smaller than Synthetic (9,013); the counts version is `length_histogram_overlap_counts.png`.
+   The smooth lines are a Gaussian kernel density with a 3 aa bandwidth, mirrored at the 1 aa edge, using all peptides
+   (also those over 100 aa). Each line has an area of 100 %, so it is on the same scale as the bars. The wider the
+   bandwidth, the more the design-length spikes are averaged out; the bars underneath still show them.
 
 ## 5. Reproduce
 
