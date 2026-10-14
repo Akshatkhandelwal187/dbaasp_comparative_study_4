@@ -6,7 +6,9 @@ length figures. Everything here is rebuilt from `../raw_data/dbaasp_datasets_cor
 
 ```
 deliverables/
-  fasta/amp_nonredundant.fasta            11,804 peptides, ">DBAASP_<ID>" + one-line upper-case sequence
+  fasta/amp_nonredundant.fasta            11,804 peptides (Natural + Synthetic), ">DBAASP_<ID>" + one-line upper-case sequence
+  fasta/amp_natural_nonredundant.fasta    the 2,791 Natural peptides of that file
+  fasta/amp_synthetic_nonredundant.fasta  the 9,013 Synthetic peptides of that file
   figures/length_histogram_overlap.png         overlapping histograms: entire / Natural / Synthetic (each as % of its group)
   figures/length_histogram_overlap_counts.png  the same with peptide counts
   figures/length_category_fraction_bar.png     share of Natural and Synthetic peptides per length category
@@ -81,7 +83,8 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
 * `-T 1`: one thread, so the result is reproducible. The output is byte-identical on re-run.
 * FASTA headers use the DBAASP ID (`>DBAASP_11`), not a running number, so every entry can be traced back to the database.
   Sequences are upper case (D-amino acids are lower case in the csv files); `X` (non-standard residue) is kept.
-  Origin is not in the header: use `tables/peptide_metadata.csv`.
+  Origin is not in the header: use the two per-origin files (same records, same headers, same order as the combined file)
+  or `tables/peptide_metadata.csv`.
 
 ## 4. Things to know
 

@@ -12,7 +12,9 @@ repository outside deliverables/ is modified.
      counted as "redundant". Here the number of sequences cd-hit actually read is checked against the number sent.
 
 Writes (all under deliverables/):
-  fasta/amp_nonredundant.fasta          >DBAASP_<ID>  one-line upper-case sequence
+  fasta/amp_nonredundant.fasta          >DBAASP_<ID>  one-line upper-case sequence, Natural + Synthetic
+  fasta/amp_natural_nonredundant.fasta  the Natural records of that file
+  fasta/amp_synthetic_nonredundant.fasta  the Synthetic records of that file
   tables/peptide_metadata.csv           ID -> origin, length, length class, sequence
   tables/removed_records.csv            every record lost, why, and which kept entry covers it
   tables/redundancy_removal_summary.csv the step-by-step counts (Natural / Synthetic / Total)
@@ -149,9 +151,15 @@ final = final.sort_values("ID").reset_index(drop=True)
 assert final["HEADER"].is_unique and final["KEY"].is_unique
 
 # ---------------------------------------------------------------- outputs
-with open(DELIV / "fasta" / "amp_nonredundant.fasta", "w") as f:
-    for h, s in zip(final["HEADER"], final["KEY"]):
-        f.write(f">{h}\n{s}\n")
+def write_fasta(table, path):
+    with open(path, "w") as f:
+        for h, s in zip(table["HEADER"], table["KEY"]):
+            f.write(f">{h}\n{s}\n")
+
+
+write_fasta(final, DELIV / "fasta" / "amp_nonredundant.fasta")
+for origin in ORIGINS:                      # the same records, split by origin (same order, same headers)
+    write_fasta(final[final["ORIGIN"] == origin], DELIV / "fasta" / f"amp_{origin.lower()}_nonredundant.fasta")
 
 meta = pd.DataFrame({"ID": final["HEADER"], "ORIGIN": final["ORIGIN"], "LENGTH": final["KEY"].str.len(),
                      "LENGTH_CLASS": final["KEY"].str.len().map(length_class), "SEQUENCE": final["KEY"]})
@@ -176,6 +184,10 @@ summary.to_csv(DELIV / "tables" / "redundancy_removal_summary.csv", index=False)
 assert left == meta["ORIGIN"].value_counts().reindex(ORIGINS).to_dict()
 assert sum(left.values()) == len(final) == sum(1 for l in open(DELIV / "fasta" / "amp_nonredundant.fasta") if l[0] == ">")
 assert len(rem) + len(final) == sum(counts[o]["raw rows"] for o in ORIGINS)
+split = {o: [l.strip() for l in open(DELIV / "fasta" / f"amp_{o.lower()}_nonredundant.fasta") if l[0] == ">"]
+         for o in ORIGINS}
+assert {o: len(h) for o, h in split.items()} == left                      # 2,791 Natural / 9,013 Synthetic
+assert sorted(split["Natural"] + split["Synthetic"]) == sorted(">" + final["HEADER"])  # together = the combined FASTA
 
 print(summary.to_string(index=False))
 print(f"\nCD-HIT: sent {len(to_cluster)} (>= {MIN_LEN} aa), read {n_read}, kept {len(cd_kept)}, lost {len(cd_lost)}; "
