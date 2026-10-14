@@ -10,9 +10,9 @@ Everything uses columns that already exist in the data. No new parameters were c
 All scripts are short, numbered, and can be read from top to bottom.
 
 **Deliverables:** [`deliverables/`](deliverables/README.md) holds the single FASTA after CD-HIT at 90 % identity (Natural + Synthetic),
-the exact number of sequences lost to CD-HIT, and the length histogram and category bar chart.
+the exact number of sequences lost to CD-HIT, the length histogram and category bar chart, and the amino acid enrichment against SwissProt.
 Note: that folder re-runs CD-HIT with `-l 9`. The default `-l 10` used in step 02 below silently drops all 10-aa peptides,
-so the CD-HIT counts in section 4 are slightly overstated (details in `deliverables/README.md`, section 4).
+so the CD-HIT counts in section 4 are slightly overstated (details in `deliverables/README.md`, section 5).
 
 ---
 
