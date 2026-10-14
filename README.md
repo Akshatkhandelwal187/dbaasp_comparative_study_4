@@ -32,9 +32,10 @@ cdhit/<grouping>/<subgroup>/             CD-HIT work folder for EVERY dataset (6
     nr90.fasta                           final non-redundant FASTA
 nonredundant_csv/<grouping>/<subgroup>.csv   the same non-redundant set as a table (used for the statistics)
 
-fasta_files/by_origin/{Natural,Synthetic}/<subgroup>.fasta
 fasta_files/by_length_class/<6 subgroups>/<subgroup>.fasta
                                          non-redundant FASTA files, input for Composition Profiler
+                                         (fasta_files/by_origin/ was removed: the Natural and Synthetic FASTA files are now
+                                          deliverables/fasta/amp_{natural,synthetic}_nonredundant.fasta)
 
 analysis/origin/                         Natural vs Synthetic: tables (csv) + plots (png)
 analysis/length_class/                   length class comparison: tables (csv) + plots (png)
@@ -238,6 +239,9 @@ terminal amidation (Synthetic ~2x more), and the fungal target. The antibacteria
 * Tool: the official Composition Profiler, https://github.com/vvacic/cprofiler (version 2.0).
 * Query 1: `fasta_files/by_origin/Natural/Natural.fasta` (2,797 non-redundant peptides).
 * Query 2: `fasta_files/by_origin/Synthetic/Synthetic.fasta` (9,092 non-redundant peptides).
+* These two files have since been removed from the repository. `python scripts/03_make_fasta_files.py` re-creates them from
+  `cdhit/by_origin/*/nr90.fasta`, which `scripts/06_run_composition_profiler.py` needs. They are the per-origin sets that
+  lack the 10-aa peptides (see the Deliverables note at the top); the corrected sets are in `deliverables/fasta/`.
 * Background (same for both): `composition_profiler/background/swissprot51_5k.fasta` (5,002 proteins).
 * Length classes were **not** profiled (as requested).
 * Settings: defaults of the tool, 10,000 iterations, alpha = 0.05, **plus Bonferroni correction** (`-b`, i.e. alpha = 0.05 / 40 tests = 0.00125,
