@@ -1,8 +1,9 @@
 # Deliverables: DBAASP peptides after CD-HIT, 90 % identity (Natural + Synthetic)
 
 One FASTA of all Natural and Synthetic peptides after CD-HIT at 90 % identity, the exact count of sequences lost on the
-way, and the length figures. Everything here is rebuilt from `../raw_data/dbaasp_datasets_corrected.zip` by the three scripts in
-`scripts/`. Nothing outside this folder is read or changed except that zip.
+way, the length figures, and the amino acid enrichment of the two datasets against SwissProt. Everything here is rebuilt from
+`../raw_data/dbaasp_datasets_corrected.zip` by the four scripts in `scripts/`. Nothing outside this folder is read or changed
+except that zip (and, for step 4, the installed `cprofiler` package).
 
 ```
 deliverables/
@@ -12,14 +13,19 @@ deliverables/
   figures/length_histogram_overlap.png         overlapping histograms + smooth lines: entire / Natural / Synthetic (each as % of its group)
   figures/length_histogram_overlap_counts.png  the same with peptide counts
   figures/length_category_fraction_bar.png     share of Natural and Synthetic peptides per length category
+  figures/amino_acid_enrichment.png            the 20 amino acids, Natural and Synthetic vs SwissProt (fold change, log scale)
+  figures/amino_acid_group_enrichment.png      the 20 amino acid groups of the Composition Profiler, the same way
   tables/redundancy_removal_summary.csv   step-by-step counts, Natural / Synthetic / Total
   tables/removed_records.csv              every lost record: why, and which kept peptide covers it (+ identity for CD-HIT)
   tables/peptide_metadata.csv             FASTA ID -> origin, length, length category, sequence
   tables/length_summary.csv               numbers behind the histogram
   tables/length_category_fractions.csv    numbers behind the bar chart
-  tables/cdhit_checks.csv                 integrity checks and two what-if runs (section 4)
+  tables/cdhit_checks.csv                 integrity checks and two what-if runs (section 5)
+  tables/aa_enrichment_natural_vs_synthetic.csv   all 40 tests: frequencies, effect, fold change, p-value, result, both datasets
+  tables/aa_enrichment_background_check.csv       the same effects with AMP-named proteins removed from the background
+  background/swissprot51_5k.fasta         SwissProt background, 5,002 proteins (identical to the tool's own `-D sprot` file)
   cdhit/                                  CD-HIT input, output, cluster file (.clstr) and log
-  scripts/01_remove_redundancy.py  02_make_figures.py  03_check_cdhit_result.py
+  scripts/01_remove_redundancy.py  02_make_figures.py  03_check_cdhit_result.py  04_aa_enrichment.py
 ```
 
 ## 1. Sequences lost
@@ -42,10 +48,10 @@ Steps 1 to 4 are the existing cleaning of `scripts/01_clean_datasets.py`; they r
 files ID for ID. Step 1 removes repeated rows of the same entry, so it is not a loss of distinct peptides: of the
 23,542 distinct entries, 11,738 are lost.
 
-CD-HIT arithmetic: 18,539 peptides enter step 6. 2,736 of them are shorter than 10 aa and skip CD-HIT (section 3).
+CD-HIT arithmetic: 18,539 peptides enter step 6. 2,736 of them are shorter than 10 aa and skip CD-HIT (section 4).
 The other 15,803 go in, 9,068 representatives come out, 6,735 are removed. 9,068 + 2,736 = 11,804.
 
-## 2. Figures
+## 2. Length figures
 
 ![length histogram](figures/length_histogram_overlap.png)
 ![length categories](figures/length_category_fraction_bar.png)
@@ -69,7 +75,96 @@ Natural peptides are longer (median 23 vs 13 aa) and make up most of the Long (1
 peptides. Synthetic peptides sit mostly in the Short class. The Synthetic histogram has sharp spikes (e.g. 509 peptides at
 20 aa but 278 at 19 aa; also 12-13 and 18 aa), probably convenient design lengths.
 
-## 3. Method
+## 3. Amino acid enrichment vs SwissProt
+
+How much more or less often each amino acid occurs in the Natural and in the Synthetic peptides than in typical proteins
+(background = SwissProt).
+
+![amino acid enrichment](figures/amino_acid_enrichment.png)
+
+**Method** (`scripts/04_aa_enrichment.py`, the same tool, functions and settings as `scripts/06_run_composition_profiler.py` of the main analysis)
+* Tool: the official Composition Profiler, https://github.com/vvacic/cprofiler (v2.0).
+* Queries: `fasta/amp_natural_cdhit90.fasta` (2,791 peptides, 70,004 residues counted) and `fasta/amp_synthetic_cdhit90.fasta`
+  (9,013 peptides, 136,373 residues), i.e. the CD-HIT 90 % datasets of this folder.
+* Background, the same for both: `background/swissprot51_5k.fasta`, 5,002 randomly sampled SwissProt proteins (release 51,
+  1,799,466 residues). It is the file the tool ships as `-D sprot` (checked byte for byte).
+* Effect = (frequency in the peptides - frequency in SwissProt) / frequency in SwissProt, residues pooled over all sequences.
+  The tables and figures use the **fold change = 1 + effect** (2.82 means 2.82 times as frequent as in SwissProt).
+* p-value: 10,000 random relabelings of whole sequences between peptides and background, two-tailed, so the smallest value is
+  1 / 10,000 (a 0 in the table means p < 0.0001). Significant = p < 0.05 / 40 = 0.00125 (Bonferroni, 20 amino acids + 20 groups).
+  The seed is fixed, so a re-run gives the same table.
+
+**Single amino acids** (fold change vs SwissProt; `tables/aa_enrichment_natural_vs_synthetic.csv` also has the frequencies, effects and p-values)
+
+| Amino acid | in SwissProt (% of residues) | Natural | Natural result | Synthetic | Synthetic result |
+|---|---|---|---|---|---|
+| A | 7.91 | 0.97 | Not significant | 0.82 | Depleted |
+| C | 1.50 | 4.43 | Enriched | 1.35 | Enriched |
+| D | 5.36 | 0.49 | Depleted | 0.25 | Depleted |
+| E | 6.68 | 0.38 | Depleted | 0.27 | Depleted |
+| F | 3.98 | 1.15 | Enriched | 1.39 | Enriched |
+| G | 6.97 | 1.58 | Enriched | 0.85 | Depleted |
+| H | 2.30 | 0.90 | Depleted | 0.87 | Depleted |
+| I | 5.98 | 1.04 | Not significant | 1.07 | Enriched |
+| K | 5.96 | 1.61 | Enriched | 2.82 | Enriched |
+| L | 9.71 | 0.92 | Depleted | 1.26 | Enriched |
+| M | 2.39 | 0.51 | Depleted | 0.39 | Depleted |
+| N | 4.12 | 0.89 | Depleted | 0.51 | Depleted |
+| P | 4.77 | 1.07 | Enriched | 0.69 | Depleted |
+| Q | 3.91 | 0.65 | Depleted | 0.54 | Depleted |
+| R | 5.45 | 1.04 | Enriched | 2.19 | Enriched |
+| S | 6.74 | 0.85 | Depleted | 0.51 | Depleted |
+| T | 5.32 | 0.77 | Depleted | 0.45 | Depleted |
+| V | 6.76 | 0.88 | Depleted | 0.80 | Depleted |
+| W | 1.15 | 1.46 | Enriched | 5.03 | Enriched |
+| Y | 3.06 | 0.81 | Depleted | 0.64 | Depleted |
+
+**Amino acid groups** (selection; all 20 groups are in `figures/amino_acid_group_enrichment.png` and the csv)
+
+| Group | Residues | Natural | Natural result | Synthetic | Synthetic result |
+|---|---|---|---|---|---|
+| Positively charged | KR | 1.34 | Enriched | 2.52 | Enriched |
+| Negatively charged | DE | 0.43 | Depleted | 0.26 | Depleted |
+| Charged | KRDE | 0.87 | Depleted | 1.36 | Enriched |
+| Aromatic | FWY | 1.07 | Enriched | 1.62 | Enriched |
+| Hydrophobic (Eisenberg) | PYCGAMWLVFI | 1.08 | Enriched | 1.02 | Enriched |
+| Hydrophobic (Kyte-Doolittle) | AMCFLVI | 1.03 | Enriched | 0.99 | Not significant |
+| Hydrophobic (Fauchere-Pliska) | HTAPYVCLFIMW | 0.86 | Depleted | 0.92 | Depleted |
+| Order promoting (Dunker) | NCILFWYV | 1.09 | Enriched | 0.80 | Depleted |
+
+![amino acid group enrichment](figures/amino_acid_group_enrichment.png)
+
+**What it shows**
+* **Both datasets look like antimicrobial peptides: rich in K, R and W, poor in D and E.** The positively charged group is x1.34 (Natural)
+  and x2.52 (Synthetic), the negatively charged group x0.43 and x0.26. D and E are among the most depleted residues in both.
+* **Synthetic peptides push this recipe much further:** Trp x5.03 (5.77 % of all residues against 1.15 % in SwissProt), Lys x2.82 (16.8 %),
+  Arg x2.19. Natural peptides: Lys x1.61, Trp x1.46, and Arg x1.04, which is hardly a change.
+* **Natural peptides are marked by Cys and Gly:** Cys x4.43 (6.6 % of residues against 1.5 %), consistent with disulfide-rich peptides
+  such as defensins, and Gly x1.58. In Synthetic, Cys is x1.35 and Gly x0.85.
+* **The two datasets go in opposite directions for** Gly (x1.58 vs x0.85), Leu (x0.92 vs x1.26), Pro (x1.07 vs x0.69), the group "Charged"
+  (x0.87 vs x1.36) and "Order promoting" (x1.09 vs x0.80). These are the differences that say something about origin; the shared K/R/W/D/E pattern
+  says something about antimicrobial peptides in general.
+* **No consistent hydrophobicity shift:** the three hydrophobicity scales disagree (Eisenberg x1.08 / x1.02, Kyte-Doolittle x1.03 / x0.99,
+  Fauchere-Pliska x0.86 / x0.92).
+* **Read the size of the fold change, not the p-value.** With thousands of peptides almost everything is significant: only A and I in
+  Natural and the Kyte-Doolittle group in Synthetic are not. As a rule of thumb (my choice, not the tool's), a fold change within 0.9 to 1.1 is negligible.
+* Close to the main analysis (README section 7, which used the older per-origin sets): e.g. Synthetic Trp x4.8, Lys x2.7, Arg x2.1 and Natural Cys x4.4 there.
+
+**Limits**
+* **SwissProt is a background of normal, mostly long proteins** (mean about 360 aa), the queries are short peptides. "Enriched" means
+  "different from a typical protein", not "different from a random peptide".
+* **The background is old and small** (release 51, a 5,002-protein sample, no current UniProt download was possible in the original
+  environment). To repeat it with a current file, replace `background/swissprot51_5k.fasta`.
+* **Is the background non-AMP?** SwissProt is not filtered for AMPs. A screen of the protein names finds 12 of the 5,002 proteins with an AMP-type
+  name (defensins, cecropins, dermaseptin, hepcidin ...). Without them no effect changes by more than 0.006 and no test result changes
+  (`tables/aa_enrichment_background_check.csv`). The screen is by name only, so an AMP with an uninformative name would not be found.
+  If you meant another non-AMP background (for example non-AMP peptides), replace the background FASTA and re-run step 4.
+* Residues are pooled, so long peptides weigh more than short ones, and Natural and Synthetic differ in length; there is no length adjustment.
+  `X` and other non-standard letters are skipped (1,334 Natural and 3,988 Synthetic residues); D-amino acids count as their L form (the FASTA is upper case).
+  Peptides shorter than 10 aa were not clustered (section 4).
+* The tool's group names contain two typos ("propencity", "potenential"): kept in the csv, corrected in the figure.
+
+## 4. Method (CD-HIT)
 
 ```
 cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T 1
@@ -86,7 +181,7 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
   Origin is not in the header: use the two per-origin files (same records, same headers, same order as the combined file)
   or `tables/peptide_metadata.csv`.
 
-## 4. Things to know
+## 5. Things to know
 
 1. **The earlier CD-HIT step undercounts 10-aa peptides.** `scripts/02_run_cdhit.py` sent peptides >= 10 aa to cd-hit with the
    default `-l 10`, which discards 10-aa sequences. `cdhit/by_origin/*/cdhit.log` shows it: Natural "total seq: 3012" although 3,099
@@ -114,14 +209,16 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
    (also those over 100 aa). Each line has an area of 100 %, so it is on the same scale as the bars. The wider the
    bandwidth, the more the design-length spikes are averaged out; the bars underneath still show them.
 
-## 5. Reproduce
+## 6. Reproduce
 
 ```bash
 pip install pandas matplotlib numpy
 sudo apt-get install cd-hit                 # or: conda install -c bioconda cd-hit   (tested with 4.8.1)
+git clone https://github.com/vvacic/cprofiler && pip install -e cprofiler     # -e is required (the data folder is not shipped otherwise)
 python deliverables/scripts/01_remove_redundancy.py
 python deliverables/scripts/02_make_figures.py
 python deliverables/scripts/03_check_cdhit_result.py      # optional: checks and what-ifs
+python deliverables/scripts/04_aa_enrichment.py           # about 1 minute (4 x 10,000 permutations)
 ```
 `tables/removed_records.csv` columns: `STEP` (as in the table above), `COVERED_BY` (kept peptide with the same or a >= 90 % identical
 sequence, for steps 1, 4, 5 and 6), `IDENTITY_%` (CD-HIT only).

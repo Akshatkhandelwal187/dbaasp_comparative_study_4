@@ -1,0 +1,41 @@
+test_name,type,residues,freq_swissprot_%,freq_Natural_%,effect_Natural,fold_Natural,pvalue_Natural,result_Natural,freq_Synthetic_%,effect_Synthetic,fold_Synthetic,pvalue_Synthetic,result_Synthetic
+A,amino acid,A,7.9121,7.6967,-0.0272,0.9728,0.0412,Not significant,6.4602,-0.1835,0.8165,0.0,Depleted
+C,amino acid,C,1.4963,6.6325,3.4327,4.4327,0.0,Enriched,2.0151,0.3467,1.3467,0.0,Enriched
+D,amino acid,D,5.3562,2.6013,-0.5143,0.4857,0.0,Depleted,1.35,-0.748,0.252,0.0,Depleted
+E,amino acid,E,6.6751,2.5313,-0.6208,0.3792,0.0,Depleted,1.8237,-0.7268,0.2732,0.0,Depleted
+F,amino acid,F,3.9786,4.594,0.1547,1.1547,0.0,Enriched,5.5334,0.3908,1.3908,0.0,Enriched
+G,amino acid,G,6.9701,10.9822,0.5756,1.5756,0.0,Enriched,5.9359,-0.1484,0.8516,0.0,Depleted
+H,amino acid,H,2.3033,2.0713,-0.1007,0.8993,0.0,Depleted,2.0143,-0.1255,0.8745,0.0,Depleted
+I,amino acid,I,5.9794,6.2239,0.0409,1.0409,0.0044,Not significant,6.4228,0.0742,1.0742,0.0,Enriched
+K,amino acid,K,5.955,9.5795,0.6086,1.6086,0.0,Enriched,16.7936,1.8201,2.8201,0.0,Enriched
+L,amino acid,L,9.7116,8.9366,-0.0798,0.9202,0.0,Depleted,12.2568,0.2621,1.2621,0.0,Enriched
+M,amino acid,M,2.3863,1.2242,-0.487,0.513,0.0,Depleted,0.9327,-0.6091,0.3909,0.0,Depleted
+N,amino acid,N,4.1221,3.6655,-0.1108,0.8892,0.0,Depleted,2.1155,-0.4868,0.5132,0.0,Depleted
+P,amino acid,P,4.7711,5.1183,0.0728,1.0728,0.0,Enriched,3.2873,-0.311,0.689,0.0,Depleted
+Q,amino acid,Q,3.9118,2.5527,-0.3474,0.6526,0.0,Depleted,2.1067,-0.4614,0.5386,0.0,Depleted
+R,amino acid,R,5.4548,5.6925,0.0436,1.0436,0.0007,Enriched,11.9195,1.1851,2.1851,0.0,Enriched
+S,amino acid,S,6.7359,5.6997,-0.1538,0.8462,0.0,Depleted,3.4486,-0.488,0.512,0.0,Depleted
+T,amino acid,T,5.3158,4.0941,-0.2298,0.7702,0.0,Depleted,2.4074,-0.5471,0.4529,0.0,Depleted
+V,amino acid,V,6.756,5.9425,-0.1204,0.8796,0.0,Depleted,5.4366,-0.1953,0.8047,0.0,Depleted
+W,amino acid,W,1.1467,1.677,0.4625,1.4625,0.0,Enriched,5.7702,4.0319,5.0319,0.0,Enriched
+Y,amino acid,Y,3.0617,2.4841,-0.1887,0.8113,0.0,Depleted,1.9696,-0.3567,0.6433,0.0,Depleted
+Aromatic,group,FWY,8.187,8.7552,0.0694,1.0694,0.0,Enriched,13.2732,0.6212,1.6212,0.0,Enriched
+Charged,group,KRDE,23.4412,20.4045,-0.1295,0.8705,0.0,Depleted,31.8868,0.3603,1.3603,0.0,Enriched
+Positively charged,group,KR,11.4098,15.272,0.3385,1.3385,0.0,Enriched,28.7132,1.5165,2.5165,0.0,Enriched
+Negatively charged,group,DE,12.0313,5.1326,-0.5734,0.4266,0.0,Depleted,3.1736,-0.7362,0.2638,0.0,Depleted
+Polar (Zimmerman),group,KDEHR,54.17,61.5122,0.1355,1.1355,0.0,Enriched,56.0206,0.0342,1.0342,0.0,Enriched
+Hydrophobic (Eisenberg),group,PYCGAMWLVFI,38.2202,41.2505,0.0793,1.0793,0.0,Enriched,39.0576,0.0219,1.0219,0.0,Enriched
+Hydrophobic (Kyte-Doolittle),group,AMCFLVI,54.8189,56.6953,0.0342,1.0342,0.0,Enriched,54.5064,-0.0057,0.9943,0.0886,Not significant
+Hydrophobic (Fauchere-Pliska),group,HTAPYVCLFIMW,53.6629,46.0902,-0.1411,0.8589,0.0,Depleted,49.2363,-0.0825,0.9175,0.0,Depleted
+Exposed (Janin),group,DEHKNPQRSTY,49.9522,48.4229,-0.0306,0.9694,0.0,Depleted,48.7809,-0.0234,0.9766,0.0,Depleted
+Flexible (Vihinen),group,RGQSNPDEK,46.3968,49.1443,0.0592,1.0592,0.0,Enriched,56.3865,0.2153,1.2153,0.0,Enriched
+High interface propencity (Jones-Thornton),group,NRVLHCIMYFW,63.1801,60.2137,-0.047,0.953,0.0,Depleted,57.6485,-0.0876,0.9124,0.0,Depleted
+High solvation potenential (Jones-Thornton),group,AGSTPNRQDEK,48.386,49.8529,0.0303,1.0303,0.0,Enriched,51.7756,0.0701,1.0701,0.0,Enriched
+Frequent in alpha helices (Nagano),group,LKMFAHE,36.2524,40.1563,0.1077,1.1077,0.0,Enriched,41.5199,0.1453,1.1453,0.0,Enriched
+Frequent in beta sheets (Nagano),group,YCWQTLMFVI,23.5937,22.7801,-0.0345,0.9655,0.0,Depleted,29.8864,0.2667,1.2667,0.0,Enriched
+Frequent in coils (Nagano),group,CTDRSGYNP,25.7445,22.4759,-0.127,0.873,0.0,Depleted,33.9011,0.3168,1.3168,0.0,Enriched
+High linker propensity (George-Heringa),group,YHTMQELFRP,38.922,36.6336,-0.0588,0.9412,0.0,Depleted,45.8148,0.1771,1.1771,0.0,Enriched
+Disorder promoting (Dunker),group,ARSQEGKP,43.7441,44.3618,0.0141,1.0141,0.0007,Enriched,44.8513,0.0253,1.0253,0.0,Enriched
+Order promoting (Dunker),group,NCILFWYV,43.2841,46.9702,0.0852,1.0852,0.0,Enriched,34.4489,-0.2041,0.7959,0.0,Depleted
+Bulky (Zimmerman),group,ILVW,47.5702,39.2992,-0.1739,0.8261,0.0,Depleted,44.2514,-0.0698,0.9302,0.0,Depleted
+Large (Dawson),group,NETVILPQHMFKWYR,71.5294,66.3876,-0.0719,0.9281,0.0,Depleted,80.7902,0.1295,1.1295,0.0,Enriched
