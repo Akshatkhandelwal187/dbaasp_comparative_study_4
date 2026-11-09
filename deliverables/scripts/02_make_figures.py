@@ -31,9 +31,9 @@ SURFACE, INK, INK2, MUTED, GRID, AXIS = "#fcfcfb", "#0b0b0b", "#52514e", "#89878
 NATURAL, SYNTHETIC, ENTIRE = "#2a78d6", "#eb6834", "#898781"
 
 # length categories, same boundaries as the Length_Class column of the DBAASP files (ascending length)
-CATEGORIES = [("1 aa", "(out of range)"), ("Ultrashort", "2–9 aa"), ("Short", "10–24 aa"), ("Medium", "25–50 aa"),
+CATEGORIES = [("Ultrashort", "3–9 aa"), ("Short", "10–24 aa"), ("Medium", "25–50 aa"),
               ("Long", "51–100 aa"), (">100 aa", "")]
-CLASS_NAMES = ["<2 aa (out of range)", "Ultrashort (2-9 aa)", "Short (10-24 aa)", "Medium (25-50 aa)",
+CLASS_NAMES = ["Ultrashort (2-9 aa)", "Short (10-24 aa)", "Medium (25-50 aa)",
                "Long (51-100 aa)", ">100 aa"]
 
 plt.rcParams.update({"font.family": "sans-serif", "figure.dpi": DPI, "savefig.dpi": DPI,
@@ -69,8 +69,8 @@ pd.DataFrame(rows).to_csv(DELIV / "tables" / "length_summary.csv", index=False)
 frac = pd.DataFrame({"length_category": CLASS_NAMES})
 for name, L in groups.items():
     key = name.split()[0]
-    counts = L.map(lambda n: 0 if n < 2 else 1 if n < 10 else 2 if n < 25 else 3 if n < 51 else 4 if n < 101 else 5)
-    frac[f"{key}_n"] = counts.value_counts().reindex(range(6), fill_value=0).values
+    counts = L.map(lambda n: 0 if n < 10 else 1 if n < 25 else 2 if n < 51 else 3 if n < 101 else 4)
+    frac[f"{key}_n"] = counts.value_counts().reindex(range(5), fill_value=0).values
     frac[f"{key}_fraction"] = (frac[f"{key}_n"] / len(L)).round(4)
 frac.to_csv(DELIV / "tables" / "length_category_fractions.csv", index=False)
 # the categories computed here have to agree with the LENGTH_CLASS column written in step 1
