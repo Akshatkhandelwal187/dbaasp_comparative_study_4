@@ -6,13 +6,13 @@ Command: cd-hit -i
          /home/user/dbaasp_comparative_study_4/deliverables/cdhit/cdhit_ge10aa.fasta
          -c 0.9 -n 5 -d 0 -l 9 -M 0 -T 1
 
-Started: Sat Oct  3 06:35:11 2026
+Started: Mon Nov  9 07:57:27 2026
 ================================================================
                             Output                              
 ----------------------------------------------------------------
-total seq: 15803
+total seq: 15289
 longest and shortest : 190 and 10
-Total letters: 332733
+Total letters: 325552
 Sequences have been sorted
 
 Approximated minimal memory consumption:
@@ -27,15 +27,15 @@ Max number of representatives: 4000000
 Max number of word counting entries: 61595000
 
 
-comparing sequences from          0  to      15803
+comparing sequences from          0  to      15289
 ..........
-..........    10000  finished       5613  clusters
+..........    10000  finished       5567  clusters
 .....
-    15803  finished       9068  clusters
+    15289  finished       8674  clusters
 
-Approximated maximum memory consumption: 80M
+Approximated maximum memory consumption: 79M
 writing new database
 writing clustering information
 program completed !
 
-Total CPU time 0.26
+Total CPU time 0.13

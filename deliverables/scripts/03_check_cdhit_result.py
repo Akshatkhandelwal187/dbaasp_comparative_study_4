@@ -22,7 +22,7 @@ meta = pd.read_csv(DELIV / "tables" / "peptide_metadata.csv")
 rem = pd.read_csv(DELIV / "tables" / "removed_records.csv")
 summary = pd.read_csv(DELIV / "tables" / "redundancy_removal_summary.csv", dtype={"step": str})
 rem["SEQUENCE"] = rem["SEQUENCE"].str.upper()
-cd_lost = rem[rem["STEP"].str.startswith("6")]
+cd_lost = rem[rem["STEP"].str.startswith("8")]
 results = []
 
 
@@ -55,9 +55,9 @@ before = pd.concat([meta[["ID", "ORIGIN", "SEQUENCE"]],
 before["LENGTH"] = before["SEQUENCE"].str.len()
 
 # ---- what-if 1: cluster each origin on its own (needs the sets before the Natural/Synthetic duplicate step)
-same_seq_dups = rem[rem["STEP"].str.startswith("5")].rename(columns={"DBAASP_ID": "ID"})[["ID", "ORIGIN", "SEQUENCE"]]
+same_seq_dups = rem[rem["STEP"].str.startswith("7")].rename(columns={"DBAASP_ID": "ID"})[["ID", "ORIGIN", "SEQUENCE"]]
 clean = pd.concat([before, same_seq_dups.assign(LENGTH=same_seq_dups["SEQUENCE"].str.len())], ignore_index=True)
-assert len(clean) == int(summary.loc[summary["step"] == "4", "remaining_Total"].iloc[0])
+assert len(clean) == int(summary.loc[summary["step"] == "6", "remaining_Total"].iloc[0])
 per_origin = {}
 for origin in ["Natural", "Synthetic"]:
     sub = clean[clean["ORIGIN"] == origin]
@@ -83,8 +83,8 @@ extra = ge5[(ge5["LENGTH"] < 10) & ~ge5["ID"].isin(kept)]
 results.append(("what-if, 5-9 aa peptides clustered too: additionally removed", len(extra)))
 results.append(("   of which Natural / Synthetic",
                 f"{(extra['ORIGIN'] == 'Natural').sum()} / {(extra['ORIGIN'] == 'Synthetic').sum()}"))
-results.append(("peptides of 5-9 aa / 2-4 aa / 1 aa in the final FASTA",
-                f"{meta['LENGTH'].between(5, 9).sum()} / {meta['LENGTH'].between(2, 4).sum()} / {(meta['LENGTH'] == 1).sum()}"))
+results.append(("peptides of 5-9 aa / 3-4 aa / < 3 aa in the final FASTA",
+                f"{meta['LENGTH'].between(5, 9).sum()} / {meta['LENGTH'].between(3, 4).sum()} / {(meta['LENGTH'] < 3).sum()}"))
 
 out = pd.DataFrame(results, columns=["check", "result"])
 out.to_csv(DELIV / "tables" / "cdhit_checks.csv", index=False)

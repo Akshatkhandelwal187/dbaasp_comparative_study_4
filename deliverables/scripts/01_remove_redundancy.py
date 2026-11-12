@@ -3,7 +3,12 @@
 Starts from the untouched raw data (raw_data/dbaasp_datasets_corrected.zip, by_origin/*.csv) and nothing in the
 repository outside deliverables/ is modified.
 
-  1. cleaning, same four rules as scripts/01_clean_datasets.py (per origin)
+  1. cleaning (per origin): the four rules of scripts/01_clean_datasets.py plus the X rules below
+       X rules (applied after the all-X rule):
+         a. fewer than MIN_REAL real (non-X) amino acids          -> peptide removed
+         b. X makes up >= X_MAX_FRACTION of the peptide           -> peptide removed (too much of it would be invented)
+         c. every remaining X                                     -> Alanine (not a loss; counted in the summary)
+       duplicate sequences are looked for AFTER the X -> Ala change, because it can make two peptides identical
   2. identical sequence in Natural AND Synthetic -> keep the Natural entry
   3. CD-HIT, >= 90 % identity, on the combined set, so the cut-off applies across Natural and Synthetic together
        cd-hit -c 0.9 -n 5 -d 0 -l 9      (peptides < 10 aa skip CD-HIT, as in scripts/02_run_cdhit.py)
@@ -32,6 +37,8 @@ DELIV = Path(__file__).resolve().parent.parent
 RAW_ZIP = DELIV.parent / "raw_data" / "dbaasp_datasets_corrected.zip"
 CDHIT_DIR = DELIV / "cdhit"
 IDENTITY, MIN_LEN = 0.9, 10          # peptides shorter than MIN_LEN are not clustered
+MIN_REAL = 3                         # a peptide needs at least this many real (non-X) amino acids
+X_MAX_FRACTION = 0.30                # a peptide with this share of X or more is removed; below it X -> Alanine
 ORIGINS = ["Natural", "Synthetic"]   # Natural first: it wins when the same sequence is in both
 
 # length classes exactly as the Length_Class column of the data defines them
@@ -76,10 +83,26 @@ for origin in ORIGINS:
     df = df[~all_x]
     c["after all-X"] = len(df)
 
+    n_x = df["SEQUENCE"].str.upper().str.count("X")
+    n_real = df["SEQUENCE"].str.len() - n_x
+    too_few = n_real < MIN_REAL                                 # fewer than 3 real amino acids
+    log_removed(df[too_few], f"4 fewer than {MIN_REAL} real amino acids", origin)
+    df, n_x = df[~too_few], n_x[~too_few]
+    c["after too few real aa"] = len(df)
+
+    x_heavy = n_x / df["SEQUENCE"].str.len() >= X_MAX_FRACTION  # X dominates the peptide
+    log_removed(df[x_heavy], f"5 X is >= {X_MAX_FRACTION:.0%} of the peptide", origin)
+    df = df[~x_heavy].copy()
+    c["after X-heavy"] = len(df)
+
+    c["peptides with X -> Ala"] = int(df["SEQUENCE"].str.upper().str.contains("X").sum())
+    c["X residues -> Ala"] = int(df["SEQUENCE"].str.upper().str.count("X").sum())
+    df["SEQUENCE"] = df["SEQUENCE"].str.replace("X", "A").str.replace("x", "a")   # keeps D-amino-acid case
+
     key = df["SEQUENCE"].str.upper()                            # D-amino acids are lowercase
     dup_seq = key.duplicated()
     first = dict(zip(key[~dup_seq], df.loc[~dup_seq, "ID"]))
-    log_removed(df[dup_seq], "4 duplicate sequence (same origin)", origin,
+    log_removed(df[dup_seq], "6 duplicate sequence (same origin)", origin,
                 lambda r: f"DBAASP_{first[r['SEQUENCE'].upper()]}")
     df = df[~dup_seq].copy()
     c["after duplicate sequences"] = len(df)
@@ -97,7 +120,7 @@ dup_cross = data["KEY"].duplicated()          # Natural rows come first, so the 
 first = dict(zip(data.loc[~dup_cross, "KEY"], data.loc[~dup_cross, "ID"]))
 for _, r in data[dup_cross].iterrows():
     removed.append({"DBAASP_ID": f"DBAASP_{r['ID']}", "ORIGIN": r["ORIGIN"], "SEQUENCE": r["SEQUENCE"],
-                    "LENGTH": len(r["SEQUENCE"]), "STEP": "5 identical sequence in Natural and Synthetic",
+                    "LENGTH": len(r["SEQUENCE"]), "STEP": "7 identical sequence in Natural and Synthetic",
                     "COVERED_BY": f"DBAASP_{first[r['KEY']]}", "IDENTITY_%": None})
 data = data[~dup_cross].copy()
 data["HEADER"] = "DBAASP_" + data["ID"].astype(str)
@@ -142,7 +165,7 @@ assert len(cd_lost) == len(rep_of) and len(cd_kept) + len(cd_lost) == len(to_clu
 origin_of = dict(zip(data["HEADER"], data["ORIGIN"]))
 for _, r in cd_lost.iterrows():
     removed.append({"DBAASP_ID": r["HEADER"], "ORIGIN": r["ORIGIN"], "SEQUENCE": r["SEQUENCE"],
-                    "LENGTH": len(r["SEQUENCE"]), "STEP": "6 CD-HIT >= 90 % identity",
+                    "LENGTH": len(r["SEQUENCE"]), "STEP": "8 CD-HIT >= 90 % identity",
                     "COVERED_BY": rep_of[r["HEADER"]], "IDENTITY_%": identity_of[r["HEADER"]]})
 
 final = pd.concat([too_short, to_cluster[to_cluster["HEADER"].isin(cd_kept)]]).copy()
@@ -190,9 +213,13 @@ assert {o: len(h) for o, h in split.items()} == left                      # 2,79
 assert sorted(split["Natural"] + split["Synthetic"]) == sorted(">" + final["HEADER"])  # together = the combined FASTA
 
 print(summary.to_string(index=False))
+print("\nX -> Ala conversions (kept peptides):", {o: (counts[o]["peptides with X -> Ala"], counts[o]["X residues -> Ala"]) for o in ORIGINS},
+      "(peptides, residues)")
+pd.DataFrame({o: {k: counts[o][k] for k in ("peptides with X -> Ala", "X residues -> Ala")} for o in ORIGINS}).to_csv(
+    DELIV / "tables" / "x_to_alanine_counts.csv")
 print(f"\nCD-HIT: sent {len(to_cluster)} (>= {MIN_LEN} aa), read {n_read}, kept {len(cd_kept)}, lost {len(cd_lost)}; "
       f"{len(too_short)} peptides < {MIN_LEN} aa bypassed CD-HIT")
-cd = rem[rem["STEP"].str.startswith("6")]
+cd = rem[rem["STEP"].str.startswith("8")]
 cross = pd.crosstab(cd["ORIGIN"], cd["COVERED_BY"].map(origin_of).rename("kept representative is"))
 print("\nCD-HIT losses by origin of the lost peptide (rows) and of the representative that covers it (columns):")
 print(cross.to_string())
