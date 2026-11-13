@@ -4,7 +4,8 @@ step,what is removed,lost_Natural,lost_Synthetic,lost_Total,remaining_Natural,re
 2,multi-chain entry,97,538,635,3990,18917,22907
 3,sequence of only X,27,321,348,3963,18596,22559
 4,fewer than 3 real amino acids,197,578,775,3766,18018,21784
-5,X is >= 30% of the peptide,261,953,1214,3505,17065,20570
-6,duplicate sequence (same origin),224,2786,3010,3281,14279,17560
-7,identical sequence in Natural and Synthetic,0,121,121,3281,14158,17439
-8,CD-HIT >= 90 % identity,760,5855,6615,2521,8303,10824
+5,longer than 100 aa,18,3,21,3748,18015,21763
+6,X is >= 30% of the peptide,261,953,1214,3487,17062,20549
+7,duplicate sequence (same origin),224,2786,3010,3263,14276,17539
+8,identical sequence in Natural and Synthetic,0,121,121,3263,14155,17418
+9,CD-HIT >= 90 % identity,755,5839,6594,2508,8316,10824

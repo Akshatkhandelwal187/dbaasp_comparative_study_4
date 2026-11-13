@@ -1,81 +1,81 @@
 background,origin,amino_acid,freq_peptides_%,freq_background_%,effect,fold,pct_change,pvalue,result
-SwissProt,Natural,A,8.2336,7.9121,0.0406,1.0406,4.0626,0.0035,Not significant
-SwissProt,Natural,C,6.656,1.4963,3.4484,4.4484,344.8377,0.0,Enriched
-SwissProt,Natural,D,2.5961,5.3562,-0.5153,0.4847,-51.5304,0.0,Depleted
-SwissProt,Natural,E,2.5313,6.6751,-0.6208,0.3792,-62.0788,0.0,Depleted
-SwissProt,Natural,F,4.5339,3.9786,0.1396,1.1396,13.9571,0.0,Enriched
-SwissProt,Natural,G,10.9536,6.9701,0.5715,1.5715,57.1507,0.0,Enriched
-SwissProt,Natural,H,2.0818,2.3033,-0.0962,0.9038,-9.6163,0.0,Depleted
-SwissProt,Natural,I,6.1878,5.9794,0.0349,1.0349,3.4852,0.0155,Not significant
-SwissProt,Natural,K,9.6498,5.955,0.6205,1.6205,62.0451,0.0,Enriched
-SwissProt,Natural,L,8.8228,9.7116,-0.0915,0.9085,-9.1519,0.0,Depleted
-SwissProt,Natural,M,1.2318,2.3863,-0.4838,0.5162,-48.3798,0.0,Depleted
-SwissProt,Natural,N,3.6565,4.1221,-0.113,0.887,-11.2959,0.0,Depleted
-SwissProt,Natural,P,5.028,4.7711,0.0538,1.0538,5.3841,0.0004,Enriched
-SwissProt,Natural,Q,2.5155,3.9118,-0.357,0.643,-35.6953,0.0,Depleted
-SwissProt,Natural,R,5.7296,5.4548,0.0504,1.0504,5.0377,0.0002,Enriched
-SwissProt,Natural,S,5.649,6.7359,-0.1614,0.8386,-16.1364,0.0,Depleted
-SwissProt,Natural,T,4.0195,5.3158,-0.2439,0.7561,-24.3851,0.0,Depleted
-SwissProt,Natural,V,5.7945,6.756,-0.1423,0.8577,-14.2323,0.0,Depleted
-SwissProt,Natural,W,1.6482,1.1467,0.4373,1.4373,43.7265,0.0,Enriched
-SwissProt,Natural,Y,2.4809,3.0617,-0.1897,0.8103,-18.9718,0.0,Depleted
-SwissProt,Synthetic,A,7.5647,7.9121,-0.0439,0.9561,-4.3914,0.0006,Depleted
-SwissProt,Synthetic,C,2.0063,1.4963,0.3409,1.3409,34.0861,0.0,Enriched
-SwissProt,Synthetic,D,1.3495,5.3562,-0.7481,0.2519,-74.8054,0.0,Depleted
-SwissProt,Synthetic,E,1.8197,6.6751,-0.7274,0.2726,-72.7392,0.0,Depleted
-SwissProt,Synthetic,F,5.3442,3.9786,0.3432,1.3432,34.3237,0.0,Enriched
-SwissProt,Synthetic,G,5.7995,6.9701,-0.168,0.832,-16.7955,0.0,Depleted
-SwissProt,Synthetic,H,2.0145,2.3033,-0.1254,0.8746,-12.5379,0.0,Depleted
-SwissProt,Synthetic,I,6.419,5.9794,0.0735,1.0735,7.3516,0.0,Enriched
-SwissProt,Synthetic,K,16.4676,5.955,1.7654,2.7654,176.535,0.0,Enriched
-SwissProt,Synthetic,L,12.1199,9.7116,0.248,1.248,24.7981,0.0,Enriched
-SwissProt,Synthetic,M,0.9337,2.3863,-0.6087,0.3913,-60.8704,0.0,Depleted
-SwissProt,Synthetic,N,2.1175,4.1221,-0.4863,0.5137,-48.6304,0.0,Depleted
-SwissProt,Synthetic,P,3.2535,4.7711,-0.3181,0.6819,-31.8083,0.0,Depleted
-SwissProt,Synthetic,Q,2.1093,3.9118,-0.4608,0.5392,-46.0781,0.0,Depleted
-SwissProt,Synthetic,R,11.846,5.4548,1.1716,2.1716,117.1645,0.0,Enriched
-SwissProt,Synthetic,S,3.4349,6.7359,-0.4901,0.5099,-49.0061,0.0,Depleted
-SwissProt,Synthetic,T,2.3235,5.3158,-0.5629,0.4371,-56.2904,0.0,Depleted
-SwissProt,Synthetic,V,5.3837,6.756,-0.2031,0.7969,-20.3121,0.0,Depleted
-SwissProt,Synthetic,W,5.7412,1.1467,4.0066,5.0066,400.6624,0.0,Enriched
-SwissProt,Synthetic,Y,1.9518,3.0617,-0.3625,0.6375,-36.2515,0.0,Depleted
-Non-AMP,Natural,A,8.2336,6.3275,0.3012,1.3012,30.1235,0.0,Enriched
-Non-AMP,Natural,C,6.656,2.3622,1.8178,2.8178,181.7768,0.0,Enriched
-Non-AMP,Natural,D,2.5961,2.6253,-0.0111,0.9889,-1.1117,0.7818,Not significant
-Non-AMP,Natural,E,2.5313,3.4871,-0.2741,0.7259,-27.4097,0.0,Depleted
-Non-AMP,Natural,F,4.5339,4.4083,0.0285,1.0285,2.8493,0.2598,Not significant
-Non-AMP,Natural,G,10.9536,5.4602,1.0061,2.0061,100.6094,0.0,Enriched
-Non-AMP,Natural,H,2.0818,2.3438,-0.1118,0.8882,-11.1801,0.0014,Depleted
-Non-AMP,Natural,I,6.1878,6.164,0.0039,1.0039,0.3855,0.8516,Not significant
-Non-AMP,Natural,K,9.6498,10.1475,-0.049,0.951,-4.9048,0.0133,Not significant
-Non-AMP,Natural,L,8.8228,9.6988,-0.0903,0.9097,-9.0323,0.0,Depleted
-Non-AMP,Natural,M,1.2318,4.9523,-0.7513,0.2487,-75.127,0.0,Depleted
-Non-AMP,Natural,N,3.6565,3.5293,0.036,1.036,3.6044,0.191,Not significant
-Non-AMP,Natural,P,5.028,4.0055,0.2553,1.2553,25.5288,0.0,Enriched
-Non-AMP,Natural,Q,2.5155,3.1187,-0.1934,0.8066,-19.3434,0.0,Depleted
-Non-AMP,Natural,R,5.7296,10.117,-0.4337,0.5663,-43.3661,0.0,Depleted
-Non-AMP,Natural,S,5.649,6.5631,-0.1393,0.8607,-13.9285,0.0,Depleted
-Non-AMP,Natural,T,4.0195,4.6794,-0.141,0.859,-14.1009,0.0,Depleted
-Non-AMP,Natural,V,5.7945,5.9854,-0.0319,0.9681,-3.1895,0.1208,Not significant
-Non-AMP,Natural,W,1.6482,1.3615,0.2106,1.2106,21.056,0.0,Enriched
-Non-AMP,Natural,Y,2.4809,2.6632,-0.0685,0.9315,-6.847,0.0295,Not significant
-Non-AMP,Synthetic,A,7.5647,6.3275,0.1955,1.1955,19.5524,0.0,Enriched
-Non-AMP,Synthetic,C,2.0063,2.3622,-0.1506,0.8494,-15.0649,0.0,Depleted
-Non-AMP,Synthetic,D,1.3495,2.6253,-0.486,0.514,-48.5976,0.0,Depleted
-Non-AMP,Synthetic,E,1.8197,3.4871,-0.4782,0.5218,-47.8163,0.0,Depleted
-Non-AMP,Synthetic,F,5.3442,4.4083,0.2123,1.2123,21.2306,0.0,Enriched
-Non-AMP,Synthetic,G,5.7995,5.4602,0.0621,1.0621,6.2141,0.0001,Enriched
-Non-AMP,Synthetic,H,2.0145,2.3438,-0.1405,0.8595,-14.0511,0.0,Depleted
-Non-AMP,Synthetic,I,6.419,6.164,0.0414,1.0414,4.136,0.0019,Enriched
-Non-AMP,Synthetic,K,16.4676,10.1475,0.6228,1.6228,62.2829,0.0,Enriched
-Non-AMP,Synthetic,L,12.1199,9.6988,0.2496,1.2496,24.9624,0.0,Enriched
-Non-AMP,Synthetic,M,0.9337,4.9523,-0.8115,0.1885,-81.1455,0.0,Depleted
-Non-AMP,Synthetic,N,2.1175,3.5293,-0.4,0.6,-40.0014,0.0,Depleted
-Non-AMP,Synthetic,P,3.2535,4.0055,-0.1877,0.8123,-18.7732,0.0,Depleted
-Non-AMP,Synthetic,Q,2.1093,3.1187,-0.3237,0.6763,-32.3664,0.0,Depleted
-Non-AMP,Synthetic,R,11.846,10.117,0.1709,1.1709,17.0901,0.0,Enriched
-Non-AMP,Synthetic,S,3.4349,6.5631,-0.4766,0.5234,-47.6636,0.0,Depleted
-Non-AMP,Synthetic,T,2.3235,4.6794,-0.5035,0.4965,-50.3456,0.0,Depleted
-Non-AMP,Synthetic,V,5.3837,5.9854,-0.1005,0.8995,-10.052,0.0,Depleted
-Non-AMP,Synthetic,W,5.7412,1.3615,3.2169,4.2169,321.6911,0.0,Enriched
-Non-AMP,Synthetic,Y,1.9518,2.6632,-0.2671,0.7329,-26.7125,0.0,Depleted
+SwissProt,Natural,A,8.2495,7.9121,0.0426,1.0426,4.2643,0.0021,Enriched
+SwissProt,Natural,C,6.7245,1.4963,3.4942,4.4942,349.4168,0.0,Enriched
+SwissProt,Natural,D,2.5634,5.3562,-0.5214,0.4786,-52.1411,0.0,Depleted
+SwissProt,Natural,E,2.4848,6.6751,-0.6278,0.3722,-62.7754,0.0,Depleted
+SwissProt,Natural,F,4.5913,3.9786,0.154,1.154,15.401,0.0,Enriched
+SwissProt,Natural,G,10.9272,6.9701,0.5677,1.5677,56.7714,0.0,Enriched
+SwissProt,Natural,H,2.0561,2.3033,-0.1073,0.8927,-10.7333,0.0,Depleted
+SwissProt,Natural,I,6.2468,5.9794,0.0447,1.0447,4.4731,0.002,Enriched
+SwissProt,Natural,K,9.6929,5.955,0.6277,1.6277,62.7698,0.0,Enriched
+SwissProt,Natural,L,8.8904,9.7116,-0.0846,0.9154,-8.4562,0.0,Depleted
+SwissProt,Natural,M,1.2209,2.3863,-0.4884,0.5116,-48.8369,0.0,Depleted
+SwissProt,Natural,N,3.6434,4.1221,-0.1161,0.8839,-11.6138,0.0,Depleted
+SwissProt,Natural,P,5.0363,4.7711,0.0556,1.0556,5.5586,0.0002,Enriched
+SwissProt,Natural,Q,2.4507,3.9118,-0.3735,0.6265,-37.3513,0.0,Depleted
+SwissProt,Natural,R,5.7098,5.4548,0.0467,1.0467,4.6747,0.0009,Enriched
+SwissProt,Natural,S,5.606,6.7359,-0.1677,0.8323,-16.7742,0.0,Depleted
+SwissProt,Natural,T,3.9979,5.3158,-0.2479,0.7521,-24.7917,0.0,Depleted
+SwissProt,Natural,V,5.7914,6.756,-0.1428,0.8572,-14.2774,0.0,Depleted
+SwissProt,Natural,W,1.6674,1.1467,0.4541,1.4541,45.4056,0.0,Enriched
+SwissProt,Natural,Y,2.4492,3.0617,-0.2001,0.7999,-20.0066,0.0,Depleted
+SwissProt,Synthetic,A,7.5778,7.9121,-0.0423,0.9577,-4.2255,0.0011,Depleted
+SwissProt,Synthetic,C,2.0017,1.4963,0.3378,1.3378,33.7794,0.0,Enriched
+SwissProt,Synthetic,D,1.3533,5.3562,-0.7473,0.2527,-74.7338,0.0,Depleted
+SwissProt,Synthetic,E,1.8322,6.6751,-0.7255,0.2745,-72.5523,0.0,Depleted
+SwissProt,Synthetic,F,5.3337,3.9786,0.3406,1.3406,34.0603,0.0,Enriched
+SwissProt,Synthetic,G,5.8021,6.9701,-0.1676,0.8324,-16.7571,0.0,Depleted
+SwissProt,Synthetic,H,2.0248,2.3033,-0.1209,0.8791,-12.0928,0.0,Depleted
+SwissProt,Synthetic,I,6.4081,5.9794,0.0717,1.0717,7.1707,0.0,Enriched
+SwissProt,Synthetic,K,16.4502,5.955,1.7624,2.7624,176.2417,0.0,Enriched
+SwissProt,Synthetic,L,12.0906,9.7116,0.245,1.245,24.4961,0.0,Enriched
+SwissProt,Synthetic,M,0.9399,2.3863,-0.6061,0.3939,-60.6128,0.0,Depleted
+SwissProt,Synthetic,N,2.1289,4.1221,-0.4836,0.5164,-48.3551,0.0,Depleted
+SwissProt,Synthetic,P,3.2576,4.7711,-0.3172,0.6828,-31.7225,0.0,Depleted
+SwissProt,Synthetic,Q,2.1259,3.9118,-0.4565,0.5435,-45.6541,0.0,Depleted
+SwissProt,Synthetic,R,11.8043,5.4548,1.164,2.164,116.4003,0.0,Enriched
+SwissProt,Synthetic,S,3.4517,6.7359,-0.4876,0.5124,-48.7568,0.0,Depleted
+SwissProt,Synthetic,T,2.3438,5.3158,-0.5591,0.4409,-55.9096,0.0,Depleted
+SwissProt,Synthetic,V,5.3924,6.756,-0.2018,0.7982,-20.1833,0.0,Depleted
+SwissProt,Synthetic,W,5.7285,1.1467,3.9955,4.9955,399.553,0.0,Enriched
+SwissProt,Synthetic,Y,1.9526,3.0617,-0.3622,0.6378,-36.2247,0.0,Depleted
+Non-AMP,Natural,A,8.2495,6.3275,0.3038,1.3038,30.3757,0.0,Enriched
+Non-AMP,Natural,C,6.7245,2.3622,1.8468,2.8468,184.6774,0.0,Enriched
+Non-AMP,Natural,D,2.5634,2.6253,-0.0236,0.9764,-2.3577,0.5436,Not significant
+Non-AMP,Natural,E,2.4848,3.4871,-0.2874,0.7126,-28.7434,0.0,Depleted
+Non-AMP,Natural,F,4.5913,4.4083,0.0415,1.0415,4.1524,0.0967,Not significant
+Non-AMP,Natural,G,10.9272,5.4602,1.0013,2.0013,100.1253,0.0,Enriched
+Non-AMP,Natural,H,2.0561,2.3438,-0.1228,0.8772,-12.2778,0.0004,Depleted
+Non-AMP,Natural,I,6.2468,6.164,0.0134,1.0134,1.3438,0.5234,Not significant
+Non-AMP,Natural,K,9.6929,10.1475,-0.0448,0.9552,-4.4795,0.0265,Not significant
+Non-AMP,Natural,L,8.8904,9.6988,-0.0834,0.9166,-8.3357,0.0,Depleted
+Non-AMP,Natural,M,1.2209,4.9523,-0.7535,0.2465,-75.3472,0.0,Depleted
+Non-AMP,Natural,N,3.6434,3.5293,0.0323,1.0323,3.2331,0.2338,Not significant
+Non-AMP,Natural,P,5.0363,4.0055,0.2574,1.2574,25.7365,0.0,Enriched
+Non-AMP,Natural,Q,2.4507,3.1187,-0.2142,0.7858,-21.4204,0.0,Depleted
+Non-AMP,Natural,R,5.7098,10.117,-0.4356,0.5644,-43.5618,0.0,Depleted
+Non-AMP,Natural,S,5.606,6.5631,-0.1458,0.8542,-14.5832,0.0,Depleted
+Non-AMP,Natural,T,3.9979,4.6794,-0.1456,0.8544,-14.5628,0.0,Depleted
+Non-AMP,Natural,V,5.7914,5.9854,-0.0324,0.9676,-3.2403,0.1175,Not significant
+Non-AMP,Natural,W,1.6674,1.3615,0.2247,1.2247,22.4703,0.0,Enriched
+Non-AMP,Natural,Y,2.4492,2.6632,-0.0804,0.9196,-8.0367,0.0106,Not significant
+Non-AMP,Synthetic,A,7.5778,6.3275,0.1976,1.1976,19.7598,0.0,Enriched
+Non-AMP,Synthetic,C,2.0017,2.3622,-0.1526,0.8474,-15.2592,0.0,Depleted
+Non-AMP,Synthetic,D,1.3533,2.6253,-0.4845,0.5155,-48.4515,0.0,Depleted
+Non-AMP,Synthetic,E,1.8322,3.4871,-0.4746,0.5254,-47.4586,0.0,Depleted
+Non-AMP,Synthetic,F,5.3337,4.4083,0.2099,1.2099,20.9929,0.0,Enriched
+Non-AMP,Synthetic,G,5.8021,5.4602,0.0626,1.0626,6.2631,0.0,Enriched
+Non-AMP,Synthetic,H,2.0248,2.3438,-0.1361,0.8639,-13.6138,0.0,Depleted
+Non-AMP,Synthetic,I,6.4081,6.164,0.0396,1.0396,3.9606,0.0025,Not significant
+Non-AMP,Synthetic,K,16.4502,10.1475,0.6211,1.6211,62.1107,0.0,Enriched
+Non-AMP,Synthetic,L,12.0906,9.6988,0.2466,1.2466,24.66,0.0,Enriched
+Non-AMP,Synthetic,M,0.9399,4.9523,-0.8102,0.1898,-81.0214,0.0,Depleted
+Non-AMP,Synthetic,N,2.1289,3.5293,-0.3968,0.6032,-39.6798,0.0,Depleted
+Non-AMP,Synthetic,P,3.2576,4.0055,-0.1867,0.8133,-18.671,0.0,Depleted
+Non-AMP,Synthetic,Q,2.1259,3.1187,-0.3183,0.6817,-31.8346,0.0,Depleted
+Non-AMP,Synthetic,R,11.8043,10.117,0.1668,1.1668,16.6781,0.0,Enriched
+Non-AMP,Synthetic,S,3.4517,6.5631,-0.4741,0.5259,-47.4077,0.0,Depleted
+Non-AMP,Synthetic,T,2.3438,4.6794,-0.4991,0.5009,-49.913,0.0,Depleted
+Non-AMP,Synthetic,V,5.3924,5.9854,-0.0991,0.9009,-9.9066,0.0,Depleted
+Non-AMP,Synthetic,W,5.7285,1.3615,3.2076,4.2076,320.7568,0.0,Enriched
+Non-AMP,Synthetic,Y,1.9526,2.6632,-0.2668,0.7332,-26.6816,0.0,Depleted

@@ -22,7 +22,7 @@ meta = pd.read_csv(DELIV / "tables" / "peptide_metadata.csv")
 rem = pd.read_csv(DELIV / "tables" / "removed_records.csv")
 summary = pd.read_csv(DELIV / "tables" / "redundancy_removal_summary.csv", dtype={"step": str})
 rem["SEQUENCE"] = rem["SEQUENCE"].str.upper()
-cd_lost = rem[rem["STEP"].str.startswith("8")]
+cd_lost = rem[rem["STEP"].str.startswith("9")]
 results = []
 
 
@@ -55,9 +55,9 @@ before = pd.concat([meta[["ID", "ORIGIN", "SEQUENCE"]],
 before["LENGTH"] = before["SEQUENCE"].str.len()
 
 # ---- what-if 1: cluster each origin on its own (needs the sets before the Natural/Synthetic duplicate step)
-same_seq_dups = rem[rem["STEP"].str.startswith("7")].rename(columns={"DBAASP_ID": "ID"})[["ID", "ORIGIN", "SEQUENCE"]]
+same_seq_dups = rem[rem["STEP"].str.startswith("8")].rename(columns={"DBAASP_ID": "ID"})[["ID", "ORIGIN", "SEQUENCE"]]
 clean = pd.concat([before, same_seq_dups.assign(LENGTH=same_seq_dups["SEQUENCE"].str.len())], ignore_index=True)
-assert len(clean) == int(summary.loc[summary["step"] == "6", "remaining_Total"].iloc[0])
+assert len(clean) == int(summary.loc[summary["step"] == "7", "remaining_Total"].iloc[0])
 per_origin = {}
 for origin in ["Natural", "Synthetic"]:
     sub = clean[clean["ORIGIN"] == origin]
