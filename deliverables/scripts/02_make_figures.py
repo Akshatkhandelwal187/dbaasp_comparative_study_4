@@ -90,7 +90,7 @@ def smooth_curve(lengths, x, bandwidth=SMOOTH_BW):
 
 def histogram(filename, as_percent):
     fig, ax = plt.subplots(figsize=(9, 5.2))
-    fig.subplots_adjust(left=0.085, right=0.97, top=0.90, bottom=0.12)
+    fig.subplots_adjust(left=0.085, right=0.97, top=0.88, bottom=0.12)
     bins = np.arange(0.5, HIST_MAX + 1.5, 1)                    # one bin per amino-acid length
     x = np.linspace(0.5, HIST_MAX, 400)
     handles = []
@@ -105,6 +105,11 @@ def histogram(filename, as_percent):
             ax.hist(L, bins=bins, weights=w, histtype="stepfilled", color=color, alpha=0.35, linewidth=0, zorder=z)
             swatch = (Patch(facecolor=color, alpha=0.45), Line2D([], [], color=color, linewidth=2))
         ax.plot(x, curve, color=color, linewidth=2, solid_capstyle="round", zorder=z + 3)
+        med = L.median()                                                   # median: dashed vertical line with its value
+        ax.axvline(med, color=color, linewidth=1.4, linestyle="--", zorder=z + 3)
+        ax.annotate(f"{med:g}", (med, 1.0), xycoords=ax.get_xaxis_transform(), xytext=({"Synthetic": -2, "Entire dataset": 2}.get(name, 0), 3), textcoords="offset points",
+                    ha={"Synthetic": "right", "Entire dataset": "left"}.get(name, "center"), va="bottom", fontsize=9,
+                    color=color, fontweight="bold", annotation_clip=False)
         handles.append((swatch, f"{name}  (n = {len(L):,}; median {L.median():g} aa)"))
     ax.set_xlim(0, HIST_MAX)
     ax.set_xticks(range(0, HIST_MAX + 1, 10))
