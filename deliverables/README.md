@@ -33,6 +33,7 @@ deliverables/
 
 * **`X` (non-standard residue)** is no longer kept. Per peptide: if `X` is **30 % or more** of the peptide it is removed (1,214 peptides); below
   that every `X` becomes **Alanine** (2,606 peptides, 4,489 residues, `tables/x_to_alanine_counts.csv`). Peptides made only of `X` were already removed.
+  The counts above are at that step; **in the delivered files 1,075 peptides (251 Natural, 824 Synthetic, 9.9 %) carry a former `X`**, 1,979 residues, at most 29 % of a peptide.
   The 30 % cutoff is my choice (`X_MAX_FRACTION` in script 01); the alternative of converting all `X` would keep peptides that are up to 89 % `X`.
 * **Minimum length:** a peptide needs at least **3 real (non-`X`) amino acids** (`MIN_REAL`); 775 peptides fall below it, including the
   15 single-residue entries. The check runs before `X` becomes Ala.
@@ -41,7 +42,7 @@ deliverables/
   were absorbed into clusters are now kept (and one more changed places through CD-HIT's greedy order), so the total stays 10,824 (2,508 Natural, 8,316 Synthetic).
 * Duplicates are searched **after** `X` -> Ala, because the change can make two peptides identical.
 * Amino acid figure: one image with Natural and Synthetic against **two backgrounds** (SwissProt proteins and non-AMP peptides), identical axes, scale and
-  amino acid order (hydrophilic -> hydrophobic), colour-coded, with the Composition Profiler's significance marked (section 3).
+  amino acid order (hydrophilic -> hydrophobic), colour-coded, with the Composition Profiler's p-value at every bar (section 3).
   Amino acid **groups are no longer tested or drawn**; the Bonferroni correction is now over the 20 amino acids (alpha = 0.05 / 20 = 0.0025).
 
 ## 1. Sequences lost
@@ -107,16 +108,14 @@ Two backgrounds are used, because they answer different questions:
 
 ![amino acid enrichment](figures/amino_acid_enrichment.png)
 
-**How to read the figure.** Every bar is the difference from the background in percent: **0 = same as the background, +100 % = twice as often,
--50 % = half as often.** (The axis is a plain linear percentage; the Composition Profiler's own "effect" is this number divided by 100.)
-**Why a linear percentage axis.** This is the quantity the Composition Profiler itself plots (its bar plot shows the fractional difference
-(query - background) / background on a linear axis, with bootstrap error bars; Vacic et al. 2007, BMC Bioinformatics 8:211, doi:10.1186/1471-2105-8-211),
-and it is what the first analysis of this project (`scripts/06_run_composition_profiler.py`) plotted. The first deliverables figure (Oct 14) used a log2 fold-change axis
-(0.25x ... 4x) instead; that was a design choice of that version, not a project or tool standard, and it has been replaced. One property to keep in mind:
-a percentage is not symmetric, depletion stops at -100 % while enrichment has no limit, so +300 % (4x) and -75 % (0.25x) are the same size of change on a log axis.
+**How to read the figure.** Every bar is the **fractional difference** from the background, (peptides - background) / background: **0 = same as the background,
+1 = twice as often, -0.5 = half as often.** The number at each bar is the Composition Profiler's p-value ("<0.0001" = no random relabeling reached the observed difference).
 The four panels share the same axes and the same amino acid order, so they can be compared directly: rows are Natural and Synthetic, columns are the two backgrounds.
-The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophilic (R) to hydrophobic (I), and coloured along it.
-**Gray bar = not significant; `*` = significant.**
+The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophilic (R) to hydrophobic (I), and coloured along it. Gray bar = not significant.
+
+This is the quantity the Composition Profiler itself plots (a linear bar plot of the fractional difference with bootstrap error bars; Vacic et al. 2007,
+BMC Bioinformatics 8:211, doi:10.1186/1471-2105-8-211) and what the project's first analysis used. The first deliverables figure (Oct 14) had a log2 fold-change axis instead,
+a design choice of that version. One property to keep in mind: depletion stops at -1 while enrichment has no limit, so a 4x increase (+3) and a 4x decrease (-0.75) look unequal.
 
 **Method** (`scripts/04_aa_enrichment.py` computes, `scripts/05_enrichment_figures.py` draws)
 * Tool: the official Composition Profiler, https://github.com/vvacic/cprofiler (v2.0), the same functions as `cprof discover`; only the 20 amino acids are tested.
@@ -126,52 +125,52 @@ The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophi
 * Effect = (frequency in the peptides - frequency in the background) / frequency in the background, residues pooled over all sequences.
 * p-value: 10,000 random relabelings of whole sequences between peptides and background, two-tailed, so the smallest value is 1 / 10,000.
   Significant = p < 0.05 / 20 = 0.0025 (Bonferroni over the 20 amino acids). The seed is fixed, so a re-run gives the same table.
-* `tables/aa_enrichment.csv` has the frequencies, % change, fold change, p-value and result for every combination.
+* `tables/aa_enrichment.csv` has the frequencies, fractional difference (`effect`), p-value and result for every combination.
 
-**Difference from the background, in %** (ns = not significant)
+**Fractional difference from the background** (ns = not significant; p-values are in the figure and in the csv)
 
 | Amino acid | SwissProt, % of residues | Non-AMP, % of residues | Natural vs SwissProt | Synthetic vs SwissProt | Natural vs non-AMP | Synthetic vs non-AMP |
 |---|---|---|---|---|---|---|
-| R | 5.45 | 10.12 | +5% | +116% | -44% | +17% |
-| K | 5.96 | 10.15 | +63% | +176% | -4% (ns) | +62% |
-| D | 5.36 | 2.63 | -52% | -75% | -2% (ns) | -48% |
-| E | 6.68 | 3.49 | -63% | -73% | -29% | -47% |
-| N | 4.12 | 3.53 | -12% | -48% | +3% (ns) | -40% |
-| Q | 3.91 | 3.12 | -37% | -46% | -21% | -32% |
-| H | 2.30 | 2.34 | -11% | -12% | -12% | -14% |
-| P | 4.77 | 4.01 | +6% | -32% | +26% | -19% |
-| Y | 3.06 | 2.66 | -20% | -36% | -8% (ns) | -27% |
-| W | 1.15 | 1.36 | +45% | +400% | +22% | +321% |
-| S | 6.74 | 6.56 | -17% | -49% | -15% | -47% |
-| T | 5.32 | 4.68 | -25% | -56% | -15% | -50% |
-| G | 6.97 | 5.46 | +57% | -17% | +100% | +6% |
-| A | 7.91 | 6.33 | +4% | -4% | +30% | +20% |
-| M | 2.39 | 4.95 | -49% | -61% | -75% | -81% |
-| C | 1.50 | 2.36 | +349% | +34% | +185% | -15% |
-| F | 3.98 | 4.41 | +15% | +34% | +4% (ns) | +21% |
-| L | 9.71 | 9.70 | -8% | +24% | -8% | +25% |
-| V | 6.76 | 5.99 | -14% | -20% | -3% (ns) | -10% |
-| I | 5.98 | 6.16 | +4% | +7% | +1% (ns) | +4% (ns) |
+| R | 5.45 | 10.12 | +0.05 | +1.16 | -0.44 | +0.17 |
+| K | 5.96 | 10.15 | +0.63 | +1.76 | -0.04 (ns) | +0.62 |
+| D | 5.36 | 2.63 | -0.52 | -0.75 | -0.02 (ns) | -0.48 |
+| E | 6.68 | 3.49 | -0.63 | -0.73 | -0.29 | -0.47 |
+| N | 4.12 | 3.53 | -0.12 | -0.48 | +0.03 (ns) | -0.40 |
+| Q | 3.91 | 3.12 | -0.37 | -0.46 | -0.21 | -0.32 |
+| H | 2.30 | 2.34 | -0.11 | -0.12 | -0.12 | -0.14 |
+| P | 4.77 | 4.01 | +0.06 | -0.32 | +0.26 | -0.19 |
+| Y | 3.06 | 2.66 | -0.20 | -0.36 | -0.08 (ns) | -0.27 |
+| W | 1.15 | 1.36 | +0.45 | +4.00 | +0.22 | +3.21 |
+| S | 6.74 | 6.56 | -0.17 | -0.49 | -0.15 | -0.47 |
+| T | 5.32 | 4.68 | -0.25 | -0.56 | -0.15 | -0.50 |
+| G | 6.97 | 5.46 | +0.57 | -0.17 | +1.00 | +0.06 |
+| A | 7.91 | 6.33 | +0.04 | -0.04 | +0.30 | +0.20 |
+| M | 2.39 | 4.95 | -0.49 | -0.61 | -0.75 | -0.81 |
+| C | 1.50 | 2.36 | +3.49 | +0.34 | +1.85 | -0.15 |
+| F | 3.98 | 4.41 | +0.15 | +0.34 | +0.04 (ns) | +0.21 |
+| L | 9.71 | 9.70 | -0.08 | +0.24 | -0.08 | +0.25 |
+| V | 6.76 | 5.99 | -0.14 | -0.20 | -0.03 (ns) | -0.10 |
+| I | 5.98 | 6.16 | +0.04 | +0.07 | +0.01 (ns) | +0.04 (ns) |
 
 **What it shows**
 * **Against ordinary proteins (SwissProt), both datasets look like antimicrobial peptides:** more K, R and W, much less D and E.
-  Synthetic peptides push this much further: Trp +400 %, Lys +176 %, Arg +116 %. Natural peptides: Lys +63 %, Trp +45 %, Arg only +5 %.
-* **Natural peptides are marked by Cys and Gly:** Cys +349 % and Gly +57 % vs SwissProt (consistent with disulfide-rich peptides such as defensins).
-  In Synthetic peptides Cys is +34 % and Gly -17 %.
+  Synthetic peptides push this much further: Trp +4.00, Lys +1.76, Arg +1.16. Natural peptides: Lys +0.63, Trp +0.45, Arg only +0.05.
+* **Natural peptides are marked by Cys and Gly:** Cys +3.49 and Gly +0.57 vs SwissProt (consistent with disulfide-rich peptides such as defensins).
+  In Synthetic peptides Cys is +0.34 and Gly -0.17.
 * **Against non-AMP peptides, the picture changes, and that is the more specific result.**
   The non-AMP peptides are themselves rich in K and R (about 10 % of residues each, against 6 % in SwissProt), so charge alone no longer separates the groups:
-  Natural peptides have *less* Arg (-44 %) and the same Lys (-4 %, ns); only Synthetic peptides keep a Lys excess (+62 %).
-  What stays is **Trp** (Synthetic +321 %, Natural +22 %), the low **Asp/Glu** (Synthetic -48 % / -47 %), low **Met** in both (-75 % / -81 %),
-  and for Natural the **Cys (+185 %) and Gly (+100 %)** excess.
-* **The two datasets go in opposite directions against both backgrounds** for Gly (Natural +57 % / +100 %, Synthetic -17 % / +6 %), Pro (+6 % / +26 % vs -32 % / -19 %)
-  and Cys against non-AMP (+185 % vs -15 %): differences that say something about origin.
-* **Read the size of the bar, not the star.** With thousands of peptides almost everything is significant. Not significant (gray):
-  SwissProt: none (A and I in Natural are only just significant, p about 0.002, with changes of +4 %). Non-AMP, Natural: D, F, I, K, N, V, Y; non-AMP, Synthetic: I.
-  Bars within about +-10 % are negligible whatever the star says.
+  Natural peptides have *less* Arg (-0.44) and the same Lys (-0.04, ns); only Synthetic peptides keep a Lys excess (+0.62).
+  What stays is **Trp** (Synthetic +3.21, Natural +0.22), the low **Asp/Glu** (Synthetic -0.48 / -0.47), low **Met** in both (-0.75 / -0.81),
+  and for Natural the **Cys (+1.85) and Gly (+1.00)** excess.
+* **The two datasets go in opposite directions against both backgrounds** for Gly (Natural +0.57 / +1.00, Synthetic -0.17 / +0.06), Pro (+0.06 / +0.26 vs -0.32 / -0.19)
+  and Cys against non-AMP (+1.85 vs -0.15): differences that say something about origin.
+* **Read the size of the bar, not the p-value.** With thousands of peptides almost everything is significant. Not significant (gray):
+  SwissProt: none (A and I in Natural are only just significant, p about 0.002, with differences of +0.04). Non-AMP, Natural: D, F, I, K, N, V, Y; non-AMP, Synthetic: I.
+  Differences within about +-0.1 are negligible whatever the p-value says.
 
 **Limits**
 * **`X` became Ala in some peptides, which inflates Alanine.** 0.8 % of the Natural and 2.9 % of the Synthetic residues are Ala only because they were `X`.
-  Against SwissProt the Synthetic Ala bar (-4 %) would be about -39 % without them, and the other 19 amino acids are slightly diluted by the same amount. Read the Ala bars with this in mind.
+  Against SwissProt the Synthetic Ala bar (-0.04) would be about -0.39 without them, and the other 19 amino acids are slightly diluted by the same amount. Read the Ala bars with this in mind.
 * **SwissProt is a background of normal, mostly long proteins**; "enriched" there means "different from a typical protein", not "different from a random peptide".
   The release is old (51) and the sample small (5,002 proteins). The earlier check that removed 12 AMP-named proteins from it changed no result (largest effect change 0.006),
   and the non-AMP background now answers the same question more directly, so that table is no longer produced.

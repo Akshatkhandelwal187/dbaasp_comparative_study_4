@@ -54,9 +54,8 @@ def style_axes(ax):
     ax.tick_params(length=0, labelsize=9)
 
 
-def heading(fig, title, subtitle):
+def heading(fig, title):
     fig.text(0.07, 0.955, title, fontsize=13, fontweight="bold", ha="left", va="top")
-    fig.text(0.07, 0.905, subtitle, fontsize=9.5, color=INK2, ha="left", va="top")
 
 
 # ------------------------------------------------------------------ tables
@@ -91,7 +90,7 @@ def smooth_curve(lengths, x, bandwidth=SMOOTH_BW):
 
 def histogram(filename, as_percent):
     fig, ax = plt.subplots(figsize=(9, 5.2))
-    fig.subplots_adjust(left=0.085, right=0.97, top=0.82, bottom=0.19)
+    fig.subplots_adjust(left=0.085, right=0.97, top=0.90, bottom=0.12)
     bins = np.arange(0.5, HIST_MAX + 1.5, 1)                    # one bin per amino-acid length
     x = np.linspace(0.5, HIST_MAX, 400)
     handles = []
@@ -116,12 +115,7 @@ def histogram(filename, as_percent):
     style_axes(ax)
     ax.legend(*zip(*handles[::-1]), loc="upper right", frameon=False, fontsize=9.5, labelcolor=INK2, handlelength=1.8,
               handler_map={tuple: HandlerTuple(ndivide=None)})
-    fig.text(0.07, 0.03, f"Smooth lines: Gaussian kernel density, bandwidth {SMOOTH_BW:g} aa. "
-             f"Peptides are 3 to {HIST_MAX} aa long (longer ones were removed in the cleaning).",
-             fontsize=8.5, color=MUTED, ha="left", va="bottom", linespacing=1.5)
-    heading(fig, "Peptide length distribution: entire dataset vs Natural vs Synthetic",
-            "DBAASP peptides after CD-HIT (90 % identity). " +
-            ("Each histogram is scaled to 100 % of its own group." if as_percent else "Counts of peptides; the entire dataset is Natural + Synthetic."))
+    heading(fig, "Peptide length distribution")
     fig.savefig(DELIV / "figures" / filename)
     plt.close(fig)
 
@@ -149,7 +143,7 @@ def rounded_top_bar(ax, x0, x1, height, color, radius_pt=3):
 
 def bar_chart(filename):
     fig, ax = plt.subplots(figsize=(9, 5.2))
-    fig.subplots_adjust(left=0.085, right=0.97, top=0.82, bottom=0.17)
+    fig.subplots_adjust(left=0.085, right=0.97, top=0.90, bottom=0.17)
     n_cat = len(CATEGORIES)
     top = np.ceil(max(frac["Natural_fraction"].max(), frac["Synthetic_fraction"].max()) * 100 / 10) * 10
     ax.set_xlim(-0.6, n_cat - 0.4)
@@ -176,8 +170,7 @@ def bar_chart(filename):
     ax.legend([Line2D([], [], marker="s", linestyle="", markersize=8, color=c) for c in (NATURAL, SYNTHETIC)],
               [f"Natural  (n = {n_nat:,})", f"Synthetic  (n = {n_syn:,})"], loc="upper right", frameon=False,
               fontsize=9.5, labelcolor=INK2, handletextpad=0.3)
-    heading(fig, "Natural vs Synthetic peptides across length categories",
-            "Share of each group's peptides after CD-HIT (90 % identity) in each category; each group sums to 100 %.")
+    heading(fig, "Peptide length categories")
     fig.savefig(DELIV / "figures" / filename)
     plt.close(fig)
 
