@@ -23,7 +23,7 @@ from matplotlib.patches import PathPatch, Patch
 from matplotlib.path import Path as MplPath
 
 DELIV = Path(__file__).resolve().parent.parent
-HIST_MAX = 100                      # histogram x-axis ends here; longer peptides are counted in the footnote
+HIST_MAX = 100                      # histogram x-axis ends here; the cleaning (step 5) removes everything longer
 SMOOTH_BW = 3.0                     # width (aa) of the Gaussian kernel behind the smooth lines
 DPI = 200
 
@@ -32,9 +32,9 @@ NATURAL, SYNTHETIC, ENTIRE = "#2a78d6", "#eb6834", "#898781"
 
 # length categories, same boundaries as the Length_Class column of the DBAASP files (ascending length)
 CATEGORIES = [("Ultrashort", "3–9 aa"), ("Short", "10–24 aa"), ("Medium", "25–50 aa"),
-              ("Long", "51–100 aa"), (">100 aa", "")]
+              ("Long", "51–100 aa")]
 CLASS_NAMES = ["Ultrashort (2-9 aa)", "Short (10-24 aa)", "Medium (25-50 aa)",
-               "Long (51-100 aa)", ">100 aa"]
+               "Long (51-100 aa)"]
 
 plt.rcParams.update({"font.family": "sans-serif", "figure.dpi": DPI, "savefig.dpi": DPI,
                      "figure.facecolor": SURFACE, "axes.facecolor": SURFACE, "savefig.facecolor": SURFACE,
@@ -69,11 +69,12 @@ pd.DataFrame(rows).to_csv(DELIV / "tables" / "length_summary.csv", index=False)
 frac = pd.DataFrame({"length_category": CLASS_NAMES})
 for name, L in groups.items():
     key = name.split()[0]
-    counts = L.map(lambda n: 0 if n < 10 else 1 if n < 25 else 2 if n < 51 else 3 if n < 101 else 4)
-    frac[f"{key}_n"] = counts.value_counts().reindex(range(5), fill_value=0).values
+    counts = L.map(lambda n: 0 if n < 10 else 1 if n < 25 else 2 if n < 51 else 3)
+    frac[f"{key}_n"] = counts.value_counts().reindex(range(4), fill_value=0).values
     frac[f"{key}_fraction"] = (frac[f"{key}_n"] / len(L)).round(4)
 frac.to_csv(DELIV / "tables" / "length_category_fractions.csv", index=False)
 # the categories computed here have to agree with the LENGTH_CLASS column written in step 1
+assert meta["LENGTH"].max() <= HIST_MAX, "peptides longer than 100 aa should have been removed in step 5"
 check = meta.groupby("LENGTH_CLASS").size()
 assert all(check[c] == n for c, n in zip(CLASS_NAMES, frac["Entire_n"]) if n > 0)
 
@@ -115,10 +116,8 @@ def histogram(filename, as_percent):
     style_axes(ax)
     ax.legend(*zip(*handles[::-1]), loc="upper right", frameon=False, fontsize=9.5, labelcolor=INK2, handlelength=1.8,
               handler_map={tuple: HandlerTuple(ndivide=None)})
-    n_long = {k: int((v > HIST_MAX).sum()) for k, v in groups.items()}
-    fig.text(0.07, 0.03, f"Smooth lines: Gaussian kernel density, bandwidth {SMOOTH_BW:g} aa (all peptides).\n"
-             f"Not shown: {n_long['Entire dataset']} peptides longer than {HIST_MAX} aa "
-             f"(Natural {n_long['Natural']}, Synthetic {n_long['Synthetic']}; longest {groups['Entire dataset'].max()} aa).",
+    fig.text(0.07, 0.03, f"Smooth lines: Gaussian kernel density, bandwidth {SMOOTH_BW:g} aa. "
+             f"Peptides are 3 to {HIST_MAX} aa long (longer ones were removed in the cleaning).",
              fontsize=8.5, color=MUTED, ha="left", va="bottom", linespacing=1.5)
     heading(fig, "Peptide length distribution: entire dataset vs Natural vs Synthetic",
             "DBAASP peptides after CD-HIT (90 % identity). " +

@@ -8,8 +8,8 @@ this folder is read or changed except that zip (and, for steps 4 and 5, the inst
 ```
 deliverables/
   fasta/amp_cdhit90.fasta                 10,824 peptides (Natural + Synthetic), ">DBAASP_<ID>" + one-line upper-case sequence
-  fasta/amp_natural_cdhit90.fasta         the 2,521 Natural peptides of that file
-  fasta/amp_synthetic_cdhit90.fasta       the 8,303 Synthetic peptides of that file
+  fasta/amp_natural_cdhit90.fasta         the 2,508 Natural peptides of that file
+  fasta/amp_synthetic_cdhit90.fasta       the 8,316 Synthetic peptides of that file
   figures/length_histogram_overlap.png         overlapping histograms + smooth lines: entire / Natural / Synthetic (each as % of its group)
   figures/length_histogram_overlap_counts.png  the same with peptide counts
   figures/length_category_fraction_bar.png     share of Natural and Synthetic peptides per length category
@@ -32,10 +32,13 @@ deliverables/
 ## 0. What changed in this version
 
 * **`X` (non-standard residue)** is no longer kept. Per peptide: if `X` is **30 % or more** of the peptide it is removed (1,214 peptides); below
-  that every `X` becomes **Alanine** (2,610 peptides, 4,494 residues, `tables/x_to_alanine_counts.csv`). Peptides made only of `X` were already removed.
+  that every `X` becomes **Alanine** (2,606 peptides, 4,489 residues, `tables/x_to_alanine_counts.csv`). Peptides made only of `X` were already removed.
   The 30 % cutoff is my choice (`X_MAX_FRACTION` in script 01); the alternative of converting all `X` would keep peptides that are up to 89 % `X`.
 * **Minimum length:** a peptide needs at least **3 real (non-`X`) amino acids** (`MIN_REAL`); 775 peptides fall below it, including the
   15 single-residue entries. The check runs before `X` becomes Ala.
+* **Maximum length:** peptides **longer than 100 aa are removed** (`MAX_LEN`; 21 peptides, 18 Natural and 3 Synthetic, 19 of which were in the previous
+  version's files). The final files therefore hold peptides of 3 to 100 aa. The step runs before CD-HIT: the 19 long peptides leave the final files, 20 other peptides that
+  were absorbed into clusters are now kept (and one more changed places through CD-HIT's greedy order), so the total stays 10,824 (2,508 Natural, 8,316 Synthetic).
 * Duplicates are searched **after** `X` -> Ala, because the change can make two peptides identical.
 * Amino acid figure: one image with Natural and Synthetic against **two backgrounds** (SwissProt proteins and non-AMP peptides), identical axes, scale and
   amino acid order (hydrophilic -> hydrophobic), colour-coded, with the Composition Profiler's significance marked (section 3).
@@ -43,7 +46,7 @@ deliverables/
 
 ## 1. Sequences lost
 
-**CD-HIT (>= 90 % identity) removed 6,615 sequences** (760 Natural, 5,855 Synthetic) of the 15,289 it was given (43.3 %).
+**CD-HIT (>= 90 % identity) removed 6,594 sequences** (755 Natural, 5,839 Synthetic) of the 15,268 it was given (43.2 %).
 Counted from the raw DBAASP export, **14,718 of 25,542 rows are lost, 10,824 remain.**
 
 | Step | what is removed | Natural | Synthetic | **Total lost** | left |
@@ -53,20 +56,21 @@ Counted from the raw DBAASP export, **14,718 of 25,542 rows are lost, 10,824 rem
 | 2 | multi-chain entry (several chains in one cell, length not reliable) | 97 | 538 | 635 | 22,907 |
 | 3 | sequence made only of `X` | 27 | 321 | 348 | 22,559 |
 | 4 | **fewer than 3 real (non-`X`) amino acids** | 197 | 578 | 775 | 21,784 |
-| 5 | **`X` is >= 30 % of the peptide** | 261 | 953 | 1,214 | 20,570 |
-| | (remaining `X` -> Ala: 331 Natural + 2,279 Synthetic peptides, no loss) | | | | |
-| 6 | duplicate sequence within the same origin (after X -> Ala) | 224 | 2,786 | 3,010 | 17,560 |
-| 7 | same sequence in Natural and in Synthetic (Natural entry kept) | 0 | 121 | 121 | 17,439 |
-| 8 | **CD-HIT, >= 90 % identity** | **760** | **5,855** | **6,615** | **10,824** |
-| | **final** | **2,521** | **8,303** | | |
+| 5 | **longer than 100 aa** | 18 | 3 | 21 | 21,763 |
+| 6 | **`X` is >= 30 % of the peptide** | 261 | 953 | 1,214 | 20,549 |
+| | (remaining `X` -> Ala: 327 Natural + 2,279 Synthetic peptides, no loss) | | | | |
+| 7 | duplicate sequence within the same origin (after X -> Ala) | 224 | 2,786 | 3,010 | 17,539 |
+| 8 | same sequence in Natural and in Synthetic (Natural entry kept) | 0 | 121 | 121 | 17,418 |
+| 9 | **CD-HIT, >= 90 % identity** | **755** | **5,839** | **6,594** | **10,824** |
+| | **final** | **2,508** | **8,316** | | |
 
-Steps 1 to 3 and 6 are the existing cleaning of `scripts/01_clean_datasets.py`. Step 1 removes repeated rows of the same entry, so it is not a
-loss of distinct peptides: of the 23,542 distinct entries, 12,718 are lost. Because the new steps 4 and 5 run before the duplicate search,
+Steps 1 to 3 and 7 are the existing cleaning of `scripts/01_clean_datasets.py`. Step 1 removes repeated rows of the same entry, so it is not a
+loss of distinct peptides: of the 23,542 distinct entries, 12,718 are lost. Because the new steps 4 to 6 run before the duplicate search,
 the duplicate steps find fewer duplicates than before (3,010 + 121 instead of 3,853 + 167), because many duplicates were already removed with the
-`X` and short peptides. Step counts are therefore not comparable one to one with the previous version (which kept 11,804).
+`X`, short and long peptides. Step counts are therefore not comparable one to one with the previous version (which kept 11,804).
 
-CD-HIT arithmetic: 17,439 peptides enter step 8. 2,150 of them are shorter than 10 aa and skip CD-HIT (section 4).
-The other 15,289 go in, 8,674 representatives come out, 6,615 are removed. 8,674 + 2,150 = 10,824.
+CD-HIT arithmetic: 17,418 peptides enter step 9. 2,150 of them are shorter than 10 aa and skip CD-HIT (section 4).
+The other 15,268 go in, 8,674 representatives come out, 6,594 are removed. 8,674 + 2,150 = 10,824.
 
 ## 2. Length figures
 
@@ -75,21 +79,20 @@ The other 15,289 go in, 8,674 representatives come out, 6,615 are removed. 8,674
 
 | | Natural | Synthetic | Entire |
 |---|---|---|---|
-| n | 2,521 | 8,303 | 10,824 |
-| median / mean length (aa) | 24 / 27.5 | 14 / 16.1 | 16 / 18.8 |
-| Q1 to Q3 | 15 to 35 | 10 to 20 | 11 to 23 |
+| n | 2,508 | 8,316 | 10,824 |
+| median / mean length (aa) | 24 / 26.9 | 14 / 16.2 | 16 / 18.7 |
+| Q1 to Q3 | 14.8 to 35 | 10 to 20 | 11 to 23 |
 
 | Share of group in category | Natural | Synthetic |
 |---|---|---|
-| Ultrashort 3-9 aa | 11.2 % | 22.5 % |
-| Short 10-24 aa | 38.8 % | **63.7 %** |
-| Medium 25-50 aa | **42.6 %** | 13.2 % |
-| Long 51-100 aa | 6.7 % | 0.6 % |
-| > 100 aa | 0.7 % | 0.02 % |
+| Ultrashort 3-9 aa | 11.3 % | 22.5 % |
+| Short 10-24 aa | 39.1 % | **63.6 %** |
+| Medium 25-50 aa | **42.8 %** | 13.3 % |
+| Long 51-100 aa | 6.8 % | 0.6 % |
 
-No peptide is shorter than 3 aa any more (so the "1 aa" and "2 aa" categories are empty and no longer drawn). Natural peptides are longer
-(median 24 vs 14 aa) and make up most of the Long (170 of 217) and > 100 aa (17 of 19) peptides. Synthetic peptides sit mostly in the Short class.
-The Synthetic histogram has sharp spikes (e.g. 659 peptides at 12 aa, 504 at 20 aa but 260 at 19 aa; also 9, 13 and 18 aa), probably convenient design lengths.
+Peptides are 3 to 100 aa long: none is shorter than 3 or longer than 100 aa any more (the "1 aa" and "> 100 aa" categories are empty and no longer drawn). Natural peptides are longer
+(median 24 vs 14 aa) and make up most of the Long (171 of 224) peptides. Synthetic peptides sit mostly in the Short class.
+The Synthetic histogram has sharp spikes (e.g. 660 peptides at 12 aa, 505 at 20 aa but 260 at 19 aa; also 9, 13 and 18 aa), probably convenient design lengths.
 The length figures carry no significance marks (the Composition Profiler gives p-values for composition only).
 
 ## 3. Amino acid enrichment, against two backgrounds
@@ -117,7 +120,7 @@ The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophi
 
 **Method** (`scripts/04_aa_enrichment.py` computes, `scripts/05_enrichment_figures.py` draws)
 * Tool: the official Composition Profiler, https://github.com/vvacic/cprofiler (v2.0), the same functions as `cprof discover`; only the 20 amino acids are tested.
-* Queries: `fasta/amp_natural_cdhit90.fasta` (2,521 peptides, 69,411 residues) and `fasta/amp_synthetic_cdhit90.fasta` (8,303 peptides, 133,978 residues).
+* Queries: `fasta/amp_natural_cdhit90.fasta` (2,508 peptides, 67,410 residues) and `fasta/amp_synthetic_cdhit90.fasta` (8,316 peptides, 134,485 residues).
   They contain no `X` any more.
 * Backgrounds: SwissProt (release 51 sample, 1,799,466 residues) and the non-AMP peptides (540,735 residues, used as supplied: only the 20 standard letters occur).
 * Effect = (frequency in the peptides - frequency in the background) / frequency in the background, residues pooled over all sequences.
@@ -129,45 +132,46 @@ The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophi
 
 | Amino acid | SwissProt, % of residues | Non-AMP, % of residues | Natural vs SwissProt | Synthetic vs SwissProt | Natural vs non-AMP | Synthetic vs non-AMP |
 |---|---|---|---|---|---|---|
-| R | 5.45 | 10.12 | +5% | +117% | -43% | +17% |
-| K | 5.96 | 10.15 | +62% | +177% | -5% (ns) | +62% |
-| D | 5.36 | 2.63 | -52% | -75% | -1% (ns) | -49% |
-| E | 6.68 | 3.49 | -62% | -73% | -27% | -48% |
-| N | 4.12 | 3.53 | -11% | -49% | +4% (ns) | -40% |
-| Q | 3.91 | 3.12 | -36% | -46% | -19% | -32% |
-| H | 2.30 | 2.34 | -10% | -13% | -11% | -14% |
-| P | 4.77 | 4.01 | +5% | -32% | +26% | -19% |
-| Y | 3.06 | 2.66 | -19% | -36% | -7% (ns) | -27% |
-| W | 1.15 | 1.36 | +44% | +401% | +21% | +322% |
-| S | 6.74 | 6.56 | -16% | -49% | -14% | -48% |
-| T | 5.32 | 4.68 | -24% | -56% | -14% | -50% |
-| G | 6.97 | 5.46 | +57% | -17% | +101% | +6% |
-| A | 7.91 | 6.33 | +4% (ns) | -4% | +30% | +20% |
-| M | 2.39 | 4.95 | -48% | -61% | -75% | -81% |
-| C | 1.50 | 2.36 | +345% | +34% | +182% | -15% |
-| F | 3.98 | 4.41 | +14% | +34% | +3% (ns) | +21% |
-| L | 9.71 | 9.70 | -9% | +25% | -9% | +25% |
+| R | 5.45 | 10.12 | +5% | +116% | -44% | +17% |
+| K | 5.96 | 10.15 | +63% | +176% | -4% (ns) | +62% |
+| D | 5.36 | 2.63 | -52% | -75% | -2% (ns) | -48% |
+| E | 6.68 | 3.49 | -63% | -73% | -29% | -47% |
+| N | 4.12 | 3.53 | -12% | -48% | +3% (ns) | -40% |
+| Q | 3.91 | 3.12 | -37% | -46% | -21% | -32% |
+| H | 2.30 | 2.34 | -11% | -12% | -12% | -14% |
+| P | 4.77 | 4.01 | +6% | -32% | +26% | -19% |
+| Y | 3.06 | 2.66 | -20% | -36% | -8% (ns) | -27% |
+| W | 1.15 | 1.36 | +45% | +400% | +22% | +321% |
+| S | 6.74 | 6.56 | -17% | -49% | -15% | -47% |
+| T | 5.32 | 4.68 | -25% | -56% | -15% | -50% |
+| G | 6.97 | 5.46 | +57% | -17% | +100% | +6% |
+| A | 7.91 | 6.33 | +4% | -4% | +30% | +20% |
+| M | 2.39 | 4.95 | -49% | -61% | -75% | -81% |
+| C | 1.50 | 2.36 | +349% | +34% | +185% | -15% |
+| F | 3.98 | 4.41 | +15% | +34% | +4% (ns) | +21% |
+| L | 9.71 | 9.70 | -8% | +24% | -8% | +25% |
 | V | 6.76 | 5.99 | -14% | -20% | -3% (ns) | -10% |
-| I | 5.98 | 6.16 | +3% (ns) | +7% | +0% (ns) | +4% |
+| I | 5.98 | 6.16 | +4% | +7% | +1% (ns) | +4% (ns) |
 
 **What it shows**
 * **Against ordinary proteins (SwissProt), both datasets look like antimicrobial peptides:** more K, R and W, much less D and E.
-  Synthetic peptides push this much further: Trp +401 %, Lys +177 %, Arg +117 %. Natural peptides: Lys +62 %, Trp +44 %, Arg only +5 %.
-* **Natural peptides are marked by Cys and Gly:** Cys +345 % and Gly +57 % vs SwissProt (consistent with disulfide-rich peptides such as defensins).
+  Synthetic peptides push this much further: Trp +400 %, Lys +176 %, Arg +116 %. Natural peptides: Lys +63 %, Trp +45 %, Arg only +5 %.
+* **Natural peptides are marked by Cys and Gly:** Cys +349 % and Gly +57 % vs SwissProt (consistent with disulfide-rich peptides such as defensins).
   In Synthetic peptides Cys is +34 % and Gly -17 %.
 * **Against non-AMP peptides, the picture changes, and that is the more specific result.**
   The non-AMP peptides are themselves rich in K and R (about 10 % of residues each, against 6 % in SwissProt), so charge alone no longer separates the groups:
-  Natural peptides have *less* Arg (-43 %) and the same Lys (-5 %, ns); only Synthetic peptides keep a Lys excess (+62 %).
-  What stays is **Trp** (Synthetic +322 %, Natural +21 %), the low **Asp/Glu** (Synthetic -49 % / -48 %), low **Met** in both (-75 % / -81 %),
-  and for Natural the **Cys (+182 %) and Gly (+101 %)** excess.
-* **The two datasets go in opposite directions against both backgrounds** for Gly (Natural +57 % / +101 %, Synthetic -17 % / +6 %), Pro (+5 % / +26 % vs -32 % / -19 %)
-  and Cys against non-AMP (+182 % vs -15 %): differences that say something about origin.
+  Natural peptides have *less* Arg (-44 %) and the same Lys (-4 %, ns); only Synthetic peptides keep a Lys excess (+62 %).
+  What stays is **Trp** (Synthetic +321 %, Natural +22 %), the low **Asp/Glu** (Synthetic -48 % / -47 %), low **Met** in both (-75 % / -81 %),
+  and for Natural the **Cys (+185 %) and Gly (+100 %)** excess.
+* **The two datasets go in opposite directions against both backgrounds** for Gly (Natural +57 % / +100 %, Synthetic -17 % / +6 %), Pro (+6 % / +26 % vs -32 % / -19 %)
+  and Cys against non-AMP (+185 % vs -15 %): differences that say something about origin.
 * **Read the size of the bar, not the star.** With thousands of peptides almost everything is significant. Not significant (gray):
-  SwissProt: A and I in Natural. Non-AMP, Natural: D, F, I, K, N, V, Y. Bars within about +-10 % are negligible whatever the star says.
+  SwissProt: none (A and I in Natural are only just significant, p about 0.002, with changes of +4 %). Non-AMP, Natural: D, F, I, K, N, V, Y; non-AMP, Synthetic: I.
+  Bars within about +-10 % are negligible whatever the star says.
 
 **Limits**
 * **`X` became Ala in some peptides, which inflates Alanine.** 0.8 % of the Natural and 2.9 % of the Synthetic residues are Ala only because they were `X`.
-  Against SwissProt the Synthetic Ala bar (-4 %) would be about -40 % without them, and the other 19 amino acids are slightly diluted by the same amount. Read the Ala bars with this in mind.
+  Against SwissProt the Synthetic Ala bar (-4 %) would be about -39 % without them, and the other 19 amino acids are slightly diluted by the same amount. Read the Ala bars with this in mind.
 * **SwissProt is a background of normal, mostly long proteins**; "enriched" there means "different from a typical protein", not "different from a random peptide".
   The release is old (51) and the sample small (5,002 proteins). The earlier check that removed 12 AMP-named proteins from it changed no result (largest effect change 0.006),
   and the non-AMP background now answers the same question more directly, so that table is no longer produced.
@@ -176,9 +180,9 @@ The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophi
 * Residues are pooled, so long peptides weigh more than short ones, and Natural and Synthetic differ in length; there is no length adjustment.
   D-amino acids count as their L form (the FASTA is upper case).
 
-**Check of the delivered FASTA files** (independent of the scripts): 10,824 / 2,521 / 8,303 sequences in the combined / Natural / Synthetic files, as claimed;
-IDs and sequences unique; only the 20 standard letters, no `X`; length 3 to 190 aa; every entry matches its row of the raw data (origin and sequence, with `X` -> `A`);
-Natural + Synthetic = combined with no overlap; none of the 6,615 CD-HIT-removed IDs is in the files; the 8,674 CD-HIT output sequences plus the 2,150 peptides shorter than 10 aa equal the final files;
+**Check of the delivered FASTA files** (independent of the scripts): 10,824 / 2,508 / 8,316 sequences in the combined / Natural / Synthetic files, as claimed;
+IDs and sequences unique; only the 20 standard letters, no `X`; length 3 to 100 aa; every entry matches its row of the raw data (origin and sequence, with `X` -> `A`);
+Natural + Synthetic = combined with no overlap; none of the 6,594 CD-HIT-removed IDs is in the files; the 8,674 CD-HIT output sequences plus the 2,150 peptides shorter than 10 aa equal the final files;
 14,718 removed + 10,824 kept = 25,542 raw rows.
 
 ## 4. Method (CD-HIT)
@@ -191,7 +195,7 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
   is in both groups, the Natural entry is kept.
 * **Peptides shorter than 10 aa are not sent to CD-HIT**, the existing rule of `scripts/02_run_cdhit.py`.
 * **`-l 9` matters.** cd-hit's default `-l 10` silently discards every sequence of 10 aa or fewer. The script checks that
-  cd-hit read exactly as many sequences as it was sent (15,289), and stops if not.
+  cd-hit read exactly as many sequences as it was sent (15,268), and stops if not.
 * `-T 1`: one thread, so the result is reproducible. The output is byte-identical on re-run.
 * FASTA headers use the DBAASP ID (`>DBAASP_11`), not a running number, so every entry can be traced back to the database.
   Sequences are upper case (D-amino acids are lower case in the csv files); `X` no longer occurs (removed or changed to Ala, section 0).
@@ -205,9 +209,9 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
    were sent, Synthetic 12,029 of 12,818. So 87 + 789 = 876 ten-aa peptides were dropped and counted as "removed by CD-HIT"
    (section 4 of the main README: 775 / 6,042 removed, 2,797 / 9,092 kept). Clustered per origin with the fix, the result would be
    2,881 / 9,665. These deliverables do not have the problem. The existing scripts, tables and analyses were left as they were.
-2. **Combined vs separate clustering.** Clustering together removed 1,673 Synthetic peptides because a Natural peptide covers
-   them, and 132 Natural ones because a Synthetic peptide does. Clustering each origin on its own (the old way) would keep
-   11,503 peptides (2,611 / 8,892) but the FASTA would still hold Natural/Synthetic near-duplicates. The medians do not change
+2. **Combined vs separate clustering.** Clustering together removed 1,629 Synthetic peptides because a Natural peptide covers
+   them, and 127 Natural ones because a Synthetic peptide does. Clustering each origin on its own (the old way) would keep
+   11,489 peptides (2,596 / 8,893) but the FASTA would still hold Natural/Synthetic near-duplicates. The medians do not change
    (Natural 24, Synthetic 14 either way), so the length conclusions do not depend on this choice.
 3. **CD-HIT is greedy**, so which peptide is kept depends a little on the input order (in a test on the previous version of the dataset, a different input order moved the
    separate-clustering numbers by 3 and 6 peptides). The deliverable numbers are for the input order of script 01 and are reproducible.
@@ -219,11 +223,9 @@ cd-hit -i input_ge10aa.fasta -o cdhit_ge10aa.fasta -c 0.9 -n 5 -d 0 -l 9 -M 0 -T
    with fewer than 3 real residues are gone, step 4). Peptides of 3-9 aa are kept; the "Ultrashort" class is therefore 3-9 aa here.
 6. **Length categories** follow the `Length_Class` column of the data (all 10,824 agree). The data labels the class "Long (50-100 aa)", but
    50-aa peptides are in Medium; Long is 51-100 aa and is labelled so here.
-7. **The histogram axis stops at 100 aa**; the 19 longer peptides (17 Natural, 2 Synthetic, longest 190 aa) are named in the
-   figure footnote and are in the tables. The overlapping histograms are scaled to 100 % of their own group, because Natural
-   (2,521) is much smaller than Synthetic (8,303); the counts version is `length_histogram_overlap_counts.png`.
-   The smooth lines are a Gaussian kernel density with a 3 aa bandwidth, mirrored at the 1 aa edge, using all peptides
-   (also those over 100 aa). Each line has an area of 100 %, so it is on the same scale as the bars. The wider the
+7. **The histogram axis is 0 to 100 aa**, which now covers every peptide (longer ones are removed in step 5). The overlapping histograms are scaled to 100 % of their own group, because Natural
+   (2,508) is much smaller than Synthetic (8,316); the counts version is `length_histogram_overlap_counts.png`.
+   The smooth lines are a Gaussian kernel density with a 3 aa bandwidth, mirrored at the 1 aa edge. Each line has an area of 100 %, so it is on the same scale as the bars. The wider the
    bandwidth, the more the design-length spikes are averaged out; the bars underneath still show them.
 
 ## 6. Reproduce
