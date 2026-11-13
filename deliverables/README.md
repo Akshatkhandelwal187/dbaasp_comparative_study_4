@@ -14,6 +14,7 @@ deliverables/
   figures/length_histogram_overlap_counts.png  the same with peptide counts
   figures/length_category_fraction_bar.png     share of Natural and Synthetic peptides per length category
   figures/amino_acid_enrichment.png            the 20 amino acids: Natural / Synthetic x two backgrounds in ONE image (same axes, same order)
+  sequences_lost.xlsx                     the table of section 1 as a spreadsheet, with a plain-language note for every step
   tables/redundancy_removal_summary.csv   step-by-step counts, Natural / Synthetic / Total
   tables/removed_records.csv              every lost record: why, and which kept peptide covers it (+ identity for CD-HIT)
   tables/x_to_alanine_counts.csv          peptides and residues in which X was changed to Alanine
@@ -105,6 +106,11 @@ Two backgrounds are used, because they answer different questions:
 
 **How to read the figure.** Every bar is the difference from the background in percent: **0 = same as the background, +100 % = twice as often,
 -50 % = half as often.** (The axis is a plain linear percentage; the Composition Profiler's own "effect" is this number divided by 100.)
+**Why a linear percentage axis.** This is the quantity the Composition Profiler itself plots (its bar plot shows the fractional difference
+(query - background) / background on a linear axis, with bootstrap error bars; Vacic et al. 2007, BMC Bioinformatics 8:211, doi:10.1186/1471-2105-8-211),
+and it is what the first analysis of this project (`scripts/06_run_composition_profiler.py`) plotted. The first deliverables figure (Oct 14) used a log2 fold-change axis
+(0.25x ... 4x) instead; that was a design choice of that version, not a project or tool standard, and it has been replaced. One property to keep in mind:
+a percentage is not symmetric, depletion stops at -100 % while enrichment has no limit, so +300 % (4x) and -75 % (0.25x) are the same size of change on a log axis.
 The four panels share the same axes and the same amino acid order, so they can be compared directly: rows are Natural and Synthetic, columns are the two backgrounds.
 The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophilic (R) to hydrophobic (I), and coloured along it.
 **Gray bar = not significant; `*` = significant.**
@@ -169,6 +175,11 @@ The amino acids are in the Composition Profiler's Kyte-Doolittle order, hydrophi
   its high K and R content suggests it contains hard, charge-matched negatives. Results against it depend on that choice.
 * Residues are pooled, so long peptides weigh more than short ones, and Natural and Synthetic differ in length; there is no length adjustment.
   D-amino acids count as their L form (the FASTA is upper case).
+
+**Check of the delivered FASTA files** (independent of the scripts): 10,824 / 2,521 / 8,303 sequences in the combined / Natural / Synthetic files, as claimed;
+IDs and sequences unique; only the 20 standard letters, no `X`; length 3 to 190 aa; every entry matches its row of the raw data (origin and sequence, with `X` -> `A`);
+Natural + Synthetic = combined with no overlap; none of the 6,615 CD-HIT-removed IDs is in the files; the 8,674 CD-HIT output sequences plus the 2,150 peptides shorter than 10 aa equal the final files;
+14,718 removed + 10,824 kept = 25,542 raw rows.
 
 ## 4. Method (CD-HIT)
 
