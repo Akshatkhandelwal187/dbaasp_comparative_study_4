@@ -74,5 +74,5 @@ What stands out (effects against SwissProt; "also vs non-AMP" = same direction a
 * Classes overlap and are not independent, so the heatmap columns must not be read as separate experiments.
 * `Unclassified` kingdom is not a biological class; the 20 natural peptides in it are untested.
 * **Implementation note:** the `cprofiler` tool could not be installed in this environment, so `02_survey_enrichment.py` runs the same permutation test in numpy.
-  It reproduces `deliverables/tables/aa_enrichment.csv` for Synthetic exactly (largest difference in the effect: 0.0; all 80 significance calls agree).
+  It reproduces `deliverables/tables/aa_enrichment.csv` for Synthetic exactly (largest difference in the effect: 0.0; all 40 significance calls agree).
   The exact p-values come from random permutations (fixed seed), so they can differ slightly from a run of the tool.
