@@ -9,6 +9,8 @@ two of the groupings with very simple statistics and an amino-acid enrichment an
 Everything uses columns that already exist in the data. No new parameters were calculated.
 All scripts are short, numbered, and can be read from top to bottom.
 
+**Survey of other classes:** [`survey/`](survey/README.md) repeats the enrichment and length analysis for source organism (kingdom), synthesis type and function (target group).
+
 **Deliverables:** [`deliverables/`](deliverables/README.md) holds the single FASTA after CD-HIT at 90 % identity (Natural + Synthetic),
 the exact number of sequences lost, the length histogram and category bar chart, and the amino acid enrichment against SwissProt.
 The deliverables use stricter cleaning than the main analysis below: peptides with fewer than 3 real amino acids or with 30 % or more `X` are removed,

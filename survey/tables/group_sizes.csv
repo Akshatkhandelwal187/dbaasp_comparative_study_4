@@ -1,0 +1,36 @@
+grouping,group,n_peptides,tested
+Source organism (Natural peptides only),Animalia,1766,True
+Source organism (Natural peptides only),Archaea,3,False
+Source organism (Natural peptides only),Bacteria,380,True
+Source organism (Natural peptides only),Fungi,72,True
+Source organism (Natural peptides only),Multiple,2,False
+Source organism (Natural peptides only),Plantae,263,True
+Source organism (Natural peptides only),Protista,2,False
+Source organism (Natural peptides only),Unclassified,20,False
+Synthesis type (all peptides),Nonribosomal,244,True
+Synthesis type (all peptides),Ribosomal,2264,True
+Synthesis type (all peptides),Synthetic,8316,True
+Function (all peptides),Anti-Gram-negative,8646,True
+Function (Natural peptides only),Anti-Gram-negative,2058,True
+Function (all peptides),Anti-Gram-positive,8525,True
+Function (Natural peptides only),Anti-Gram-positive,2146,True
+Function (all peptides),Antifungal,3104,True
+Function (Natural peptides only),Antifungal,1309,True
+Function (all peptides),Anticancer,2012,True
+Function (Natural peptides only),Anticancer,526,True
+Function (all peptides),Antiviral,726,True
+Function (Natural peptides only),Antiviral,112,True
+Function (all peptides),Antibiofilm,355,True
+Function (Natural peptides only),Antibiofilm,53,True
+Function (all peptides),Antiparasitic,207,True
+Function (Natural peptides only),Antiparasitic,124,True
+Function (all peptides),Insecticidal,56,True
+Function (Natural peptides only),Insecticidal,36,False
+Function (all peptides),Antiprotozoal,33,False
+Function (Natural peptides only),Antiprotozoal,31,False
+Function (all peptides),Anti-Mollicute,18,False
+Function (Natural peptides only),Anti-Mollicute,11,False
+Function (all peptides),Nematicidal,25,False
+Function (Natural peptides only),Nematicidal,24,False
+Function (all peptides),Mammalian-cytotoxic,5901,True
+Function (Natural peptides only),Mammalian-cytotoxic,1245,True
