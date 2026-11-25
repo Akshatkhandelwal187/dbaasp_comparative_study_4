@@ -1,0 +1,6 @@
+test,class,n_class,n_rest,median_class,median_rest,rank_biserial_r,p_value,p_bonferroni,H
+"Mann-Whitney U, class vs rest of population",Animalia,1789,763.0,24.0,24.0,0.137,4.117204750538368e-08,1.6468819002153473e-07,
+"Mann-Whitney U, class vs rest of population",Bacteria,396,2156.0,18.0,25.0,-0.269,1.4061063013279402e-17,5.624425205311761e-17,
+"Mann-Whitney U, class vs rest of population",Plantae,266,2286.0,30.5,24.0,0.267,9.48994657745548e-13,3.795978630982192e-12,
+"Mann-Whitney U, class vs rest of population",Fungi,73,2479.0,6.0,25.0,-0.513,7.345129625871885e-14,2.938051850348754e-13,
+Kruskal-Wallis across the classes,all tested classes,2524,,,,,1.1400839604354472e-36,,170.2

@@ -1,0 +1,121 @@
+comparison,class,n_peptides,n_residues,background,amino_acid,freq_class_%,freq_background_%,effect,pct_change,pvalue,result
+synthesis_type,Ribosomal,2301,66696,SwissProt,A,8.0605,7.9121,0.0187,1.8747,0.1775,Not significant
+synthesis_type,Ribosomal,2301,66696,SwissProt,C,6.8955,1.4963,3.6084,360.8415,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,SwissProt,D,2.5969,5.3562,-0.5152,-51.5168,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,E,2.4829,6.6751,-0.628,-62.8037,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,F,4.4845,3.9786,0.1272,12.7171,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,SwissProt,G,11.1116,6.9701,0.5942,59.4177,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,SwissProt,H,2.1216,2.3033,-0.0789,-7.8899,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,I,6.2013,5.9794,0.0371,3.7109,0.0122,Not significant
+synthesis_type,Ribosomal,2301,66696,SwissProt,K,9.9301,5.955,0.6675,66.7531,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,SwissProt,L,8.7457,9.7116,-0.0995,-9.9464,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,M,1.2415,2.3863,-0.4797,-47.975,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,N,3.6869,4.1221,-0.1056,-10.5585,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,P,4.8189,4.7711,0.01,1.0006,0.5204,Not significant
+synthesis_type,Ribosomal,2301,66696,SwissProt,Q,2.4784,3.9118,-0.3664,-36.6423,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,R,5.8279,5.4548,0.0684,6.8397,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,SwissProt,S,5.6225,6.7359,-0.1653,-16.5288,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,T,4.0332,5.3158,-0.2413,-24.1276,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,V,5.6345,6.756,-0.166,-16.5998,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,SwissProt,W,1.6403,1.1467,0.4304,43.0397,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,SwissProt,Y,2.3855,3.0617,-0.2209,-22.0884,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,A,8.0605,6.3275,0.2739,27.3877,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,Non-AMP,C,6.8955,2.3622,1.9191,191.9142,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,Non-AMP,D,2.5969,2.6253,-0.0108,-1.084,0.7844,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,E,2.4829,3.4871,-0.288,-28.7975,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,F,4.4845,4.4083,0.0173,1.7301,0.4943,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,G,11.1116,5.4602,1.035,103.5034,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,Non-AMP,H,2.1216,2.3438,-0.0948,-9.4836,0.0088,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,I,6.2013,6.164,0.006,0.6044,0.7838,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,K,9.9301,10.1475,-0.0214,-2.1419,0.3069,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,L,8.7457,9.6988,-0.0983,-9.8278,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,M,1.2415,4.9523,-0.7493,-74.9319,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,N,3.6869,3.5293,0.0447,4.4657,0.1132,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,P,4.8189,4.0055,0.2031,20.3074,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,Non-AMP,Q,2.4784,3.1187,-0.2053,-20.5311,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,R,5.8279,10.117,-0.4239,-42.3945,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,S,5.6225,6.5631,-0.1433,-14.3313,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,T,4.0332,4.6794,-0.1381,-13.8084,0.0,Depleted
+synthesis_type,Ribosomal,2301,66696,Non-AMP,V,5.6345,5.9854,-0.0586,-5.8618,0.0074,Not significant
+synthesis_type,Ribosomal,2301,66696,Non-AMP,W,1.6403,1.3615,0.2048,20.4776,0.0,Enriched
+synthesis_type,Ribosomal,2301,66696,Non-AMP,Y,2.3855,2.6632,-0.1043,-10.4301,0.0016,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,A,15.2366,7.9121,0.9257,92.5729,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,C,0.728,1.4963,-0.5134,-51.344,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,D,1.9241,5.3562,-0.6408,-64.0776,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,E,2.2881,6.6751,-0.6572,-65.7222,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,F,7.9043,3.9786,0.9867,98.6723,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,G,3.4321,6.9701,-0.5076,-50.7593,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,H,0.416,2.3033,-0.8194,-81.9382,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,I,7.5923,5.9794,0.2697,26.9747,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,K,2.3921,5.955,-0.5983,-59.8304,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,L,13.5205,9.7116,0.3922,39.2205,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,M,0.312,2.3863,-0.8692,-86.9246,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,N,3.2241,4.1221,-0.2178,-21.7845,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,P,11.0244,4.7711,1.3107,131.0652,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,Q,1.5601,3.9118,-0.6012,-60.1188,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,R,0.728,5.4548,-0.8665,-86.6535,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,S,5.1482,6.7359,-0.2357,-23.5705,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,T,2.8081,5.3158,-0.4717,-47.1742,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,SwissProt,V,11.5445,6.756,0.7088,70.8771,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,W,3.2241,1.1467,1.8116,181.1587,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,SwissProt,Y,4.9922,3.0617,0.6305,63.051,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,A,15.2366,6.3275,1.408,140.7999,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,C,0.728,2.3622,-0.6918,-69.1795,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,D,1.9241,2.6253,-0.2671,-26.7106,0.0315,Not significant
+synthesis_type,Nonribosomal,251,1923,Non-AMP,E,2.2881,3.4871,-0.3438,-34.3842,0.0034,Not significant
+synthesis_type,Nonribosomal,251,1923,Non-AMP,F,7.9043,4.4083,0.7931,79.307,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,G,3.4321,5.4602,-0.3714,-37.1422,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,H,0.416,2.3438,-0.8225,-82.2507,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,I,7.5923,6.164,0.2317,23.1714,0.0008,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,K,2.3921,10.1475,-0.7643,-76.4267,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,L,13.5205,9.6988,0.394,39.4037,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,M,0.312,4.9523,-0.937,-93.6997,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,N,3.2241,3.5293,-0.0865,-8.646,0.3063,Not significant
+synthesis_type,Nonribosomal,251,1923,Non-AMP,P,11.0244,4.0055,1.7523,175.2344,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,Q,1.5601,3.1187,-0.4998,-49.9774,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,R,0.728,10.117,-0.928,-92.8039,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,S,5.1482,6.5631,-0.2156,-21.5584,0.0004,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,T,2.8081,4.6794,-0.3999,-39.9895,0.0,Depleted
+synthesis_type,Nonribosomal,251,1923,Non-AMP,V,11.5445,5.9854,0.9288,92.8779,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,W,3.2241,1.3615,1.3681,136.8106,0.0,Enriched
+synthesis_type,Nonribosomal,251,1923,Non-AMP,Y,4.9922,2.6632,0.8745,87.4493,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,A,7.4834,7.9121,-0.0542,-5.4187,0.0002,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,C,1.9957,1.4963,0.3338,33.3782,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,D,1.3375,5.3562,-0.7503,-75.0287,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,E,1.8329,6.6751,-0.7254,-72.542,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,F,5.3289,3.9786,0.3394,33.9408,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,G,5.8488,6.9701,-0.1609,-16.0875,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,H,2.025,2.3033,-0.1208,-12.0822,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,I,6.4198,5.9794,0.0737,7.3653,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,K,16.3281,5.955,1.7419,174.1927,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,L,12.0608,9.7116,0.2419,24.1894,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,M,0.911,2.3863,-0.6182,-61.824,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,N,2.1054,4.1221,-0.4892,-48.9241,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,P,3.2358,4.7711,-0.3218,-32.18,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,Q,2.1572,3.9118,-0.4485,-44.8539,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,R,12.0281,5.4548,1.205,120.5027,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,S,3.4238,6.7359,-0.4917,-49.1702,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,T,2.3119,5.3158,-0.5651,-56.5097,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,V,5.301,6.756,-0.2154,-21.5366,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,SwissProt,W,5.9265,1.1467,4.1682,416.8162,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,SwissProt,Y,1.9385,3.0617,-0.3669,-36.6872,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,A,7.4834,6.3275,0.1827,18.2678,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,C,1.9957,2.3622,-0.1551,-15.5133,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,D,1.3375,2.6253,-0.4905,-49.0533,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,E,1.8329,3.4871,-0.4744,-47.4389,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,F,5.3289,4.4083,0.2089,20.8851,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,G,5.8488,5.4602,0.0712,7.1178,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,H,2.025,2.3438,-0.136,-13.6033,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,I,6.4198,6.164,0.0415,4.1494,0.0017,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,K,16.3281,10.1475,0.6091,60.9083,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,L,12.0608,9.6988,0.2435,24.3528,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,M,0.911,4.9523,-0.8161,-81.605,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,N,2.1054,3.5293,-0.4034,-40.3444,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,P,3.2358,4.0055,-0.1922,-19.2159,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,Q,2.1572,3.1187,-0.3083,-30.8309,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,R,12.0281,10.117,0.1889,18.8901,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,S,3.4238,6.5631,-0.4783,-47.832,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,T,2.3119,4.6794,-0.5059,-50.5947,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,V,5.301,5.9854,-0.1143,-11.4342,0.0,Depleted
+synthesis_type,Synthetic,9164,146765,Non-AMP,W,5.9265,1.3615,3.353,335.2969,0.0,Enriched
+synthesis_type,Synthetic,9164,146765,Non-AMP,Y,1.9385,2.6632,-0.2721,-27.2134,0.0,Depleted

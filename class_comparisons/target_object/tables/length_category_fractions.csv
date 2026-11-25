@@ -1,0 +1,12 @@
+class,n_peptides,%Ultrashort,%Short,%Medium,%Long
+all peptides,11716,20.7,57.9,19.5,2.0
+Lipid Bilayer,9606,18.1,59.4,20.3,2.2
+Virus entry,342,7.6,47.1,41.2,4.1
+Cytoplasmic Protein,176,22.7,63.1,13.6,0.6
+DNA / RNA,158,11.4,60.1,24.1,4.4
+Virus replication,152,14.5,57.2,25.7,2.6
+Membrane Protein,115,35.7,55.7,7.0,1.7
+Virus Integrase,104,26.0,70.2,3.8,0.0
+Lipid II,81,23.5,49.4,25.9,1.2
+Virus Protease,59,39.0,49.2,11.9,0.0
+Ribosome,59,1.7,83.1,15.3,0.0

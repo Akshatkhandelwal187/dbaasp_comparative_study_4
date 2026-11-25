@@ -1,0 +1,9 @@
+test,class,n_class,n_rest,median_class,median_rest,rank_biserial_r,p_value,p_bonferroni
+"Mann-Whitney U, class vs rest of population",Anti-Gram-positive,2192,360,25.0,22.5,0.139,2.236122055926052e-05,0.00017888976447408416
+"Mann-Whitney U, class vs rest of population",Anti-Gram-negative,2104,448,24.0,26.0,0.11,0.0002367857688617028,0.0018942861508936225
+"Mann-Whitney U, class vs rest of population",Antifungal,1332,1220,24.0,25.0,0.023,0.31099268961866167,1.0
+"Mann-Whitney U, class vs rest of population",Mammalian cell,1279,1273,23.0,28.0,-0.137,1.9541214140906742e-09,1.5632971312725394e-08
+"Mann-Whitney U, class vs rest of population",Anticancer,538,2014,18.5,25.0,-0.304,2.1786146719338666e-27,1.7428917375470933e-26
+"Mann-Whitney U, class vs rest of population",Antiparasitic,129,2423,22.0,24.0,-0.092,0.0781626584782096,0.6253012678256769
+"Mann-Whitney U, class vs rest of population",Antiviral,112,2440,25.0,24.0,-0.051,0.3638824252110058,1.0
+"Mann-Whitney U, class vs rest of population",Antibiofilm,53,2499,19.0,25.0,-0.185,0.020965439916040312,0.1677235193283225

@@ -1,0 +1,6 @@
+class,n_peptides,mean,median,Q1,Q3,min,max
+all Natural peptides,2552,26.9,24.0,14.0,35.0,3,100
+Animalia,1789,27.9,24.0,17.0,35.0,5,100
+Bacteria,396,21.3,18.0,9.0,31.0,3,70
+Plantae,266,32.4,30.5,28.0,43.75,5,93
+Fungi,73,15.7,6.0,5.0,27.0,3,58

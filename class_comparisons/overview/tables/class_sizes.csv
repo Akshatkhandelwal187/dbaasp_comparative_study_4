@@ -1,0 +1,60 @@
+comparison,title,class,n_peptides,share_of_population_%,tested
+source_organism,Source organism (Natural peptides),Animalia,1789,70.1,True
+source_organism,Source organism (Natural peptides),Bacteria,396,15.5,True
+source_organism,Source organism (Natural peptides),Plantae,266,10.4,True
+source_organism,Source organism (Natural peptides),Fungi,73,2.9,True
+source_organism,Source organism (Natural peptides),Unclassified,21,0.8,False
+source_organism,Source organism (Natural peptides),Archaea,3,0.1,False
+source_organism,Source organism (Natural peptides),Protista,2,0.1,False
+source_organism,Source organism (Natural peptides),Multiple,2,0.1,False
+synthesis_type,Synthesis type,Ribosomal,2301,19.6,True
+synthesis_type,Synthesis type,Nonribosomal,251,2.1,True
+synthesis_type,Synthesis type,Synthetic,9164,78.2,True
+function_all,Function: target group (all peptides),Anti-Gram-negative,9353,79.8,True
+function_all,Function: target group (all peptides),Anti-Gram-positive,9160,78.2,True
+function_all,Function: target group (all peptides),Mammalian cell,6385,54.5,True
+function_all,Function: target group (all peptides),Antifungal,3316,28.3,True
+function_all,Function: target group (all peptides),Anticancer,2189,18.7,True
+function_all,Function: target group (all peptides),Antiviral,747,6.4,True
+function_all,Function: target group (all peptides),Antibiofilm,356,3.0,True
+function_all,Function: target group (all peptides),Antiparasitic,219,1.9,True
+function_all,Function: target group (all peptides),Insecticidal,60,0.5,True
+function_all,Function: target group (all peptides),Antiprotozoal,33,0.3,False
+function_all,Function: target group (all peptides),Nematicidal,28,0.2,False
+function_all,Function: target group (all peptides),Anti-Mollicute,18,0.2,False
+function_natural,Function: target group (Natural peptides),Anti-Gram-positive,2192,85.9,True
+function_natural,Function: target group (Natural peptides),Anti-Gram-negative,2104,82.4,True
+function_natural,Function: target group (Natural peptides),Antifungal,1332,52.2,True
+function_natural,Function: target group (Natural peptides),Mammalian cell,1279,50.1,True
+function_natural,Function: target group (Natural peptides),Anticancer,538,21.1,True
+function_natural,Function: target group (Natural peptides),Antiparasitic,129,5.1,True
+function_natural,Function: target group (Natural peptides),Antiviral,112,4.4,True
+function_natural,Function: target group (Natural peptides),Antibiofilm,53,2.1,True
+function_natural,Function: target group (Natural peptides),Insecticidal,37,1.4,False
+function_natural,Function: target group (Natural peptides),Antiprotozoal,31,1.2,False
+function_natural,Function: target group (Natural peptides),Nematicidal,26,1.0,False
+function_natural,Function: target group (Natural peptides),Anti-Mollicute,11,0.4,False
+target_object,"Target object (mechanism, all peptides)",Lipid Bilayer,9606,82.0,True
+target_object,"Target object (mechanism, all peptides)",Virus entry,342,2.9,True
+target_object,"Target object (mechanism, all peptides)",Cytoplasmic Protein,176,1.5,True
+target_object,"Target object (mechanism, all peptides)",DNA / RNA,158,1.3,True
+target_object,"Target object (mechanism, all peptides)",Virus replication,152,1.3,True
+target_object,"Target object (mechanism, all peptides)",Membrane Protein,115,1.0,True
+target_object,"Target object (mechanism, all peptides)",Virus Integrase,104,0.9,True
+target_object,"Target object (mechanism, all peptides)",Lipid II,81,0.7,True
+target_object,"Target object (mechanism, all peptides)",Virus Protease,59,0.5,True
+target_object,"Target object (mechanism, all peptides)",Ribosome,59,0.5,True
+target_object,"Target object (mechanism, all peptides)",gp41,41,0.3,False
+target_object,"Target object (mechanism, all peptides)",Immunomodulation,41,0.3,False
+target_object,"Target object (mechanism, all peptides)",Virus Reverse Transcriptase,27,0.2,False
+target_object,"Target object (mechanism, all peptides)",Mitochondrial membrane,24,0.2,False
+target_object,"Target object (mechanism, all peptides)",Lysosomal membrane,19,0.2,False
+target_object,"Target object (mechanism, all peptides)",Sgp,14,0.1,False
+target_object,"Target object (mechanism, all peptides)",gpHA,9,0.1,False
+target_object,"Target object (mechanism, all peptides)",EgpDV,7,0.1,False
+target_object,"Target object (mechanism, all peptides)",gp120,7,0.1,False
+target_object,"Target object (mechanism, all peptides)",Quorum Sensing,5,0.0,False
+target_object,"Target object (mechanism, all peptides)",VIF,3,0.0,False
+target_object,"Target object (mechanism, all peptides)",gpE,3,0.0,False
+target_object,"Target object (mechanism, all peptides)",APJ receptor,1,0.0,False
+target_object,"Target object (mechanism, all peptides)",gD,1,0.0,False

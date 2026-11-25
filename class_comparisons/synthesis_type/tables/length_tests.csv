@@ -1,0 +1,5 @@
+test,class,n_class,n_rest,median_class,median_rest,rank_biserial_r,p_value,p_bonferroni,H
+"Mann-Whitney U, class vs rest of population",Ribosomal,2301,9415.0,26.0,13.0,0.59,0.0,0.0,
+"Mann-Whitney U, class vs rest of population",Nonribosomal,251,11465.0,7.0,15.0,-0.741,3.1519058805251913e-90,9.455717641575573e-90,
+"Mann-Whitney U, class vs rest of population",Synthetic,9164,2552.0,14.0,24.0,-0.456,8.542214511618634e-273,2.56266435348559e-272,
+Kruskal-Wallis across the classes,all tested classes,11716,,,,,0.0,,2224.5
