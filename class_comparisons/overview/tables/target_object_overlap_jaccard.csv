@@ -1,0 +1,11 @@
+,Lipid Bilayer,Virus entry,Cytoplasmic Protein,Virus Integrase,DNA / RNA,Virus replication,Virus Protease,Membrane Protein,Ribosome,Lipid II
+Lipid Bilayer,1.0,0.004,0.012,0.0,0.015,0.007,0.0,0.004,0.004,0.002
+Virus entry,0.004,1.0,0.002,0.0,0.002,0.067,0.002,0.007,0.0,0.0
+Cytoplasmic Protein,0.012,0.002,1.0,0.0,0.015,0.012,0.0,0.021,0.098,0.0
+Virus Integrase,0.0,0.0,0.0,1.0,0.0,0.004,0.0,0.0,0.0,0.0
+DNA / RNA,0.015,0.002,0.015,0.0,1.0,0.0,0.0,0.007,0.0,0.0
+Virus replication,0.007,0.067,0.012,0.004,0.0,1.0,0.055,0.0,0.005,0.0
+Virus Protease,0.0,0.002,0.0,0.0,0.0,0.055,1.0,0.0,0.0,0.0
+Membrane Protein,0.004,0.007,0.021,0.0,0.007,0.0,0.0,1.0,0.0,0.0
+Ribosome,0.004,0.0,0.098,0.0,0.0,0.005,0.0,0.0,1.0,0.0
+Lipid II,0.002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0

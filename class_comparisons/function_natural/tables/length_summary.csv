@@ -1,0 +1,10 @@
+class,n_peptides,mean,median,Q1,Q3,min,max
+all Natural peptides,2552,26.9,24.0,14.0,35.0,3,100
+Anti-Gram-positive,2192,27.4,25.0,16.0,35.0,3,100
+Anti-Gram-negative,2104,27.4,24.0,16.0,35.0,3,100
+Antifungal,1332,27.3,24.0,16.0,35.0,3,100
+Mammalian cell,1279,24.6,23.0,15.0,31.0,3,98
+Anticancer,538,20.7,18.5,8.0,29.0,3,84
+Antiparasitic,129,25.2,22.0,13.0,34.0,4,98
+Antiviral,112,24.8,25.0,15.75,31.0,3,76
+Antibiofilm,53,22.1,19.0,13.0,28.0,3,54

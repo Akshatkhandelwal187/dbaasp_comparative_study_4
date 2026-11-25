@@ -201,7 +201,12 @@ rem.to_csv(DELIV / "tables" / "removed_records.csv", index=False)
 # step-by-step summary (steps are numbered in the STEP text, so sorting by it gives the processing order)
 left = {o: counts[o]["raw rows"] for o in ORIGINS}
 rows = [["0", "raw rows (DBAASP export)", None, None, None, *left.values(), sum(left.values())]]
-for step, group in rem.groupby("STEP"):
+STEPS = ["1 exact duplicate row", "2 multi-chain entry", "3 sequence of only X", f"4 fewer than {MIN_REAL} real amino acids",
+         f"5 longer than {MAX_LEN} aa", f"6 X is >= {X_MAX_FRACTION:.0%} of the peptide", "7 duplicate sequence (same origin)",
+         "8 identical sequence in Natural and Synthetic", "9 CD-HIT >= 90 % identity"]
+assert set(rem["STEP"]) <= set(STEPS), set(rem["STEP"]) - set(STEPS)
+for step in STEPS:                          # every step is listed, also when it removed nothing
+    group = rem[rem["STEP"] == step]
     lost = group.groupby("ORIGIN").size().reindex(ORIGINS, fill_value=0)
     left = {o: left[o] - int(lost[o]) for o in ORIGINS}
     rows.append([step[0], step[2:], *lost.tolist(), int(lost.sum()), *left.values(), sum(left.values())])
@@ -216,7 +221,7 @@ assert sum(left.values()) == len(final) == sum(1 for l in open(DELIV / "fasta" /
 assert len(rem) + len(final) == sum(counts[o]["raw rows"] for o in ORIGINS)
 split = {o: [l.strip() for l in open(DELIV / "fasta" / f"amp_{o.lower()}_cdhit90.fasta") if l[0] == ">"]
          for o in ORIGINS}
-assert {o: len(h) for o, h in split.items()} == left                      # 2,791 Natural / 9,013 Synthetic
+assert {o: len(h) for o, h in split.items()} == left
 assert sorted(split["Natural"] + split["Synthetic"]) == sorted(">" + final["HEADER"])  # together = the combined FASTA
 
 print(summary.to_string(index=False))

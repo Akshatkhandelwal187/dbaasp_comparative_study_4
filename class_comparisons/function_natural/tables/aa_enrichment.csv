@@ -1,0 +1,321 @@
+comparison,class,n_peptides,n_residues,background,amino_acid,freq_class_%,freq_background_%,effect,pct_change,pvalue,result
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,A,8.5315,7.9121,0.0783,7.8286,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,C,6.233,1.4963,3.1657,316.5701,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,D,2.5698,5.3562,-0.5202,-52.0224,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,E,2.42,6.6751,-0.6375,-63.7463,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,F,4.6103,3.9786,0.1588,15.8781,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,G,10.9831,6.9701,0.5757,57.5745,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,H,2.0488,2.3033,-0.1105,-11.0477,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,I,6.2913,5.9794,0.0522,5.2165,0.0007,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,K,10.1093,5.955,0.6976,69.7627,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,L,9.3471,9.7116,-0.0375,-3.7536,0.0001,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,M,1.24,2.3863,-0.4804,-48.038,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,N,3.585,4.1221,-0.1303,-13.029,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,P,4.5753,4.7711,-0.041,-4.1038,0.0092,Not significant
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,Q,2.4533,3.9118,-0.3728,-37.2849,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,R,5.6722,5.4548,0.0398,3.9839,0.0043,Not significant
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,S,5.524,6.7359,-0.1799,-17.9911,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,T,3.9312,5.3158,-0.2605,-26.0463,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,V,5.9068,6.756,-0.1257,-12.5692,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,W,1.676,1.1467,0.4616,46.1561,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,SwissProt,Y,2.2918,3.0617,-0.2515,-25.1462,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,A,8.5315,6.3275,0.3483,34.8326,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,C,6.233,2.3622,1.6387,163.8711,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,D,2.5698,2.6253,-0.0212,-2.1154,0.6094,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,E,2.42,3.4871,-0.306,-30.6019,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,F,4.6103,4.4083,0.0458,4.583,0.0882,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,G,10.9831,5.4602,1.0115,101.1505,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,H,2.0488,2.3438,-0.1259,-12.5868,0.0009,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,I,6.2913,6.164,0.0206,2.0649,0.3605,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,K,10.1093,10.1475,-0.0038,-0.3758,0.8648,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,L,9.3471,9.6988,-0.0363,-3.6269,0.0378,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,M,1.24,4.9523,-0.7496,-74.9623,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,N,3.585,3.5293,0.0158,1.5802,0.5852,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,P,4.5753,4.0055,0.1423,14.2271,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,Q,2.4533,3.1187,-0.2134,-21.3371,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,R,5.6722,10.117,-0.4393,-43.9343,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,S,5.524,6.5631,-0.1583,-15.8321,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,T,3.9312,4.6794,-0.1599,-15.9881,0.0,Depleted
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,V,5.9068,5.9854,-0.0131,-1.3122,0.562,Not significant
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,W,1.676,1.3615,0.231,23.1024,0.0,Enriched
+function_natural,Anti-Gram-positive,2192,60083,Non-AMP,Y,2.2918,2.6632,-0.1395,-13.9454,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,A,8.1919,7.9121,0.0354,3.5366,0.0134,Not significant
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,C,6.3203,1.4963,3.224,322.4014,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,D,2.6151,5.3562,-0.5118,-51.1759,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,E,2.4539,6.6751,-0.6324,-63.2376,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,F,4.6618,3.9786,0.1717,17.1728,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,G,10.7672,6.9701,0.5448,54.4765,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,H,2.0658,2.3033,-0.1031,-10.3132,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,I,6.2683,5.9794,0.0483,4.8319,0.0011,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,K,10.1572,5.955,0.7057,70.566,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,L,9.3981,9.7116,-0.0323,-3.2279,0.0004,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,M,1.1888,2.3863,-0.5018,-50.1796,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,N,3.5717,4.1221,-0.1335,-13.3517,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,P,4.842,4.7711,0.0149,1.486,0.3528,Not significant
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,Q,2.4713,3.9118,-0.3682,-36.8247,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,R,5.939,5.4548,0.0888,8.8764,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,S,5.5508,6.7359,-0.1759,-17.5931,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,T,3.8733,5.3158,-0.2714,-27.1364,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,V,5.8247,6.756,-0.1379,-13.7855,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,W,1.5961,1.1467,0.3919,39.1876,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,SwissProt,Y,2.2425,3.0617,-0.2676,-26.7568,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,A,8.1919,6.3275,0.2947,29.4658,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,C,6.3203,2.3622,1.6756,167.5648,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,D,2.6151,2.6253,-0.0039,-0.3885,0.9265,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,E,2.4539,3.4871,-0.2963,-29.628,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,F,4.6618,4.4083,0.0575,5.7516,0.0297,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,G,10.7672,5.4602,0.972,97.1957,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,H,2.0658,2.3438,-0.1186,-11.865,0.0017,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,I,6.2683,6.164,0.0169,1.6919,0.4539,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,K,10.1572,10.1475,0.001,0.0956,0.9619,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,L,9.3981,9.6988,-0.031,-3.1005,0.0827,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,M,1.1888,4.9523,-0.7599,-75.9942,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,N,3.5717,3.5293,0.012,1.2033,0.6781,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,P,4.842,4.0055,0.2089,20.8855,0.0,Enriched
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,Q,2.4713,3.1187,-0.2076,-20.7599,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,R,5.939,10.117,-0.413,-41.2963,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,S,5.5508,6.5631,-0.1542,-15.4236,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,T,3.8733,4.6794,-0.1723,-17.2264,0.0,Depleted
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,V,5.8247,5.9854,-0.0269,-2.6852,0.237,Not significant
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,W,1.5961,1.3615,0.1723,17.233,0.0002,Enriched
+function_natural,Anti-Gram-negative,2104,57703,Non-AMP,Y,2.2425,2.6632,-0.158,-15.797,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,A,8.0921,7.9121,0.0227,2.2749,0.1525,Not significant
+function_natural,Antifungal,1332,36344,SwissProt,C,6.5348,1.4963,3.3674,336.7358,0.0,Enriched
+function_natural,Antifungal,1332,36344,SwissProt,D,2.6524,5.3562,-0.5048,-50.4792,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,E,2.6222,6.6751,-0.6072,-60.7175,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,F,4.628,3.9786,0.1632,16.3232,0.0,Enriched
+function_natural,Antifungal,1332,36344,SwissProt,G,10.5877,6.9701,0.519,51.9014,0.0,Enriched
+function_natural,Antifungal,1332,36344,SwissProt,H,2.1682,2.3033,-0.0587,-5.8665,0.0014,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,I,6.078,5.9794,0.0165,1.6498,0.3284,Not significant
+function_natural,Antifungal,1332,36344,SwissProt,K,10.2713,5.955,0.7248,72.4822,0.0,Enriched
+function_natural,Antifungal,1332,36344,SwissProt,L,9.6027,9.7116,-0.0112,-1.1215,0.2925,Not significant
+function_natural,Antifungal,1332,36344,SwissProt,M,1.1721,2.3863,-0.5088,-50.88,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,N,3.687,4.1221,-0.1056,-10.5558,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,P,4.5262,4.7711,-0.0513,-5.1339,0.0044,Not significant
+function_natural,Antifungal,1332,36344,SwissProt,Q,2.5121,3.9118,-0.3578,-35.7808,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,R,6.0037,5.4548,0.1006,10.0627,0.0,Enriched
+function_natural,Antifungal,1332,36344,SwissProt,S,5.6901,6.7359,-0.1553,-15.526,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,T,4.0309,5.3158,-0.2417,-24.1708,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,V,5.613,6.756,-0.1692,-16.9179,0.0,Depleted
+function_natural,Antifungal,1332,36344,SwissProt,W,1.3565,1.1467,0.1829,18.2915,0.0,Enriched
+function_natural,Antifungal,1332,36344,SwissProt,Y,2.1709,3.0617,-0.291,-29.0952,0.0,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,A,8.0921,6.3275,0.2789,27.8881,0.0,Enriched
+function_natural,Antifungal,1332,36344,Non-AMP,C,6.5348,2.3622,1.7664,176.6448,0.0,Enriched
+function_natural,Antifungal,1332,36344,Non-AMP,D,2.6524,2.6253,0.0103,1.0329,0.8446,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,E,2.6222,3.4871,-0.248,-24.8039,0.0,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,F,4.628,4.4083,0.0498,4.9847,0.1441,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,G,10.5877,5.4602,0.9391,93.9085,0.0,Enriched
+function_natural,Antifungal,1332,36344,Non-AMP,H,2.1682,2.3438,-0.075,-7.4952,0.1067,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,I,6.078,6.164,-0.0139,-1.395,0.6247,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,K,10.2713,10.1475,0.0122,1.2201,0.6516,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,L,9.6027,9.6988,-0.0099,-0.9914,0.6458,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,M,1.1721,4.9523,-0.7633,-76.3317,0.0,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,N,3.687,3.5293,0.0447,4.4689,0.2244,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,P,4.5262,4.0055,0.13,13.0002,0.0002,Enriched
+function_natural,Antifungal,1332,36344,Non-AMP,Q,2.5121,3.1187,-0.1945,-19.4507,0.0,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,R,6.0037,10.117,-0.4066,-40.6567,0.0,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,S,5.6901,6.5631,-0.133,-13.3021,0.0001,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,T,4.0309,4.6794,-0.1386,-13.8575,0.0001,Depleted
+function_natural,Antifungal,1332,36344,Non-AMP,V,5.613,5.9854,-0.0622,-6.2208,0.0268,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,W,1.3565,1.3615,-0.0037,-0.3671,0.9487,Not significant
+function_natural,Antifungal,1332,36344,Non-AMP,Y,2.1709,2.6632,-0.1849,-18.4853,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,A,8.5281,7.9121,0.0779,7.7854,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,C,5.2162,1.4963,2.4861,248.6138,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,D,2.3183,5.3562,-0.5672,-56.717,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,E,2.175,6.6751,-0.6742,-67.4161,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,F,5.0857,3.9786,0.2783,27.8264,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,G,10.7,6.9701,0.5351,53.5117,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,H,1.7324,2.3033,-0.2479,-24.7871,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,I,6.8849,5.9794,0.1514,15.1441,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,K,11.2764,5.955,0.8936,89.3597,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,L,10.7031,9.7116,0.1021,10.2098,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,M,1.2993,2.3863,-0.4555,-45.5517,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,N,3.3883,4.1221,-0.178,-17.8014,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,P,4.5411,4.7711,-0.0482,-4.8212,0.0078,Not significant
+function_natural,Mammalian cell,1279,31402,SwissProt,Q,2.1527,3.9118,-0.4497,-44.9679,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,R,5.3404,5.4548,-0.021,-2.0975,0.1838,Not significant
+function_natural,Mammalian cell,1279,31402,SwissProt,S,5.3086,6.7359,-0.2119,-21.1896,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,T,3.7609,5.3158,-0.2925,-29.2504,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,V,6.0888,6.756,-0.0988,-9.876,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,SwissProt,W,1.6846,1.1467,0.4691,46.9053,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,SwissProt,Y,1.8152,3.0617,-0.4071,-40.7144,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,A,8.5281,6.3275,0.3478,34.7787,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,C,5.2162,2.3622,1.2082,120.825,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,D,2.3183,2.6253,-0.1169,-11.6935,0.0347,Not significant
+function_natural,Mammalian cell,1279,31402,Non-AMP,E,2.175,3.4871,-0.3763,-37.6268,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,F,5.0857,4.4083,0.1537,15.3667,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,G,10.7,5.4602,0.9596,95.9641,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,H,1.7324,2.3438,-0.2609,-26.0884,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,I,6.8849,6.164,0.117,11.6952,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,K,11.2764,10.1475,0.1112,11.1246,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,L,10.7031,9.6988,0.1035,10.3549,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,M,1.2993,4.9523,-0.7376,-73.7643,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,N,3.3883,3.5293,-0.0399,-3.9938,0.2936,Not significant
+function_natural,Mammalian cell,1279,31402,Non-AMP,P,4.5411,4.0055,0.1337,13.3726,0.0007,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,Q,2.1527,3.1187,-0.3097,-30.9739,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,R,5.3404,10.117,-0.4721,-47.2132,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,S,5.3086,6.5631,-0.1911,-19.1148,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,T,3.7609,4.6794,-0.1963,-19.6279,0.0,Depleted
+function_natural,Mammalian cell,1279,31402,Non-AMP,V,6.0888,5.9854,0.0173,1.7278,0.5408,Not significant
+function_natural,Mammalian cell,1279,31402,Non-AMP,W,1.6846,1.3615,0.2373,23.7334,0.0,Enriched
+function_natural,Mammalian cell,1279,31402,Non-AMP,Y,1.8152,2.6632,-0.3184,-31.8432,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,A,8.1885,7.9121,0.0349,3.493,0.1168,Not significant
+function_natural,Anticancer,538,11162,SwissProt,C,6.8088,1.4963,3.5505,355.0504,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,D,2.2308,5.3562,-0.5835,-58.3514,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,E,2.3383,6.6751,-0.6497,-64.9702,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,F,5.5456,3.9786,0.3939,39.3868,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,G,10.1684,6.9701,0.4589,45.8859,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,H,1.4245,2.3033,-0.3815,-38.1548,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,I,6.997,5.9794,0.1702,17.018,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,K,9.4338,5.955,0.5842,58.4183,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,L,9.5951,9.7116,-0.012,-1.2001,0.4132,Not significant
+function_natural,Anticancer,538,11162,SwissProt,M,0.8869,2.3863,-0.6283,-62.8315,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,N,3.4582,4.1221,-0.1611,-16.107,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,P,5.7965,4.7711,0.2149,21.4899,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,Q,1.8903,3.9118,-0.5168,-51.6755,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,R,5.3216,5.4548,-0.0244,-2.4421,0.2597,Not significant
+function_natural,Anticancer,538,11162,SwissProt,S,5.456,6.7359,-0.19,-19.0008,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,T,3.9419,5.3158,-0.2584,-25.8447,0.0,Depleted
+function_natural,Anticancer,538,11162,SwissProt,V,6.4146,6.756,-0.0505,-5.053,0.0014,Depleted
+function_natural,Anticancer,538,11162,SwissProt,W,1.6216,1.1467,0.4141,41.4086,0.0,Enriched
+function_natural,Anticancer,538,11162,SwissProt,Y,2.4816,3.0617,-0.1895,-18.947,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,A,8.1885,6.3275,0.2941,29.4113,0.0,Enriched
+function_natural,Anticancer,538,11162,Non-AMP,C,6.8088,2.3622,1.8825,188.2459,0.0,Enriched
+function_natural,Anticancer,538,11162,Non-AMP,D,2.2308,2.6253,-0.1503,-15.028,0.0759,Not significant
+function_natural,Anticancer,538,11162,Non-AMP,E,2.3383,3.4871,-0.3294,-32.9447,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,F,5.5456,4.4083,0.258,25.8003,0.0,Enriched
+function_natural,Anticancer,538,11162,Non-AMP,G,10.1684,5.4602,0.8623,86.2295,0.0,Enriched
+function_natural,Anticancer,538,11162,Non-AMP,H,1.4245,2.3438,-0.3922,-39.2249,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,I,6.997,6.164,0.1351,13.5129,0.0021,Enriched
+function_natural,Anticancer,538,11162,Non-AMP,K,9.4338,10.1475,-0.0703,-7.0332,0.1005,Not significant
+function_natural,Anticancer,538,11162,Non-AMP,L,9.5951,9.6988,-0.0107,-1.07,0.752,Not significant
+function_natural,Anticancer,538,11162,Non-AMP,M,0.8869,4.9523,-0.8209,-82.0905,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,N,3.4582,3.5293,-0.0201,-2.0148,0.7299,Not significant
+function_natural,Anticancer,538,11162,Non-AMP,P,5.7965,4.0055,0.4471,44.7133,0.0,Enriched
+function_natural,Anticancer,538,11162,Non-AMP,Q,1.8903,3.1187,-0.3939,-39.3872,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,R,5.3216,10.117,-0.474,-47.399,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,S,5.456,6.5631,-0.1687,-16.8684,0.0,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,T,3.9419,4.6794,-0.1576,-15.7591,0.0012,Depleted
+function_natural,Anticancer,538,11162,Non-AMP,V,6.4146,5.9854,0.0717,7.1716,0.1039,Not significant
+function_natural,Anticancer,538,11162,Non-AMP,W,1.6216,1.3615,0.191,19.1037,0.0317,Not significant
+function_natural,Anticancer,538,11162,Non-AMP,Y,2.4816,2.6632,-0.0682,-6.8185,0.2885,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,A,9.4096,7.9121,0.1893,18.9263,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,C,4.6125,1.4963,2.0827,208.2681,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,D,2.6138,5.3562,-0.512,-51.2009,0.0,Depleted
+function_natural,Antiparasitic,129,3252,SwissProt,E,2.46,6.6751,-0.6315,-63.1465,0.0,Depleted
+function_natural,Antiparasitic,129,3252,SwissProt,F,5.4121,3.9786,0.3603,36.0302,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,G,10.4859,6.9701,0.5044,50.44,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,H,3.075,2.3033,0.3351,33.5058,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,I,6.2116,5.9794,0.0388,3.883,0.3784,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,K,10.1169,5.955,0.6989,69.8887,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,L,9.2866,9.7116,-0.0438,-4.3763,0.1176,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,M,1.3838,2.3863,-0.4201,-42.0113,0.0,Depleted
+function_natural,Antiparasitic,129,3252,SwissProt,N,3.444,4.1221,-0.1645,-16.4498,0.0052,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,P,4.1513,4.7711,-0.1299,-12.9916,0.0069,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,Q,3.1058,3.9118,-0.206,-20.6042,0.0001,Depleted
+function_natural,Antiparasitic,129,3252,SwissProt,R,5.8118,5.4548,0.0654,6.5441,0.1091,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,S,4.2128,6.7359,-0.3746,-37.4575,0.0,Depleted
+function_natural,Antiparasitic,129,3252,SwissProt,T,3.69,5.3158,-0.3058,-30.5836,0.0,Depleted
+function_natural,Antiparasitic,129,3252,SwissProt,V,6.4268,6.756,-0.0487,-4.8726,0.1102,Not significant
+function_natural,Antiparasitic,129,3252,SwissProt,W,1.722,1.1467,0.5017,50.1677,0.0,Enriched
+function_natural,Antiparasitic,129,3252,SwissProt,Y,2.3678,3.0617,-0.2267,-22.6658,0.0,Depleted
+function_natural,Antiparasitic,129,3252,Non-AMP,A,9.4096,6.3275,0.4871,48.7095,0.0001,Enriched
+function_natural,Antiparasitic,129,3252,Non-AMP,C,4.6125,2.3622,0.9527,95.2685,0.0,Enriched
+function_natural,Antiparasitic,129,3252,Non-AMP,D,2.6138,2.6253,-0.0044,-0.4395,0.9805,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,E,2.46,3.4871,-0.2945,-29.4537,0.0541,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,F,5.4121,4.4083,0.2277,22.7708,0.0344,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,G,10.4859,5.4602,0.9204,92.043,0.0,Enriched
+function_natural,Antiparasitic,129,3252,Non-AMP,H,3.075,2.3438,0.312,31.1959,0.0303,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,I,6.2116,6.164,0.0077,0.7713,0.9296,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,K,10.1169,10.1475,-0.003,-0.3019,0.9692,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,L,9.2866,9.6988,-0.0425,-4.2504,0.5358,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,M,1.3838,4.9523,-0.7206,-72.0583,0.0,Depleted
+function_natural,Antiparasitic,129,3252,Non-AMP,N,3.444,3.5293,-0.0242,-2.4151,0.8393,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,P,4.1513,4.0055,0.0364,3.6405,0.748,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,Q,3.1058,3.1187,-0.0041,-0.4148,0.9737,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,R,5.8118,10.117,-0.4255,-42.5539,0.0,Depleted
+function_natural,Antiparasitic,129,3252,Non-AMP,S,4.2128,6.5631,-0.3581,-35.811,0.0,Depleted
+function_natural,Antiparasitic,129,3252,Non-AMP,T,3.69,4.6794,-0.2114,-21.1425,0.0312,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,V,6.4268,5.9854,0.0738,7.3754,0.4054,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,W,1.722,1.3615,0.2648,26.4813,0.1468,Not significant
+function_natural,Antiparasitic,129,3252,Non-AMP,Y,2.3678,2.6632,-0.1109,-11.0938,0.403,Not significant
+function_natural,Antiviral,112,2773,SwissProt,A,6.8157,7.9121,-0.1386,-13.8572,0.0021,Depleted
+function_natural,Antiviral,112,2773,SwissProt,C,9.4483,1.4963,5.3145,531.4506,0.0,Enriched
+function_natural,Antiviral,112,2773,SwissProt,D,2.6686,5.3562,-0.5018,-50.1776,0.0,Depleted
+function_natural,Antiviral,112,2773,SwissProt,E,2.6686,6.6751,-0.6002,-60.022,0.0,Depleted
+function_natural,Antiviral,112,2773,SwissProt,F,4.5799,3.9786,0.1511,15.1137,0.0027,Not significant
+function_natural,Antiviral,112,2773,SwissProt,G,10.3498,6.9701,0.4849,48.4881,0.0,Enriched
+function_natural,Antiviral,112,2773,SwissProt,H,2.4522,2.3033,0.0647,6.4657,0.2226,Not significant
+function_natural,Antiviral,112,2773,SwissProt,I,5.5175,5.9794,-0.0772,-7.7248,0.1054,Not significant
+function_natural,Antiviral,112,2773,SwissProt,K,8.5106,5.955,0.4292,42.9161,0.0,Enriched
+function_natural,Antiviral,112,2773,SwissProt,L,8.6909,9.7116,-0.1051,-10.5096,0.0005,Depleted
+function_natural,Antiviral,112,2773,SwissProt,M,1.0097,2.3863,-0.5769,-57.6854,0.0,Depleted
+function_natural,Antiviral,112,2773,SwissProt,N,3.9668,4.1221,-0.0377,-3.7672,0.4923,Not significant
+function_natural,Antiviral,112,2773,SwissProt,P,4.6159,4.7711,-0.0325,-3.2529,0.5228,Not significant
+function_natural,Antiviral,112,2773,SwissProt,Q,1.9473,3.9118,-0.5022,-50.2182,0.0,Depleted
+function_natural,Antiviral,112,2773,SwissProt,R,5.1569,5.4548,-0.0546,-5.4625,0.2154,Not significant
+function_natural,Antiviral,112,2773,SwissProt,S,6.1666,6.7359,-0.0845,-8.4515,0.0491,Not significant
+function_natural,Antiviral,112,2773,SwissProt,T,4.8684,5.3158,-0.0842,-8.4169,0.0079,Not significant
+function_natural,Antiviral,112,2773,SwissProt,V,6.419,6.756,-0.0499,-4.9876,0.1274,Not significant
+function_natural,Antiviral,112,2773,SwissProt,W,1.4425,1.1467,0.2579,25.7909,0.0031,Not significant
+function_natural,Antiviral,112,2773,SwissProt,Y,2.7047,3.0617,-0.1166,-11.663,0.0229,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,A,6.8157,6.3275,0.0772,7.7159,0.4747,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,C,9.4483,2.3622,2.9998,299.9843,0.0,Enriched
+function_natural,Antiviral,112,2773,Non-AMP,D,2.6686,2.6253,0.0165,1.6484,0.9236,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,E,2.6686,3.4871,-0.2347,-23.4726,0.16,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,F,4.5799,4.4083,0.0389,3.8931,0.7388,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,G,10.3498,5.4602,0.8955,89.5512,0.0,Enriched
+function_natural,Antiviral,112,2773,Non-AMP,H,2.4522,2.3438,0.0462,4.6236,0.7681,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,I,5.5175,6.164,-0.1049,-10.4887,0.2766,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,K,8.5106,10.1475,-0.1613,-16.1306,0.076,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,L,8.6909,9.6988,-0.1039,-10.3918,0.1625,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,M,1.0097,4.9523,-0.7961,-79.6109,0.0,Depleted
+function_natural,Antiviral,112,2773,Non-AMP,N,3.9668,3.5293,0.124,12.3978,0.3237,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,P,4.6159,4.0055,0.1524,15.2408,0.2129,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,Q,1.9473,3.1187,-0.3756,-37.5593,0.008,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,R,5.1569,10.117,-0.4903,-49.0275,0.0,Depleted
+function_natural,Antiviral,112,2773,Non-AMP,S,6.1666,6.5631,-0.0604,-6.0413,0.4889,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,T,4.8684,4.6794,0.0404,4.039,0.6943,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,V,6.419,5.9854,0.0725,7.2455,0.4473,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,W,1.4425,1.3615,0.0595,5.9495,0.7525,Not significant
+function_natural,Antiviral,112,2773,Non-AMP,Y,2.7047,2.6632,0.0156,1.5554,0.9143,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,A,8.7105,7.9121,0.1009,10.0906,0.1156,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,C,2.8181,1.4963,0.8834,88.341,0.0001,Enriched
+function_natural,Antibiofilm,53,1171,SwissProt,D,1.7933,5.3562,-0.6652,-66.5184,0.0,Depleted
+function_natural,Antibiofilm,53,1171,SwissProt,E,2.2203,6.6751,-0.6674,-66.7374,0.0,Depleted
+function_natural,Antibiofilm,53,1171,SwissProt,F,6.3194,3.9786,0.5884,58.8356,0.0,Enriched
+function_natural,Antibiofilm,53,1171,SwissProt,G,9.6499,6.9701,0.3845,38.4462,0.0002,Enriched
+function_natural,Antibiofilm,53,1171,SwissProt,H,2.3057,2.3033,0.0011,0.1054,0.9885,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,I,7.0026,5.9794,0.1711,17.1117,0.0137,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,K,11.3578,5.955,0.9073,90.7277,0.0,Enriched
+function_natural,Antibiofilm,53,1171,SwissProt,L,12.7242,9.7116,0.3102,31.0203,0.0,Enriched
+function_natural,Antibiofilm,53,1171,SwissProt,M,0.854,2.3863,-0.6421,-64.213,0.0,Depleted
+function_natural,Antibiofilm,53,1171,SwissProt,N,3.2451,4.1221,-0.2128,-21.276,0.0146,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,P,3.7575,4.7711,-0.2125,-21.2458,0.006,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,Q,2.6473,3.9118,-0.3232,-32.3245,0.0004,Depleted
+function_natural,Antibiofilm,53,1171,SwissProt,R,6.234,5.4548,0.1428,14.2836,0.0268,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,S,5.2092,6.7359,-0.2266,-22.6646,0.0003,Depleted
+function_natural,Antibiofilm,53,1171,SwissProt,T,2.5619,5.3158,-0.5181,-51.8057,0.0,Depleted
+function_natural,Antibiofilm,53,1171,SwissProt,V,6.4902,6.756,-0.0393,-3.9346,0.3962,Not significant
+function_natural,Antibiofilm,53,1171,SwissProt,W,2.2203,1.1467,0.9362,93.6224,0.0,Enriched
+function_natural,Antibiofilm,53,1171,SwissProt,Y,1.8787,3.0617,-0.3864,-38.6383,0.0,Depleted
+function_natural,Antibiofilm,53,1171,Non-AMP,A,8.7105,6.3275,0.3766,37.6611,0.0165,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,C,2.8181,2.3622,0.193,19.3022,0.4166,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,D,1.7933,2.6253,-0.3169,-31.6905,0.2203,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,E,2.2203,3.4871,-0.3633,-36.3276,0.1306,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,F,6.3194,4.4083,0.4335,43.3533,0.0112,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,G,9.6499,5.4602,0.7673,76.7324,0.0,Enriched
+function_natural,Antibiofilm,53,1171,Non-AMP,H,2.3057,2.3438,-0.0163,-1.6266,0.9434,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,I,7.0026,6.164,0.136,13.6039,0.3465,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,K,11.3578,10.1475,0.1193,11.9274,0.37,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,L,12.7242,9.6988,0.3119,31.1927,0.0044,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,M,0.854,4.9523,-0.8276,-82.7562,0.0,Depleted
+function_natural,Antibiofilm,53,1171,Non-AMP,N,3.2451,3.5293,-0.0805,-8.0521,0.6598,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,P,3.7575,4.0055,-0.0619,-6.1916,0.7364,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,Q,2.6473,3.1187,-0.1512,-15.1154,0.4392,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,R,6.234,10.117,-0.3838,-38.3809,0.0022,Depleted
+function_natural,Antibiofilm,53,1171,Non-AMP,S,5.2092,6.5631,-0.2063,-20.6287,0.1066,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,T,2.5619,4.6794,-0.4525,-45.2509,0.0057,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,V,6.4902,5.9854,0.0843,8.434,0.532,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,W,2.2203,1.3615,0.6308,63.0817,0.0281,Not significant
+function_natural,Antibiofilm,53,1171,Non-AMP,Y,1.8787,2.6632,-0.2946,-29.4564,0.1527,Not significant

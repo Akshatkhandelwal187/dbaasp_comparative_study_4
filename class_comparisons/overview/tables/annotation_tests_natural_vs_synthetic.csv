@@ -1,0 +1,18 @@
+property,Natural_%,Synthetic_%,chi2,p_value
+C-terminus modified,22.8,49.6,580.6,2.772539717904243e-128
+N-terminus modified,5.4,7.7,15.6,7.98220328477167e-05
+contains a D-amino acid,5.6,8.0,16.2,5.6698108185047744e-05
+contained X (now Ala),10.3,9.9,0.2,0.6430348605803573
+tested: Anti-Gram-negative,82.4,79.1,13.6,0.0002213131781125883
+tested: Anti-Gram-positive,85.9,76.0,113.1,2.029189736243894e-26
+tested: Antifungal,52.2,21.6,916.2,2.9143662427308753e-201
+tested: Anticancer,21.1,18.0,12.1,0.000492342242705046
+tested: Antiviral,4.4,6.9,21.2,4.225000825561979e-06
+tested: Antibiofilm,2.1,3.3,9.8,0.0017163773535025016
+tested: Antiparasitic,5.1,1.0,178.3,1.1431947453940007e-40
+tested: Insecticidal,1.4,0.3,54.0,2.0242629574014842e-13
+tested: Antiprotozoal,1.2,0.0,96.9,7.181850877191449e-23
+tested: Anti-Mollicute,0.4,0.1,14.1,0.00017003173651924922
+tested: Nematicidal,1.0,0.0,79.1,5.934222006451543e-19
+tested: Mammalian cell,50.1,55.7,25.0,5.666422607311552e-07
+target object: Lipid Bilayer,85.2,81.1,22.9,1.7329185091895722e-06

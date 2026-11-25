@@ -1,0 +1,10 @@
+class,n_peptides,%Ultrashort,%Short,%Medium,%Long
+all Natural peptides,2552,11.2,39.2,42.8,6.9
+Anti-Gram-positive,2192,8.1,41.8,42.9,7.2
+Anti-Gram-negative,2104,7.5,43.2,42.3,7.0
+Antifungal,1332,8.6,42.8,41.6,7.0
+Mammalian cell,1279,6.2,50.4,39.6,3.8
+Anticancer,538,27.0,34.9,35.5,2.6
+Antiparasitic,129,17.8,36.4,38.0,7.8
+Antiviral,112,13.4,34.8,46.4,5.4
+Antibiofilm,53,9.4,58.5,28.3,3.8

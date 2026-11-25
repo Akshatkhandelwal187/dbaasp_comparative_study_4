@@ -1,0 +1,12 @@
+class,n_peptides,mean,median,Q1,Q3,min,max
+all peptides,11716,18.4,15.0,10.0,23.0,3,100
+Lipid Bilayer,9606,18.9,16.0,11.0,24.0,3,100
+Virus entry,342,25.8,21.0,18.0,36.0,3,85
+Cytoplasmic Protein,176,17.7,18.0,11.0,20.0,4,65
+DNA / RNA,158,22.0,18.5,12.25,26.75,5,89
+Virus replication,152,20.9,19.0,13.0,27.0,4,76
+Membrane Protein,115,14.1,12.0,7.0,18.0,3,90
+Virus Integrase,104,12.1,11.0,8.75,13.0,5,33
+Lipid II,81,17.9,11.0,11.0,26.0,6,57
+Virus Protease,59,13.5,13.0,8.0,14.5,3,36
+Ribosome,59,20.4,19.0,18.0,20.5,9,39

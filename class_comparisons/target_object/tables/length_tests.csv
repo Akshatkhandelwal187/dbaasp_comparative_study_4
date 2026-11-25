@@ -1,0 +1,11 @@
+test,class,n_class,n_rest,median_class,median_rest,rank_biserial_r,p_value,p_bonferroni
+"Mann-Whitney U, class vs rest of population",Lipid Bilayer,9606,2110,16.0,13.0,0.174,5.3327422024356064e-36,5.332742202435606e-35
+"Mann-Whitney U, class vs rest of population",Virus entry,342,11374,21.0,15.0,0.407,8.088618698737497e-38,8.088618698737497e-37
+"Mann-Whitney U, class vs rest of population",Cytoplasmic Protein,176,11540,18.0,15.0,0.039,0.377627960116235,1.0
+"Mann-Whitney U, class vs rest of population",DNA / RNA,158,11558,18.5,15.0,0.184,6.84287979966012e-05,0.000684287979966012
+"Mann-Whitney U, class vs rest of population",Virus replication,152,11564,19.0,15.0,0.15,0.0014764596748942961,0.014764596748942961
+"Mann-Whitney U, class vs rest of population",Membrane Protein,115,11601,12.0,15.0,-0.28,2.22596681188143e-07,2.22596681188143e-06
+"Mann-Whitney U, class vs rest of population",Virus Integrase,104,11612,11.0,15.0,-0.361,2.0005036582564464e-10,2.0005036582564464e-09
+"Mann-Whitney U, class vs rest of population",Lipid II,81,11635,11.0,15.0,-0.078,0.22784913406769458,1.0
+"Mann-Whitney U, class vs rest of population",Virus Protease,59,11657,13.0,15.0,-0.285,0.00015699220683109696,0.0015699220683109696
+"Mann-Whitney U, class vs rest of population",Ribosome,59,11657,19.0,15.0,0.319,2.239817807276294e-05,0.0002239817807276294

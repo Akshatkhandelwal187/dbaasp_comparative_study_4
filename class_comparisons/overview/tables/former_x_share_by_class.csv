@@ -1,0 +1,35 @@
+comparison,class,n_peptides,peptides_with_former_X_%,former_X_%_of_residues
+source_organism,Animalia,1789,3.2,0.15
+source_organism,Bacteria,396,39.9,3.81
+source_organism,Plantae,266,7.9,0.27
+source_organism,Fungi,73,27.4,1.74
+synthesis_type,Ribosomal,2301,5.6,0.37
+synthesis_type,Nonribosomal,251,52.6,10.35
+synthesis_type,Synthetic,9164,9.9,1.17
+function_all,Anti-Gram-negative,9353,9.1,0.9
+function_all,Anti-Gram-positive,9160,9.6,0.95
+function_all,Mammalian cell,6385,9.0,0.96
+function_all,Antifungal,3316,9.3,0.84
+function_all,Anticancer,2189,11.9,1.14
+function_all,Antiviral,747,9.0,0.68
+function_all,Antibiofilm,356,6.5,0.54
+function_all,Antiparasitic,219,11.9,1.05
+function_all,Insecticidal,60,0.0,0.0
+function_natural,Anti-Gram-positive,2192,9.6,0.62
+function_natural,Anti-Gram-negative,2104,8.4,0.51
+function_natural,Antifungal,1332,7.3,0.35
+function_natural,Mammalian cell,1279,5.6,0.36
+function_natural,Anticancer,538,15.4,1.16
+function_natural,Antiparasitic,129,9.3,0.46
+function_natural,Antiviral,112,10.7,0.65
+function_natural,Antibiofilm,53,13.2,0.6
+target_object,Lipid Bilayer,9606,9.1,0.93
+target_object,Virus entry,342,11.1,0.76
+target_object,Cytoplasmic Protein,176,15.9,1.41
+target_object,DNA / RNA,158,2.5,0.14
+target_object,Virus replication,152,6.6,0.54
+target_object,Membrane Protein,115,44.3,5.42
+target_object,Virus Integrase,104,0.0,0.0
+target_object,Lipid II,81,80.2,9.94
+target_object,Virus Protease,59,0.0,0.0
+target_object,Ribosome,59,39.0,3.99
