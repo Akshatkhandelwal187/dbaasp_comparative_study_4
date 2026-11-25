@@ -1,0 +1,274 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{authblk}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{setspace}
+
+\graphicspath{{../../}}
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black,citecolor=blue!50!black}
+\captionsetup{font=small,labelfont=bf}
+\newcommand{\amin}{\,aa}
+\newcommand{\todo}[1]{\textcolor{red}{[#1]}}
+\onehalfspacing
+
+\title{\textbf{Source, not function, shapes the composition of antimicrobial peptides:\\a redundancy-reduced comparative survey of DBAASP}}
+\author[1]{\todo{Author names}}
+\affil[1]{\todo{Affiliation}}
+\date{\small Draft, November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent\textbf{Background.} Antimicrobial peptide (AMP) databases mix naturally occurring peptides with a much larger number of laboratory-designed analogues,
+and many entries are near-copies of one another. Composition and length statistics computed on raw entries therefore mainly describe a few heavily studied families.
+\textbf{Methods.} We exported 25{,}542 peptide records from DBAASP, removed duplicate, multi-chain and poorly defined entries, restricted peptides to 3--100 residues,
+and removed sequence redundancy with CD-HIT at 90\,\% identity, giving 10{,}824 peptides (2{,}508 natural, 8{,}316 synthetic). We compared length distributions and
+measured amino acid enrichment with the Composition Profiler permutation test against two backgrounds, SwissProt proteins and non-antimicrobial peptides,
+first for natural versus synthetic peptides and then for every class of source organism, synthesis type and target group with at least 50 peptides.
+\textbf{Results.} Natural peptides were longer than synthetic ones (median 24 vs 14 residues). Against proteins, both groups showed the cationic AMP signature (more Lys, Arg and Trp; fewer Asp and Glu),
+but synthetic peptides carried an exaggerated version of it (Trp $+400$\,\%, Lys $+176$\,\%, Arg $+116$\,\%), whereas natural peptides were marked by Cys ($+349$\,\%) and Gly ($+57$\,\%).
+Against non-antimicrobial peptides, which are themselves Lys/Arg-rich, charge was no longer distinctive; Trp (synthetic), Cys and Gly (natural) and depleted Met remained.
+Among natural peptides, composition differed strongly by source (Cys $+936$\,\% in plant and $+616$\,\% in fungal peptides; nonribosomal peptides Pro/Trp-rich and Lys/Arg-poor)
+but little by target group, which largely shared the natural signature.
+\textbf{Conclusions.} After redundancy reduction, the biosynthetic origin of an AMP explains more of its composition and length than the activity it was tested for.
+Designed peptides occupy a narrow, Trp/Lys/Arg-rich and short region of sequence space that differs from natural AMPs.
+\end{abstract}
+
+\noindent\textbf{Keywords:} antimicrobial peptides; DBAASP; amino acid composition; sequence redundancy; CD-HIT; Composition Profiler; peptide length
+
+%=====================================================================
+\section{Introduction}
+%=====================================================================
+Antimicrobial peptides are effectors of innate immunity found across the tree of life \cite{zasloff2002}. Most are short, cationic and amphipathic; their positive charge
+targets the anionic surface of microbial membranes and their hydrophobic and aromatic residues insert into the bilayer \cite{hancock2006}. Beyond this common recipe AMPs
+are structurally diverse: linear helical peptides, disulfide-stabilised defensins \cite{ganz2003}, and short Trp/Arg-rich peptides \cite{chan2006}, as well as nonribosomally
+synthesised cyclic peptides.
+
+Public resources such as DBAASP \cite{pirtskhalava2021} and APD \cite{wang2016} make it possible to study these classes systematically. DBAASP in particular records
+the synthesis type of each entry (ribosomal, nonribosomal or synthetic), its source organism, and the target groups and target objects for which activity was measured.
+In such databases, synthetic peptides outnumber natural ones and many entries are single-substitution analogues of a few parent peptides. Composition statistics computed
+on raw records are therefore dominated by large families, and differences between classes can reflect the research history of a few peptides rather than general properties.
+
+Here we construct a redundancy-reduced AMP dataset from DBAASP with complete accounting of every removed record, and use it to ask three questions:
+(i) how do natural and synthetic AMPs differ in length and amino acid composition; (ii) which of these differences are specific to antimicrobial peptides rather than to peptides
+in general, assessed with a second, peptide background; and (iii) does composition vary more with source organism and biosynthetic route or with the biological target?
+
+%=====================================================================
+\section{Methods}
+%=====================================================================
+\subsection{Data collection and annotation}
+The DBAASP peptide list was exported in 13 pages (25{,}542 rows; columns ID, complexity, name, N- and C-terminal modification, sequence, synthesis type, target group, target object).
+Ribosomal and nonribosomal entries were labelled \emph{natural}, synthetic entries \emph{synthetic}. Length classes followed the APD convention \cite{wang2022}:
+ultrashort (2--9\amin), short (10--24), medium (25--50) and long (51--100). Target groups were tokenised into 12 binary labels (anti-Gram-positive, anti-Gram-negative, antifungal,
+antiviral, anticancer, antibiofilm, antiparasitic, insecticidal, antiprotozoal, anti-mollicute, nematicidal, and mammalian cell). Kingdom was assigned by matching DBAASP identifiers
+with per-kingdom exports; peptides found in several kingdom lists were labelled ``multiple'', and peptides in none ``unclassified''.
+
+\subsection{Cleaning}
+Starting from the raw export we removed, in order: exact duplicate rows (2{,}000); multi-chain entries (635), whose stored length includes chain separators;
+sequences consisting only of non-standard residues \texttt{X} (348); peptides with fewer than three standard residues (775); peptides longer than 100 residues (21), which are
+antimicrobial proteins by the APD convention; and peptides in which \texttt{X} made up at least 30\,\% of the sequence (1{,}214). Remaining \texttt{X} residues (4{,}489 in 2{,}606 peptides)
+were replaced by alanine to preserve length. D-amino acids (lower case in DBAASP) were counted as their L-form. Duplicate sequences were then removed within each origin (3{,}010) and
+between origins (121; the natural entry was kept).
+
+\subsection{Redundancy reduction}
+The 17{,}418 remaining peptides were clustered together (natural and synthetic in one run) with CD-HIT 4.8.1 \cite{li2006,fu2012}
+(\texttt{-c 0.9 -n 5 -d 0 -l 9 -T 1}), keeping the longest sequence of each cluster. Peptides shorter than 10 residues (2{,}150) were not clustered: two different peptides of $\leq 9$ residues cannot reach
+90\,\% identity, and identical ones had already been removed. The minimum-length option was set to 9 because the default (10) silently discards all 10-residue sequences; the number of sequences
+read by CD-HIT was verified to equal the number supplied (15{,}268). Clustering removed 6{,}594 peptides, leaving 10{,}824. Every removed peptide had $\geq 90.2$\,\% identity to a retained representative
+of at least equal length, and re-clustering the result removed no further sequences.
+
+\subsection{Classes analysed}
+Besides natural versus synthetic, we analysed (i) source organism for natural peptides (kingdom is undefined for 99.9\,\% of synthetic entries); (ii) synthesis type (ribosomal, nonribosomal, synthetic);
+and (iii) target group, both for all peptides and for natural peptides only, because synthetic peptides make up 77\,\% of the data. Classes with fewer than 50 peptides were reported but not tested.
+Overlap between target groups was quantified with the Jaccard index.
+
+\subsection{Amino acid enrichment}
+For each class and amino acid $a$ we computed the fractional difference $(f_{\text{class},a} - f_{\text{bg},a}) / f_{\text{bg},a}$, where $f$ is the frequency of $a$ among all residues of the set, as implemented in Composition Profiler \cite{vacic2007}.
+Significance was assessed by 10{,}000 random reassignments of whole sequences between class and background (two-sided), with Bonferroni correction over the 20 amino acids ($\alpha = 0.0025$) and a fixed random seed.
+Natural and synthetic sets were analysed with the Composition Profiler 2.0 functions; the class survey used a vectorised reimplementation of the same test that reproduced the tool's output for the synthetic set exactly.
+Two backgrounds were used: 5{,}002 proteins sampled from SwissProt release 51 \cite{uniprot2023} (the reference distributed with Composition Profiler; 1.80 million residues), and 26{,}635 non-antimicrobial peptides
+of 2--50 residues from PepBench \todo{add PepBench citation} (0.54 million residues).
+
+\subsection{Length analysis}
+Length distributions were summarised by median and quartiles, compared between each class and all other peptides of the same population with the Mann--Whitney U test (effect size: rank-biserial correlation $r$; Bonferroni correction over all tests)
+and across classes with the Kruskal--Wallis test.
+
+\subsection{Software and reproducibility}
+Analyses used Python (pandas, NumPy, SciPy, Matplotlib), CD-HIT 4.8.1 and Composition Profiler 2.0. All scripts, intermediate tables and the list of removed records with the reason for each removal are available in the project repository \todo{repository URL}.
+
+%=====================================================================
+\section{Results}
+%=====================================================================
+\subsection{A redundancy-reduced AMP dataset}
+Of 25{,}542 exported records, 10{,}824 peptides remained after cleaning and clustering (Table~\ref{tab:loss}). Synthetic peptides were markedly more redundant: CD-HIT removed 41\,\% of the cleaned synthetic peptides (5{,}839 of 14{,}155) but 23\,\% of natural peptides (755 of 3{,}263).
+1{,}629 synthetic peptides were represented by a natural peptide, consistent with the common practice of designing analogues of natural templates.
+
+\begin{table}[H]\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Step & Natural & Synthetic & Remaining\\\midrule
+Raw export & 4{,}493 & 21{,}049 & 25{,}542\\
+Duplicate rows, multi-chain, all-\texttt{X} & $-530$ & $-2{,}453$ & 22{,}559\\
+$<3$ standard residues, $>100$\amin, \texttt{X} $\geq30$\,\% & $-476$ & $-1{,}534$ & 20{,}549\\
+Duplicate sequences (within / across origin) & $-224$ & $-2{,}907$ & 17{,}418\\
+CD-HIT, 90\,\% identity & $-755$ & $-5{,}839$ & \textbf{10{,}824}\\\midrule
+Final & \textbf{2{,}508} & \textbf{8{,}316} & \\\bottomrule
+\end{tabular}
+\caption{Construction of the dataset.}
+\label{tab:loss}
+\end{table}
+
+\subsection{Natural peptides are longer than synthetic peptides}
+Natural peptides had a median length of 24 residues (interquartile range 14.8--35) and synthetic peptides 14 (10--20) (Fig.~\ref{fig:len}).
+Short peptides (10--24\amin) made up 63.6\,\% of synthetic but 39.1\,\% of natural peptides, whereas medium peptides (25--50\amin) made up 42.8\,\% of natural and 13.3\,\% of synthetic peptides;
+natural peptides accounted for 171 of the 224 long peptides. The synthetic distribution showed sharp peaks at particular lengths (e.g.\ 660 peptides of 12 residues), suggesting preferred design lengths.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.88\textwidth]{deliverables/figures/length_histogram_overlap.png}
+\caption{Length distribution of natural and synthetic peptides after redundancy reduction, each scaled to 100\,\% of its group. Dashed lines mark medians; curves are Gaussian kernel density estimates (bandwidth 3 residues).}
+\label{fig:len}
+\end{figure}
+
+\subsection{Synthetic peptides exaggerate the cationic AMP signature; natural peptides are Cys- and Gly-rich}
+Against SwissProt, both groups were enriched in Lys, Arg and Trp and depleted in Asp, Glu, Met, Gln, Thr and Ser (Fig.~\ref{fig:enr}). The synthetic profile was more extreme:
+Trp $+4.00$ (five-fold), Lys $+1.76$, Arg $+1.16$, compared with Trp $+0.45$, Lys $+0.63$ and Arg $+0.05$ for natural peptides.
+Natural peptides were instead characterised by Cys ($+3.49$) and Gly ($+0.57$), while synthetic peptides had little excess Cys ($+0.34$) and were depleted in Gly ($-0.17$).
+Gly and Pro changed in opposite directions in the two groups against both backgrounds.
+
+The non-AMP background was itself rich in Lys and Arg (10.2\,\% and 10.1\,\% of residues, vs 6.0\,\% and 5.5\,\% in SwissProt). Against it, natural peptides were depleted in Arg ($-0.44$) and unchanged in Lys,
+and only synthetic peptides retained a Lys excess ($+0.62$). Differences that persisted against both backgrounds were Trp in synthetic peptides ($+3.21$), Cys ($+1.85$) and Gly ($+1.00$) in natural peptides,
+and depleted Met in both ($-0.75$ and $-0.81$).
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth]{deliverables/figures/amino_acid_enrichment.png}
+\caption{Amino acid enrichment of natural (top) and synthetic (bottom) peptides against SwissProt proteins (left) and non-antimicrobial peptides (right). Bars show the fractional difference from the background; numbers are permutation p-values; grey bars are not significant after Bonferroni correction. Amino acids are ordered from hydrophilic to hydrophobic.}
+\label{fig:enr}
+\end{figure}
+
+\subsection{Composition differs strongly by source organism and biosynthetic route}
+All four tested kingdoms shared a natural signature---enriched Cys and Gly, depleted Met, Glu and Gln---but with large differences in degree (Fig.~\ref{fig:src}, Table~\ref{tab:src}).
+Plant and fungal peptides were the most Cys-rich (Cys $+936$\,\% and $+616$\,\% vs SwissProt; $+556$\,\% and $+354$\,\% vs non-AMP). Bacterial peptides were additionally enriched in Trp ($+194$\,\%), Gly, Ala and Tyr and depleted in Arg.
+Plant peptides were depleted in hydrophobic residues (Met, Leu, Ala, Val, Ile). Splitting natural peptides by synthesis type showed that the natural signature belongs to ribosomal peptides (Cys $+361$\,\%),
+whereas nonribosomal peptides formed a distinct class enriched in Pro ($+141$\,\%), Trp, Phe, Ala and Val and depleted in Arg ($-86$\,\%), Lys, His and Cys.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.95\textwidth]{survey/figures/enrichment_source_and_synthesis.png}
+\caption{Amino acid enrichment by source organism (natural peptides) and synthesis type against SwissProt (left) and non-antimicrobial peptides (right). Colour shows \% change (clipped at $\pm400$\,\%); asterisks mark significance after Bonferroni correction.}
+\label{fig:src}
+\end{figure}
+
+\begin{table}[H]\centering\small
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Class ($n$) & C & G & W & K & R & P & E & M\\\midrule
+Animalia (1{,}766) & 265 & 53 & 24 & 80 & 14 & 8 & $-64$ & $-48$\\
+Bacteria (380) & 216 & 83 & 194 & 21 & $-62$ & $-29$ & $-71$ & $-31$\\
+Plantae (263) & 936 & 57 & 27 & 8$^{\text{ns}}$ & 20 & 24 & $-49$ & $-67$\\
+Fungi (72) & 616 & 69 & 68 & 38 & $-45$ & $-2^{\text{ns}}$ & $-67$ & $-81$\\
+Ribosomal (2{,}264) & 361 & 60 & 42 & 66 & 7 & $2^{\text{ns}}$ & $-63$ & $-48$\\
+Nonribosomal (244) & $-64$ & $-53$ & 175 & $-62$ & $-86$ & 141 & $-67$ & $-86$\\
+Synthetic (8{,}316) & 34 & $-17$ & 400 & 176 & 116 & $-32$ & $-73$ & $-61$\\\bottomrule
+\end{tabular}
+\caption{Percentage change versus SwissProt for selected amino acids (ns: not significant; all other values $p < 0.0025$).}
+\label{tab:src}
+\end{table}
+
+\subsection{Target groups share the composition of their source}
+Target groups overlapped extensively (median three labels per peptide; Jaccard index 0.83 between the anti-Gram-positive and anti-Gram-negative classes and 0.53--0.57 between these and the mammalian-cell class; Fig.~\ref{fig:overlap}).
+When all peptides were included, every target group showed the synthetic profile (Trp, Lys, Cys, Phe and Leu up; Glu, Asp, Met, Thr and Gln down), with antiviral peptides the only partial exception.
+Restricted to natural peptides, the target groups largely shared the natural signature (Fig.~\ref{fig:fun}). Residual differences were modest: anticancer peptides were additionally enriched in Pro, Ile and Phe,
+peptides tested on mammalian cells in Lys, Trp and Phe, and the small antibiofilm ($n=53$) and antiparasitic ($n=124$) classes showed a weaker Cys signal.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.95\textwidth]{survey/figures/enrichment_function_natural.png}
+\caption{Amino acid enrichment of natural peptides by target group. Layout as in Fig.~\ref{fig:src}.}
+\label{fig:fun}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.55\textwidth]{survey/figures/function_overlap.png}
+\caption{Overlap between target groups (Jaccard index, all peptides).}
+\label{fig:overlap}
+\end{figure}
+
+\subsection{Length varies with source more than with target}
+Median lengths differed across kingdoms (plants 30, animals 24, bacteria 18, fungi 6 residues; Kruskal--Wallis $p = 7\times10^{-37}$) and synthesis types
+(ribosomal 26, synthetic 14, nonribosomal 7; $p<10^{-300}$; Fig.~\ref{fig:box}). 72\,\% of fungal and 72\,\% of nonribosomal peptides were 3--9 residues long, and no nonribosomal peptide exceeded 24 residues.
+Across target groups (all peptides) medians lay between 13 and 18 residues. Among natural peptides, anticancer peptides were shorter than the rest (19 vs 25 residues, $r = -0.30$),
+peptides tested on mammalian cells slightly shorter (23 vs 28, $r=-0.13$), and antifungal, antiviral and antiparasitic peptides did not differ after correction.
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth]{survey/figures/length_boxplots.png}
+\caption{Length distributions by class (boxes: quartiles; lines: medians; whiskers: 1.5 interquartile range; outliers not shown).}
+\label{fig:box}
+\end{figure}
+
+%=====================================================================
+\section{Discussion}
+%=====================================================================
+After removing near-duplicate sequences, natural and synthetic AMPs in DBAASP differ systematically. Synthetic peptides occupy a narrow region of sequence space: short (mostly 10--24 residues),
+strongly cationic and Trp-rich, with little Cys. This is the expected footprint of rational design, in which net positive charge and Trp/Arg motifs are increased to enhance membrane binding \cite{chan2006},
+while length is kept short to reduce synthesis cost. The high redundancy of synthetic entries (41\,\% removed at 90\,\% identity) shows that much of the synthetic data consists of analogue series.
+
+Natural AMPs are longer and are distinguished above all by Cys and Gly. This reflects the prevalence of disulfide-stabilised families such as defensins \cite{ganz2003}, especially in plants and fungi,
+in which Cys was enriched seven- to ten-fold relative to ordinary proteins. Nonribosomal peptides diverge from both groups: they are short, rich in Pro and aromatic residues and poor in basic residues,
+consistent with cyclic lipopeptide- and gramicidin-like scaffolds whose activity does not rely on high positive charge.
+
+The second background changes the interpretation of the cationic signature. Relative to proteins, all AMP classes are Lys/Arg-rich; relative to non-antimicrobial peptides that are themselves Lys/Arg-rich,
+natural AMPs are not. Charge alone is therefore a property shared with many short bioactive peptides, whereas Trp, Cys/Gly and the depletion of Met distinguish AMPs from other peptides of similar length.
+Because the construction of the non-AMP set was not audited here, this conclusion should be checked against a length-matched, independently curated negative set.
+
+Finally, within natural peptides, target group explained little compositional variation once source was taken into account. One reason is that target labels in DBAASP indicate that activity was measured
+against a target, not that the peptide is potent against it, and most peptides are tested against several targets. A potency-based definition of function may reveal sharper differences.
+
+\paragraph{Limitations.}
+(i) One of the 13 export pages was downloaded twice and the page covering DBAASP identifiers 16253--18252 (about 2{,}000 entries, at least 87 of them natural peptides with kingdom annotation) is missing;
+the analysis should be repeated with the complete export \todo{re-run before submission}.
+(ii) Kingdom is available only for natural peptides. (iii) The SwissProt background is an older sample of 5{,}002 proteins. (iv) Replacement of \texttt{X} by alanine inflates alanine slightly (0.8\,\% of natural and 2.9\,\% of synthetic residues).
+(v) Residue frequencies were pooled without adjustment for length, and D-amino acids and terminal modifications were not considered.
+(vi) Target groups overlap, several classes are small (fungi, $n=72$), and all associations are descriptive.
+
+%=====================================================================
+\section{Conclusions}
+%=====================================================================
+A transparent, redundancy-reduced survey of DBAASP shows that biosynthetic origin and source organism shape AMP length and composition more than the activity a peptide was tested for.
+Synthetic AMPs are short and Trp/Lys/Arg-rich; natural ribosomal AMPs are longer and Cys/Gly-rich, most strongly in plants and fungi; nonribosomal peptides form a separate, Pro- and aromatic-rich class.
+These differences matter for AMP prediction and design: models trained on database entries without redundancy control or class stratification will learn mainly the synthetic design pattern.
+
+\section*{Data availability}
+The cleaned dataset (10{,}824 sequences in FASTA format), all intermediate tables, the record-level loss table and the analysis scripts are available at \todo{repository URL / DOI}.
+
+\section*{Author contributions}
+\todo{To be completed.}
+
+\section*{Competing interests}
+\todo{To be completed.}
+
+\begin{thebibliography}{99}\small
+\bibitem{zasloff2002} Zasloff M. Antimicrobial peptides of multicellular organisms. \emph{Nature}. 2002;415:389--395. doi:10.1038/415389a
+\bibitem{hancock2006} Hancock REW, Sahl HG. Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies. \emph{Nat Biotechnol}. 2006;24:1551--1557. doi:10.1038/nbt1267
+\bibitem{ganz2003} Ganz T. Defensins: antimicrobial peptides of innate immunity. \emph{Nat Rev Immunol}. 2003;3:710--720. doi:10.1038/nri1180
+\bibitem{chan2006} Chan DI, Prenner EJ, Vogel HJ. Tryptophan- and arginine-rich antimicrobial peptides: structures and mechanisms of action. \emph{Biochim Biophys Acta}. 2006;1758:1184--1202. doi:10.1016/j.bbamem.2006.04.006
+\bibitem{pirtskhalava2021} Pirtskhalava M, Amstrong AA, Grigolava M, et al. DBAASP v3: database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics. \emph{Nucleic Acids Res}. 2021;49:D288--D297. doi:10.1093/nar/gkaa991
+\bibitem{wang2016} Wang G, Li X, Wang Z. APD3: the antimicrobial peptide database as a tool for research and education. \emph{Nucleic Acids Res}. 2016;44:D1087--D1093. doi:10.1093/nar/gkv1278
+\bibitem{wang2022} Wang G. Unifying the classification of antimicrobial peptides in the antimicrobial peptide database. \emph{Methods Enzymol}. 2022;663:1--18. doi:10.1016/bs.mie.2021.09.006
+\bibitem{li2006} Li W, Godzik A. Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. \emph{Bioinformatics}. 2006;22:1658--1659. doi:10.1093/bioinformatics/btl158
+\bibitem{fu2012} Fu L, Niu B, Zhu Z, Wu S, Li W. CD-HIT: accelerated for clustering the next-generation sequencing data. \emph{Bioinformatics}. 2012;28:3150--3152. doi:10.1093/bioinformatics/bts565
+\bibitem{vacic2007} Vacic V, Uversky VN, Dunker AK, Lonardi S. Composition Profiler: a tool for discovery and visualization of amino acid composition differences. \emph{BMC Bioinformatics}. 2007;8:211. doi:10.1186/1471-2105-8-211
+\bibitem{uniprot2023} The UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2023. \emph{Nucleic Acids Res}. 2023;51:D523--D531. doi:10.1093/nar/gkac1052
+\end{thebibliography}
+
+\end{document}
